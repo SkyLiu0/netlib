@@ -1,2751 +1,5127 @@
-NAME          FORPLAN  (FORPLAN1)
+NAME          COPTPROB
+OBJSENSE
+    MIN
 ROWS
- E  LC123
- N  OB1PNW20
- E  DEDO3 1R
- E  DEDO3 2R
- E  DEDO3 3R
- E  DEDO3 4R
- E  DEDO3 5R
- E  DEDO3 6R
- E  DEDO3 7R
- E  DEDO3 8R
- E  DEDO3 9R
+ N  __OBJ___
+ E  LC123   
+ E  DEDO3_1R
+ E  DEDO3_2R
+ E  DEDO3_3R
+ E  DEDO3_4R
+ E  DEDO3_5R
+ E  DEDO3_6R
+ E  DEDO3_7R
+ E  DEDO3_8R
+ E  DEDO3_9R
  E  DEDO310R
  E  DEDO311R
  E  DEDO312R
  E  DEDO313R
  E  DEDO314R
  E  DEDO315R
- E  DEDO5 1R
- E  DEDO5 2R
- E  DEDO5 3R
- L  BR   1 1
- L  BR   2 2
- L  BR   2 3
- E  VOLM 1 R
- E  VOLM 2 R
- E  VOLM 3 R
- E  VOLM 4 R
- E  VOLM 5 R
- E  VOLM 6 R
- E  VOLM 7 R
- E  VOLM 8 R
- E  VOLM 9 R
- E  VOLM10 R
- E  VOLM11 R
- E  VOLM12 R
- E  VOLM13 R
- E  VOLM14 R
- E  VOLM15 R
- E  VOLM16 R
- E  VOLM17 R
- E  VOLM18 R
- E  VOLM19 R
- E  VOLM20 R
- G  BHVG 2
- L  BHVL 2
- G  BHVG 3
- L  BHVL 3
- G  BHVG 4
- L  BHVL 4
- G  BHVG 5
- L  BHVL 5
- G  BHVG 6
- L  BHVL 6
- G  BHVG 7
- L  BHVL 7
- G  BHVG 8
- L  BHVL 8
- G  BHVG 9
- L  BHVL 9
- G  BHVG10
- L  BHVL10
- G  BHVG11
- L  BHVL11
- G  BHVG12
- L  BHVL12
- G  BHVG13
- L  BHVL13
- G  BHVG14
- L  BHVL14
- G  BHVG15
- L  BHVL15
- G  BHVG16
- L  BHVL16
- G  BHVG17
- L  BHVL17
- G  BHVG18
- L  BHVL18
- G  BHVG19
- L  BHVL19
- G  BHVG20
- L  BHVL20
- L  SYNDY
- E  LTSY R
- G  LTSYCT
- E  AVEINV R
+ E  DEDO5_1R
+ E  DEDO5_2R
+ E  DEDO5_3R
+ L  BR___1_1
+ L  BR___2_2
+ L  BR___2_3
+ E  VOLM_1_R
+ E  VOLM_2_R
+ E  VOLM_3_R
+ E  VOLM_4_R
+ E  VOLM_5_R
+ E  VOLM_6_R
+ E  VOLM_7_R
+ E  VOLM_8_R
+ E  VOLM_9_R
+ E  VOLM10_R
+ E  VOLM11_R
+ E  VOLM12_R
+ E  VOLM13_R
+ E  VOLM14_R
+ E  VOLM15_R
+ E  VOLM16_R
+ E  VOLM17_R
+ E  VOLM18_R
+ E  VOLM19_R
+ E  VOLM20_R
+ G  BHVG_2  
+ L  BHVL_2  
+ G  BHVG_3  
+ L  BHVL_3  
+ G  BHVG_4  
+ L  BHVL_4  
+ G  BHVG_5  
+ L  BHVL_5  
+ G  BHVG_6  
+ L  BHVL_6  
+ G  BHVG_7  
+ L  BHVL_7  
+ G  BHVG_8  
+ L  BHVL_8  
+ G  BHVG_9  
+ L  BHVL_9  
+ G  BHVG10  
+ L  BHVL10  
+ G  BHVG11  
+ L  BHVL11  
+ G  BHVG12  
+ L  BHVL12  
+ G  BHVG13  
+ L  BHVL13  
+ G  BHVG14  
+ L  BHVL14  
+ G  BHVG15  
+ L  BHVL15  
+ G  BHVG16  
+ L  BHVL16  
+ G  BHVG17  
+ L  BHVL17  
+ G  BHVG18  
+ L  BHVL18  
+ G  BHVG19  
+ L  BHVL19  
+ G  BHVG20  
+ L  BHVL20  
+ L  SYNDY   
+ E  LTSY_R  
+ L  LTSYCT  
+ E  AVEINV_R
  G  ENDINVCT
- E  INVEN R
- L  A$   1 1
- L  A$   1 2
- L  A$ 4-8 1
- L  A$ 4-8 2
- L  A$ 4-8 3
- L  A$ 4-8 4
- E  GP+++ 0R
- L  GS+++ 1R
- L  GS+++ 2R
- L  GS+++ 3R
- L  GS+++ 4R
- L  GS+++ 5R
- L  GS+++ 6R
- L  GS+++ 7R
- L  GS+++ 8R
- L  GS+++ 9R
+ E  INVEN_R 
+ L  A$___1_1
+ L  A$___1_2
+ L  A$_4-8_1
+ L  A$_4-8_2
+ L  A$_4-8_3
+ L  A$_4-8_4
+ E  GP+++_0R
+ L  GS+++_1R
+ L  GS+++_2R
+ L  GS+++_3R
+ L  GS+++_4R
+ L  GS+++_5R
+ L  GS+++_6R
+ L  GS+++_7R
+ L  GS+++_8R
+ L  GS+++_9R
  L  GS+++10R
  L  GS+++11R
  L  GS+++12R
  L  GS+++13R
  L  GS+++14R
  L  GS+++15R
- E  GP--- 0R
- L  GS--- 1R
- L  GS--- 2R
- L  GS--- 3R
- L  GS--- 4R
- L  GS--- 5R
- L  GS--- 6R
- E  R012 MN1
- E  R012 RD1
- E  R012 TM1
- E  R012 TM2
- E  R012 TM3
- E  R012 TM4
- E  R012 TM5
- E  R012 TM6
- E  R012 TP1
- E  R012 TP2
- E  R012 TP3
- E  R012 TP4
- E  R012 TP5
- E  R012 TP6
- E  R037 MN1
- E  R037 RD1
- E  R037 TM2
- E  R037 TP2
- E  R048 MN1
- E  R048 RD1
- E  R048 TM1
- E  R048 TM2
- E  R048 TM3
- E  R048 TM4
- E  R048 TM5
- E  R048 TP1
- E  R048 TP2
- E  R048 TP3
- E  R048 TP4
- E  R052 MN1
- E  R052 RD1
- E  R052 TM1
- E  R052 TM2
- E  R052 TM3
- E  R052 TM4
- E  R052 TM5
- E  R083 MN1
- E  R083 GM2
- E  R083 RD1
- E  R083 GR2
- E  R092 MN2
- E  R092 RD1
- E  AZ  20
- E  AZ  80
- E  AZ  90
- E  AZ 100
+ E  GP---_0R
+ L  GS---_1R
+ L  GS---_2R
+ L  GS---_3R
+ L  GS---_4R
+ L  GS---_5R
+ L  GS---_6R
+ E  R012_MN1
+ E  R012_RD1
+ E  R012_TM1
+ E  R012_TM2
+ E  R012_TM3
+ E  R012_TM4
+ E  R012_TM5
+ E  R012_TM6
+ E  R012_TP1
+ E  R012_TP2
+ E  R012_TP3
+ E  R012_TP4
+ E  R012_TP5
+ E  R012_TP6
+ E  R037_MN1
+ E  R037_RD1
+ E  R037_TM2
+ E  R037_TP2
+ E  R048_MN1
+ E  R048_RD1
+ E  R048_TM1
+ E  R048_TM2
+ E  R048_TM3
+ E  R048_TM4
+ E  R048_TM5
+ E  R048_TP1
+ E  R048_TP2
+ E  R048_TP3
+ E  R048_TP4
+ E  R052_MN1
+ E  R052_RD1
+ E  R052_TM1
+ E  R052_TM2
+ E  R052_TM3
+ E  R052_TM4
+ E  R052_TM5
+ E  R083_MN1
+ E  R083_GM2
+ E  R083_RD1
+ E  R083_GR2
+ E  R092_MN2
+ E  R092_RD1
+ E  AZ__20  
+ E  AZ__80  
+ E  AZ__90  
+ E  AZ_100  
 COLUMNS
-    DEDO3 11  OB1PNW20        .02466   DEDO3 1R           -1.
-    DEDO3 12  DEDO3 1R           -1.
-    DEDO3 21  OB1PNW20        .01666   DEDO3 2R           -1.
-    DEDO3 22  DEDO3 2R           -1.
-    DEDO3 31  OB1PNW20        .01125   DEDO3 3R           -1.
-    DEDO3 32  DEDO3 3R           -1.
-    DEDO3 41  OB1PNW20         .0076   DEDO3 4R           -1.
-    DEDO3 42  DEDO3 4R           -1.
-    DEDO3 51  OB1PNW20        .00514   DEDO3 5R           -1.
-    DEDO3 52  DEDO3 5R           -1.
-    DEDO3 61  OB1PNW20        .00347   DEDO3 6R           -1.
-    DEDO3 62  DEDO3 6R           -1.
-    DEDO3 71  OB1PNW20        .00234   DEDO3 7R           -1.
-    DEDO3 72  DEDO3 7R           -1.
-    DEDO3 81  OB1PNW20        .00158   DEDO3 8R           -1.
-    DEDO3 82  DEDO3 8R           -1.
-    DEDO3 91  OB1PNW20        .00107   DEDO3 9R           -1.
-    DEDO3 92  DEDO3 9R           -1.
-    DEDO3101  OB1PNW20        .00072   DEDO310R           -1.
-    DEDO3102  DEDO310R           -1.
-    DEDO3111  OB1PNW20        .00049   DEDO311R           -1.
-    DEDO3112  DEDO311R           -1.
-    DEDO3121  OB1PNW20        .00033   DEDO312R           -1.
-    DEDO3122  DEDO312R           -1.
-    DEDO3131  OB1PNW20        .00022   DEDO313R           -1.
-    DEDO3132  DEDO313R           -1.
-    DEDO3141  OB1PNW20        .00015   DEDO314R           -1.
-    DEDO3142  DEDO314R           -1.
-    DEDO3151  OB1PNW20         .0001   DEDO315R           -1.
-    DEDO3152  DEDO315R           -1.
-    DEDO5 11  OB1PNW20        .12038   DEDO5 1R           -1.
-    DEDO5 12  DEDO5 1R           -1.
-    DEDO5 21  OB1PNW20        .05019   DEDO5 2R           -1.
-    DEDO5 22  DEDO5 2R           -1.
-    DEDO5 31  OB1PNW20        .00546   DEDO5 3R           -1.
-    DEDO5 32  DEDO5 3R           -1.
-    VOLM 1    VOLM 1 R           -1.   BHVG 2             -1.
-    VOLM 2    VOLM 2 R           -1.   BHVG 2              1.
-    VOLM 2    BHVG 3             -1.
-    VOLM 3    VOLM 3 R           -1.   BHVG 3              1.
-    VOLM 3    BHVG 4             -1.
-    VOLM 4    VOLM 4 R           -1.   BHVG 4              1.
-    VOLM 4    BHVG 5             -1.
-    VOLM 5    VOLM 5 R           -1.   BHVG 5              1.
-    VOLM 5    BHVG 6             -1.
-    VOLM 6    VOLM 6 R           -1.   BHVG 6              1.
-    VOLM 6    BHVG 7             -1.
-    VOLM 7    VOLM 7 R           -1.   BHVG 7              1.
-    VOLM 7    BHVG 8             -1.
-    VOLM 8    VOLM 8 R           -1.   BHVG 8              1.
-    VOLM 8    BHVG 9             -1.
-    VOLM 9    VOLM 9 R           -1.   BHVG 9              1.
-    VOLM 9    BHVG10             -1.
-    VOLM10    VOLM10 R           -1.   BHVG10              1.
-    VOLM10    BHVG11             -1.
-    VOLM11    VOLM11 R           -1.   BHVG11              1.
-    VOLM11    BHVG12             -1.
-    VOLM12    VOLM12 R           -1.   BHVG12              1.
-    VOLM12    BHVG13             -1.
-    VOLM13    VOLM13 R           -1.   BHVG13              1.
-    VOLM13    BHVG14             -1.
-    VOLM14    VOLM14 R           -1.   BHVG14              1.
-    VOLM14    BHVG15             -1.
-    VOLM15    VOLM15 R           -1.   BHVG15              1.
-    VOLM15    BHVG16             -1.
-    VOLM16    VOLM16 R           -1.   BHVG16              1.
-    VOLM16    BHVG17             -1.
-    VOLM17    VOLM17 R           -1.   BHVG17              1.
-    VOLM17    BHVG18             -1.
-    VOLM18    VOLM18 R           -1.   BHVG18              1.
-    VOLM18    BHVG19             -1.
-    VOLM19    VOLM19 R           -1.   BHVG19              1.
-    VOLM19    BHVG20             -1.
-    VOLM20    VOLM20 R           -1.   BHVG20              1.
-    VOLM20    SYNDY               1.
-    LTSY      LTSY R             -1.   SYNDY              -1.
-    LTSY      LTSYCT              1.
-    AVEINV    AVEINV R           -1.   ENDINVCT           -1.
-    INVEN     INVEN R            -1.   ENDINVCT            1.
-    GP+++ 0   GP+++ 0R           -1.   GS+++ 1R          -.18
-    GP+++ 0   GS+++ 2R          -.18   GS+++ 3R          -.18
-    GP+++ 0   GS+++ 4R          -.18   GS+++ 5R          -.18
-    GP+++ 0   GS+++ 6R          -.18   GS+++ 7R          -.18
-    GP+++ 0   GS+++ 8R          -.18   GS+++ 9R          -.18
-    GP+++ 0   GS+++10R          -.18   GS+++11R          -.18
-    GP+++ 0   GS+++12R          -.18   GS+++13R          -.18
-    GP+++ 0   GS+++14R          -.18   GS+++15R          -.18
-    GP--- 0   GP--- 0R           -1.   GS--- 1R         -.012
-    GP--- 0   GS--- 2R         -.012   GS--- 3R         -.012
-    GP--- 0   GS--- 4R         -.012   GS--- 5R         -.012
-    GP--- 0   GS--- 6R         -.012
-    A   21 1  AZ  20              1.   DEDO3 1R       1.59091
-    A   21 1  DEDO3 2R       1.59091   DEDO3 3R       1.59091
-    A   21 1  DEDO3 4R       1.59091   DEDO3 5R       1.59091
-    A   21 1  DEDO3 6R       1.59091   DEDO3 7R       1.59091
-    A   21 1  DEDO3 8R       1.59091   DEDO3 9R       1.59091
-    A   21 1  DEDO310R       1.59091   DEDO311R       1.59091
-    A   21 1  DEDO312R       1.59091   DEDO313R       1.59091
-    A   21 1  DEDO314R       1.59091   DEDO315R       1.59091
-    A   21 1  R012 MN1       -.37879   R037 MN1       -.15152
-    A   21 1  R048 MN1       -.24621   R052 MN1       -.11742
-    A   21 1  R083 MN1       -.10606
-    A   22 1  AZ  20              1.   OB1PNW20      -.022381
-    A   22 1  DEDO3 1R       2.02652   DEDO3 2R       2.46212
-    A   22 1  DEDO3 3R       2.46212   DEDO3 4R       2.46212
-    A   22 1  DEDO3 5R       2.46212   DEDO3 6R       2.46212
-    A   22 1  DEDO3 7R       2.46212   DEDO3 8R       2.46212
-    A   22 1  DEDO3 9R       2.46212   DEDO310R       2.46212
-    A   22 1  DEDO311R       2.46212   DEDO312R       2.46212
-    A   22 1  DEDO313R       2.46212   DEDO314R       2.46212
-    A   22 1  DEDO315R       2.46212   R012 RD1       -.37879
-    A   22 1  R037 RD1       -.15152   R048 RD1       -.24621
-    A   22 1  R052 RD1       -.11742   R083 RD1       -.10606
-    A   23 1  AZ  20              1.   OB1PNW20         -.314
-    A   23 1  DEDO3 1R       1.23106   DEDO3 2R        .87121
-    A   23 1  DEDO3 3R        .87121   DEDO3 4R        .87121
-    A   23 1  DEDO3 5R        .87121   DEDO3 6R        .87121
-    A   23 1  DEDO3 7R        .87121   DEDO3 8R        .87121
-    A   23 1  DEDO3 9R        .87121   DEDO310R        .87121
-    A   23 1  DEDO311R        .87121   DEDO312R        .87121
-    A   23 1  DEDO313R        .87121   DEDO314R        .87121
-    A   23 1  DEDO315R        .87121   DEDO5 1R       2.46212
-    A   23 1  DEDO5 2R       2.95455   DEDO5 3R       2.95455
-    A   23 1  R012 TM1       -.37879   R037 TM2       -.15152
-    A   23 1  R048 TM1       -.24621   R052 TM1       -.11742
-    A   23 1  R083 GR2       -.10606
-    A   23 2  AZ  20              1.   OB1PNW20        -.2121
-    A   23 2  DEDO3 1R       1.59091   DEDO3 2R       1.23106
-    A   23 2  DEDO3 3R        .87121   DEDO3 4R        .87121
-    A   23 2  DEDO3 5R        .87121   DEDO3 6R        .87121
-    A   23 2  DEDO3 7R        .87121   DEDO3 8R        .87121
-    A   23 2  DEDO3 9R        .87121   DEDO310R        .87121
-    A   23 2  DEDO311R        .87121   DEDO312R        .87121
-    A   23 2  DEDO313R        .87121   DEDO314R        .87121
-    A   23 2  DEDO315R        .87121   DEDO5 1R       1.47727
-    A   23 2  DEDO5 2R       2.95455   DEDO5 3R       2.95455
-    A   23 2  R012 TM2       -.37879   R037 TM2       -.15152
-    A   23 2  R048 TM2       -.24621   R052 TM2       -.11742
-    A   23 2  R083 GR2       -.10606
-    A   81 1  AZ  80              1.   DEDO3 1R       1.32143
-    A   81 1  DEDO3 2R       1.32143   DEDO3 3R       1.32143
-    A   81 1  DEDO3 4R       1.32143   DEDO3 5R       1.32143
-    A   81 1  DEDO3 6R       1.32143   DEDO3 7R       1.32143
-    A   81 1  DEDO3 8R       1.32143   DEDO3 9R       1.32143
-    A   81 1  DEDO310R       1.32143   DEDO311R       1.32143
-    A   81 1  DEDO312R       1.32143   DEDO313R       1.32143
-    A   81 1  DEDO314R       1.32143   DEDO315R       1.32143
-    A   81 1  R012 MN1       -.32143   R037 MN1       -.14286
-    A   81 1  R048 MN1       -.26786   R083 MN1       -.20357
-    A   81 1  R092 MN2       -.06429
-    A   82 1  AZ  80              1.   OB1PNW20      -.029358
-    A   82 1  DEDO3 1R       2.23214   DEDO3 2R       3.14286
-    A   82 1  DEDO3 3R       3.14286   DEDO3 4R       3.14286
-    A   82 1  DEDO3 5R       3.14286   DEDO3 6R       3.14286
-    A   82 1  DEDO3 7R       3.14286   DEDO3 8R       3.14286
-    A   82 1  DEDO3 9R       3.14286   DEDO310R       3.14286
-    A   82 1  DEDO311R       3.14286   DEDO312R       3.14286
-    A   82 1  DEDO313R       3.14286   DEDO314R       3.14286
-    A   82 1  DEDO315R       3.14286   R012 RD1       -.32143
-    A   82 1  R037 RD1       -.14286   R048 RD1       -.26786
-    A   82 1  R083 RD1       -.20357   R092 RD1       -.06429
-    A   83 1  AZ  80              1.   OB1PNW20       -.35041
-    A   83 1  DEDO3 1R       1.03571   DEDO3 2R        .71429
-    A   83 1  DEDO3 3R        .71429   DEDO3 4R        .71429
-    A   83 1  DEDO3 5R        .71429   DEDO3 6R        .71429
-    A   83 1  DEDO3 7R        .71429   DEDO3 8R        .71429
-    A   83 1  DEDO3 9R        .71429   DEDO310R        .71429
-    A   83 1  DEDO311R        .71429   DEDO312R        .71429
-    A   83 1  DEDO313R        .71429   DEDO314R        .71429
-    A   83 1  DEDO315R        .71429   DEDO5 1R         3.125
-    A   83 1  DEDO5 2R          3.75   DEDO5 3R          3.75
-    A   83 1  R012 TM1       -.32143   R037 TM2       -.14286
-    A   83 1  R048 TM1       -.26786   R083 GR2       -.20357
-    A   83 1  R092 MN2       -.06429
-    A   83 2  AZ  80              1.   OB1PNW20       -.23669
-    A   83 2  DEDO3 1R       1.35714   DEDO3 2R       1.03571
-    A   83 2  DEDO3 3R        .71429   DEDO3 4R        .71429
-    A   83 2  DEDO3 5R        .71429   DEDO3 6R        .71429
-    A   83 2  DEDO3 7R        .71429   DEDO3 8R        .71429
-    A   83 2  DEDO3 9R        .71429   DEDO310R        .71429
-    A   83 2  DEDO311R        .71429   DEDO312R        .71429
-    A   83 2  DEDO313R        .71429   DEDO314R        .71429
-    A   83 2  DEDO315R        .71429   DEDO5 1R         1.875
-    A   83 2  DEDO5 2R          3.75   DEDO5 3R          3.75
-    A   83 2  R012 TM2       -.32143   R037 TM2       -.14286
-    A   83 2  R048 TM2       -.26786   R083 GR2       -.20357
-    A   83 2  R092 MN2       -.06429
-    A   84 1  AZ  80              1.   OB1PNW20       -.31496
-    A   84 1  DEDO3 1R         1.125   DEDO3 2R        .89286
-    A   84 1  DEDO3 3R        .89286   DEDO3 4R        .89286
-    A   84 1  DEDO3 5R        .89286   DEDO3 6R        .89286
-    A   84 1  DEDO3 7R        .89286   DEDO3 8R        .89286
-    A   84 1  DEDO3 9R        .89286   DEDO310R        .89286
-    A   84 1  DEDO311R        .89286   DEDO312R        .89286
-    A   84 1  DEDO313R        .89286   DEDO314R        .89286
-    A   84 1  DEDO315R        .89286   DEDO5 1R       2.67857
-    A   84 1  DEDO5 2R       3.21429   DEDO5 3R       3.21429
-    A   84 1  R012 TM1       -.23929   R012 TP1       -.08214
-    A   84 1  R037 TM2       -.05357   R037 TP2       -.08929
-    A   84 1  R048 TM1       -.23214   R048 TP1       -.03571
-    A   84 1  R083 GM2       -.20357   R092 MN2       -.06429
-    A   84 2  AZ  80              1.   OB1PNW20       -.21274
-    A   84 2  DEDO3 1R       1.35714   DEDO3 2R         1.125
-    A   84 2  DEDO3 3R        .89286   DEDO3 4R        .89286
-    A   84 2  DEDO3 5R        .89286   DEDO3 6R        .89286
-    A   84 2  DEDO3 7R        .89286   DEDO3 8R        .89286
-    A   84 2  DEDO3 9R        .89286   DEDO310R        .89286
-    A   84 2  DEDO311R        .89286   DEDO312R        .89286
-    A   84 2  DEDO313R        .89286   DEDO314R        .89286
-    A   84 2  DEDO315R        .89286   DEDO5 1R       1.60714
-    A   84 2  DEDO5 2R       3.21429   DEDO5 3R       3.21429
-    A   84 2  R012 TM2       -.23929   R012 TP2       -.08214
-    A   84 2  R037 TM2       -.05357   R037 TP2       -.08929
-    A   84 2  R048 TM2       -.23214   R048 TP2       -.03571
-    A   84 2  R083 GM2       -.20357   R092 MN2       -.06429
-    A   91 1  AZ  90              1.   DEDO3 1R       1.59091
-    A   91 1  DEDO3 2R       1.59091   DEDO3 3R       1.59091
-    A   91 1  DEDO3 4R       1.59091   DEDO3 5R       1.59091
-    A   91 1  DEDO3 6R       1.59091   DEDO3 7R       1.59091
-    A   91 1  DEDO3 8R       1.59091   DEDO3 9R       1.59091
-    A   91 1  DEDO310R       1.59091   DEDO311R       1.59091
-    A   91 1  DEDO312R       1.59091   DEDO313R       1.59091
-    A   91 1  DEDO314R       1.59091   DEDO315R       1.59091
-    A   91 1  R012 MN1       -.37879   R037 MN1       -.15152
-    A   91 1  R048 MN1       -.24621   R052 MN1       -.11742
-    A   91 1  R083 MN1       -.10606
-    A   92 1  AZ  90              1.   OB1PNW20      -.022381
-    A   92 1  DEDO3 1R       2.02652   DEDO3 2R       2.46212
-    A   92 1  DEDO3 3R       2.46212   DEDO3 4R       2.46212
-    A   92 1  DEDO3 5R       2.46212   DEDO3 6R       2.46212
-    A   92 1  DEDO3 7R       2.46212   DEDO3 8R       2.46212
-    A   92 1  DEDO3 9R       2.46212   DEDO310R       2.46212
-    A   92 1  DEDO311R       2.46212   DEDO312R       2.46212
-    A   92 1  DEDO313R       2.46212   DEDO314R       2.46212
-    A   92 1  DEDO315R       2.46212   R012 RD1       -.37879
-    A   92 1  R037 RD1       -.15152   R048 RD1       -.24621
-    A   92 1  R052 RD1       -.11742   R083 RD1       -.10606
-    A   93 1  AZ  90              1.   OB1PNW20         -.314
-    A   93 1  DEDO3 1R       1.23106   DEDO3 2R        .87121
-    A   93 1  DEDO3 3R        .87121   DEDO3 4R        .87121
-    A   93 1  DEDO3 5R        .87121   DEDO3 6R        .87121
-    A   93 1  DEDO3 7R        .87121   DEDO3 8R        .87121
-    A   93 1  DEDO3 9R        .87121   DEDO310R        .87121
-    A   93 1  DEDO311R        .87121   DEDO312R        .87121
-    A   93 1  DEDO313R        .87121   DEDO314R        .87121
-    A   93 1  DEDO315R        .87121   DEDO5 1R       2.46212
-    A   93 1  DEDO5 2R       2.95455   DEDO5 3R       2.95455
-    A   93 1  LC123            2800.   R012 TM1         -.125
-    A   93 1  R012 TM2        -.0947   R012 TM3       -.15909
-    A   93 1  R037 TM2       -.15152   R048 TM1       -.06155
-    A   93 1  R048 TM2       -.06155   R048 TM3       -.06155
-    A   93 1  R048 TM4       -.06155   R052 TM1       -.02936
-    A   93 1  R052 TM2       -.02936   R052 TM3       -.02936
-    A   93 1  R052 TM4       -.02936   R083 GR2       -.10606
-    A   93 2  AZ  90              1.   OB1PNW20        -.2121
-    A   93 2  DEDO3 1R       1.59091   DEDO3 2R       1.23106
-    A   93 2  DEDO3 3R        .87121   DEDO3 4R        .87121
-    A   93 2  DEDO3 5R        .87121   DEDO3 6R        .87121
-    A   93 2  DEDO3 7R        .87121   DEDO3 8R        .87121
-    A   93 2  DEDO3 9R        .87121   DEDO310R        .87121
-    A   93 2  DEDO311R        .87121   DEDO312R        .87121
-    A   93 2  DEDO313R        .87121   DEDO314R        .87121
-    A   93 2  DEDO315R        .87121   DEDO5 1R       1.47727
-    A   93 2  DEDO5 2R       2.95455   DEDO5 3R       2.95455
-    A   93 2  LC123            2800.   R012 TM2         -.125
-    A   93 2  R012 TM3        -.0947   R012 TM4       -.15909
-    A   93 2  R037 TM2       -.15152   R048 TM2       -.06155
-    A   93 2  R048 TM3       -.06155   R048 TM4       -.06155
-    A   93 2  R048 TM5       -.06155   R052 TM2       -.02936
-    A   93 2  R052 TM3       -.02936   R052 TM4       -.02936
-    A   93 2  R052 TM5       -.02936   R083 GR2       -.10606
-    A  101 1  AZ 100              1.   DEDO3 1R       1.32143
-    A  101 1  DEDO3 2R       1.32143   DEDO3 3R       1.32143
-    A  101 1  DEDO3 4R       1.32143   DEDO3 5R       1.32143
-    A  101 1  DEDO3 6R       1.32143   DEDO3 7R       1.32143
-    A  101 1  DEDO3 8R       1.32143   DEDO3 9R       1.32143
-    A  101 1  DEDO310R       1.32143   DEDO311R       1.32143
-    A  101 1  DEDO312R       1.32143   DEDO313R       1.32143
-    A  101 1  DEDO314R       1.32143   DEDO315R       1.32143
-    A  101 1  R012 MN1       -.32143   R037 MN1       -.14286
-    A  101 1  R048 MN1       -.26786   R083 MN1       -.20357
-    A  101 1  R092 MN2       -.06429
-    A  102 1  AZ 100              1.   OB1PNW20      -.029358
-    A  102 1  DEDO3 1R       2.23214   DEDO3 2R       3.14286
-    A  102 1  DEDO3 3R       3.14286   DEDO3 4R       3.14286
-    A  102 1  DEDO3 5R       3.14286   DEDO3 6R       3.14286
-    A  102 1  DEDO3 7R       3.14286   DEDO3 8R       3.14286
-    A  102 1  DEDO3 9R       3.14286   DEDO310R       3.14286
-    A  102 1  DEDO311R       3.14286   DEDO312R       3.14286
-    A  102 1  DEDO313R       3.14286   DEDO314R       3.14286
-    A  102 1  DEDO315R       3.14286   R012 RD1       -.32143
-    A  102 1  R037 RD1       -.14286   R048 RD1       -.26786
-    A  102 1  R083 RD1       -.20357   R092 RD1       -.06429
-    A  103 1  AZ 100              1.   OB1PNW20       -.35041
-    A  103 1  DEDO3 1R       1.03571   DEDO3 2R        .71429
-    A  103 1  DEDO3 3R        .71429   DEDO3 4R        .71429
-    A  103 1  DEDO3 5R        .71429   DEDO3 6R        .71429
-    A  103 1  DEDO3 7R        .71429   DEDO3 8R        .71429
-    A  103 1  DEDO3 9R        .71429   DEDO310R        .71429
-    A  103 1  DEDO311R        .71429   DEDO312R        .71429
-    A  103 1  DEDO313R        .71429   DEDO314R        .71429
-    A  103 1  DEDO315R        .71429   DEDO5 1R         3.125
-    A  103 1  DEDO5 2R          3.75   DEDO5 3R          3.75
-    A  103 1  LC123            2640.   R012 TM2       -.12536
-    A  103 1  R012 TM4       -.10607   R012 TM5          -.09
-    A  103 1  R037 TM2       -.14286   R048 TM1       -.16339
-    A  103 1  R048 TM3       -.10446   R083 GR2       -.20357
-    A  103 1  R092 MN2       -.06429
-    A  103 2  AZ 100              1.   OB1PNW20       -.23669
-    A  103 2  DEDO3 1R       1.35714   DEDO3 2R       1.03571
-    A  103 2  DEDO3 3R        .71429   DEDO3 4R        .71429
-    A  103 2  DEDO3 5R        .71429   DEDO3 6R        .71429
-    A  103 2  DEDO3 7R        .71429   DEDO3 8R        .71429
-    A  103 2  DEDO3 9R        .71429   DEDO310R        .71429
-    A  103 2  DEDO311R        .71429   DEDO312R        .71429
-    A  103 2  DEDO313R        .71429   DEDO314R        .71429
-    A  103 2  DEDO315R        .71429   DEDO5 1R         1.875
-    A  103 2  DEDO5 2R          3.75   DEDO5 3R          3.75
-    A  103 2  LC123            2640.   R012 TM3       -.12536
-    A  103 2  R012 TM5       -.10607   R012 TM6          -.09
-    A  103 2  R037 TM2       -.14286   R048 TM2       -.16339
-    A  103 2  R048 TM4       -.10446   R083 GR2       -.20357
-    A  103 2  R092 MN2       -.06429
-    A  104 1  AZ 100              1.   OB1PNW20       -.31496
-    A  104 1  DEDO3 1R         1.125   DEDO3 2R        .89286
-    A  104 1  DEDO3 3R        .89286   DEDO3 4R        .89286
-    A  104 1  DEDO3 5R        .89286   DEDO3 6R        .89286
-    A  104 1  DEDO3 7R        .89286   DEDO3 8R        .89286
-    A  104 1  DEDO3 9R        .89286   DEDO310R        .89286
-    A  104 1  DEDO311R        .89286   DEDO312R        .89286
-    A  104 1  DEDO313R        .89286   DEDO314R        .89286
-    A  104 1  DEDO315R        .89286   DEDO5 1R       2.67857
-    A  104 1  DEDO5 2R       3.21429   DEDO5 3R       3.21429
-    A  104 1  LC123            2640.   R012 TM2       -.09093
-    A  104 1  R012 TM4       -.08854   R012 TM5       -.05982
-    A  104 1  R012 TP2       -.02136   R012 TP3       -.00739
-    A  104 1  R012 TP4       -.01396   R012 TP5       -.03943
-    A  104 1  R037 TM2       -.05357   R037 TP2       -.08929
-    A  104 1  R048 TM1       -.13929   R048 TM3       -.09286
-    A  104 1  R048 TP1       -.01786   R048 TP3       -.01786
-    A  104 1  R083 GM2       -.20357   R092 MN2       -.06429
-    A  104 2  AZ 100              1.   OB1PNW20       -.21274
-    A  104 2  DEDO3 1R       1.35714   DEDO3 2R         1.125
-    A  104 2  DEDO3 3R        .89286   DEDO3 4R        .89286
-    A  104 2  DEDO3 5R        .89286   DEDO3 6R        .89286
-    A  104 2  DEDO3 7R        .89286   DEDO3 8R        .89286
-    A  104 2  DEDO3 9R        .89286   DEDO310R        .89286
-    A  104 2  DEDO311R        .89286   DEDO312R        .89286
-    A  104 2  DEDO313R        .89286   DEDO314R        .89286
-    A  104 2  DEDO315R        .89286   DEDO5 1R       1.60714
-    A  104 2  DEDO5 2R       3.21429   DEDO5 3R       3.21429
-    A  104 2  LC123            2640.   R012 TM3       -.09093
-    A  104 2  R012 TM5       -.08854   R012 TM6       -.05982
-    A  104 2  R012 TP3       -.02136   R012 TP4       -.00739
-    A  104 2  R012 TP5       -.01396   R012 TP6       -.03943
-    A  104 2  R037 TM2       -.05357   R037 TP2       -.08929
-    A  104 2  R048 TM2       -.13929   R048 TM4       -.09286
-    A  104 2  R048 TP2       -.01786   R048 TP4       -.01786
-    A  104 2  R083 GM2       -.20357   R092 MN2       -.06429
-    A  105 1  AZ 100              1.   OB1PNW20       -.29354
-    A  105 1  DEDO3 1R         1.125   DEDO3 2R        .89286
-    A  105 1  DEDO3 3R        .89286   DEDO3 4R        .89286
-    A  105 1  DEDO3 5R        .89286   DEDO3 6R        .89286
-    A  105 1  DEDO3 7R        .89286   DEDO3 8R        .89286
-    A  105 1  DEDO3 9R        .89286   DEDO310R        .89286
-    A  105 1  DEDO311R        .89286   DEDO312R        .89286
-    A  105 1  DEDO313R        .89286   DEDO314R        .89286
-    A  105 1  DEDO315R        .89286   DEDO5 1R       2.67857
-    A  105 1  DEDO5 2R       3.21429   DEDO5 3R       3.21429
-    A  105 1  LC123            2640.   R012 TM2       -.06461
-    A  105 1  R012 TM4       -.08375   R012 TM5       -.09093
-    A  105 1  R012 TP2       -.01643   R012 TP3       -.00739
-    A  105 1  R012 TP4       -.01479   R012 TP5       -.04354
-    A  105 1  R037 TM2       -.05357   R037 TP2       -.08929
-    A  105 1  R048 TM1       -.09054   R048 TM3       -.14161
-    A  105 1  R048 TP1       -.01536   R048 TP3       -.02036
-    A  105 1  R083 GM2       -.20357   R092 MN2       -.06429
-    A  105 2  AZ 100              1.   OB1PNW20       -.19827
-    A  105 2  DEDO3 1R       1.35714   DEDO3 2R         1.125
-    A  105 2  DEDO3 3R        .89286   DEDO3 4R        .89286
-    A  105 2  DEDO3 5R        .89286   DEDO3 6R        .89286
-    A  105 2  DEDO3 7R        .89286   DEDO3 8R        .89286
-    A  105 2  DEDO3 9R        .89286   DEDO310R        .89286
-    A  105 2  DEDO311R        .89286   DEDO312R        .89286
-    A  105 2  DEDO313R        .89286   DEDO314R        .89286
-    A  105 2  DEDO315R        .89286   DEDO5 1R       1.60714
-    A  105 2  DEDO5 2R       3.21429   DEDO5 3R       3.21429
-    A  105 2  LC123            2640.   R012 TM3       -.06461
-    A  105 2  R012 TM5       -.08375   R012 TM6       -.09093
-    A  105 2  R012 TP3       -.01643   R012 TP4       -.00739
-    A  105 2  R012 TP5       -.01479   R012 TP6       -.04354
-    A  105 2  R037 TM2       -.05357   R037 TP2       -.08929
-    A  105 2  R048 TM2       -.09054   R048 TM4       -.14161
-    A  105 2  R048 TP2       -.01536   R048 TP4       -.02036
-    A  105 2  R083 GM2       -.20357   R092 MN2       -.06429
-    M012MN 1  R012 MN1            1.   OB1PNW20     -.0012632
-    M012RD 1  R012 RD1            1.   OB1PNW20     -.0010105
-    T012TM12  R012 TM1            1.   R012 TM2           -1.
-    T012TM23  R012 TM2            1.   R012 TM3           -1.
-    T012TM34  R012 TM3            1.   R012 TM4           -1.
-    T012TM45  R012 TM4            1.   R012 TM5           -1.
-    T012TM56  R012 TM5            1.   R012 TM6           -1.
-    M012TF 1  R012 TM1            1.   OB1PNW20        .95137
-    M012TF 1  VOLM 1 R          .402   VOLM 8 R          .361
-    M012TF 1  VOLM15 R          .361   LTSY R          .05157
-    M012TF 1  AVEINV R        .18843   INVEN R           .267
-    M012TF 1  A$   1 1        .01994   GP+++ 0R            1.
-    M012TF 1  GS+++ 1R            1.   GS+++ 8R            1.
-    M012TF 1  GS+++15R            1.
-    M012TF 2  R012 TM1            1.   OB1PNW20          .922
-    M012TF 2  VOLM 1 R          .402   VOLM 9 R          .367
-    M012TF 2  VOLM17 R          .367   LTSY R          .04587
-    M012TF 2  AVEINV R        .21075   INVEN R           .142
-    M012TF 2  A$   1 1        .01994   GP+++ 0R            1.
-    M012TF 2  GS+++ 1R            1.   GS+++ 9R            1.
-    M012TF 3  R012 TM2            1.   OB1PNW20        .68813
-    M012TF 3  VOLM 2 R          .423   VOLM 9 R          .361
-    M012TF 3  VOLM16 R          .361   LTSY R          .05157
-    M012TF 3  AVEINV R        .18843   INVEN R           .203
-    M012TF 3  A$   1 2        .02448   GP+++ 0R            1.
-    M012TF 3  GS+++ 2R            1.   GS+++ 9R            1.
-    M012TF 4  R012 TM2            1.   OB1PNW20        .66835
-    M012TF 4  VOLM 2 R          .423   VOLM10 R          .367
-    M012TF 4  VOLM18 R          .367   LTSY R          .04587
-    M012TF 4  AVEINV R        .21075   INVEN R           .022
-    M012TF 4  A$   1 2        .02448   GP+++ 0R            1.
-    M012TF 4  GS+++ 2R            1.   GS+++10R            1.
-    M012TF 5  R012 TM3            1.   OB1PNW20        .50325
-    M012TF 5  VOLM 3 R           .44   VOLM10 R          .361
-    M012TF 5  VOLM17 R          .361   LTSY R          .05157
-    M012TF 5  AVEINV R        .18843   INVEN R           .142
-    M012TF 5  GP+++ 0R            1.   GS+++ 3R            1.
-    M012TF 5  GS+++10R            1.
-    M012TF 6  R012 TM3            1.   OB1PNW20        .48975
-    M012TF 6  VOLM 3 R           .44   VOLM11 R          .367
-    M012TF 6  VOLM19 R          .367   LTSY R          .04587
-    M012TF 6  AVEINV R        .21075   GP+++ 0R            1.
-    M012TF 6  GS+++ 3R            1.   GS+++11R            1.
-    M012TF 7  R012 TM4            1.   OB1PNW20         .3852
-    M012TF 7  VOLM 4 R          .437   VOLM11 R          .361
-    M012TF 7  VOLM18 R          .361   LTSY R          .05157
-    M012TF 7  AVEINV R        .18843   INVEN R           .022
-    M012TF 7  GP+++ 0R            1.   GS+++ 4R            1.
-    M012TF 7  GS+++11R            1.
-    M012TF 8  R012 TM4            1.   OB1PNW20        .37596
-    M012TF 8  VOLM 4 R          .437   VOLM12 R          .367
-    M012TF 8  VOLM20 R          .367   LTSY R          .04587
-    M012TF 8  AVEINV R        .21075   INVEN R           .367
-    M012TF 8  GP+++ 0R            1.   GS+++ 4R            1.
-    M012TF 8  GS+++12R            1.
-    M012TF 9  R012 TM5            1.   OB1PNW20        .26538
-    M012TF 9  VOLM 5 R          .429   VOLM12 R          .361
-    M012TF 9  VOLM19 R          .361   LTSY R          .05157
-    M012TF 9  AVEINV R        .18843   GP+++ 0R            1.
-    M012TF 9  GS+++ 5R            1.   GS+++12R            1.
-    M012TF A  R012 TM5            1.   OB1PNW20        .25839
-    M012TF A  VOLM 5 R          .429   VOLM13 R          .367
-    M012TF A  LTSY R          .04587   AVEINV R        .21075
-    M012TF A  INVEN R           .361   GP+++ 0R            1.
-    M012TF A  GS+++ 5R            1.   GS+++13R            1.
-    M012TF B  R012 TM6            1.   OB1PNW20        .17208
-    M012TF B  VOLM 6 R          .417   VOLM13 R          .361
-    M012TF B  VOLM20 R          .361   LTSY R          .05157
-    M012TF B  AVEINV R        .18843   INVEN R           .361
-    M012TF B  GP+++ 0R            1.   GS+++ 6R            1.
-    M012TF B  GS+++13R            1.
-    M012TF C  R012 TM6            1.   OB1PNW20        .16728
-    M012TF C  VOLM 6 R          .417   VOLM14 R          .367
-    M012TF C  LTSY R          .04587   AVEINV R        .21075
-    M012TF C  INVEN R           .324   GP+++ 0R            1.
-    M012TF C  GS+++ 6R            1.   GS+++14R            1.
-    M012TF D  R012 TM6            1.   OB1PNW20        .11232
-    M012TF D  VOLM 7 R           .41   VOLM14 R          .361
-    M012TF D  LTSY R          .05157   AVEINV R        .18843
-    M012TF D  INVEN R           .324   GP+++ 0R            1.
-    M012TF D  GS+++ 7R            1.   GS+++14R            1.
-    M012TF E  R012 TM6            1.   OB1PNW20        .10962
-    M012TF E  VOLM 7 R           .41   VOLM15 R          .367
-    M012TF E  LTSY R          .04587   AVEINV R        .21075
-    M012TF E  INVEN R           .267   GP+++ 0R            1.
-    M012TF E  GS+++ 7R            1.   GS+++15R            1.
-    M012T1 1  R012 TM1            1.   OB1PNW20        .98104
-    M012T1 1  VOLM 1 R          .402   VOLM 5 R          .053
-    M012T1 1  VOLM 8 R          .339   VOLM12 R          .053
-    M012T1 1  VOLM15 R          .339   VOLM19 R          .053
-    M012T1 1  LTSY R            .056   AVEINV R        .18143
-    M012T1 1  INVEN R           .244   A$   1 1        .01994
-    M012T1 1  GP+++ 0R            1.   GS+++ 1R            1.
-    M012T1 1  GS+++ 8R            1.   GS+++15R            1.
-    M012T1 2  R012 TM1            1.   OB1PNW20        .95421
-    M012T1 2  VOLM 1 R          .402   VOLM 5 R          .053
-    M012T1 2  VOLM 9 R          .345   VOLM13 R          .053
-    M012T1 2  VOLM17 R          .345   LTSY R          .04975
-    M012T1 2  AVEINV R        .20187   INVEN R           .142
-    M012T1 2  A$   1 1        .01994   GP+++ 0R            1.
-    M012T1 2  GS+++ 1R            1.   GS+++ 9R            1.
-    M012T1 3  R012 TM1            1.   OB1PNW20        .93889
-    M012T1 3  VOLM 1 R          .402   VOLM 5 R          .053
-    M012T1 3  VOLM10 R          .377   VOLM14 R          .053
-    M012T1 3  VOLM19 R          .377   LTSY R          .04778
-    M012T1 3  AVEINV R        .22133   A$   1 1        .01994
-    M012T1 3  GP+++ 0R            1.   GS+++ 1R            1.
-    M012T1 3  GS+++10R            1.
-    M012T1 4  R012 TM2            1.   OB1PNW20         .7082
-    M012T1 4  VOLM 2 R          .423   VOLM 6 R          .053
-    M012T1 4  VOLM 9 R          .339   VOLM13 R          .053
-    M012T1 4  VOLM16 R          .339   VOLM20 R          .053
-    M012T1 4  LTSY R            .056   AVEINV R        .18143
-    M012T1 4  INVEN R           .206   A$   1 2        .02448
-    M012T1 4  GP+++ 0R            1.   GS+++ 2R            1.
-    M012T1 4  GS+++ 9R            1.
-    M012T1 5  R012 TM2            1.   OB1PNW20        .69013
-    M012T1 5  VOLM 2 R          .423   VOLM 6 R          .053
-    M012T1 5  VOLM10 R          .345   VOLM14 R          .053
-    M012T1 5  VOLM18 R          .345   LTSY R          .04975
-    M012T1 5  AVEINV R        .20187   INVEN R           .022
-    M012T1 5  A$   1 2        .02448   GP+++ 0R            1.
-    M012T1 5  GS+++ 2R            1.   GS+++10R            1.
-    M012T1 6  R012 TM2            1.   OB1PNW20        .67971
-    M012T1 6  VOLM 2 R          .423   VOLM 6 R          .053
-    M012T1 6  VOLM11 R          .377   VOLM15 R          .053
-    M012T1 6  VOLM20 R          .377   LTSY R          .04778
-    M012T1 6  AVEINV R        .22133   INVEN R           .377
-    M012T1 6  A$   1 2        .02448   GP+++ 0R            1.
-    M012T1 6  GS+++ 2R            1.   GS+++11R            1.
-    M012T1 7  R012 TM3            1.   OB1PNW20        .51675
-    M012T1 7  VOLM 3 R           .44   VOLM 7 R          .053
-    M012T1 7  VOLM10 R          .339   VOLM14 R          .053
-    M012T1 7  VOLM17 R          .339   LTSY R            .056
-    M012T1 7  AVEINV R        .18143   INVEN R           .142
-    M012T1 7  GP+++ 0R            1.   GS+++ 3R            1.
-    M012T1 7  GS+++10R            1.
-    M012T1 8  R012 TM3            1.   OB1PNW20        .50448
-    M012T1 8  VOLM 3 R           .44   VOLM 7 R          .053
-    M012T1 8  VOLM11 R          .345   VOLM15 R          .053
-    M012T1 8  VOLM19 R          .345   LTSY R          .04975
-    M012T1 8  AVEINV R        .20187   GP+++ 0R            1.
-    M012T1 8  GS+++ 3R            1.   GS+++11R            1.
-    M012T1 9  R012 TM3            1.   OB1PNW20        .49638
-    M012T1 9  VOLM 3 R           .44   VOLM 7 R          .053
-    M012T1 9  VOLM12 R          .377   VOLM16 R          .053
-    M012T1 9  LTSY R          .04778   AVEINV R        .22133
-    M012T1 9  INVEN R           .345   GP+++ 0R            1.
-    M012T1 9  GS+++ 3R            1.   GS+++12R            1.
-    M012T1 A  R012 TM4            1.   OB1PNW20        .39435
-    M012T1 A  VOLM 4 R          .437   VOLM 8 R          .053
-    M012T1 A  VOLM11 R          .339   VOLM15 R          .053
-    M012T1 A  VOLM18 R          .339   LTSY R            .056
-    M012T1 A  AVEINV R        .18143   INVEN R           .022
-    M012T1 A  GP+++ 0R            1.   GS+++ 4R            1.
-    M012T1 A  GS+++11R            1.
-    M012T1 B  R012 TM4            1.   OB1PNW20        .38592
-    M012T1 B  VOLM 4 R          .437   VOLM 8 R          .053
-    M012T1 B  VOLM12 R          .345   VOLM16 R          .053
-    M012T1 B  VOLM20 R          .345   LTSY R          .04975
-    M012T1 B  AVEINV R        .20187   INVEN R           .345
-    M012T1 B  GP+++ 0R            1.   GS+++ 4R            1.
-    M012T1 B  GS+++12R            1.
-    M012T1 C  R012 TM4            1.   OB1PNW20        .38047
-    M012T1 C  VOLM 4 R          .437   VOLM 8 R          .053
-    M012T1 C  VOLM13 R          .377   VOLM17 R          .053
-    M012T1 C  LTSY R          .04778   AVEINV R        .22133
-    M012T1 C  INVEN R           .339   GP+++ 0R            1.
-    M012T1 C  GS+++ 4R            1.   GS+++13R            1.
-    M012T1 D  R012 TM5            1.   OB1PNW20        .27156
-    M012T1 D  VOLM 5 R          .429   VOLM 9 R          .053
-    M012T1 D  VOLM12 R          .339   VOLM16 R          .053
-    M012T1 D  VOLM19 R          .339   LTSY R            .056
-    M012T1 D  AVEINV R        .18143   GP+++ 0R            1.
-    M012T1 D  GS+++ 5R            1.   GS+++12R            1.
-    M012T1 E  R012 TM5            1.   OB1PNW20        .26512
-    M012T1 E  VOLM 5 R          .429   VOLM 9 R          .053
-    M012T1 E  VOLM13 R          .345   VOLM17 R          .053
-    M012T1 E  LTSY R          .04975   AVEINV R        .20187
-    M012T1 E  INVEN R           .339   GP+++ 0R            1.
-    M012T1 E  GS+++ 5R            1.   GS+++13R            1.
-    M012T1 F  R012 TM5            1.   OB1PNW20        .26223
-    M012T1 F  VOLM 5 R          .429   VOLM 9 R          .053
-    M012T1 F  VOLM14 R          .377   VOLM18 R          .053
-    M012T1 F  LTSY R          .04778   AVEINV R        .22133
-    M012T1 F  INVEN R           .317   GP+++ 0R            1.
-    M012T1 F  GS+++ 5R            1.   GS+++14R            1.
-    M012T1 G  R012 TM6            1.   OB1PNW20        .17627
-    M012T1 G  VOLM 6 R          .417   VOLM10 R          .053
-    M012T1 G  VOLM13 R          .339   VOLM17 R          .053
-    M012T1 G  VOLM20 R          .339   LTSY R            .056
-    M012T1 G  AVEINV R        .18143   INVEN R           .339
-    M012T1 G  GP+++ 0R            1.   GS+++ 6R            1.
-    M012T1 G  GS+++13R            1.
-    M012T1 H  R012 TM6            1.   OB1PNW20        .17185
-    M012T1 H  VOLM 6 R          .417   VOLM10 R          .053
-    M012T1 H  VOLM14 R          .345   VOLM18 R          .053
-    M012T1 H  LTSY R          .04975   AVEINV R        .20187
-    M012T1 H  INVEN R           .317   GP+++ 0R            1.
-    M012T1 H  GS+++ 6R            1.   GS+++14R            1.
-    M012T1 I  R012 TM6            1.   OB1PNW20         .1697
-    M012T1 I  VOLM 6 R          .417   VOLM10 R          .053
-    M012T1 I  VOLM15 R          .377   VOLM19 R          .053
-    M012T1 I  LTSY R          .04778   AVEINV R        .22133
-    M012T1 I  INVEN R           .244   GP+++ 0R            1.
-    M012T1 I  GS+++ 6R            1.   GS+++15R            1.
-    M012T1 J  R012 TM6            1.   OB1PNW20        .11518
-    M012T1 J  VOLM 7 R           .41   VOLM11 R          .053
-    M012T1 J  VOLM14 R          .339   VOLM18 R          .053
-    M012T1 J  LTSY R            .056   AVEINV R        .18143
-    M012T1 J  INVEN R           .317   GP+++ 0R            1.
-    M012T1 J  GS+++ 7R            1.   GS+++14R            1.
-    M012T1 K  R012 TM6            1.   OB1PNW20        .11271
-    M012T1 K  VOLM 7 R           .41   VOLM11 R          .053
-    M012T1 K  VOLM15 R          .345   VOLM19 R          .053
-    M012T1 K  LTSY R          .04975   AVEINV R        .20187
-    M012T1 K  INVEN R           .244   GP+++ 0R            1.
-    M012T1 K  GS+++ 7R            1.   GS+++15R            1.
-    M012T1 L  R012 TM6            1.   OB1PNW20        .11145
-    M012T1 L  VOLM 7 R           .41   VOLM11 R          .053
-    M012T1 L  VOLM16 R          .377   VOLM20 R          .053
-    M012T1 L  LTSY R          .04778   AVEINV R        .22133
-    M012T1 L  INVEN R           .206   GP+++ 0R            1.
-    M012T1 L  GS+++ 7R            1.
-    M012T1 M  R012 TM1            1.   OB1PNW20        .97761
-    M012T1 M  VOLM 1 R          .402   VOLM 6 R          .057
-    M012T1 M  VOLM 8 R          .356   VOLM13 R          .057
-    M012T1 M  VOLM15 R          .356   VOLM20 R          .057
-    M012T1 M  LTSY R            .059   AVEINV R        .18343
-    M012T1 M  INVEN R           .242   A$   1 1        .01994
-    M012T1 M  GP+++ 0R            1.   GS+++ 1R            1.
-    M012T1 M  GS+++ 8R            1.   GS+++15R            1.
-    M012T1 N  R012 TM1            1.   OB1PNW20        .94944
-    M012T1 N  VOLM 1 R          .402   VOLM 6 R          .057
-    M012T1 N  VOLM 9 R          .362   VOLM14 R          .057
-    M012T1 N  VOLM17 R          .362   LTSY R          .05237
-    M012T1 N  AVEINV R        .20575   INVEN R           .142
-    M012T1 N  A$   1 1        .01994   GP+++ 0R            1.
-    M012T1 N  GS+++ 1R            1.   GS+++ 9R            1.
-    M012T1 O  R012 TM1            1.   OB1PNW20        .93229
-    M012T1 O  VOLM 1 R          .402   VOLM 6 R          .057
-    M012T1 O  VOLM10 R          .388   VOLM15 R          .057
-    M012T1 O  VOLM19 R          .388   LTSY R          .04944
-    M012T1 O  AVEINV R          .226   A$   1 1        .01994
-    M012T1 O  GP+++ 0R            1.   GS+++ 1R            1.
-    M012T1 O  GS+++10R            1.
-    M012T1 P  R012 TM2            1.   OB1PNW20        .70581
-    M012T1 P  VOLM 2 R          .423   VOLM 7 R          .057
-    M012T1 P  VOLM 9 R          .356   VOLM14 R          .057
-    M012T1 P  VOLM16 R          .356   LTSY R            .059
-    M012T1 P  AVEINV R        .18343   INVEN R           .203
-    M012T1 P  A$   1 2        .02448   GP+++ 0R            1.
-    M012T1 P  GS+++ 2R            1.   GS+++ 9R            1.
-    M012T1 Q  R012 TM2            1.   OB1PNW20        .68691
-    M012T1 Q  VOLM 2 R          .423   VOLM 7 R          .057
-    M012T1 Q  VOLM10 R          .362   VOLM15 R          .057
-    M012T1 Q  VOLM18 R          .362   LTSY R          .05237
-    M012T1 Q  AVEINV R        .20575   INVEN R           .022
-    M012T1 Q  A$   1 2        .02448   GP+++ 0R            1.
-    M012T1 Q  GS+++ 2R            1.   GS+++10R            1.
-    M012T1 R  R012 TM2            1.   OB1PNW20        .67525
-    M012T1 R  VOLM 2 R          .423   VOLM 7 R          .057
-    M012T1 R  VOLM11 R          .388   VOLM16 R          .057
-    M012T1 R  VOLM20 R          .388   LTSY R          .04944
-    M012T1 R  AVEINV R          .226   INVEN R           .388
-    M012T1 R  A$   1 2        .02448   GP+++ 0R            1.
-    M012T1 R  GS+++ 2R            1.   GS+++11R            1.
-    M012T1 S  R012 TM3            1.   OB1PNW20        .51523
-    M012T1 S  VOLM 3 R           .44   VOLM 8 R          .057
-    M012T1 S  VOLM10 R          .356   VOLM15 R          .057
-    M012T1 S  VOLM17 R          .356   LTSY R            .059
-    M012T1 S  AVEINV R        .18343   INVEN R           .142
-    M012T1 S  GP+++ 0R            1.   GS+++ 3R            1.
-    M012T1 S  GS+++10R            1.
-    M012T1 T  R012 TM3            1.   OB1PNW20        .50231
-    M012T1 T  VOLM 3 R           .44   VOLM 8 R          .057
-    M012T1 T  VOLM11 R          .362   VOLM16 R          .057
-    M012T1 T  VOLM19 R          .362   LTSY R          .05237
-    M012T1 T  AVEINV R        .20575   GP+++ 0R            1.
-    M012T1 T  GS+++ 3R            1.   GS+++11R            1.
-    M012T1 U  R012 TM3            1.   OB1PNW20        .49335
-    M012T1 U  VOLM 3 R           .44   VOLM 8 R          .057
-    M012T1 U  VOLM12 R          .388   VOLM17 R          .057
-    M012T1 U  LTSY R          .04944   AVEINV R          .226
-    M012T1 U  INVEN R           .362   GP+++ 0R            1.
-    M012T1 U  GS+++ 3R            1.   GS+++12R            1.
-    M012T1 V  R012 TM4            1.   OB1PNW20        .39333
-    M012T1 V  VOLM 4 R          .437   VOLM 9 R          .057
-    M012T1 V  VOLM11 R          .356   VOLM16 R          .057
-    M012T1 V  VOLM18 R          .356   LTSY R            .059
-    M012T1 V  AVEINV R        .18343   INVEN R           .022
-    M012T1 V  GP+++ 0R            1.   GS+++ 4R            1.
-    M012T1 V  GS+++11R            1.
-    M012T1 W  R012 TM4            1.   OB1PNW20        .38446
-    M012T1 W  VOLM 4 R          .437   VOLM 9 R          .057
-    M012T1 W  VOLM12 R          .362   VOLM17 R          .057
-    M012T1 W  VOLM20 R          .362   LTSY R          .05237
-    M012T1 W  AVEINV R        .20575   INVEN R           .362
-    M012T1 W  GP+++ 0R            1.   GS+++ 4R            1.
-    M012T1 W  GS+++12R            1.
-    M012T1 X  R012 TM4            1.   OB1PNW20        .37843
-    M012T1 X  VOLM 4 R          .437   VOLM 9 R          .057
-    M012T1 X  VOLM13 R          .388   VOLM18 R          .057
-    M012T1 X  LTSY R          .04944   AVEINV R          .226
-    M012T1 X  INVEN R           .356   GP+++ 0R            1.
-    M012T1 X  GS+++ 4R            1.   GS+++13R            1.
-    M012T1 Y  R012 TM5            1.   OB1PNW20        .27088
-    M012T1 Y  VOLM 5 R          .429   VOLM10 R          .057
-    M012T1 Y  VOLM12 R          .356   VOLM17 R          .057
-    M012T1 Y  VOLM19 R          .356   LTSY R            .059
-    M012T1 Y  AVEINV R        .18343   GP+++ 0R            1.
-    M012T1 Y  GS+++ 5R            1.   GS+++12R            1.
-    M012T1 Z  R012 TM5            1.   OB1PNW20        .26411
-    M012T1 Z  VOLM 5 R          .429   VOLM10 R          .057
-    M012T1 Z  VOLM13 R          .362   VOLM18 R          .057
-    M012T1 Z  LTSY R          .05237   AVEINV R        .20575
-    M012T1 Z  INVEN R           .356   GP+++ 0R            1.
-    M012T1 Z  GS+++ 5R            1.   GS+++13R            1.
-    M012T1 [  R012 TM5            1.   OB1PNW20        .26085
-    M012T1 [  VOLM 5 R          .429   VOLM10 R          .057
-    M012T1 [  VOLM14 R          .388   VOLM19 R          .057
-    M012T1 [  LTSY R          .04944   AVEINV R          .226
-    M012T1 [  INVEN R           .319   GP+++ 0R            1.
-    M012T1 [  GS+++ 5R            1.   GS+++14R            1.
-    M012T1 ]  R012 TM6            1.   OB1PNW20        .17581
-    M012T1 ]  VOLM 6 R          .417   VOLM11 R          .057
-    M012T1 ]  VOLM13 R          .356   VOLM18 R          .057
-    M012T1 ]  VOLM20 R          .356   LTSY R            .059
-    M012T1 ]  AVEINV R        .18343   INVEN R           .356
-    M012T1 ]  GP+++ 0R            1.   GS+++ 6R            1.
-    M012T1 ]  GS+++13R            1.
-    M012T1 #  R012 TM6            1.   OB1PNW20        .17117
-    M012T1 #  VOLM 6 R          .417   VOLM11 R          .057
-    M012T1 #  VOLM14 R          .362   VOLM19 R          .057
-    M012T1 #  LTSY R          .05237   AVEINV R        .20575
-    M012T1 #  INVEN R           .319   GP+++ 0R            1.
-    M012T1 #  GS+++ 6R            1.   GS+++14R            1.
-    M012T1 ^  R012 TM6            1.   OB1PNW20        .16877
-    M012T1 ^  VOLM 6 R          .417   VOLM11 R          .057
-    M012T1 ^  VOLM15 R          .388   VOLM20 R          .057
-    M012T1 ^  LTSY R          .04944   AVEINV R          .226
-    M012T1 ^  INVEN R           .242   GP+++ 0R            1.
-    M012T1 ^  GS+++ 6R            1.   GS+++15R            1.
-    M012T1 )  R012 TM6            1.   OB1PNW20        .11485
-    M012T1 )  VOLM 7 R           .41   VOLM12 R          .057
-    M012T1 )  VOLM14 R          .356   VOLM19 R          .057
-    M012T1 )  LTSY R            .059   AVEINV R        .18343
-    M012T1 )  INVEN R           .319   GP+++ 0R            1.
-    M012T1 )  GS+++ 7R            1.   GS+++14R            1.
-    M012T1 -  R012 TM6            1.   OB1PNW20        .11225
-    M012T1 -  VOLM 7 R           .41   VOLM12 R          .057
-    M012T1 -  VOLM15 R          .362   VOLM20 R          .057
-    M012T1 -  LTSY R          .05237   AVEINV R        .20575
-    M012T1 -  INVEN R           .242   GP+++ 0R            1.
-    M012T1 -  GS+++ 7R            1.   GS+++15R            1.
-    M012T1 +  R012 TM6            1.   OB1PNW20        .11073
-    M012T1 +  VOLM 7 R           .41   VOLM12 R          .057
-    M012T1 +  VOLM16 R          .388   LTSY R          .04944
-    M012T1 +  AVEINV R          .226   INVEN R           .203
-    M012T1 +  GP+++ 0R            1.   GS+++ 7R            1.
-    M012T2 1  R012 TM1            1.   OB1PNW20         .9872
-    M012T2 1  VOLM 1 R          .402   VOLM 5 R           .05
-    M012T2 1  VOLM 7 R          .096   VOLM 9 R          .343
-    M012T2 1  VOLM13 R           .05   VOLM15 R          .096
-    M012T2 1  VOLM17 R          .343   LTSY R          .06112
-    M012T2 1  AVEINV R        .20162   INVEN R           .142
-    M012T2 1  A$   1 1        .01994   GP+++ 0R            1.
-    M012T2 1  GS+++ 1R            1.   GS+++ 9R            1.
-    M012T2 2  R012 TM1            1.   OB1PNW20        .97186
-    M012T2 2  VOLM 1 R          .402   VOLM 5 R           .05
-    M012T2 2  VOLM 7 R          .096   VOLM10 R          .377
-    M012T2 2  VOLM14 R           .05   VOLM16 R          .096
-    M012T2 2  VOLM19 R          .377   LTSY R          .05811
-    M012T2 2  AVEINV R        .22111   A$   1 1        .01994
-    M012T2 2  GP+++ 0R            1.   GS+++ 1R            1.
-    M012T2 2  GS+++10R            1.
-    M012T2 3  R012 TM2            1.   OB1PNW20        .71248
-    M012T2 3  VOLM 2 R          .423   VOLM 6 R           .05
-    M012T2 3  VOLM 8 R          .096   VOLM10 R          .343
-    M012T2 3  VOLM14 R           .05   VOLM16 R          .096
-    M012T2 3  VOLM18 R          .343   LTSY R          .06112
-    M012T2 3  AVEINV R        .20162   INVEN R           .022
-    M012T2 3  A$   1 2        .02448   GP+++ 0R            1.
-    M012T2 3  GS+++ 2R            1.   GS+++10R            1.
-    M012T2 4  R012 TM2            1.   OB1PNW20        .70202
-    M012T2 4  VOLM 2 R          .423   VOLM 6 R           .05
-    M012T2 4  VOLM 8 R          .096   VOLM11 R          .377
-    M012T2 4  VOLM15 R           .05   VOLM17 R          .096
-    M012T2 4  VOLM20 R          .377   LTSY R          .05811
-    M012T2 4  AVEINV R        .22111   INVEN R           .377
-    M012T2 4  A$   1 2        .02448   GP+++ 0R            1.
-    M012T2 4  GS+++ 2R            1.   GS+++11R            1.
-    M012T2 5  R012 TM3            1.   OB1PNW20        .51961
-    M012T2 5  VOLM 3 R           .44   VOLM 7 R           .05
-    M012T2 5  VOLM 9 R          .096   VOLM11 R          .343
-    M012T2 5  VOLM15 R           .05   VOLM17 R          .096
-    M012T2 5  VOLM19 R          .343   LTSY R          .06112
-    M012T2 5  AVEINV R        .20162   GP+++ 0R            1.
-    M012T2 5  GS+++ 3R            1.   GS+++11R            1.
-    M012T2 6  R012 TM3            1.   OB1PNW20        .51147
-    M012T2 6  VOLM 3 R           .44   VOLM 7 R           .05
-    M012T2 6  VOLM 9 R          .096   VOLM12 R          .377
-    M012T2 6  VOLM16 R           .05   VOLM18 R          .096
-    M012T2 6  LTSY R          .05811   AVEINV R        .22111
-    M012T2 6  INVEN R           .343   GP+++ 0R            1.
-    M012T2 6  GS+++ 3R            1.   GS+++12R            1.
-    M012T2 7  R012 TM4            1.   OB1PNW20        .39616
-    M012T2 7  VOLM 4 R          .437   VOLM 8 R           .05
-    M012T2 7  VOLM10 R          .096   VOLM12 R          .343
-    M012T2 7  VOLM16 R           .05   VOLM18 R          .096
-    M012T2 7  VOLM20 R          .343   LTSY R          .06112
-    M012T2 7  AVEINV R        .20162   INVEN R           .343
-    M012T2 7  GP+++ 0R            1.   GS+++ 4R            1.
-    M012T2 7  GS+++12R            1.
-    M012T2 8  R012 TM4            1.   OB1PNW20         .3907
-    M012T2 8  VOLM 4 R          .437   VOLM 8 R           .05
-    M012T2 8  VOLM10 R          .096   VOLM13 R          .377
-    M012T2 8  VOLM17 R           .05   VOLM19 R          .096
-    M012T2 8  LTSY R          .05811   AVEINV R        .22111
-    M012T2 8  INVEN R           .339   GP+++ 0R            1.
-    M012T2 8  GS+++ 4R            1.   GS+++13R            1.
-    M012T2 9  R012 TM5            1.   OB1PNW20        .27209
-    M012T2 9  VOLM 5 R          .429   VOLM 9 R           .05
-    M012T2 9  VOLM11 R          .096   VOLM13 R          .343
-    M012T2 9  VOLM17 R           .05   VOLM19 R          .096
-    M012T2 9  LTSY R          .06112   AVEINV R        .20162
-    M012T2 9  INVEN R           .339   GP+++ 0R            1.
-    M012T2 9  GS+++ 5R            1.   GS+++13R            1.
-    M012T2 A  R012 TM5            1.   OB1PNW20        .26907
-    M012T2 A  VOLM 5 R          .429   VOLM 9 R           .05
-    M012T2 A  VOLM11 R          .096   VOLM14 R          .377
-    M012T2 A  VOLM18 R           .05   VOLM20 R          .096
-    M012T2 A  LTSY R          .05811   AVEINV R        .22111
-    M012T2 A  INVEN R           .317   GP+++ 0R            1.
-    M012T2 A  GS+++ 5R            1.   GS+++14R            1.
-    M012T2 B  R012 TM6            1.   OB1PNW20        .17649
-    M012T2 B  VOLM 6 R          .417   VOLM10 R           .05
-    M012T2 B  VOLM12 R          .096   VOLM14 R          .343
-    M012T2 B  VOLM18 R           .05   VOLM20 R          .096
-    M012T2 B  LTSY R          .06112   AVEINV R        .20162
-    M012T2 B  INVEN R           .317   GP+++ 0R            1.
-    M012T2 B  GS+++ 6R            1.   GS+++14R            1.
-    M012T2 C  R012 TM6            1.   OB1PNW20        .17422
-    M012T2 C  VOLM 6 R          .417   VOLM10 R           .05
-    M012T2 C  VOLM12 R          .096   VOLM15 R          .377
-    M012T2 C  VOLM19 R           .05   LTSY R          .05811
-    M012T2 C  AVEINV R        .22111   INVEN R           .244
-    M012T2 C  GP+++ 0R            1.   GS+++ 6R            1.
-    M012T2 C  GS+++15R            1.
-    M012T2 D  R012 TM6            1.   OB1PNW20        .11574
-    M012T2 D  VOLM 7 R           .41   VOLM11 R           .05
-    M012T2 D  VOLM13 R          .096   VOLM15 R          .343
-    M012T2 D  VOLM19 R           .05   LTSY R          .06112
-    M012T2 D  AVEINV R        .20162   INVEN R           .244
-    M012T2 D  GP+++ 0R            1.   GS+++ 7R            1.
-    M012T2 D  GS+++15R            1.
-    M012T2 E  R012 TM6            1.   OB1PNW20        .11453
-    M012T2 E  VOLM 7 R           .41   VOLM11 R           .05
-    M012T2 E  VOLM13 R          .096   VOLM16 R          .377
-    M012T2 E  VOLM20 R           .05   LTSY R          .05811
-    M012T2 E  AVEINV R        .22111   INVEN R           .206
-    M012T2 E  GP+++ 0R            1.   GS+++ 7R            1.
-    T012TP12  R012 TP1            1.   R012 TP2           -1.
-    T012TP23  R012 TP2            1.   R012 TP3           -1.
-    T012TP34  R012 TP3            1.   R012 TP4           -1.
-    T012TP45  R012 TP4            1.   R012 TP5           -1.
-    T012TP56  R012 TP5            1.   R012 TP6           -1.
-    M012PF 1  R012 TP1            1.   OB1PNW20        1.1767
-    M012PF 1  VOLM 1 R         .2814   VOLM 2 R         .1269
-    M012PF 1  VOLM 8 R        .24548   VOLM 9 R        .11744
-    M012PF 1  VOLM15 R        .24548   VOLM16 R        .11744
-    M012PF 1  LTSY R          .05185   AVEINV R        .20521
-    M012PF 1  INVEN R           .267   GP--- 0R            1.
-    M012PF 1  GS--- 1R            .1   GS--- 2R           .05
-    M012PF 1  GS--- 5R        .06667   GS--- 6R           .02
-    M012PF 2  R012 TP1            1.   OB1PNW20        1.1511
-    M012PF 2  VOLM 1 R         .2814   VOLM 2 R         .1269
-    M012PF 2  VOLM 9 R        .24956   VOLM10 R         .1232
-    M012PF 2  VOLM17 R        .24956   VOLM18 R         .1232
-    M012PF 2  LTSY R          .04659   AVEINV R        .22615
-    M012PF 2  INVEN R           .142   GP--- 0R            1.
-    M012PF 2  GS--- 1R            .1   GS--- 2R           .05
-    M012PF 2  GS--- 5R        .06667   GS--- 6R           .02
-    M012PF 3  R012 TP2            1.   OB1PNW20        .86847
-    M012PF 3  VOLM 2 R         .2961   VOLM 3 R          .132
-    M012PF 3  VOLM 9 R        .24548   VOLM10 R        .11744
-    M012PF 3  VOLM16 R        .24548   VOLM17 R        .11744
-    M012PF 3  LTSY R          .05185   AVEINV R        .20521
-    M012PF 3  INVEN R           .203   GP--- 0R            1.
-    M012PF 3  GS--- 2R            .1   GS--- 5R        .06667
-    M012PF 3  GS--- 6R           .02
-    M012PF 4  R012 TP2            1.   OB1PNW20        .85079
-    M012PF 4  VOLM 2 R         .2961   VOLM 3 R          .132
-    M012PF 4  VOLM10 R        .24956   VOLM11 R         .1232
-    M012PF 4  VOLM18 R        .24956   VOLM19 R         .1232
-    M012PF 4  LTSY R          .04659   AVEINV R        .22615
-    M012PF 4  INVEN R           .022   GP--- 0R            1.
-    M012PF 4  GS--- 2R            .1   GS--- 5R        .03333
-    M012PF 4  GS--- 6R           .03
-    M012PF 5  R012 TP3            1.   OB1PNW20        .63685
-    M012PF 5  VOLM 3 R          .308   VOLM 4 R         .1311
-    M012PF 5  VOLM10 R        .24548   VOLM11 R        .11744
-    M012PF 5  VOLM17 R        .24548   VOLM18 R        .11744
-    M012PF 5  LTSY R          .05185   AVEINV R        .20521
-    M012PF 5  INVEN R           .142   GP--- 0R            1.
-    M012PF 5  GS--- 2R           .05   GS--- 3R           .05
-    M012PF 5  GS--- 5R        .03333   GS--- 6R           .03
-    M012PF 6  R012 TP3            1.   OB1PNW20        .62437
-    M012PF 6  VOLM 3 R          .308   VOLM 4 R         .1311
-    M012PF 6  VOLM11 R        .24956   VOLM12 R         .1232
-    M012PF 6  VOLM19 R        .24956   VOLM20 R         .1232
-    M012PF 6  LTSY R          .04659   AVEINV R        .22615
-    M012PF 6  INVEN R          .2541   GP--- 0R            1.
-    M012PF 6  GS--- 2R           .05   GS--- 3R           .05
-    M012PF 6  GS--- 6R           .04
-    M012PF 7  R012 TP4            1.   OB1PNW20         .4633
-    M012PF 7  VOLM 4 R         .3059   VOLM 5 R         .1287
-    M012PF 7  VOLM11 R        .24548   VOLM12 R        .11744
-    M012PF 7  VOLM18 R        .24548   VOLM19 R        .11744
-    M012PF 7  LTSY R          .05185   AVEINV R        .20521
-    M012PF 7  INVEN R           .022   GP--- 0R            1.
-    M012PF 7  GS--- 3R            .1   GS--- 6R           .04
-    M012PF 8  R012 TP4            1.   OB1PNW20        .45475
-    M012PF 8  VOLM 4 R         .3059   VOLM 5 R         .1287
-    M012PF 8  VOLM12 R        .24956   VOLM13 R         .1232
-    M012PF 8  VOLM20 R        .24956   LTSY R          .04659
-    M012PF 8  AVEINV R        .22615   INVEN R           .367
-    M012PF 8  GP--- 0R            1.   GS--- 3R            .1
-    M012PF 8  GS--- 6R           .03
-    M012PF 9  R012 TP5            1.   OB1PNW20        .31453
-    M012PF 9  VOLM 5 R         .3003   VOLM 6 R         .1251
-    M012PF 9  VOLM12 R        .24548   VOLM13 R        .11744
-    M012PF 9  VOLM19 R        .24548   VOLM20 R        .11744
-    M012PF 9  LTSY R          .05185   AVEINV R        .20521
-    M012PF 9  INVEN R         .24222   GP--- 0R            1.
-    M012PF 9  GS--- 3R           .05   GS--- 4R           .05
-    M012PF 9  GS--- 6R           .04
-    M012PF A  R012 TP5            1.   OB1PNW20        .30826
-    M012PF A  VOLM 5 R         .3003   VOLM 6 R         .1251
-    M012PF A  VOLM13 R        .24956   VOLM14 R         .1232
-    M012PF A  LTSY R          .04659   AVEINV R        .22615
-    M012PF A  INVEN R           .361   GP--- 0R            1.
-    M012PF A  GS--- 3R           .05   GS--- 4R           .05
-    M012PF A  GS--- 6R           .02
-    M012PF B  R012 TP6            1.   OB1PNW20        .20637
-    M012PF B  VOLM 6 R         .2919   VOLM 7 R          .123
-    M012PF B  VOLM13 R        .24548   VOLM14 R        .11744
-    M012PF B  VOLM20 R        .24548   LTSY R          .05185
-    M012PF B  AVEINV R        .20521   INVEN R           .361
-    M012PF B  GP--- 0R            1.   GS--- 4R            .1
-    M012PF B  GS--- 6R           .03
-    M012PF C  R012 TP6            1.   OB1PNW20        .20235
-    M012PF C  VOLM 6 R         .2919   VOLM 7 R          .123
-    M012PF C  VOLM14 R        .24956   VOLM15 R         .1232
-    M012PF C  LTSY R          .04659   AVEINV R        .22615
-    M012PF C  INVEN R           .324   GP--- 0R            1.
-    M012PF C  GS--- 4R            .1   GS--- 6R           .02
-    M012PF D  R012 TP6            1.   OB1PNW20        .13861
-    M012PF D  VOLM 7 R          .287   VOLM 8 R         .1209
-    M012PF D  VOLM14 R        .24548   VOLM15 R        .11744
-    M012PF D  LTSY R          .05185   AVEINV R        .20521
-    M012PF D  INVEN R           .324   GP--- 0R            1.
-    M012PF D  GS--- 4R           .05   GS--- 5R        .03333
-    M012PF D  GS--- 6R           .02
-    M012PF E  R012 TP6            1.   OB1PNW20         .1362
-    M012PF E  VOLM 7 R          .287   VOLM 8 R         .1209
-    M012PF E  VOLM15 R        .24956   VOLM16 R         .1232
-    M012PF E  LTSY R          .04659   AVEINV R        .22615
-    M012PF E  INVEN R           .267   GP--- 0R            1.
-    M012PF E  GS--- 4R           .05   GS--- 5R        .03333
-    M012PF E  GS--- 6R           .02
-    M012P1 1  R012 TP1            1.   OB1PNW20        1.2023
-    M012P1 1  VOLM 1 R         .2814   VOLM 2 R         .1269
-    M012P1 1  VOLM 5 R          .053   VOLM 8 R         .1695
-    M012P1 1  VOLM 9 R         .1725   VOLM12 R          .053
-    M012P1 1  VOLM15 R         .1695   VOLM16 R         .1725
-    M012P1 1  VOLM19 R          .053   LTSY R          .05643
-    M012P1 1  AVEINV R        .20607   INVEN R           .244
-    M012P1 1  GP--- 0R            1.   GS--- 1R            .1
-    M012P1 1  GS--- 2R           .05   GS--- 5R        .06667
-    M012P1 1  GS--- 6R           .02
-    M012P1 2  R012 TP1            1.   OB1PNW20        1.1809
-    M012P1 2  VOLM 1 R         .2814   VOLM 2 R         .1269
-    M012P1 2  VOLM 5 R          .053   VOLM 9 R         .1725
-    M012P1 2  VOLM10 R         .1885   VOLM13 R          .053
-    M012P1 2  VOLM17 R         .1725   VOLM18 R         .1885
-    M012P1 2  LTSY R          .05175   AVEINV R        .22544
-    M012P1 2  INVEN R           .142   GP--- 0R            1.
-    M012P1 2  GS--- 1R            .1   GS--- 2R           .05
-    M012P1 2  GS--- 5R        .06667   GS--- 6R           .02
-    M012P1 3  R012 TP1            1.   OB1PNW20        1.1645
-    M012P1 3  VOLM 1 R         .2814   VOLM 2 R         .1269
-    M012P1 3  VOLM 5 R          .053   VOLM10 R         .1885
-    M012P1 3  VOLM11 R         .1955   VOLM14 R          .053
-    M012P1 3  VOLM19 R         .1885   VOLM20 R         .1955
-    M012P1 3  LTSY R          .04856   AVEINV R        .24306
-    M012P1 3  INVEN R         .29325   GP--- 0R            1.
-    M012P1 3  GS--- 1R            .1   GS--- 2R           .05
-    M012P1 3  GS--- 5R        .03333   GS--- 6R           .03
-    M012P1 4  R012 TP2            1.   OB1PNW20        .88581
-    M012P1 4  VOLM 2 R         .2961   VOLM 3 R          .132
-    M012P1 4  VOLM 6 R          .053   VOLM 9 R         .1695
-    M012P1 4  VOLM10 R         .1725   VOLM13 R          .053
-    M012P1 4  VOLM16 R         .1695   VOLM17 R         .1725
-    M012P1 4  VOLM20 R          .053   LTSY R          .05643
-    M012P1 4  AVEINV R        .20607   INVEN R           .206
-    M012P1 4  GP--- 0R            1.   GS--- 2R            .1
-    M012P1 4  GS--- 5R        .06667   GS--- 6R           .02
-    M012P1 5  R012 TP2            1.   OB1PNW20        .87091
-    M012P1 5  VOLM 2 R         .2961   VOLM 3 R          .132
-    M012P1 5  VOLM 6 R          .053   VOLM10 R         .1725
-    M012P1 5  VOLM11 R         .1885   VOLM14 R          .053
-    M012P1 5  VOLM18 R         .1725   VOLM19 R         .1885
-    M012P1 5  LTSY R          .05175   AVEINV R        .22544
-    M012P1 5  INVEN R           .022   GP--- 0R            1.
-    M012P1 5  GS--- 2R            .1   GS--- 5R        .03333
-    M012P1 5  GS--- 6R           .03
-    M012P1 6  R012 TP2            1.   OB1PNW20        .85957
-    M012P1 6  VOLM 2 R         .2961   VOLM 3 R          .132
-    M012P1 6  VOLM 6 R          .053   VOLM11 R         .1885
-    M012P1 6  VOLM12 R         .1955   VOLM15 R          .053
-    M012P1 6  VOLM20 R         .1885   LTSY R          .04856
-    M012P1 6  AVEINV R        .24306   INVEN R           .377
-    M012P1 6  GP--- 0R            1.   GS--- 2R            .1
-    M012P1 6  GS--- 6R           .03
-    M012P1 7  R012 TP3            1.   OB1PNW20        .64853
-    M012P1 7  VOLM 3 R          .308   VOLM 4 R         .1311
-    M012P1 7  VOLM 7 R          .053   VOLM10 R         .1695
-    M012P1 7  VOLM11 R         .1725   VOLM14 R          .053
-    M012P1 7  VOLM17 R         .1695   VOLM18 R         .1725
-    M012P1 7  LTSY R          .05643   AVEINV R        .20607
-    M012P1 7  INVEN R           .142   GP--- 0R            1.
-    M012P1 7  GS--- 2R           .05   GS--- 3R           .05
-    M012P1 7  GS--- 5R        .03333   GS--- 6R           .03
-    M012P1 8  R012 TP3            1.   OB1PNW20        .63798
-    M012P1 8  VOLM 3 R          .308   VOLM 4 R         .1311
-    M012P1 8  VOLM 7 R          .053   VOLM11 R         .1725
-    M012P1 8  VOLM12 R         .1885   VOLM15 R          .053
-    M012P1 8  VOLM19 R         .1725   VOLM20 R         .1885
-    M012P1 8  LTSY R          .05175   AVEINV R        .22544
-    M012P1 8  INVEN R         .28275   GP--- 0R            1.
-    M012P1 8  GS--- 2R           .05   GS--- 3R           .05
-    M012P1 8  GS--- 6R           .04
-    M012P1 9  R012 TP3            1.   OB1PNW20        .62971
-    M012P1 9  VOLM 3 R          .308   VOLM 4 R         .1311
-    M012P1 9  VOLM 7 R          .053   VOLM12 R         .1885
-    M012P1 9  VOLM13 R         .1955   VOLM16 R          .053
-    M012P1 9  LTSY R          .04856   AVEINV R        .24306
-    M012P1 9  INVEN R           .345   GP--- 0R            1.
-    M012P1 9  GS--- 2R           .05   GS--- 3R           .05
-    M012P1 9  GS--- 6R           .02
-    M012P1 A  R012 TP4            1.   OB1PNW20         .4712
-    M012P1 A  VOLM 4 R         .3059   VOLM 5 R         .1287
-    M012P1 A  VOLM 8 R          .053   VOLM11 R         .1695
-    M012P1 A  VOLM12 R         .1725   VOLM15 R          .053
-    M012P1 A  VOLM18 R         .1695   VOLM19 R         .1725
-    M012P1 A  LTSY R          .05643   AVEINV R        .20607
-    M012P1 A  INVEN R           .022   GP--- 0R            1.
-    M012P1 A  GS--- 3R            .1   GS--- 6R           .04
-    M012P1 B  R012 TP4            1.   OB1PNW20        .46377
-    M012P1 B  VOLM 4 R         .3059   VOLM 5 R         .1287
-    M012P1 B  VOLM 8 R          .053   VOLM12 R         .1725
-    M012P1 B  VOLM13 R         .1885   VOLM16 R          .053
-    M012P1 B  VOLM20 R         .1725   LTSY R          .05175
-    M012P1 B  AVEINV R        .22544   INVEN R           .345
-    M012P1 B  GP--- 0R            1.   GS--- 3R            .1
-    M012P1 B  GS--- 6R           .03
-    M012P1 C  R012 TP4            1.   OB1PNW20         .4587
-    M012P1 C  VOLM 4 R         .3059   VOLM 5 R         .1287
-    M012P1 C  VOLM 8 R          .053   VOLM13 R         .1885
-    M012P1 C  VOLM14 R         .1955   VOLM17 R          .053
-    M012P1 C  LTSY R          .04856   AVEINV R        .24306
-    M012P1 C  INVEN R           .339   GP--- 0R            1.
-    M012P1 C  GS--- 3R            .1   GS--- 6R           .02
-    M012P1 D  R012 TP5            1.   OB1PNW20        .31987
-    M012P1 D  VOLM 5 R         .3003   VOLM 6 R         .1251
-    M012P1 D  VOLM 9 R          .053   VOLM12 R         .1695
-    M012P1 D  VOLM13 R         .1725   VOLM16 R          .053
-    M012P1 D  VOLM19 R         .1695   VOLM20 R         .1725
-    M012P1 D  LTSY R          .05643   AVEINV R        .20607
-    M012P1 D  INVEN R         .25875   GP--- 0R            1.
-    M012P1 D  GS--- 3R           .05   GS--- 4R           .05
-    M012P1 D  GS--- 6R           .04
-    M012P1 E  R012 TP5            1.   OB1PNW20         .3145
-    M012P1 E  VOLM 5 R         .3003   VOLM 6 R         .1251
-    M012P1 E  VOLM 9 R          .053   VOLM13 R         .1725
-    M012P1 E  VOLM14 R         .1885   VOLM17 R          .053
-    M012P1 E  LTSY R          .05175   AVEINV R        .22544
-    M012P1 E  INVEN R           .339   GP--- 0R            1.
-    M012P1 E  GS--- 3R           .05   GS--- 4R           .05
-    M012P1 E  GS--- 6R           .02
-    M012P1 F  R012 TP5            1.   OB1PNW20        .31148
-    M012P1 F  VOLM 5 R         .3003   VOLM 6 R         .1251
-    M012P1 F  VOLM 9 R          .053   VOLM14 R         .1885
-    M012P1 F  VOLM15 R         .1955   VOLM18 R          .053
-    M012P1 F  LTSY R          .04856   AVEINV R        .24306
-    M012P1 F  INVEN R           .317   GP--- 0R            1.
-    M012P1 F  GS--- 3R           .05   GS--- 4R           .05
-    M012P1 F  GS--- 6R           .02
-    M012P1 G  R012 TP6            1.   OB1PNW20        .20984
-    M012P1 G  VOLM 6 R         .2919   VOLM 7 R          .123
-    M012P1 G  VOLM10 R          .053   VOLM13 R         .1695
-    M012P1 G  VOLM14 R         .1725   VOLM17 R          .053
-    M012P1 G  VOLM20 R         .1695   LTSY R          .05643
-    M012P1 G  AVEINV R        .20607   INVEN R           .339
-    M012P1 G  GP--- 0R            1.   GS--- 4R            .1
-    M012P1 G  GS--- 6R           .03
-    M012P1 H  R012 TP6            1.   OB1PNW20         .2066
-    M012P1 H  VOLM 6 R         .2919   VOLM 7 R          .123
-    M012P1 H  VOLM10 R          .053   VOLM14 R         .1725
-    M012P1 H  VOLM15 R         .1885   VOLM18 R          .053
-    M012P1 H  LTSY R          .05175   AVEINV R        .22544
-    M012P1 H  INVEN R           .317   GP--- 0R            1.
-    M012P1 H  GS--- 4R            .1   GS--- 6R           .02
-    M012P1 I  R012 TP6            1.   OB1PNW20        .20435
-    M012P1 I  VOLM 6 R         .2919   VOLM 7 R          .123
-    M012P1 I  VOLM10 R          .053   VOLM15 R         .1885
-    M012P1 I  VOLM16 R         .1955   VOLM19 R          .053
-    M012P1 I  LTSY R          .04856   AVEINV R        .24306
-    M012P1 I  INVEN R           .244   GP--- 0R            1.
-    M012P1 I  GS--- 4R            .1   GS--- 6R           .02
-    M012P1 J  R012 TP6            1.   OB1PNW20        .14112
-    M012P1 J  VOLM 7 R          .287   VOLM 8 R         .1209
-    M012P1 J  VOLM11 R          .053   VOLM14 R         .1695
-    M012P1 J  VOLM15 R         .1725   VOLM18 R          .053
-    M012P1 J  LTSY R          .05643   AVEINV R        .20607
-    M012P1 J  INVEN R           .317   GP--- 0R            1.
-    M012P1 J  GS--- 4R           .05   GS--- 5R        .03333
-    M012P1 J  GS--- 6R           .02
-    M012P1 K  R012 TP6            1.   OB1PNW20        .13907
-    M012P1 K  VOLM 7 R          .287   VOLM 8 R         .1209
-    M012P1 K  VOLM11 R          .053   VOLM15 R         .1725
-    M012P1 K  VOLM16 R         .1885   VOLM19 R          .053
-    M012P1 K  LTSY R          .05175   AVEINV R        .22544
-    M012P1 K  INVEN R           .244   GP--- 0R            1.
-    M012P1 K  GS--- 4R           .05   GS--- 5R        .03333
-    M012P1 K  GS--- 6R           .02
-    M012P1 L  R012 TP6            1.   OB1PNW20        .13772
-    M012P1 L  VOLM 7 R          .287   VOLM 8 R         .1209
-    M012P1 L  VOLM11 R          .053   VOLM16 R         .1885
-    M012P1 L  VOLM17 R         .1955   VOLM20 R          .053
-    M012P1 L  LTSY R          .04856   AVEINV R        .24306
-    M012P1 L  INVEN R           .206   GP--- 0R            1.
-    M012P1 L  GS--- 4R           .05   GS--- 5R        .03333
-    M012P1 L  GS--- 6R           .02
-    M012P1 M  R012 TP1            1.   OB1PNW20        1.1982
-    M012P1 M  VOLM 1 R         .2814   VOLM 2 R         .1269
-    M012P1 M  VOLM 6 R          .057   VOLM 8 R          .178
-    M012P1 M  VOLM 9 R          .181   VOLM13 R          .057
-    M012P1 M  VOLM15 R          .178   VOLM16 R          .181
-    M012P1 M  VOLM20 R          .057   LTSY R          .05943
-    M012P1 M  AVEINV R        .20929   INVEN R           .242
-    M012P1 M  GP--- 0R            1.   GS--- 1R            .1
-    M012P1 M  GS--- 2R           .05   GS--- 5R        .06667
-    M012P1 M  GS--- 6R           .02
-    M012P1 N  R012 TP1            1.   OB1PNW20        1.1752
-    M012P1 N  VOLM 1 R         .2814   VOLM 2 R         .1269
-    M012P1 N  VOLM 6 R          .057   VOLM 9 R          .181
-    M012P1 N  VOLM10 R          .194   VOLM14 R          .057
-    M012P1 N  VOLM17 R          .181   VOLM18 R          .194
-    M012P1 N  LTSY R            .054   AVEINV R           .23
-    M012P1 N  INVEN R           .142   GP--- 0R            1.
-    M012P1 N  GS--- 1R            .1   GS--- 2R           .05
-    M012P1 N  GS--- 5R        .06667   GS--- 6R           .02
-    M012P1 O  R012 TP1            1.   OB1PNW20        1.1576
-    M012P1 O  VOLM 1 R         .2814   VOLM 2 R         .1269
-    M012P1 O  VOLM 6 R          .057   VOLM10 R          .194
-    M012P1 O  VOLM11 R          .201   VOLM15 R          .057
-    M012P1 O  VOLM19 R          .194   VOLM20 R          .201
-    M012P1 O  LTSY R          .05022   AVEINV R        .24833
-    M012P1 O  INVEN R          .3015   GP--- 0R            1.
-    M012P1 O  GS--- 1R            .1   GS--- 2R           .05
-    M012P1 O  GS--- 5R        .03333   GS--- 6R           .03
-    M012P1 P  R012 TP2            1.   OB1PNW20        .88291
-    M012P1 P  VOLM 2 R         .2961   VOLM 3 R          .132
-    M012P1 P  VOLM 7 R          .057   VOLM 9 R          .178
-    M012P1 P  VOLM10 R          .181   VOLM14 R          .057
-    M012P1 P  VOLM16 R          .178   VOLM17 R          .181
-    M012P1 P  LTSY R          .05943   AVEINV R        .20929
-    M012P1 P  INVEN R           .203   GP--- 0R            1.
-    M012P1 P  GS--- 2R            .1   GS--- 5R        .06667
-    M012P1 P  GS--- 6R           .02
-    M012P1 Q  R012 TP2            1.   OB1PNW20        .86704
-    M012P1 Q  VOLM 2 R         .2961   VOLM 3 R          .132
-    M012P1 Q  VOLM 7 R          .057   VOLM10 R          .181
-    M012P1 Q  VOLM11 R          .194   VOLM15 R          .057
-    M012P1 Q  VOLM18 R          .181   VOLM19 R          .194
-    M012P1 Q  LTSY R            .054   AVEINV R           .23
-    M012P1 Q  INVEN R           .022   GP--- 0R            1.
-    M012P1 Q  GS--- 2R            .1   GS--- 5R        .03333
-    M012P1 Q  GS--- 6R           .03
-    M012P1 R  R012 TP2            1.   OB1PNW20        .85493
-    M012P1 R  VOLM 2 R         .2961   VOLM 3 R          .132
-    M012P1 R  VOLM 7 R          .057   VOLM11 R          .194
-    M012P1 R  VOLM12 R          .201   VOLM16 R          .057
-    M012P1 R  VOLM20 R          .194   LTSY R          .05022
-    M012P1 R  AVEINV R        .24833   INVEN R           .388
-    M012P1 R  GP--- 0R            1.   GS--- 2R            .1
-    M012P1 R  GS--- 6R           .03
-    M012P1 S  R012 TP3            1.   OB1PNW20        .64668
-    M012P1 S  VOLM 3 R          .308   VOLM 4 R         .1311
-    M012P1 S  VOLM 8 R          .057   VOLM10 R          .178
-    M012P1 S  VOLM11 R          .181   VOLM15 R          .057
-    M012P1 S  VOLM17 R          .178   VOLM18 R          .181
-    M012P1 S  LTSY R          .05943   AVEINV R        .20929
-    M012P1 S  INVEN R           .142   GP--- 0R            1.
-    M012P1 S  GS--- 2R           .05   GS--- 3R           .05
-    M012P1 S  GS--- 5R        .03333   GS--- 6R           .03
-    M012P1 T  R012 TP3            1.   OB1PNW20        .63538
-    M012P1 T  VOLM 3 R          .308   VOLM 4 R         .1311
-    M012P1 T  VOLM 8 R          .057   VOLM11 R          .181
-    M012P1 T  VOLM12 R          .194   VOLM16 R          .057
-    M012P1 T  VOLM19 R          .181   VOLM20 R          .194
-    M012P1 T  LTSY R            .054   AVEINV R           .23
-    M012P1 T  INVEN R           .291   GP--- 0R            1.
-    M012P1 T  GS--- 2R           .05   GS--- 3R           .05
-    M012P1 T  GS--- 6R           .04
-    M012P1 U  R012 TP3            1.   OB1PNW20        .62656
-    M012P1 U  VOLM 3 R          .308   VOLM 4 R         .1311
-    M012P1 U  VOLM 8 R          .057   VOLM12 R          .194
-    M012P1 U  VOLM13 R          .201   VOLM17 R          .057
-    M012P1 U  LTSY R          .05022   AVEINV R        .24833
-    M012P1 U  INVEN R           .362   GP--- 0R            1.
-    M012P1 U  GS--- 2R           .05   GS--- 3R           .05
-    M012P1 U  GS--- 6R           .02
-    M012P1 V  R012 TP4            1.   OB1PNW20        .46995
-    M012P1 V  VOLM 4 R         .3059   VOLM 5 R         .1287
-    M012P1 V  VOLM 9 R          .057   VOLM11 R          .178
-    M012P1 V  VOLM12 R          .181   VOLM16 R          .057
-    M012P1 V  VOLM18 R          .178   VOLM19 R          .181
-    M012P1 V  LTSY R          .05943   AVEINV R        .20929
-    M012P1 V  INVEN R           .022   GP--- 0R            1.
-    M012P1 V  GS--- 3R            .1   GS--- 6R           .04
-    M012P1 W  R012 TP4            1.   OB1PNW20          .462
-    M012P1 W  VOLM 4 R         .3059   VOLM 5 R         .1287
-    M012P1 W  VOLM 9 R          .057   VOLM12 R          .181
-    M012P1 W  VOLM13 R          .194   VOLM17 R          .057
-    M012P1 W  VOLM20 R          .181   LTSY R            .054
-    M012P1 W  AVEINV R           .23   INVEN R           .362
-    M012P1 W  GP--- 0R            1.   GS--- 3R            .1
-    M012P1 W  GS--- 6R           .03
-    M012P1 X  R012 TP4            1.   OB1PNW20        .45658
-    M012P1 X  VOLM 4 R         .3059   VOLM 5 R         .1287
-    M012P1 X  VOLM 9 R          .057   VOLM13 R          .194
-    M012P1 X  VOLM14 R          .201   VOLM18 R          .057
-    M012P1 X  LTSY R          .05022   AVEINV R        .24833
-    M012P1 X  INVEN R           .356   GP--- 0R            1.
-    M012P1 X  GS--- 3R            .1   GS--- 6R           .02
-    M012P1 Y  R012 TP5            1.   OB1PNW20        .31903
-    M012P1 Y  VOLM 5 R         .3003   VOLM 6 R         .1251
-    M012P1 Y  VOLM10 R          .057   VOLM12 R          .178
-    M012P1 Y  VOLM13 R          .181   VOLM17 R          .057
-    M012P1 Y  VOLM19 R          .178   VOLM20 R          .181
-    M012P1 Y  LTSY R          .05943   AVEINV R        .20929
-    M012P1 Y  INVEN R          .2715   GP--- 0R            1.
-    M012P1 Y  GS--- 3R           .05   GS--- 4R           .05
-    M012P1 Y  GS--- 6R           .04
-    M012P1 Z  R012 TP5            1.   OB1PNW20         .3133
-    M012P1 Z  VOLM 5 R         .3003   VOLM 6 R         .1251
-    M012P1 Z  VOLM10 R          .057   VOLM13 R          .181
-    M012P1 Z  VOLM14 R          .194   VOLM18 R          .057
-    M012P1 Z  LTSY R            .054   AVEINV R           .23
-    M012P1 Z  INVEN R           .356   GP--- 0R            1.
-    M012P1 Z  GS--- 3R           .05   GS--- 4R           .05
-    M012P1 Z  GS--- 6R           .02
-    M012P1 [  R012 TP5            1.   OB1PNW20        .31005
-    M012P1 [  VOLM 5 R         .3003   VOLM 6 R         .1251
-    M012P1 [  VOLM10 R          .057   VOLM14 R          .194
-    M012P1 [  VOLM15 R          .201   VOLM19 R          .057
-    M012P1 [  LTSY R          .05022   AVEINV R        .24833
-    M012P1 [  INVEN R           .319   GP--- 0R            1.
-    M012P1 [  GS--- 3R           .05   GS--- 4R           .05
-    M012P1 [  GS--- 6R           .02
-    M012P1 ]  R012 TP6            1.   OB1PNW20        .20926
-    M012P1 ]  VOLM 6 R         .2919   VOLM 7 R          .123
-    M012P1 ]  VOLM11 R          .057   VOLM13 R          .178
-    M012P1 ]  VOLM14 R          .181   VOLM18 R          .057
-    M012P1 ]  VOLM20 R          .178   LTSY R          .05943
-    M012P1 ]  AVEINV R        .20929   INVEN R           .356
-    M012P1 ]  GP--- 0R            1.   GS--- 4R            .1
-    M012P1 ]  GS--- 6R           .03
-    M012P1 #  R012 TP6            1.   OB1PNW20        .20578
-    M012P1 #  VOLM 6 R         .2919   VOLM 7 R          .123
-    M012P1 #  VOLM11 R          .057   VOLM14 R          .181
-    M012P1 #  VOLM15 R          .194   VOLM19 R          .057
-    M012P1 #  LTSY R            .054   AVEINV R           .23
-    M012P1 #  INVEN R           .319   GP--- 0R            1.
-    M012P1 #  GS--- 4R            .1   GS--- 6R           .02
-    M012P1 ^  R012 TP6            1.   OB1PNW20        .20339
-    M012P1 ^  VOLM 6 R         .2919   VOLM 7 R          .123
-    M012P1 ^  VOLM11 R          .057   VOLM15 R          .194
-    M012P1 ^  VOLM16 R          .201   VOLM20 R          .057
-    M012P1 ^  LTSY R          .05022   AVEINV R        .24833
-    M012P1 ^  INVEN R           .242   GP--- 0R            1.
-    M012P1 ^  GS--- 4R            .1   GS--- 6R           .02
-    M012P1 )  R012 TP6            1.   OB1PNW20        .14072
-    M012P1 )  VOLM 7 R          .287   VOLM 8 R         .1209
-    M012P1 )  VOLM12 R          .057   VOLM14 R          .178
-    M012P1 )  VOLM15 R          .181   VOLM19 R          .057
-    M012P1 )  LTSY R          .05943   AVEINV R        .20929
-    M012P1 )  INVEN R           .319   GP--- 0R            1.
-    M012P1 )  GS--- 4R           .05   GS--- 5R        .03333
-    M012P1 )  GS--- 6R           .02
-    M012P1 -  R012 TP6            1.   OB1PNW20        .13852
-    M012P1 -  VOLM 7 R          .287   VOLM 8 R         .1209
-    M012P1 -  VOLM12 R          .057   VOLM15 R          .181
-    M012P1 -  VOLM16 R          .194   VOLM20 R          .057
-    M012P1 -  LTSY R            .054   AVEINV R           .23
-    M012P1 -  INVEN R           .242   GP--- 0R            1.
-    M012P1 -  GS--- 4R           .05   GS--- 5R        .03333
-    M012P1 -  GS--- 6R           .02
-    M012P1 +  R012 TP6            1.   OB1PNW20        .13698
-    M012P1 +  VOLM 7 R          .287   VOLM 8 R         .1209
-    M012P1 +  VOLM12 R          .057   VOLM16 R          .194
-    M012P1 +  VOLM17 R          .201   LTSY R          .05022
-    M012P1 +  AVEINV R        .24833   INVEN R           .203
-    M012P1 +  GP--- 0R            1.   GS--- 4R           .05
-    M012P1 +  GS--- 5R        .03333   GS--- 6R           .02
-    M012P2 1  R012 TP1            1.   OB1PNW20        1.1999
-    M012P2 1  VOLM 1 R         .2814   VOLM 2 R         .1269
-    M012P2 1  VOLM 5 R           .05   VOLM 7 R          .096
-    M012P2 1  VOLM 9 R         .0686   VOLM10 R         .1885
-    M012P2 1  VOLM12 R         .1173   VOLM14 R           .05
-    M012P2 1  VOLM16 R          .096   VOLM18 R         .0686
-    M012P2 1  VOLM19 R         .1885   LTSY R          .05782
-    M012P2 1  AVEINV R         .2388   INVEN R         .25415
-    M012P2 1  GP--- 0R            1.   GS--- 1R            .1
-    M012P2 1  GS--- 2R           .05   GS--- 5R        .06667
-    M012P2 1  GS--- 6R           .03
-    M012P2 2  R012 TP1            1.   OB1PNW20        1.1857
-    M012P2 2  VOLM 1 R         .2814   VOLM 2 R         .1269
-    M012P2 2  VOLM 5 R           .05   VOLM 7 R          .096
-    M012P2 2  VOLM10 R         .0754   VOLM11 R         .1955
-    M012P2 2  VOLM13 R         .1173   VOLM15 R           .05
-    M012P2 2  VOLM17 R          .096   VOLM20 R         .0754
-    M012P2 2  LTSY R          .05342   AVEINV R        .25374
-    M012P2 2  INVEN R           .377   GP--- 0R            1.
-    M012P2 2  GS--- 1R            .1   GS--- 2R           .05
-    M012P2 2  GS--- 5R        .03333   GS--- 6R           .03
-    M012P2 3  R012 TP2            1.   OB1PNW20        .88399
-    M012P2 3  VOLM 2 R         .2961   VOLM 3 R          .132
-    M012P2 3  VOLM 6 R           .05   VOLM 8 R          .096
-    M012P2 3  VOLM10 R         .0686   VOLM11 R         .1885
-    M012P2 3  VOLM13 R         .1173   VOLM15 R           .05
-    M012P2 3  VOLM17 R          .096   VOLM19 R         .0686
-    M012P2 3  VOLM20 R         .1885   LTSY R          .05782
-    M012P2 3  AVEINV R         .2388   INVEN R          .3393
-    M012P2 3  GP--- 0R            1.   GS--- 2R            .1
-    M012P2 3  GS--- 5R        .03333   GS--- 6R           .04
-    M012P2 4  R012 TP2            1.   OB1PNW20        .87414
-    M012P2 4  VOLM 2 R         .2961   VOLM 3 R          .132
-    M012P2 4  VOLM 6 R           .05   VOLM 8 R          .096
-    M012P2 4  VOLM11 R         .0754   VOLM12 R         .1955
-    M012P2 4  VOLM14 R         .1173   VOLM16 R           .05
-    M012P2 4  VOLM18 R          .096   LTSY R          .05342
-    M012P2 4  AVEINV R        .25374   INVEN R           .343
-    M012P2 4  GP--- 0R            1.   GS--- 2R            .1
-    M012P2 4  GS--- 6R           .03
-    M012P2 5  R012 TP3            1.   OB1PNW20        .64623
-    M012P2 5  VOLM 3 R          .308   VOLM 4 R         .1311
-    M012P2 5  VOLM 7 R           .05   VOLM 9 R          .096
-    M012P2 5  VOLM11 R         .0686   VOLM12 R         .1885
-    M012P2 5  VOLM14 R         .1173   VOLM16 R           .05
-    M012P2 5  VOLM18 R          .096   VOLM20 R         .0686
-    M012P2 5  LTSY R          .05782   AVEINV R         .2388
-    M012P2 5  INVEN R           .343   GP--- 0R            1.
-    M012P2 5  GS--- 2R           .05   GS--- 3R           .05
-    M012P2 5  GS--- 6R           .04
-    M012P2 6  R012 TP3            1.   OB1PNW20         .6401
-    M012P2 6  VOLM 3 R          .308   VOLM 4 R         .1311
-    M012P2 6  VOLM 7 R           .05   VOLM 9 R          .096
-    M012P2 6  VOLM12 R         .0754   VOLM13 R         .1955
-    M012P2 6  VOLM15 R         .1173   VOLM17 R           .05
-    M012P2 6  VOLM19 R          .096   LTSY R          .05342
-    M012P2 6  AVEINV R        .25374   INVEN R           .339
-    M012P2 6  GP--- 0R            1.   GS--- 2R           .05
-    M012P2 6  GS--- 3R           .05   GS--- 6R           .03
-    M012P2 7  R012 TP4            1.   OB1PNW20        .46975
-    M012P2 7  VOLM 4 R         .3059   VOLM 5 R         .1287
-    M012P2 7  VOLM 8 R           .05   VOLM10 R          .096
-    M012P2 7  VOLM12 R         .0686   VOLM13 R         .1885
-    M012P2 7  VOLM15 R         .1173   VOLM17 R           .05
-    M012P2 7  VOLM19 R          .096   LTSY R          .05782
-    M012P2 7  AVEINV R         .2388   INVEN R           .339
-    M012P2 7  GP--- 0R            1.   GS--- 3R            .1
-    M012P2 7  GS--- 6R           .03
-    M012P2 8  R012 TP4            1.   OB1PNW20        .46567
-    M012P2 8  VOLM 4 R         .3059   VOLM 5 R         .1287
-    M012P2 8  VOLM 8 R           .05   VOLM10 R          .096
-    M012P2 8  VOLM13 R         .0754   VOLM14 R         .1955
-    M012P2 8  VOLM16 R         .1173   VOLM18 R           .05
-    M012P2 8  VOLM20 R          .096   LTSY R          .05342
-    M012P2 8  AVEINV R        .25374   INVEN R           .317
-    M012P2 8  GP--- 0R            1.   GS--- 3R            .1
-    M012P2 8  GS--- 6R           .03
-    M012P2 9  R012 TP5            1.   OB1PNW20        .31886
-    M012P2 9  VOLM 5 R         .3003   VOLM 6 R         .1251
-    M012P2 9  VOLM 9 R           .05   VOLM11 R          .096
-    M012P2 9  VOLM13 R         .0686   VOLM14 R         .1885
-    M012P2 9  VOLM16 R         .1173   VOLM18 R           .05
-    M012P2 9  VOLM20 R          .096   LTSY R          .05782
-    M012P2 9  AVEINV R         .2388   INVEN R           .317
-    M012P2 9  GP--- 0R            1.   GS--- 3R           .05
-    M012P2 9  GS--- 4R           .05   GS--- 6R           .03
-    M012P2 A  R012 TP5            1.   OB1PNW20        .31592
-    M012P2 A  VOLM 5 R         .3003   VOLM 6 R         .1251
-    M012P2 A  VOLM 9 R           .05   VOLM11 R          .096
-    M012P2 A  VOLM14 R         .0754   VOLM15 R         .1955
-    M012P2 A  VOLM17 R         .1173   VOLM19 R           .05
-    M012P2 A  LTSY R          .05342   AVEINV R        .25374
-    M012P2 A  INVEN R           .244   GP--- 0R            1.
-    M012P2 A  GS--- 3R           .05   GS--- 4R           .05
-    M012P2 A  GS--- 6R           .03
-    M012P2 B  R012 TP6            1.   OB1PNW20        .20927
-    M012P2 B  VOLM 6 R         .2919   VOLM 7 R          .123
-    M012P2 B  VOLM10 R           .05   VOLM12 R          .096
-    M012P2 B  VOLM14 R         .0686   VOLM15 R         .1885
-    M012P2 B  VOLM17 R         .1173   VOLM19 R           .05
-    M012P2 B  LTSY R          .05782   AVEINV R         .2388
-    M012P2 B  INVEN R           .244   GP--- 0R            1.
-    M012P2 B  GS--- 4R            .1   GS--- 6R           .03
-    M012P2 C  R012 TP6            1.   OB1PNW20        .20784
-    M012P2 C  VOLM 6 R         .2919   VOLM 7 R          .123
-    M012P2 C  VOLM10 R           .05   VOLM12 R          .096
-    M012P2 C  VOLM15 R         .0754   VOLM16 R         .1955
-    M012P2 C  VOLM18 R         .1173   VOLM20 R           .05
-    M012P2 C  LTSY R          .05342   AVEINV R        .25374
-    M012P2 C  INVEN R           .206   GP--- 0R            1.
-    M012P2 C  GS--- 4R            .1   GS--- 6R           .03
-    M012P2 D  R012 TP6            1.   OB1PNW20        .14135
-    M012P2 D  VOLM 7 R          .287   VOLM 8 R         .1209
-    M012P2 D  VOLM11 R           .05   VOLM13 R          .096
-    M012P2 D  VOLM15 R         .0686   VOLM16 R         .1885
-    M012P2 D  VOLM18 R         .1173   VOLM20 R           .05
-    M012P2 D  LTSY R          .05782   AVEINV R         .2388
-    M012P2 D  INVEN R           .206   GP--- 0R            1.
-    M012P2 D  GS--- 4R           .05   GS--- 5R        .03333
-    M012P2 D  GS--- 6R           .03
-    M012P2 E  R012 TP6            1.   OB1PNW20         .1402
-    M012P2 E  VOLM 7 R          .287   VOLM 8 R         .1209
-    M012P2 E  VOLM11 R           .05   VOLM13 R          .096
-    M012P2 E  VOLM16 R         .0754   VOLM17 R         .1955
-    M012P2 E  VOLM19 R         .1173   LTSY R          .05342
-    M012P2 E  AVEINV R        .25374   INVEN R           .142
-    M012P2 E  GP--- 0R            1.   GS--- 4R           .05
-    M012P2 E  GS--- 5R        .03333   GS--- 6R           .03
-    M037MN 1  R037 MN1            1.   OB1PNW20     -.0012632
-    M037RD 1  R037 RD1            1.   OB1PNW20     -.0010105
-    M037TF 1  R037 TM2            1.   OB1PNW20        .39119
-    M037TF 1  VOLM 3 R          .389   VOLM10 R          .361
-    M037TF 1  VOLM17 R          .361   LTSY R          .05157
-    M037TF 1  AVEINV R        .18843   INVEN R           .142
-    M037TF 1  GP+++ 0R            1.   GS+++ 3R            1.
-    M037TF 1  GS+++10R            1.
-    M037TF 2  R037 TM2            1.   OB1PNW20        .37769
-    M037TF 2  VOLM 3 R          .389   VOLM11 R          .367
-    M037TF 2  VOLM19 R          .367   LTSY R          .04587
-    M037TF 2  AVEINV R        .21075   GP+++ 0R            1.
-    M037TF 2  GS+++ 3R            1.   GS+++11R            1.
-    M037TF 3  R037 TM2            1.   OB1PNW20        .30569
-    M037TF 3  VOLM 4 R          .402   VOLM11 R          .361
-    M037TF 3  VOLM18 R          .361   LTSY R          .05157
-    M037TF 3  AVEINV R        .18843   INVEN R           .022
-    M037TF 3  GP+++ 0R            1.   GS+++ 4R            1.
-    M037TF 3  GS+++11R            1.
-    M037TF 4  R037 TM2            1.   OB1PNW20        .29645
-    M037TF 4  VOLM 4 R          .402   VOLM12 R          .367
-    M037TF 4  VOLM20 R          .367   LTSY R          .04587
-    M037TF 4  AVEINV R        .21075   INVEN R           .367
-    M037TF 4  GP+++ 0R            1.   GS+++ 4R            1.
-    M037TF 4  GS+++12R            1.
-    M037TF 5  R037 TM2            1.   OB1PNW20        .23234
-    M037TF 5  VOLM 5 R          .423   VOLM12 R          .361
-    M037TF 5  VOLM19 R          .361   LTSY R          .05157
-    M037TF 5  AVEINV R        .18843   GP+++ 0R            1.
-    M037TF 5  GS+++ 5R            1.   GS+++12R            1.
-    M037TF 6  R037 TM2            1.   OB1PNW20        .22535
-    M037TF 6  VOLM 5 R          .423   VOLM13 R          .367
-    M037TF 6  LTSY R          .04587   AVEINV R        .21075
-    M037TF 6  INVEN R           .361   GP+++ 0R            1.
-    M037TF 6  GS+++ 5R            1.   GS+++13R            1.
-    M037TF 7  R037 TM2            1.   OB1PNW20        .16521
-    M037TF 7  VOLM 6 R           .44   VOLM13 R          .361
-    M037TF 7  VOLM20 R          .361   LTSY R          .05157
-    M037TF 7  AVEINV R        .18843   INVEN R           .361
-    M037TF 7  GP+++ 0R            1.   GS+++ 6R            1.
-    M037TF 7  GS+++13R            1.
-    M037TF 8  R037 TM2            1.   OB1PNW20        .16042
-    M037TF 8  VOLM 6 R           .44   VOLM14 R          .367
-    M037TF 8  LTSY R          .04587   AVEINV R        .21075
-    M037TF 8  INVEN R           .324   GP+++ 0R            1.
-    M037TF 8  GS+++ 6R            1.   GS+++14R            1.
-    M037TF 9  R037 TM2            1.   OB1PNW20        .12252
-    M037TF 9  VOLM 7 R          .437   VOLM14 R          .361
-    M037TF 9  LTSY R          .05157   AVEINV R        .18843
-    M037TF 9  INVEN R           .324   GP+++ 0R            1.
-    M037TF 9  GS+++ 7R            1.   GS+++14R            1.
-    M037TF A  R037 TM2            1.   OB1PNW20        .11982
-    M037TF A  VOLM 7 R          .437   VOLM15 R          .367
-    M037TF A  LTSY R          .04587   AVEINV R        .21075
-    M037TF A  INVEN R           .267   GP+++ 0R            1.
-    M037TF A  GS+++ 7R            1.   GS+++15R            1.
-    M037TF B  R037 TM2            1.   OB1PNW20       .079982
-    M037TF B  VOLM 8 R          .429   VOLM15 R          .361
-    M037TF B  LTSY R          .05157   AVEINV R        .18843
-    M037TF B  INVEN R           .267   GP+++ 0R            1.
-    M037TF B  GS+++ 8R            1.   GS+++15R            1.
-    M037TF C  R037 TM2            1.   OB1PNW20       .078331
-    M037TF C  VOLM 8 R          .429   VOLM16 R          .367
-    M037TF C  LTSY R          .04587   AVEINV R        .21075
-    M037TF C  INVEN R           .203   GP+++ 0R            1.
-    M037TF C  GS+++ 8R            1.
-    M037T1 1  R037 TM2            1.   OB1PNW20         .4047
-    M037T1 1  VOLM 3 R          .389   VOLM 7 R          .053
-    M037T1 1  VOLM10 R          .339   VOLM14 R          .053
-    M037T1 1  VOLM17 R          .339   LTSY R            .056
-    M037T1 1  AVEINV R        .18143   INVEN R           .142
-    M037T1 1  GP+++ 0R            1.   GS+++ 3R            1.
-    M037T1 1  GS+++10R            1.
-    M037T1 2  R037 TM2            1.   OB1PNW20        .39242
-    M037T1 2  VOLM 3 R          .389   VOLM 7 R          .053
-    M037T1 2  VOLM11 R          .345   VOLM15 R          .053
-    M037T1 2  VOLM19 R          .345   LTSY R          .04975
-    M037T1 2  AVEINV R        .20187   GP+++ 0R            1.
-    M037T1 2  GS+++ 3R            1.   GS+++11R            1.
-    M037T1 3  R037 TM2            1.   OB1PNW20        .38433
-    M037T1 3  VOLM 3 R          .389   VOLM 7 R          .053
-    M037T1 3  VOLM12 R          .377   VOLM16 R          .053
-    M037T1 3  LTSY R          .04778   AVEINV R        .22133
-    M037T1 3  INVEN R           .345   GP+++ 0R            1.
-    M037T1 3  GS+++ 3R            1.   GS+++12R            1.
-    M037T1 4  R037 TM2            1.   OB1PNW20        .31484
-    M037T1 4  VOLM 4 R          .402   VOLM 8 R          .053
-    M037T1 4  VOLM11 R          .339   VOLM15 R          .053
-    M037T1 4  VOLM18 R          .339   LTSY R            .056
-    M037T1 4  AVEINV R        .18143   INVEN R           .022
-    M037T1 4  GP+++ 0R            1.   GS+++ 4R            1.
-    M037T1 4  GS+++11R            1.
-    M037T1 5  R037 TM2            1.   OB1PNW20        .30641
-    M037T1 5  VOLM 4 R          .402   VOLM 8 R          .053
-    M037T1 5  VOLM12 R          .345   VOLM16 R          .053
-    M037T1 5  VOLM20 R          .345   LTSY R          .04975
-    M037T1 5  AVEINV R        .20187   INVEN R           .345
-    M037T1 5  GP+++ 0R            1.   GS+++ 4R            1.
-    M037T1 5  GS+++12R            1.
-    M037T1 6  R037 TM2            1.   OB1PNW20        .30096
-    M037T1 6  VOLM 4 R          .402   VOLM 8 R          .053
-    M037T1 6  VOLM13 R          .377   VOLM17 R          .053
-    M037T1 6  LTSY R          .04778   AVEINV R        .22133
-    M037T1 6  INVEN R           .339   GP+++ 0R            1.
-    M037T1 6  GS+++ 4R            1.   GS+++13R            1.
-    M037T1 7  R037 TM2            1.   OB1PNW20        .23852
-    M037T1 7  VOLM 5 R          .423   VOLM 9 R          .053
-    M037T1 7  VOLM12 R          .339   VOLM16 R          .053
-    M037T1 7  VOLM19 R          .339   LTSY R            .056
-    M037T1 7  AVEINV R        .18143   GP+++ 0R            1.
-    M037T1 7  GS+++ 5R            1.   GS+++12R            1.
-    M037T1 8  R037 TM2            1.   OB1PNW20        .23209
-    M037T1 8  VOLM 5 R          .423   VOLM 9 R          .053
-    M037T1 8  VOLM13 R          .345   VOLM17 R          .053
-    M037T1 8  LTSY R          .04975   AVEINV R        .20187
-    M037T1 8  INVEN R           .339   GP+++ 0R            1.
-    M037T1 8  GS+++ 5R            1.   GS+++13R            1.
-    M037T1 9  R037 TM2            1.   OB1PNW20        .22919
-    M037T1 9  VOLM 5 R          .423   VOLM 9 R          .053
-    M037T1 9  VOLM14 R          .377   VOLM18 R          .053
-    M037T1 9  LTSY R          .04778   AVEINV R        .22133
-    M037T1 9  INVEN R           .317   GP+++ 0R            1.
-    M037T1 9  GS+++ 5R            1.   GS+++14R            1.
-    M037T1 A  R037 TM2            1.   OB1PNW20         .1694
-    M037T1 A  VOLM 6 R           .44   VOLM10 R          .053
-    M037T1 A  VOLM13 R          .339   VOLM17 R          .053
-    M037T1 A  VOLM20 R          .339   LTSY R            .056
-    M037T1 A  AVEINV R        .18143   INVEN R           .339
-    M037T1 A  GP+++ 0R            1.   GS+++ 6R            1.
-    M037T1 A  GS+++13R            1.
-    M037T1 B  R037 TM2            1.   OB1PNW20        .16499
-    M037T1 B  VOLM 6 R           .44   VOLM10 R          .053
-    M037T1 B  VOLM14 R          .345   VOLM18 R          .053
-    M037T1 B  LTSY R          .04975   AVEINV R        .20187
-    M037T1 B  INVEN R           .317   GP+++ 0R            1.
-    M037T1 B  GS+++ 6R            1.   GS+++14R            1.
-    M037T1 C  R037 TM2            1.   OB1PNW20        .16283
-    M037T1 C  VOLM 6 R           .44   VOLM10 R          .053
-    M037T1 C  VOLM15 R          .377   VOLM19 R          .053
-    M037T1 C  LTSY R          .04778   AVEINV R        .22133
-    M037T1 C  INVEN R           .244   GP+++ 0R            1.
-    M037T1 C  GS+++ 6R            1.   GS+++15R            1.
-    M037T1 D  R037 TM2            1.   OB1PNW20        .12539
-    M037T1 D  VOLM 7 R          .437   VOLM11 R          .053
-    M037T1 D  VOLM14 R          .339   VOLM18 R          .053
-    M037T1 D  LTSY R            .056   AVEINV R        .18143
-    M037T1 D  INVEN R           .317   GP+++ 0R            1.
-    M037T1 D  GS+++ 7R            1.   GS+++14R            1.
-    M037T1 E  R037 TM2            1.   OB1PNW20        .12291
-    M037T1 E  VOLM 7 R          .437   VOLM11 R          .053
-    M037T1 E  VOLM15 R          .345   VOLM19 R          .053
-    M037T1 E  LTSY R          .04975   AVEINV R        .20187
-    M037T1 E  INVEN R           .244   GP+++ 0R            1.
-    M037T1 E  GS+++ 7R            1.   GS+++15R            1.
-    M037T1 F  R037 TM2            1.   OB1PNW20        .12165
-    M037T1 F  VOLM 7 R          .437   VOLM11 R          .053
-    M037T1 F  VOLM16 R          .377   VOLM20 R          .053
-    M037T1 F  LTSY R          .04778   AVEINV R        .22133
-    M037T1 F  INVEN R           .206   GP+++ 0R            1.
-    M037T1 F  GS+++ 7R            1.
-    M037T1 G  R037 TM2            1.   OB1PNW20       .081923
-    M037T1 G  VOLM 8 R          .429   VOLM12 R          .053
-    M037T1 G  VOLM15 R          .339   VOLM19 R          .053
-    M037T1 G  LTSY R            .056   AVEINV R        .18143
-    M037T1 G  INVEN R           .244   GP+++ 0R            1.
-    M037T1 G  GS+++ 8R            1.   GS+++15R            1.
-    M037T1 H  R037 TM2            1.   OB1PNW20       .080439
-    M037T1 H  VOLM 8 R          .429   VOLM12 R          .053
-    M037T1 H  VOLM16 R          .345   VOLM20 R          .053
-    M037T1 H  LTSY R          .04975   AVEINV R        .20187
-    M037T1 H  INVEN R           .206   GP+++ 0R            1.
-    M037T1 H  GS+++ 8R            1.
-    M037T1 I  R037 TM2            1.   OB1PNW20       .079581
-    M037T1 I  VOLM 8 R          .429   VOLM12 R          .053
-    M037T1 I  VOLM17 R          .377   LTSY R          .04778
-    M037T1 I  AVEINV R        .22133   INVEN R           .142
-    M037T1 I  GP+++ 0R            1.   GS+++ 8R            1.
-    M037T1 J  R037 TM2            1.   OB1PNW20        .40317
-    M037T1 J  VOLM 3 R          .389   VOLM 8 R          .057
-    M037T1 J  VOLM10 R          .356   VOLM15 R          .057
-    M037T1 J  VOLM17 R          .356   LTSY R            .059
-    M037T1 J  AVEINV R        .18343   INVEN R           .142
-    M037T1 J  GP+++ 0R            1.   GS+++ 3R            1.
-    M037T1 J  GS+++10R            1.
-    M037T1 K  R037 TM2            1.   OB1PNW20        .39026
-    M037T1 K  VOLM 3 R          .389   VOLM 8 R          .057
-    M037T1 K  VOLM11 R          .362   VOLM16 R          .057
-    M037T1 K  VOLM19 R          .362   LTSY R          .05237
-    M037T1 K  AVEINV R        .20575   GP+++ 0R            1.
-    M037T1 K  GS+++ 3R            1.   GS+++11R            1.
-    M037T1 L  R037 TM2            1.   OB1PNW20         .3813
-    M037T1 L  VOLM 3 R          .389   VOLM 8 R          .057
-    M037T1 L  VOLM12 R          .388   VOLM17 R          .057
-    M037T1 L  LTSY R          .04944   AVEINV R          .226
-    M037T1 L  INVEN R           .362   GP+++ 0R            1.
-    M037T1 L  GS+++ 3R            1.   GS+++12R            1.
-    M037T1 M  R037 TM2            1.   OB1PNW20        .31382
-    M037T1 M  VOLM 4 R          .402   VOLM 9 R          .057
-    M037T1 M  VOLM11 R          .356   VOLM16 R          .057
-    M037T1 M  VOLM18 R          .356   LTSY R            .059
-    M037T1 M  AVEINV R        .18343   INVEN R           .022
-    M037T1 M  GP+++ 0R            1.   GS+++ 4R            1.
-    M037T1 M  GS+++11R            1.
-    M037T1 N  R037 TM2            1.   OB1PNW20        .30495
-    M037T1 N  VOLM 4 R          .402   VOLM 9 R          .057
-    M037T1 N  VOLM12 R          .362   VOLM17 R          .057
-    M037T1 N  VOLM20 R          .362   LTSY R          .05237
-    M037T1 N  AVEINV R        .20575   INVEN R           .362
-    M037T1 N  GP+++ 0R            1.   GS+++ 4R            1.
-    M037T1 N  GS+++12R            1.
-    M037T1 O  R037 TM2            1.   OB1PNW20        .29892
-    M037T1 O  VOLM 4 R          .402   VOLM 9 R          .057
-    M037T1 O  VOLM13 R          .388   VOLM18 R          .057
-    M037T1 O  LTSY R          .04944   AVEINV R          .226
-    M037T1 O  INVEN R           .356   GP+++ 0R            1.
-    M037T1 O  GS+++ 4R            1.   GS+++13R            1.
-    M037T1 P  R037 TM2            1.   OB1PNW20        .23784
-    M037T1 P  VOLM 5 R          .423   VOLM10 R          .057
-    M037T1 P  VOLM12 R          .356   VOLM17 R          .057
-    M037T1 P  VOLM19 R          .356   LTSY R            .059
-    M037T1 P  AVEINV R        .18343   GP+++ 0R            1.
-    M037T1 P  GS+++ 5R            1.   GS+++12R            1.
-    M037T1 Q  R037 TM2            1.   OB1PNW20        .23107
-    M037T1 Q  VOLM 5 R          .423   VOLM10 R          .057
-    M037T1 Q  VOLM13 R          .362   VOLM18 R          .057
-    M037T1 Q  LTSY R          .05237   AVEINV R        .20575
-    M037T1 Q  INVEN R           .356   GP+++ 0R            1.
-    M037T1 Q  GS+++ 5R            1.   GS+++13R            1.
-    M037T1 R  R037 TM2            1.   OB1PNW20        .22781
-    M037T1 R  VOLM 5 R          .423   VOLM10 R          .057
-    M037T1 R  VOLM14 R          .388   VOLM19 R          .057
-    M037T1 R  LTSY R          .04944   AVEINV R          .226
-    M037T1 R  INVEN R           .319   GP+++ 0R            1.
-    M037T1 R  GS+++ 5R            1.   GS+++14R            1.
-    M037T1 S  R037 TM2            1.   OB1PNW20        .16895
-    M037T1 S  VOLM 6 R           .44   VOLM11 R          .057
-    M037T1 S  VOLM13 R          .356   VOLM18 R          .057
-    M037T1 S  VOLM20 R          .356   LTSY R            .059
-    M037T1 S  AVEINV R        .18343   INVEN R           .356
-    M037T1 S  GP+++ 0R            1.   GS+++ 6R            1.
-    M037T1 S  GS+++13R            1.
-    M037T1 T  R037 TM2            1.   OB1PNW20        .16431
-    M037T1 T  VOLM 6 R           .44   VOLM11 R          .057
-    M037T1 T  VOLM14 R          .362   VOLM19 R          .057
-    M037T1 T  LTSY R          .05237   AVEINV R        .20575
-    M037T1 T  INVEN R           .319   GP+++ 0R            1.
-    M037T1 T  GS+++ 6R            1.   GS+++14R            1.
-    M037T1 U  R037 TM2            1.   OB1PNW20         .1619
-    M037T1 U  VOLM 6 R           .44   VOLM11 R          .057
-    M037T1 U  VOLM15 R          .388   VOLM20 R          .057
-    M037T1 U  LTSY R          .04944   AVEINV R          .226
-    M037T1 U  INVEN R           .242   GP+++ 0R            1.
-    M037T1 U  GS+++ 6R            1.   GS+++15R            1.
-    M037T1 V  R037 TM2            1.   OB1PNW20        .12505
-    M037T1 V  VOLM 7 R          .437   VOLM12 R          .057
-    M037T1 V  VOLM14 R          .356   VOLM19 R          .057
-    M037T1 V  LTSY R            .059   AVEINV R        .18343
-    M037T1 V  INVEN R           .319   GP+++ 0R            1.
-    M037T1 V  GS+++ 7R            1.   GS+++14R            1.
-    M037T1 W  R037 TM2            1.   OB1PNW20        .12245
-    M037T1 W  VOLM 7 R          .437   VOLM12 R          .057
-    M037T1 W  VOLM15 R          .362   VOLM20 R          .057
-    M037T1 W  LTSY R          .05237   AVEINV R        .20575
-    M037T1 W  INVEN R           .242   GP+++ 0R            1.
-    M037T1 W  GS+++ 7R            1.   GS+++15R            1.
-    M037T1 X  R037 TM2            1.   OB1PNW20        .12094
-    M037T1 X  VOLM 7 R          .437   VOLM12 R          .057
-    M037T1 X  VOLM16 R          .388   LTSY R          .04944
-    M037T1 X  AVEINV R          .226   INVEN R           .203
-    M037T1 X  GP+++ 0R            1.   GS+++ 7R            1.
-    M037T1 Y  R037 TM2            1.   OB1PNW20       .081696
-    M037T1 Y  VOLM 8 R          .429   VOLM13 R          .057
-    M037T1 Y  VOLM15 R          .356   VOLM20 R          .057
-    M037T1 Y  LTSY R            .059   AVEINV R        .18343
-    M037T1 Y  INVEN R           .242   GP+++ 0R            1.
-    M037T1 Y  GS+++ 8R            1.   GS+++15R            1.
-    M037T1 Z  R037 TM2            1.   OB1PNW20       .080044
-    M037T1 Z  VOLM 8 R          .429   VOLM13 R          .057
-    M037T1 Z  VOLM16 R          .362   LTSY R          .05237
-    M037T1 Z  AVEINV R        .20575   INVEN R           .203
-    M037T1 Z  GP+++ 0R            1.   GS+++ 8R            1.
-    M037T1 [  R037 TM2            1.   OB1PNW20       .079178
-    M037T1 [  VOLM 8 R          .429   VOLM13 R          .057
-    M037T1 [  VOLM17 R          .388   LTSY R          .04944
-    M037T1 [  AVEINV R          .226   INVEN R           .142
-    M037T1 [  GP+++ 0R            1.   GS+++ 8R            1.
-    M037T2 1  R037 TM2            1.   OB1PNW20        .40756
-    M037T2 1  VOLM 3 R          .389   VOLM 7 R           .05
-    M037T2 1  VOLM 9 R          .096   VOLM11 R          .343
-    M037T2 1  VOLM15 R           .05   VOLM17 R          .096
-    M037T2 1  VOLM19 R          .343   LTSY R          .06112
-    M037T2 1  AVEINV R        .20162   GP+++ 0R            1.
-    M037T2 1  GS+++ 3R            1.   GS+++11R            1.
-    M037T2 2  R037 TM2            1.   OB1PNW20        .39943
-    M037T2 2  VOLM 3 R          .389   VOLM 7 R           .05
-    M037T2 2  VOLM 9 R          .096   VOLM12 R          .377
-    M037T2 2  VOLM16 R           .05   VOLM18 R          .096
-    M037T2 2  LTSY R          .05811   AVEINV R        .22111
-    M037T2 2  INVEN R           .343   GP+++ 0R            1.
-    M037T2 2  GS+++ 3R            1.   GS+++12R            1.
-    M037T2 3  R037 TM2            1.   OB1PNW20        .31665
-    M037T2 3  VOLM 4 R          .402   VOLM 8 R           .05
-    M037T2 3  VOLM10 R          .096   VOLM12 R          .343
-    M037T2 3  VOLM16 R           .05   VOLM18 R          .096
-    M037T2 3  VOLM20 R          .343   LTSY R          .06112
-    M037T2 3  AVEINV R        .20162   INVEN R           .343
-    M037T2 3  GP+++ 0R            1.   GS+++ 4R            1.
-    M037T2 3  GS+++12R            1.
-    M037T2 4  R037 TM2            1.   OB1PNW20         .3112
-    M037T2 4  VOLM 4 R          .402   VOLM 8 R           .05
-    M037T2 4  VOLM10 R          .096   VOLM13 R          .377
-    M037T2 4  VOLM17 R           .05   VOLM19 R          .096
-    M037T2 4  LTSY R          .05811   AVEINV R        .22111
-    M037T2 4  INVEN R           .339   GP+++ 0R            1.
-    M037T2 4  GS+++ 4R            1.   GS+++13R            1.
-    M037T2 5  R037 TM2            1.   OB1PNW20        .23905
-    M037T2 5  VOLM 5 R          .423   VOLM 9 R           .05
-    M037T2 5  VOLM11 R          .096   VOLM13 R          .343
-    M037T2 5  VOLM17 R           .05   VOLM19 R          .096
-    M037T2 5  LTSY R          .06112   AVEINV R        .20162
-    M037T2 5  INVEN R           .339   GP+++ 0R            1.
-    M037T2 5  GS+++ 5R            1.   GS+++13R            1.
-    M037T2 6  R037 TM2            1.   OB1PNW20        .23603
-    M037T2 6  VOLM 5 R          .423   VOLM 9 R           .05
-    M037T2 6  VOLM11 R          .096   VOLM14 R          .377
-    M037T2 6  VOLM18 R           .05   VOLM20 R          .096
-    M037T2 6  LTSY R          .05811   AVEINV R        .22111
-    M037T2 6  INVEN R           .317   GP+++ 0R            1.
-    M037T2 6  GS+++ 5R            1.   GS+++14R            1.
-    M037T2 7  R037 TM2            1.   OB1PNW20        .16962
-    M037T2 7  VOLM 6 R           .44   VOLM10 R           .05
-    M037T2 7  VOLM12 R          .096   VOLM14 R          .343
-    M037T2 7  VOLM18 R           .05   VOLM20 R          .096
-    M037T2 7  LTSY R          .06112   AVEINV R        .20162
-    M037T2 7  INVEN R           .317   GP+++ 0R            1.
-    M037T2 7  GS+++ 6R            1.   GS+++14R            1.
-    M037T2 8  R037 TM2            1.   OB1PNW20        .16736
-    M037T2 8  VOLM 6 R           .44   VOLM10 R           .05
-    M037T2 8  VOLM12 R          .096   VOLM15 R          .377
-    M037T2 8  VOLM19 R           .05   LTSY R          .05811
-    M037T2 8  AVEINV R        .22111   INVEN R           .244
-    M037T2 8  GP+++ 0R            1.   GS+++ 6R            1.
-    M037T2 8  GS+++15R            1.
-    M037T2 9  R037 TM2            1.   OB1PNW20        .12594
-    M037T2 9  VOLM 7 R          .437   VOLM11 R           .05
-    M037T2 9  VOLM13 R          .096   VOLM15 R          .343
-    M037T2 9  VOLM19 R           .05   LTSY R          .06112
-    M037T2 9  AVEINV R        .20162   INVEN R           .244
-    M037T2 9  GP+++ 0R            1.   GS+++ 7R            1.
-    M037T2 9  GS+++15R            1.
-    M037T2 A  R037 TM2            1.   OB1PNW20        .12473
-    M037T2 A  VOLM 7 R          .437   VOLM11 R           .05
-    M037T2 A  VOLM13 R          .096   VOLM16 R          .377
-    M037T2 A  VOLM20 R           .05   LTSY R          .05811
-    M037T2 A  AVEINV R        .22111   INVEN R           .206
-    M037T2 A  GP+++ 0R            1.   GS+++ 7R            1.
-    M037T2 B  R037 TM2            1.   OB1PNW20       .082506
-    M037T2 B  VOLM 8 R          .429   VOLM12 R           .05
-    M037T2 B  VOLM14 R          .096   VOLM16 R          .343
-    M037T2 B  VOLM20 R           .05   LTSY R          .06112
-    M037T2 B  AVEINV R        .20162   INVEN R           .206
-    M037T2 B  GP+++ 0R            1.   GS+++ 8R            1.
-    M037T2 C  R037 TM2            1.   OB1PNW20       .081696
-    M037T2 C  VOLM 8 R          .429   VOLM12 R           .05
-    M037T2 C  VOLM14 R          .096   VOLM17 R          .377
-    M037T2 C  LTSY R          .05811   AVEINV R        .22111
-    M037T2 C  INVEN R           .142   GP+++ 0R            1.
-    M037T2 C  GS+++ 8R            1.
-    M037PF 1  R037 TP2            1.   OB1PNW20        .53454
-    M037PF 1  VOLM 3 R         .2723   VOLM 4 R         .1206
-    M037PF 1  VOLM10 R        .24548   VOLM11 R        .11744
-    M037PF 1  VOLM17 R        .24548   VOLM18 R        .11744
-    M037PF 1  LTSY R          .05185   AVEINV R        .20521
-    M037PF 1  INVEN R           .142   GP--- 0R            1.
-    M037PF 1  GS--- 2R           .05   GS--- 3R           .05
-    M037PF 1  GS--- 5R        .03333   GS--- 6R           .03
-    M037PF 2  R037 TP2            1.   OB1PNW20        .52207
-    M037PF 2  VOLM 3 R         .2723   VOLM 4 R         .1206
-    M037PF 2  VOLM11 R        .24956   VOLM12 R         .1232
-    M037PF 2  VOLM19 R        .24956   VOLM20 R         .1232
-    M037PF 2  LTSY R          .04659   AVEINV R        .22615
-    M037PF 2  INVEN R          .2541   GP--- 0R            1.
-    M037PF 2  GS--- 2R           .05   GS--- 3R           .05
-    M037PF 2  GS--- 6R           .04
-    M037PF 3  R037 TP2            1.   OB1PNW20        .39773
-    M037PF 3  VOLM 4 R         .2814   VOLM 5 R         .1269
-    M037PF 3  VOLM11 R        .24548   VOLM12 R        .11744
-    M037PF 3  VOLM18 R        .24548   VOLM19 R        .11744
-    M037PF 3  LTSY R          .05185   AVEINV R        .20521
-    M037PF 3  INVEN R           .022   GP--- 0R            1.
-    M037PF 3  GS--- 3R            .1   GS--- 6R           .04
-    M037PF 4  R037 TP2            1.   OB1PNW20        .38918
-    M037PF 4  VOLM 4 R         .2814   VOLM 5 R         .1269
-    M037PF 4  VOLM12 R        .24956   VOLM13 R         .1232
-    M037PF 4  VOLM20 R        .24956   LTSY R          .04659
-    M037PF 4  AVEINV R        .22615   INVEN R           .367
-    M037PF 4  GP--- 0R            1.   GS--- 3R            .1
-    M037PF 4  GS--- 6R           .03
-    M037PF 5  R037 TP2            1.   OB1PNW20        .28935
-    M037PF 5  VOLM 5 R         .2961   VOLM 6 R          .132
-    M037PF 5  VOLM12 R        .24548   VOLM13 R        .11744
-    M037PF 5  VOLM19 R        .24548   VOLM20 R        .11744
-    M037PF 5  LTSY R          .05185   AVEINV R        .20521
-    M037PF 5  INVEN R         .24222   GP--- 0R            1.
-    M037PF 5  GS--- 3R           .05   GS--- 4R           .05
-    M037PF 5  GS--- 6R           .04
-    M037PF 6  R037 TP2            1.   OB1PNW20        .28307
-    M037PF 6  VOLM 5 R         .2961   VOLM 6 R          .132
-    M037PF 6  VOLM13 R        .24956   VOLM14 R         .1232
-    M037PF 6  LTSY R          .04659   AVEINV R        .22615
-    M037PF 6  INVEN R           .361   GP--- 0R            1.
-    M037PF 6  GS--- 3R           .05   GS--- 4R           .05
-    M037PF 6  GS--- 6R           .02
-    M037PF 7  R037 TP2            1.   OB1PNW20        .20463
-    M037PF 7  VOLM 6 R          .308   VOLM 7 R         .1311
-    M037PF 7  VOLM13 R        .24548   VOLM14 R        .11744
-    M037PF 7  VOLM20 R        .24548   LTSY R          .05185
-    M037PF 7  AVEINV R        .20521   INVEN R           .361
-    M037PF 7  GP--- 0R            1.   GS--- 4R            .1
-    M037PF 7  GS--- 6R           .03
-    M037PF 8  R037 TP2            1.   OB1PNW20        .20061
-    M037PF 8  VOLM 6 R          .308   VOLM 7 R         .1311
-    M037PF 8  VOLM14 R        .24956   VOLM15 R         .1232
-    M037PF 8  LTSY R          .04659   AVEINV R        .22615
-    M037PF 8  INVEN R           .324   GP--- 0R            1.
-    M037PF 8  GS--- 4R            .1   GS--- 6R           .02
-    M037PF 9  R037 TP2            1.   OB1PNW20        .14528
-    M037PF 9  VOLM 7 R         .3059   VOLM 8 R         .1287
-    M037PF 9  VOLM14 R        .24548   VOLM15 R        .11744
-    M037PF 9  LTSY R          .05185   AVEINV R        .20521
-    M037PF 9  INVEN R           .324   GP--- 0R            1.
-    M037PF 9  GS--- 4R           .05   GS--- 5R        .03333
-    M037PF 9  GS--- 6R           .02
-    M037PF A  R037 TP2            1.   OB1PNW20        .14286
-    M037PF A  VOLM 7 R         .3059   VOLM 8 R         .1287
-    M037PF A  VOLM15 R        .24956   VOLM16 R         .1232
-    M037PF A  LTSY R          .04659   AVEINV R        .22615
-    M037PF A  INVEN R           .267   GP--- 0R            1.
-    M037PF A  GS--- 4R           .05   GS--- 5R        .03333
-    M037PF A  GS--- 6R           .02
-    M037PF B  R037 TP2            1.   OB1PNW20       .095506
-    M037PF B  VOLM 8 R         .3003   VOLM 9 R         .1251
-    M037PF B  VOLM15 R        .24548   VOLM16 R        .11744
-    M037PF B  LTSY R          .05185   AVEINV R        .20521
-    M037PF B  INVEN R           .267   GP--- 0R            1.
-    M037PF B  GS--- 5R        .06667   GS--- 6R           .02
-    M037PF C  R037 TP2            1.   OB1PNW20       .094017
-    M037PF C  VOLM 8 R         .3003   VOLM 9 R         .1251
-    M037PF C  VOLM16 R        .24956   VOLM17 R         .1232
-    M037PF C  LTSY R          .04659   AVEINV R        .22615
-    M037PF C  INVEN R           .203   GP--- 0R            1.
-    M037PF C  GS--- 5R        .06667   GS--- 6R           .02
-    M037P1 1  R037 TP2            1.   OB1PNW20        .54622
-    M037P1 1  VOLM 3 R         .2723   VOLM 4 R         .1206
-    M037P1 1  VOLM 7 R          .053   VOLM10 R         .1695
-    M037P1 1  VOLM11 R         .1725   VOLM14 R          .053
-    M037P1 1  VOLM17 R         .1695   VOLM18 R         .1725
-    M037P1 1  LTSY R          .05643   AVEINV R        .20607
-    M037P1 1  INVEN R           .142   GP--- 0R            1.
-    M037P1 1  GS--- 2R           .05   GS--- 3R           .05
-    M037P1 1  GS--- 5R        .03333   GS--- 6R           .03
-    M037P1 2  R037 TP2            1.   OB1PNW20        .53569
-    M037P1 2  VOLM 3 R         .2723   VOLM 4 R         .1206
-    M037P1 2  VOLM 7 R          .053   VOLM11 R         .1725
-    M037P1 2  VOLM12 R         .1885   VOLM15 R          .053
-    M037P1 2  VOLM19 R         .1725   VOLM20 R         .1885
-    M037P1 2  LTSY R          .05175   AVEINV R        .22544
-    M037P1 2  INVEN R         .28275   GP--- 0R            1.
-    M037P1 2  GS--- 2R           .05   GS--- 3R           .05
-    M037P1 2  GS--- 6R           .04
-    M037P1 3  R037 TP2            1.   OB1PNW20        .52742
-    M037P1 3  VOLM 3 R         .2723   VOLM 4 R         .1206
-    M037P1 3  VOLM 7 R          .053   VOLM12 R         .1885
-    M037P1 3  VOLM13 R         .1955   VOLM16 R          .053
-    M037P1 3  LTSY R          .04856   AVEINV R        .24306
-    M037P1 3  INVEN R           .345   GP--- 0R            1.
-    M037P1 3  GS--- 2R           .05   GS--- 3R           .05
-    M037P1 3  GS--- 6R           .02
-    M037P1 4  R037 TP2            1.   OB1PNW20        .40563
-    M037P1 4  VOLM 4 R         .2814   VOLM 5 R         .1269
-    M037P1 4  VOLM 8 R          .053   VOLM11 R         .1695
-    M037P1 4  VOLM12 R         .1725   VOLM15 R          .053
-    M037P1 4  VOLM18 R         .1695   VOLM19 R         .1725
-    M037P1 4  LTSY R          .05643   AVEINV R        .20607
-    M037P1 4  INVEN R           .022   GP--- 0R            1.
-    M037P1 4  GS--- 3R            .1   GS--- 6R           .04
-    M037P1 5  R037 TP2            1.   OB1PNW20         .3982
-    M037P1 5  VOLM 4 R         .2814   VOLM 5 R         .1269
-    M037P1 5  VOLM 8 R          .053   VOLM12 R         .1725
-    M037P1 5  VOLM13 R         .1885   VOLM16 R          .053
-    M037P1 5  VOLM20 R         .1725   LTSY R          .05175
-    M037P1 5  AVEINV R        .22544   INVEN R           .345
-    M037P1 5  GP--- 0R            1.   GS--- 3R            .1
-    M037P1 5  GS--- 6R           .03
-    M037P1 6  R037 TP2            1.   OB1PNW20        .39314
-    M037P1 6  VOLM 4 R         .2814   VOLM 5 R         .1269
-    M037P1 6  VOLM 8 R          .053   VOLM13 R         .1885
-    M037P1 6  VOLM14 R         .1955   VOLM17 R          .053
-    M037P1 6  LTSY R          .04856   AVEINV R        .24306
-    M037P1 6  INVEN R           .339   GP--- 0R            1.
-    M037P1 6  GS--- 3R            .1   GS--- 6R           .02
-    M037P1 7  R037 TP2            1.   OB1PNW20        .29469
-    M037P1 7  VOLM 5 R         .2961   VOLM 6 R          .132
-    M037P1 7  VOLM 9 R          .053   VOLM12 R         .1695
-    M037P1 7  VOLM13 R         .1725   VOLM16 R          .053
-    M037P1 7  VOLM19 R         .1695   VOLM20 R         .1725
-    M037P1 7  LTSY R          .05643   AVEINV R        .20607
-    M037P1 7  INVEN R         .25875   GP--- 0R            1.
-    M037P1 7  GS--- 3R           .05   GS--- 4R           .05
-    M037P1 7  GS--- 6R           .04
-    M037P1 8  R037 TP2            1.   OB1PNW20        .28932
-    M037P1 8  VOLM 5 R         .2961   VOLM 6 R          .132
-    M037P1 8  VOLM 9 R          .053   VOLM13 R         .1725
-    M037P1 8  VOLM14 R         .1885   VOLM17 R          .053
-    M037P1 8  LTSY R          .05175   AVEINV R        .22544
-    M037P1 8  INVEN R           .339   GP--- 0R            1.
-    M037P1 8  GS--- 3R           .05   GS--- 4R           .05
-    M037P1 8  GS--- 6R           .02
-    M037P1 9  R037 TP2            1.   OB1PNW20        .28629
-    M037P1 9  VOLM 5 R         .2961   VOLM 6 R          .132
-    M037P1 9  VOLM 9 R          .053   VOLM14 R         .1885
-    M037P1 9  VOLM15 R         .1955   VOLM18 R          .053
-    M037P1 9  LTSY R          .04856   AVEINV R        .24306
-    M037P1 9  INVEN R           .317   GP--- 0R            1.
-    M037P1 9  GS--- 3R           .05   GS--- 4R           .05
-    M037P1 9  GS--- 6R           .02
-    M037P1 A  R037 TP2            1.   OB1PNW20         .2081
-    M037P1 A  VOLM 6 R          .308   VOLM 7 R         .1311
-    M037P1 A  VOLM10 R          .053   VOLM13 R         .1695
-    M037P1 A  VOLM14 R         .1725   VOLM17 R          .053
-    M037P1 A  VOLM20 R         .1695   LTSY R          .05643
-    M037P1 A  AVEINV R        .20607   INVEN R           .339
-    M037P1 A  GP--- 0R            1.   GS--- 4R            .1
-    M037P1 A  GS--- 6R           .03
-    M037P1 B  R037 TP2            1.   OB1PNW20        .20485
-    M037P1 B  VOLM 6 R          .308   VOLM 7 R         .1311
-    M037P1 B  VOLM10 R          .053   VOLM14 R         .1725
-    M037P1 B  VOLM15 R         .1885   VOLM18 R          .053
-    M037P1 B  LTSY R          .05175   AVEINV R        .22544
-    M037P1 B  INVEN R           .317   GP--- 0R            1.
-    M037P1 B  GS--- 4R            .1   GS--- 6R           .02
-    M037P1 C  R037 TP2            1.   OB1PNW20         .2026
-    M037P1 C  VOLM 6 R          .308   VOLM 7 R         .1311
-    M037P1 C  VOLM10 R          .053   VOLM15 R         .1885
-    M037P1 C  VOLM16 R         .1955   VOLM19 R          .053
-    M037P1 C  LTSY R          .04856   AVEINV R        .24306
-    M037P1 C  INVEN R           .244   GP--- 0R            1.
-    M037P1 C  GS--- 4R            .1   GS--- 6R           .02
-    M037P1 D  R037 TP2            1.   OB1PNW20        .14778
-    M037P1 D  VOLM 7 R         .3059   VOLM 8 R         .1287
-    M037P1 D  VOLM11 R          .053   VOLM14 R         .1695
-    M037P1 D  VOLM15 R         .1725   VOLM18 R          .053
-    M037P1 D  LTSY R          .05643   AVEINV R        .20607
-    M037P1 D  INVEN R           .317   GP--- 0R            1.
-    M037P1 D  GS--- 4R           .05   GS--- 5R        .03333
-    M037P1 D  GS--- 6R           .02
-    M037P1 E  R037 TP2            1.   OB1PNW20        .14573
-    M037P1 E  VOLM 7 R         .3059   VOLM 8 R         .1287
-    M037P1 E  VOLM11 R          .053   VOLM15 R         .1725
-    M037P1 E  VOLM16 R         .1885   VOLM19 R          .053
-    M037P1 E  LTSY R          .05175   AVEINV R        .22544
-    M037P1 E  INVEN R           .244   GP--- 0R            1.
-    M037P1 E  GS--- 4R           .05   GS--- 5R        .03333
-    M037P1 E  GS--- 6R           .02
-    M037P1 F  R037 TP2            1.   OB1PNW20        .14438
-    M037P1 F  VOLM 7 R         .3059   VOLM 8 R         .1287
-    M037P1 F  VOLM11 R          .053   VOLM16 R         .1885
-    M037P1 F  VOLM17 R         .1955   VOLM20 R          .053
-    M037P1 F  LTSY R          .04856   AVEINV R        .24306
-    M037P1 F  INVEN R           .206   GP--- 0R            1.
-    M037P1 F  GS--- 4R           .05   GS--- 5R        .03333
-    M037P1 F  GS--- 6R           .02
-    M037P1 G  R037 TP2            1.   OB1PNW20       .097203
-    M037P1 G  VOLM 8 R         .3003   VOLM 9 R         .1251
-    M037P1 G  VOLM12 R          .053   VOLM15 R         .1695
-    M037P1 G  VOLM16 R         .1725   VOLM19 R          .053
-    M037P1 G  LTSY R          .05643   AVEINV R        .20607
-    M037P1 G  INVEN R           .244   GP--- 0R            1.
-    M037P1 G  GS--- 5R        .06667   GS--- 6R           .02
-    M037P1 H  R037 TP2            1.   OB1PNW20       .095975
-    M037P1 H  VOLM 8 R         .3003   VOLM 9 R         .1251
-    M037P1 H  VOLM12 R          .053   VOLM16 R         .1725
-    M037P1 H  VOLM17 R         .1885   VOLM20 R          .053
-    M037P1 H  LTSY R          .05175   AVEINV R        .22544
-    M037P1 H  INVEN R           .206   GP--- 0R            1.
-    M037P1 H  GS--- 5R        .06667   GS--- 6R           .02
-    M037P1 I  R037 TP2            1.   OB1PNW20       .095433
-    M037P1 I  VOLM 8 R         .3003   VOLM 9 R         .1251
-    M037P1 I  VOLM12 R          .053   VOLM17 R         .1885
-    M037P1 I  VOLM18 R         .1955   LTSY R          .04856
-    M037P1 I  AVEINV R        .24306   INVEN R           .142
-    M037P1 I  GP--- 0R            1.   GS--- 5R        .06667
-    M037P1 I  GS--- 6R           .02
-    M037P1 J  R037 TP2            1.   OB1PNW20        .54437
-    M037P1 J  VOLM 3 R         .2723   VOLM 4 R         .1206
-    M037P1 J  VOLM 8 R          .057   VOLM10 R          .178
-    M037P1 J  VOLM11 R          .181   VOLM15 R          .057
-    M037P1 J  VOLM17 R          .178   VOLM18 R          .181
-    M037P1 J  LTSY R          .05943   AVEINV R        .20929
-    M037P1 J  INVEN R           .142   GP--- 0R            1.
-    M037P1 J  GS--- 2R           .05   GS--- 3R           .05
-    M037P1 J  GS--- 5R        .03333   GS--- 6R           .03
-    M037P1 K  R037 TP2            1.   OB1PNW20        .53309
-    M037P1 K  VOLM 3 R         .2723   VOLM 4 R         .1206
-    M037P1 K  VOLM 8 R          .057   VOLM11 R          .181
-    M037P1 K  VOLM12 R          .194   VOLM16 R          .057
-    M037P1 K  VOLM19 R          .181   VOLM20 R          .194
-    M037P1 K  LTSY R            .054   AVEINV R           .23
-    M037P1 K  INVEN R           .291   GP--- 0R            1.
-    M037P1 K  GS--- 2R           .05   GS--- 3R           .05
-    M037P1 K  GS--- 6R           .04
-    M037P1 L  R037 TP2            1.   OB1PNW20        .52428
-    M037P1 L  VOLM 3 R         .2723   VOLM 4 R         .1206
-    M037P1 L  VOLM 8 R          .057   VOLM12 R          .194
-    M037P1 L  VOLM13 R          .201   VOLM17 R          .057
-    M037P1 L  LTSY R          .05022   AVEINV R        .24833
-    M037P1 L  INVEN R           .362   GP--- 0R            1.
-    M037P1 L  GS--- 2R           .05   GS--- 3R           .05
-    M037P1 L  GS--- 6R           .02
-    M037P1 M  R037 TP2            1.   OB1PNW20        .40438
-    M037P1 M  VOLM 4 R         .2814   VOLM 5 R         .1269
-    M037P1 M  VOLM 9 R          .057   VOLM11 R          .178
-    M037P1 M  VOLM12 R          .181   VOLM16 R          .057
-    M037P1 M  VOLM18 R          .178   VOLM19 R          .181
-    M037P1 M  LTSY R          .05943   AVEINV R        .20929
-    M037P1 M  INVEN R           .022   GP--- 0R            1.
-    M037P1 M  GS--- 3R            .1   GS--- 6R           .04
-    M037P1 N  R037 TP2            1.   OB1PNW20        .39644
-    M037P1 N  VOLM 4 R         .2814   VOLM 5 R         .1269
-    M037P1 N  VOLM 9 R          .057   VOLM12 R          .181
-    M037P1 N  VOLM13 R          .194   VOLM17 R          .057
-    M037P1 N  VOLM20 R          .181   LTSY R            .054
-    M037P1 N  AVEINV R           .23   INVEN R           .362
-    M037P1 N  GP--- 0R            1.   GS--- 3R            .1
-    M037P1 N  GS--- 6R           .03
-    M037P1 O  R037 TP2            1.   OB1PNW20        .39101
-    M037P1 O  VOLM 4 R         .2814   VOLM 5 R         .1269
-    M037P1 O  VOLM 9 R          .057   VOLM13 R          .194
-    M037P1 O  VOLM14 R          .201   VOLM18 R          .057
-    M037P1 O  LTSY R          .05022   AVEINV R        .24833
-    M037P1 O  INVEN R           .356   GP--- 0R            1.
-    M037P1 O  GS--- 3R            .1   GS--- 6R           .02
-    M037P1 P  R037 TP2            1.   OB1PNW20        .29385
-    M037P1 P  VOLM 5 R         .2961   VOLM 6 R          .132
-    M037P1 P  VOLM10 R          .057   VOLM12 R          .178
-    M037P1 P  VOLM13 R          .181   VOLM17 R          .057
-    M037P1 P  VOLM19 R          .178   VOLM20 R          .181
-    M037P1 P  LTSY R          .05943   AVEINV R        .20929
-    M037P1 P  INVEN R          .2715   GP--- 0R            1.
-    M037P1 P  GS--- 3R           .05   GS--- 4R           .05
-    M037P1 P  GS--- 6R           .04
-    M037P1 Q  R037 TP2            1.   OB1PNW20        .28811
-    M037P1 Q  VOLM 5 R         .2961   VOLM 6 R          .132
-    M037P1 Q  VOLM10 R          .057   VOLM13 R          .181
-    M037P1 Q  VOLM14 R          .194   VOLM18 R          .057
-    M037P1 Q  LTSY R            .054   AVEINV R           .23
-    M037P1 Q  INVEN R           .356   GP--- 0R            1.
-    M037P1 Q  GS--- 3R           .05   GS--- 4R           .05
-    M037P1 Q  GS--- 6R           .02
-    M037P1 R  R037 TP2            1.   OB1PNW20        .28486
-    M037P1 R  VOLM 5 R         .2961   VOLM 6 R          .132
-    M037P1 R  VOLM10 R          .057   VOLM14 R          .194
-    M037P1 R  VOLM15 R          .201   VOLM19 R          .057
-    M037P1 R  LTSY R          .05022   AVEINV R        .24833
-    M037P1 R  INVEN R           .319   GP--- 0R            1.
-    M037P1 R  GS--- 3R           .05   GS--- 4R           .05
-    M037P1 R  GS--- 6R           .02
-    M037P1 S  R037 TP2            1.   OB1PNW20        .20752
-    M037P1 S  VOLM 6 R          .308   VOLM 7 R         .1311
-    M037P1 S  VOLM11 R          .057   VOLM13 R          .178
-    M037P1 S  VOLM14 R          .181   VOLM18 R          .057
-    M037P1 S  VOLM20 R          .178   LTSY R          .05943
-    M037P1 S  AVEINV R        .20929   INVEN R           .356
-    M037P1 S  GP--- 0R            1.   GS--- 4R            .1
-    M037P1 S  GS--- 6R           .03
-    M037P1 T  R037 TP2            1.   OB1PNW20        .20404
-    M037P1 T  VOLM 6 R          .308   VOLM 7 R         .1311
-    M037P1 T  VOLM11 R          .057   VOLM14 R          .181
-    M037P1 T  VOLM15 R          .194   VOLM19 R          .057
-    M037P1 T  LTSY R            .054   AVEINV R           .23
-    M037P1 T  INVEN R           .319   GP--- 0R            1.
-    M037P1 T  GS--- 4R            .1   GS--- 6R           .02
-    M037P1 U  R037 TP2            1.   OB1PNW20        .20164
-    M037P1 U  VOLM 6 R          .308   VOLM 7 R         .1311
-    M037P1 U  VOLM11 R          .057   VOLM15 R          .194
-    M037P1 U  VOLM16 R          .201   VOLM20 R          .057
-    M037P1 U  LTSY R          .05022   AVEINV R        .24833
-    M037P1 U  INVEN R           .242   GP--- 0R            1.
-    M037P1 U  GS--- 4R            .1   GS--- 6R           .02
-    M037P1 V  R037 TP2            1.   OB1PNW20        .14738
-    M037P1 V  VOLM 7 R         .3059   VOLM 8 R         .1287
-    M037P1 V  VOLM12 R          .057   VOLM14 R          .178
-    M037P1 V  VOLM15 R          .181   VOLM19 R          .057
-    M037P1 V  LTSY R          .05943   AVEINV R        .20929
-    M037P1 V  INVEN R           .319   GP--- 0R            1.
-    M037P1 V  GS--- 4R           .05   GS--- 5R        .03333
-    M037P1 V  GS--- 6R           .02
-    M037P1 W  R037 TP2            1.   OB1PNW20        .14518
-    M037P1 W  VOLM 7 R         .3059   VOLM 8 R         .1287
-    M037P1 W  VOLM12 R          .057   VOLM15 R          .181
-    M037P1 W  VOLM16 R          .194   VOLM20 R          .057
-    M037P1 W  LTSY R            .054   AVEINV R           .23
-    M037P1 W  INVEN R           .242   GP--- 0R            1.
-    M037P1 W  GS--- 4R           .05   GS--- 5R        .03333
-    M037P1 W  GS--- 6R           .02
-    M037P1 X  R037 TP2            1.   OB1PNW20        .14364
-    M037P1 X  VOLM 7 R         .3059   VOLM 8 R         .1287
-    M037P1 X  VOLM12 R          .057   VOLM16 R          .194
-    M037P1 X  VOLM17 R          .201   LTSY R          .05022
-    M037P1 X  AVEINV R        .24833   INVEN R           .203
-    M037P1 X  GP--- 0R            1.   GS--- 4R           .05
-    M037P1 X  GS--- 5R        .03333   GS--- 6R           .02
-    M037P1 Y  R037 TP2            1.   OB1PNW20       .096931
-    M037P1 Y  VOLM 8 R         .3003   VOLM 9 R         .1251
-    M037P1 Y  VOLM13 R          .057   VOLM15 R          .178
-    M037P1 Y  VOLM16 R          .181   VOLM20 R          .057
-    M037P1 Y  LTSY R          .05943   AVEINV R        .20929
-    M037P1 Y  INVEN R           .242   GP--- 0R            1.
-    M037P1 Y  GS--- 5R        .06667   GS--- 6R           .02
-    M037P1 Z  R037 TP2            1.   OB1PNW20       .095521
-    M037P1 Z  VOLM 8 R         .3003   VOLM 9 R         .1251
-    M037P1 Z  VOLM13 R          .057   VOLM16 R          .181
-    M037P1 Z  VOLM17 R          .194   LTSY R            .054
-    M037P1 Z  AVEINV R           .23   INVEN R           .203
-    M037P1 Z  GP--- 0R            1.   GS--- 5R        .06667
-    M037P1 Z  GS--- 6R           .02
-    M037P1 [  R037 TP2            1.   OB1PNW20        .09502
-    M037P1 [  VOLM 8 R         .3003   VOLM 9 R         .1251
-    M037P1 [  VOLM13 R          .057   VOLM17 R          .194
-    M037P1 [  VOLM18 R          .201   LTSY R          .05022
-    M037P1 [  AVEINV R        .24833   INVEN R           .142
-    M037P1 [  GP--- 0R            1.   GS--- 5R        .06667
-    M037P1 [  GS--- 6R           .02
-    M037P2 1  R037 TP2            1.   OB1PNW20        .54395
-    M037P2 1  VOLM 3 R         .2723   VOLM 4 R         .1206
-    M037P2 1  VOLM 7 R           .05   VOLM 9 R          .096
-    M037P2 1  VOLM11 R         .0686   VOLM12 R         .1885
-    M037P2 1  VOLM14 R         .1173   VOLM16 R           .05
-    M037P2 1  VOLM18 R          .096   VOLM20 R         .0686
-    M037P2 1  LTSY R          .05782   AVEINV R         .2388
-    M037P2 1  INVEN R           .343   GP--- 0R            1.
-    M037P2 1  GS--- 2R           .05   GS--- 3R           .05
-    M037P2 1  GS--- 6R           .04
-    M037P2 2  R037 TP2            1.   OB1PNW20        .53781
-    M037P2 2  VOLM 3 R         .2723   VOLM 4 R         .1206
-    M037P2 2  VOLM 7 R           .05   VOLM 9 R          .096
-    M037P2 2  VOLM12 R         .0754   VOLM13 R         .1955
-    M037P2 2  VOLM15 R         .1173   VOLM17 R           .05
-    M037P2 2  VOLM19 R          .096   LTSY R          .05342
-    M037P2 2  AVEINV R        .25374   INVEN R           .339
-    M037P2 2  GP--- 0R            1.   GS--- 2R           .05
-    M037P2 2  GS--- 3R           .05   GS--- 6R           .03
-    M037P2 3  R037 TP2            1.   OB1PNW20        .40418
-    M037P2 3  VOLM 4 R         .2814   VOLM 5 R         .1269
-    M037P2 3  VOLM 8 R           .05   VOLM10 R          .096
-    M037P2 3  VOLM12 R         .0686   VOLM13 R         .1885
-    M037P2 3  VOLM15 R         .1173   VOLM17 R           .05
-    M037P2 3  VOLM19 R          .096   LTSY R          .05782
-    M037P2 3  AVEINV R         .2388   INVEN R           .339
-    M037P2 3  GP--- 0R            1.   GS--- 3R            .1
-    M037P2 3  GS--- 6R           .03
-    M037P2 4  R037 TP2            1.   OB1PNW20        .40011
-    M037P2 4  VOLM 4 R         .2814   VOLM 5 R         .1269
-    M037P2 4  VOLM 8 R           .05   VOLM10 R          .096
-    M037P2 4  VOLM13 R         .0754   VOLM14 R         .1955
-    M037P2 4  VOLM16 R         .1173   VOLM18 R           .05
-    M037P2 4  VOLM20 R          .096   LTSY R          .05342
-    M037P2 4  AVEINV R        .25374   INVEN R           .317
-    M037P2 4  GP--- 0R            1.   GS--- 3R            .1
-    M037P2 4  GS--- 6R           .03
-    M037P2 5  R037 TP2            1.   OB1PNW20        .29368
-    M037P2 5  VOLM 5 R         .2961   VOLM 6 R          .132
-    M037P2 5  VOLM 9 R           .05   VOLM11 R          .096
-    M037P2 5  VOLM13 R         .0686   VOLM14 R         .1885
-    M037P2 5  VOLM16 R         .1173   VOLM18 R           .05
-    M037P2 5  VOLM20 R          .096   LTSY R          .05782
-    M037P2 5  AVEINV R         .2388   INVEN R           .317
-    M037P2 5  GP--- 0R            1.   GS--- 3R           .05
-    M037P2 5  GS--- 4R           .05   GS--- 6R           .03
-    M037P2 6  R037 TP2            1.   OB1PNW20        .29073
-    M037P2 6  VOLM 5 R         .2961   VOLM 6 R          .132
-    M037P2 6  VOLM 9 R           .05   VOLM11 R          .096
-    M037P2 6  VOLM14 R         .0754   VOLM15 R         .1955
-    M037P2 6  VOLM17 R         .1173   VOLM19 R           .05
-    M037P2 6  LTSY R          .05342   AVEINV R        .25374
-    M037P2 6  INVEN R           .244   GP--- 0R            1.
-    M037P2 6  GS--- 3R           .05   GS--- 4R           .05
-    M037P2 6  GS--- 6R           .03
-    M037P2 7  R037 TP2            1.   OB1PNW20        .20752
-    M037P2 7  VOLM 6 R          .308   VOLM 7 R         .1311
-    M037P2 7  VOLM10 R           .05   VOLM12 R          .096
-    M037P2 7  VOLM14 R         .0686   VOLM15 R         .1885
-    M037P2 7  VOLM17 R         .1173   VOLM19 R           .05
-    M037P2 7  LTSY R          .05782   AVEINV R         .2388
-    M037P2 7  INVEN R           .244   GP--- 0R            1.
-    M037P2 7  GS--- 4R            .1   GS--- 6R           .03
-    M037P2 8  R037 TP2            1.   OB1PNW20         .2061
-    M037P2 8  VOLM 6 R          .308   VOLM 7 R         .1311
-    M037P2 8  VOLM10 R           .05   VOLM12 R          .096
-    M037P2 8  VOLM15 R         .0754   VOLM16 R         .1955
-    M037P2 8  VOLM18 R         .1173   VOLM20 R           .05
-    M037P2 8  LTSY R          .05342   AVEINV R        .25374
-    M037P2 8  INVEN R           .206   GP--- 0R            1.
-    M037P2 8  GS--- 4R            .1   GS--- 6R           .03
-    M037P2 9  R037 TP2            1.   OB1PNW20        .14802
-    M037P2 9  VOLM 7 R         .3059   VOLM 8 R         .1287
-    M037P2 9  VOLM11 R           .05   VOLM13 R          .096
-    M037P2 9  VOLM15 R         .0686   VOLM16 R         .1885
-    M037P2 9  VOLM18 R         .1173   VOLM20 R           .05
-    M037P2 9  LTSY R          .05782   AVEINV R         .2388
-    M037P2 9  INVEN R           .206   GP--- 0R            1.
-    M037P2 9  GS--- 4R           .05   GS--- 5R        .03333
-    M037P2 9  GS--- 6R           .03
-    M037P2 A  R037 TP2            1.   OB1PNW20        .14688
-    M037P2 A  VOLM 7 R         .3059   VOLM 8 R         .1287
-    M037P2 A  VOLM11 R           .05   VOLM13 R          .096
-    M037P2 A  VOLM16 R         .0754   VOLM17 R         .1955
-    M037P2 A  VOLM19 R         .1173   LTSY R          .05342
-    M037P2 A  AVEINV R        .25374   INVEN R           .142
-    M037P2 A  GP--- 0R            1.   GS--- 4R           .05
-    M037P2 A  GS--- 5R        .03333   GS--- 6R           .03
-    M037P2 B  R037 TP2            1.   OB1PNW20       .097746
-    M037P2 B  VOLM 8 R         .3003   VOLM 9 R         .1251
-    M037P2 B  VOLM12 R           .05   VOLM14 R          .096
-    M037P2 B  VOLM16 R         .0686   VOLM17 R         .1885
-    M037P2 B  VOLM19 R         .1173   LTSY R          .05782
-    M037P2 B  AVEINV R         .2388   INVEN R           .142
-    M037P2 B  GP--- 0R            1.   GS--- 5R        .06667
-    M037P2 B  GS--- 6R           .03
-    M037P2 C  R037 TP2            1.   OB1PNW20       .096663
-    M037P2 C  VOLM 8 R         .3003   VOLM 9 R         .1251
-    M037P2 C  VOLM12 R           .05   VOLM14 R          .096
-    M037P2 C  VOLM17 R         .0754   VOLM18 R         .1955
-    M037P2 C  VOLM20 R         .1173   LTSY R          .05342
-    M037P2 C  AVEINV R        .25374   INVEN R          .1393
-    M037P2 C  GP--- 0R            1.   GS--- 5R        .06667
-    M037P2 C  GS--- 6R           .03
-    M048MN 1  R048 MN1            1.   OB1PNW20     -.0012632
-    M048RD 1  R048 RD1            1.   OB1PNW20     -.0010105
-    T048TM12  R048 TM1            1.   R048 TM2           -1.
-    T048TM23  R048 TM2            1.   R048 TM3           -1.
-    T048TM34  R048 TM3            1.   R048 TM4           -1.
-    T048TM45  R048 TM4            1.   R048 TM5           -1.
-    M048TF 1  R048 TM1            1.   OB1PNW20        .37542
-    M048TF 1  VOLM 1 R          .303   VOLM 9 R          .319
-    M048TF 1  VOLM17 R          .319   LTSY R          .03987
-    M048TF 1  AVEINV R          .169   INVEN R           .058
-    M048TF 1  A$   1 1        .01994   GP+++ 0R            1.
-    M048TF 1  GS+++ 1R            1.   GS+++ 9R            1.
-    M048TF 2  R048 TM1            1.   OB1PNW20        .37053
-    M048TF 2  VOLM 1 R          .303   VOLM10 R          .326
-    M048TF 2  VOLM19 R          .326   LTSY R          .03622
-    M048TF 2  AVEINV R        .18644   A$   1 1        .01994
-    M048TF 2  GP+++ 0R            1.   GS+++ 1R            1.
-    M048TF 2  GS+++10R            1.
-    M048TF 3  R048 TM2            1.   OB1PNW20        .26168
-    M048TF 3  VOLM 2 R          .312   VOLM10 R          .319
-    M048TF 3  VOLM18 R          .319   LTSY R          .03987
-    M048TF 3  AVEINV R          .169   INVEN R           .016
-    M048TF 3  A$   1 2        .02448   GP+++ 0R            1.
-    M048TF 3  GS+++ 2R            1.   GS+++10R            1.
-    M048TF 4  R048 TM2            1.   OB1PNW20        .25837
-    M048TF 4  VOLM 2 R          .312   VOLM11 R          .326
-    M048TF 4  VOLM20 R          .326   LTSY R          .03622
-    M048TF 4  AVEINV R        .18644   INVEN R           .326
-    M048TF 4  A$   1 2        .02448   GP+++ 0R            1.
-    M048TF 4  GS+++ 2R            1.   GS+++11R            1.
-    M048TF 5  R048 TM3            1.   OB1PNW20        .15874
-    M048TF 5  VOLM 3 R          .297   VOLM11 R          .319
-    M048TF 5  VOLM19 R          .319   LTSY R          .03987
-    M048TF 5  AVEINV R          .169   GP+++ 0R            1.
-    M048TF 5  GS+++ 3R            1.   GS+++11R            1.
-    M048TF 6  R048 TM3            1.   OB1PNW20        .15578
-    M048TF 6  VOLM 3 R          .297   VOLM12 R          .326
-    M048TF 6  LTSY R          .03622   AVEINV R        .18644
-    M048TF 6  INVEN R           .319   GP+++ 0R            1.
-    M048TF 6  GS+++ 3R            1.   GS+++12R            1.
-    M048TF 7  R048 TM4            1.   OB1PNW20        .10279
-    M048TF 7  VOLM 4 R          .288   VOLM12 R          .319
-    M048TF 7  VOLM20 R          .319   LTSY R          .03987
-    M048TF 7  AVEINV R          .169   INVEN R           .319
-    M048TF 7  GP+++ 0R            1.   GS+++ 4R            1.
-    M048TF 7  GS+++12R            1.
-    M048TF 8  R048 TM4            1.   OB1PNW20        .10057
-    M048TF 8  VOLM 4 R          .288   VOLM13 R          .326
-    M048TF 8  LTSY R          .03622   AVEINV R        .18644
-    M048TF 8  INVEN R             .3   GP+++ 0R            1.
-    M048TF 8  GS+++ 4R            1.   GS+++13R            1.
-    M048TF 9  R048 TM5            1.   OB1PNW20       .067389
-    M048TF 9  VOLM 5 R          .279   VOLM13 R          .319
-    M048TF 9  LTSY R          .03987   AVEINV R          .169
-    M048TF 9  INVEN R             .3   GP+++ 0R            1.
-    M048TF 9  GS+++ 5R            1.   GS+++13R            1.
-    M048TF A  R048 TM5            1.   OB1PNW20       .066501
-    M048TF A  VOLM 5 R          .279   VOLM14 R          .326
-    M048TF A  LTSY R          .03622   AVEINV R        .18644
-    M048TF A  INVEN R           .267   GP+++ 0R            1.
-    M048TF A  GS+++ 5R            1.   GS+++14R            1.
-    M048TF B  R048 TM5            1.   OB1PNW20       .059138
-    M048TF B  VOLM 6 R           .27   VOLM14 R          .319
-    M048TF B  LTSY R          .03987   AVEINV R          .169
-    M048TF B  INVEN R           .267   GP+++ 0R            1.
-    M048TF B  GS+++ 6R            1.   GS+++14R            1.
-    M048TF C  R048 TM5            1.   OB1PNW20        .05849
-    M048TF C  VOLM 6 R           .27   VOLM15 R          .326
-    M048TF C  LTSY R          .03622   AVEINV R        .18644
-    M048TF C  INVEN R            .22   GP+++ 0R            1.
-    M048TF C  GS+++ 6R            1.   GS+++15R            1.
-    M048TF D  R048 TM5            1.   OB1PNW20       .030706
-    M048TF D  VOLM 7 R          .243   VOLM15 R          .319
-    M048TF D  LTSY R          .03987   AVEINV R          .169
-    M048TF D  INVEN R            .22   GP+++ 0R            1.
-    M048TF D  GS+++ 7R            1.   GS+++15R            1.
-    M048TF E  R048 TM5            1.   OB1PNW20       .030345
-    M048TF E  VOLM 7 R          .243   VOLM16 R          .326
-    M048TF E  LTSY R          .03622   AVEINV R        .18644
-    M048TF E  INVEN R           .172   GP+++ 0R            1.
-    M048TF E  GS+++ 7R            1.
-    T048TP12  R048 TP1            1.   R048 TP2           -1.
-    T048TP23  R048 TP2            1.   R048 TP3           -1.
-    T048TP34  R048 TP3            1.   R048 TP4           -1.
-    M048PF 1  R048 TP1            1.   OB1PNW20        .63172
-    M048PF 1  VOLM 1 R         .2424   VOLM 2 R         .0624
-    M048PF 1  VOLM 9 R        .23925   VOLM10 R         .0815
-    M048PF 1  VOLM17 R        .23925   VOLM18 R         .0815
-    M048PF 1  LTSY R          .04009   AVEINV R        .17919
-    M048PF 1  INVEN R           .058   GP--- 0R            1.
-    M048PF 1  GS--- 1R            .1   GS--- 2R           .05
-    M048PF 1  GS--- 5R        .06667   GS--- 6R           .02
-    M048PF 2  R048 TP1            1.   OB1PNW20        .62524
-    M048PF 2  VOLM 1 R         .2424   VOLM 2 R         .0624
-    M048PF 2  VOLM10 R         .2445   VOLM11 R         .0815
-    M048PF 2  VOLM19 R         .2445   VOLM20 R         .0815
-    M048PF 2  LTSY R          .03622   AVEINV R         .1955
-    M048PF 2  INVEN R         .20375   GP--- 0R            1.
-    M048PF 2  GS--- 1R            .1   GS--- 2R           .05
-    M048PF 2  GS--- 5R        .03333   GS--- 6R           .03
-    M048PF 3  R048 TP2            1.   OB1PNW20         .4619
-    M048PF 3  VOLM 2 R         .2496   VOLM 3 R         .0594
-    M048PF 3  VOLM10 R        .23925   VOLM11 R         .0815
-    M048PF 3  VOLM18 R        .23925   VOLM19 R         .0815
-    M048PF 3  LTSY R          .04009   AVEINV R        .17919
-    M048PF 3  INVEN R           .016   GP--- 0R            1.
-    M048PF 3  GS--- 2R            .1   GS--- 5R        .03333
-    M048PF 3  GS--- 6R           .03
-    M048PF 4  R048 TP2            1.   OB1PNW20        .45761
-    M048PF 4  VOLM 2 R         .2496   VOLM 3 R         .0594
-    M048PF 4  VOLM11 R         .2445   VOLM12 R         .0815
-    M048PF 4  VOLM20 R         .2445   LTSY R          .03622
-    M048PF 4  AVEINV R         .1955   INVEN R           .326
-    M048PF 4  GP--- 0R            1.   GS--- 2R            .1
-    M048PF 4  GS--- 6R           .03
-    M048PF 5  R048 TP3            1.   OB1PNW20        .30731
-    M048PF 5  VOLM 3 R         .2376   VOLM 4 R         .0576
-    M048PF 5  VOLM11 R        .23925   VOLM12 R         .0815
-    M048PF 5  VOLM19 R        .23925   VOLM20 R         .0815
-    M048PF 5  LTSY R          .04009   AVEINV R        .17919
-    M048PF 5  INVEN R         .20375   GP--- 0R            1.
-    M048PF 5  GS--- 2R           .05   GS--- 3R           .05
-    M048PF 5  GS--- 6R           .04
-    M048PF 6  R048 TP3            1.   OB1PNW20        .30384
-    M048PF 6  VOLM 3 R         .2376   VOLM 4 R         .0576
-    M048PF 6  VOLM12 R         .2445   VOLM13 R         .0815
-    M048PF 6  LTSY R          .03622   AVEINV R         .1955
-    M048PF 6  INVEN R           .319   GP--- 0R            1.
-    M048PF 6  GS--- 2R           .05   GS--- 3R           .05
-    M048PF 6  GS--- 6R           .02
-    M048PF 7  R048 TP4            1.   OB1PNW20        .20376
-    M048PF 7  VOLM 4 R         .2304   VOLM 5 R         .0558
-    M048PF 7  VOLM12 R        .23925   VOLM13 R         .0815
-    M048PF 7  VOLM20 R        .23925   LTSY R          .04009
-    M048PF 7  AVEINV R        .17919   INVEN R           .319
-    M048PF 7  GP--- 0R            1.   GS--- 3R            .1
-    M048PF 7  GS--- 6R           .03
-    M048PF 8  R048 TP4            1.   OB1PNW20        .20137
-    M048PF 8  VOLM 4 R         .2304   VOLM 5 R         .0558
-    M048PF 8  VOLM13 R         .2445   VOLM14 R         .0815
-    M048PF 8  LTSY R          .03622   AVEINV R         .1955
-    M048PF 8  INVEN R             .3   GP--- 0R            1.
-    M048PF 8  GS--- 3R            .1   GS--- 6R           .02
-    M048PF 9  R048 TP4            1.   OB1PNW20        .13887
-    M048PF 9  VOLM 5 R         .2232   VOLM 6 R          .054
-    M048PF 9  VOLM13 R        .23925   VOLM14 R         .0815
-    M048PF 9  LTSY R          .04009   AVEINV R        .17919
-    M048PF 9  INVEN R             .3   GP--- 0R            1.
-    M048PF 9  GS--- 3R           .05   GS--- 4R           .05
-    M048PF 9  GS--- 6R           .02
-    M048PF A  R048 TP4            1.   OB1PNW20        .13774
-    M048PF A  VOLM 5 R         .2232   VOLM 6 R          .054
-    M048PF A  VOLM14 R         .2445   VOLM15 R         .0815
-    M048PF A  LTSY R          .03622   AVEINV R         .1955
-    M048PF A  INVEN R           .267   GP--- 0R            1.
-    M048PF A  GS--- 3R           .05   GS--- 4R           .05
-    M048PF A  GS--- 6R           .02
-    M048PF B  R048 TP4            1.   OB1PNW20        .10302
-    M048PF B  VOLM 6 R          .216   VOLM 7 R         .0486
-    M048PF B  VOLM14 R        .23925   VOLM15 R         .0815
-    M048PF B  LTSY R          .04009   AVEINV R        .17919
-    M048PF B  INVEN R           .267   GP--- 0R            1.
-    M048PF B  GS--- 4R            .1   GS--- 6R           .02
-    M048PF C  R048 TP4            1.   OB1PNW20        .10221
-    M048PF C  VOLM 6 R          .216   VOLM 7 R         .0486
-    M048PF C  VOLM15 R         .2445   VOLM16 R         .0815
-    M048PF C  LTSY R          .03622   AVEINV R         .1955
-    M048PF C  INVEN R            .22   GP--- 0R            1.
-    M048PF C  GS--- 4R            .1   GS--- 6R           .02
-    M048PF D  R048 TP4            1.   OB1PNW20       .061713
-    M048PF D  VOLM 7 R         .1944   VOLM 8 R         .0462
-    M048PF D  VOLM15 R        .23925   VOLM16 R         .0815
-    M048PF D  LTSY R          .04009   AVEINV R        .17919
-    M048PF D  INVEN R            .22   GP--- 0R            1.
-    M048PF D  GS--- 4R           .05   GS--- 5R        .03333
-    M048PF D  GS--- 6R           .02
-    M048PF E  R048 TP4            1.   OB1PNW20         .0611
-    M048PF E  VOLM 7 R         .1944   VOLM 8 R         .0462
-    M048PF E  VOLM16 R         .2445   VOLM17 R         .0815
-    M048PF E  LTSY R          .03622   AVEINV R         .1955
-    M048PF E  INVEN R           .172   GP--- 0R            1.
-    M048PF E  GS--- 4R           .05   GS--- 5R        .03333
-    M048PF E  GS--- 6R           .02
-    M052MN 1  R052 MN1            1.   OB1PNW20     -.0012632
-    M052RD 1  R052 RD1            1.   OB1PNW20     -.0010105
-    T052TM12  R052 TM1            1.   R052 TM2           -1.
-    T052TM23  R052 TM2            1.   R052 TM3           -1.
-    T052TM34  R052 TM3            1.   R052 TM4           -1.
-    T052TM45  R052 TM4            1.   R052 TM5           -1.
-    M052TF 1  R052 TM1            1.   OB1PNW20       .075315
-    M052TF 1  VOLM 1 R          .278   VOLM 9 R          .423
-    M052TF 1  VOLM17 R          .423   LTSY R          .05288
-    M052TF 1  AVEINV R            .2   INVEN R           .076
-    M052TF 1  A$   1 1        .01994   GP+++ 0R            1.
-    M052TF 1  GS+++ 1R            1.   GS+++ 9R            1.
-    M052TF 2  R052 TM1            1.   OB1PNW20       .060634
-    M052TF 2  VOLM 1 R          .278   VOLM10 R          .478
-    M052TF 2  VOLM19 R          .478   LTSY R          .05311
-    M052TF 2  AVEINV R        .23089   A$   1 1        .01994
-    M052TF 2  GP+++ 0R            1.   GS+++ 1R            1.
-    M052TF 2  GS+++10R            1.
-    M052TF 3  R052 TM2            1.   OB1PNW20        .13185
-    M052TF 3  VOLM 2 R          .302   VOLM10 R          .423
-    M052TF 3  VOLM18 R          .423   LTSY R          .05288
-    M052TF 3  AVEINV R            .2   INVEN R           .034
-    M052TF 3  A$   1 2        .02448   GP+++ 0R            1.
-    M052TF 3  GS+++ 2R            1.   GS+++10R            1.
-    M052TF 4  R052 TM2            1.   OB1PNW20        .12194
-    M052TF 4  VOLM 2 R          .302   VOLM11 R          .478
-    M052TF 4  VOLM20 R          .478   LTSY R          .05311
-    M052TF 4  AVEINV R        .23089   INVEN R           .478
-    M052TF 4  A$   1 2        .02448   GP+++ 0R            1.
-    M052TF 4  GS+++ 2R            1.   GS+++11R            1.
-    M052TF 5  R052 TM3            1.   OB1PNW20        .09368
-    M052TF 5  VOLM 3 R          .327   VOLM11 R          .423
-    M052TF 5  VOLM19 R          .423   LTSY R          .05288
-    M052TF 5  AVEINV R            .2   GP+++ 0R            1.
-    M052TF 5  GS+++ 3R            1.   GS+++11R            1.
-    M052TF 6  R052 TM3            1.   OB1PNW20       .086181
-    M052TF 6  VOLM 3 R          .327   VOLM12 R          .478
-    M052TF 6  LTSY R          .05311   AVEINV R        .23089
-    M052TF 6  INVEN R           .423   GP+++ 0R            1.
-    M052TF 6  GS+++ 3R            1.   GS+++12R            1.
-    M052TF 7  R052 TM4            1.   OB1PNW20       .068434
-    M052TF 7  VOLM 4 R          .341   VOLM12 R          .423
-    M052TF 7  VOLM20 R          .423   LTSY R          .05288
-    M052TF 7  AVEINV R            .2   INVEN R           .423
-    M052TF 7  GP+++ 0R            1.   GS+++ 4R            1.
-    M052TF 7  GS+++12R            1.
-    M052TF 8  R052 TM4            1.   OB1PNW20       .063485
-    M052TF 8  VOLM 4 R          .341   VOLM13 R          .478
-    M052TF 8  LTSY R          .05311   AVEINV R        .23089
-    M052TF 8  INVEN R           .345   GP+++ 0R            1.
-    M052TF 8  GS+++ 4R            1.   GS+++13R            1.
-    M052TF 9  R052 TM5            1.   OB1PNW20       .044678
-    M052TF 9  VOLM 5 R          .343   VOLM13 R          .423
-    M052TF 9  LTSY R          .05288   AVEINV R            .2
-    M052TF 9  INVEN R           .345   GP+++ 0R            1.
-    M052TF 9  GS+++ 5R            1.   GS+++13R            1.
-    M052TF A  R052 TM5            1.   OB1PNW20       .041872
-    M052TF A  VOLM 5 R          .343   VOLM14 R          .478
-    M052TF A  LTSY R          .05311   AVEINV R        .23089
-    M052TF A  INVEN R           .299   GP+++ 0R            1.
-    M052TF A  GS+++ 5R            1.   GS+++14R            1.
-    M052TF B  R052 TM5            1.   OB1PNW20       .026533
-    M052TF B  VOLM 6 R          .331   VOLM14 R          .423
-    M052TF B  LTSY R          .05288   AVEINV R            .2
-    M052TF B  INVEN R           .299   GP+++ 0R            1.
-    M052TF B  GS+++ 6R            1.   GS+++14R            1.
-    M052TF C  R052 TM5            1.   OB1PNW20       .024657
-    M052TF C  VOLM 6 R          .331   VOLM15 R          .478
-    M052TF C  LTSY R          .05311   AVEINV R        .23089
-    M052TF C  INVEN R           .245   GP+++ 0R            1.
-    M052TF C  GS+++ 6R            1.   GS+++15R            1.
-    M052TF D  R052 TM5            1.   OB1PNW20       .016863
-    M052TF D  VOLM 7 R          .329   VOLM15 R          .423
-    M052TF D  LTSY R          .05288   AVEINV R            .2
-    M052TF D  INVEN R           .245   GP+++ 0R            1.
-    M052TF D  GS+++ 7R            1.   GS+++15R            1.
-    M052TF E  R052 TM5            1.   OB1PNW20       .015622
-    M052TF E  VOLM 7 R          .329   VOLM16 R          .478
-    M052TF E  LTSY R          .05311   AVEINV R        .23089
-    M052TF E  INVEN R           .178   GP+++ 0R            1.
-    M052TF E  GS+++ 7R            1.
-    M083MN 1  R083 MN1            1.   OB1PNW20     -.0012632
-    M083MN21  R083 GM2            1.   OB1PNW20     -.0012632
-    M083RD 1  R083 RD1            1.   OB1PNW20     -.0010105
-    M083GB 1  R083 GR2            1.   OB1PNW20       .049699
-    M083GB21  R083 GM2            1.   OB1PNW20       .049699
-    M092MN 1  R092 MN2            1.   OB1PNW20     -.0012632
-    M092RD 1  R092 RD1            1.   OB1PNW20     -.0010105
+    DEDO3_11  __OBJ___  0.024660000000000001
+    DEDO3_11  DEDO3_1R  -1
+    DEDO3_12  DEDO3_1R  -1
+    DEDO3_21  __OBJ___  0.016660000000000001
+    DEDO3_21  DEDO3_2R  -1
+    DEDO3_22  DEDO3_2R  -1
+    DEDO3_31  __OBJ___  0.01125
+    DEDO3_31  DEDO3_3R  -1
+    DEDO3_32  DEDO3_3R  -1
+    DEDO3_41  __OBJ___  0.0076
+    DEDO3_41  DEDO3_4R  -1
+    DEDO3_42  DEDO3_4R  -1
+    DEDO3_51  __OBJ___  0.0051399999999999996
+    DEDO3_51  DEDO3_5R  -1
+    DEDO3_52  DEDO3_5R  -1
+    DEDO3_61  __OBJ___  0.00347
+    DEDO3_61  DEDO3_6R  -1
+    DEDO3_62  DEDO3_6R  -1
+    DEDO3_71  __OBJ___  0.0023400000000000001
+    DEDO3_71  DEDO3_7R  -1
+    DEDO3_72  DEDO3_7R  -1
+    DEDO3_81  __OBJ___  0.00158
+    DEDO3_81  DEDO3_8R  -1
+    DEDO3_82  DEDO3_8R  -1
+    DEDO3_91  __OBJ___  0.00107
+    DEDO3_91  DEDO3_9R  -1
+    DEDO3_92  DEDO3_9R  -1
+    DEDO3101  __OBJ___  0.00072000000000000005
+    DEDO3101  DEDO310R  -1
+    DEDO3102  DEDO310R  -1
+    DEDO3111  __OBJ___  0.00048999999999999998
+    DEDO3111  DEDO311R  -1
+    DEDO3112  DEDO311R  -1
+    DEDO3121  __OBJ___  0.00033
+    DEDO3121  DEDO312R  -1
+    DEDO3122  DEDO312R  -1
+    DEDO3131  __OBJ___  0.00022000000000000001
+    DEDO3131  DEDO313R  -1
+    DEDO3132  DEDO313R  -1
+    DEDO3141  __OBJ___  0.00014999999999999999
+    DEDO3141  DEDO314R  -1
+    DEDO3142  DEDO314R  -1
+    DEDO3151  __OBJ___  0.0001
+    DEDO3151  DEDO315R  -1
+    DEDO3152  DEDO315R  -1
+    DEDO5_11  __OBJ___  0.12038
+    DEDO5_11  DEDO5_1R  -1
+    DEDO5_12  DEDO5_1R  -1
+    DEDO5_21  __OBJ___  0.050189999999999999
+    DEDO5_21  DEDO5_2R  -1
+    DEDO5_22  DEDO5_2R  -1
+    DEDO5_31  __OBJ___  0.0054599999999999996
+    DEDO5_31  DEDO5_3R  -1
+    DEDO5_32  DEDO5_3R  -1
+    VOLM_1    VOLM_1_R  -1
+    VOLM_1    BHVG_2    -1
+    VOLM_2    VOLM_2_R  -1
+    VOLM_2    BHVG_2    1
+    VOLM_2    BHVG_3    -1
+    VOLM_3    VOLM_3_R  -1
+    VOLM_3    BHVG_3    1
+    VOLM_3    BHVG_4    -1
+    VOLM_4    VOLM_4_R  -1
+    VOLM_4    BHVG_4    1
+    VOLM_4    BHVG_5    -1
+    VOLM_5    VOLM_5_R  -1
+    VOLM_5    BHVG_5    1
+    VOLM_5    BHVG_6    -1
+    VOLM_6    VOLM_6_R  -1
+    VOLM_6    BHVG_6    1
+    VOLM_6    BHVG_7    -1
+    VOLM_7    VOLM_7_R  -1
+    VOLM_7    BHVG_7    1
+    VOLM_7    BHVG_8    -1
+    VOLM_8    VOLM_8_R  -1
+    VOLM_8    BHVG_8    1
+    VOLM_8    BHVG_9    -1
+    VOLM_9    VOLM_9_R  -1
+    VOLM_9    BHVG_9    1
+    VOLM_9    BHVG10    -1
+    VOLM10    VOLM10_R  -1
+    VOLM10    BHVG10    1
+    VOLM10    BHVG11    -1
+    VOLM11    VOLM11_R  -1
+    VOLM11    BHVG11    1
+    VOLM11    BHVG12    -1
+    VOLM12    VOLM12_R  -1
+    VOLM12    BHVG12    1
+    VOLM12    BHVG13    -1
+    VOLM13    VOLM13_R  -1
+    VOLM13    BHVG13    1
+    VOLM13    BHVG14    -1
+    VOLM14    VOLM14_R  -1
+    VOLM14    BHVG14    1
+    VOLM14    BHVG15    -1
+    VOLM15    VOLM15_R  -1
+    VOLM15    BHVG15    1
+    VOLM15    BHVG16    -1
+    VOLM16    VOLM16_R  -1
+    VOLM16    BHVG16    1
+    VOLM16    BHVG17    -1
+    VOLM17    VOLM17_R  -1
+    VOLM17    BHVG17    1
+    VOLM17    BHVG18    -1
+    VOLM18    VOLM18_R  -1
+    VOLM18    BHVG18    1
+    VOLM18    BHVG19    -1
+    VOLM19    VOLM19_R  -1
+    VOLM19    BHVG19    1
+    VOLM19    BHVG20    -1
+    VOLM20    VOLM20_R  -1
+    VOLM20    BHVG20    1
+    VOLM20    SYNDY     1
+    LTSY      SYNDY     -1
+    LTSY      LTSY_R    -1
+    LTSY      LTSYCT    1
+    AVEINV    AVEINV_R  -1
+    AVEINV    ENDINVCT  -1
+    INVEN     ENDINVCT  1
+    INVEN     INVEN_R   -1
+    GP+++_0   GP+++_0R  -1
+    GP+++_0   GS+++_1R  -0.17999999999999999
+    GP+++_0   GS+++_2R  -0.17999999999999999
+    GP+++_0   GS+++_3R  -0.17999999999999999
+    GP+++_0   GS+++_4R  -0.17999999999999999
+    GP+++_0   GS+++_5R  -0.17999999999999999
+    GP+++_0   GS+++_6R  -0.17999999999999999
+    GP+++_0   GS+++_7R  -0.17999999999999999
+    GP+++_0   GS+++_8R  -0.17999999999999999
+    GP+++_0   GS+++_9R  -0.17999999999999999
+    GP+++_0   GS+++10R  -0.17999999999999999
+    GP+++_0   GS+++11R  -0.17999999999999999
+    GP+++_0   GS+++12R  -0.17999999999999999
+    GP+++_0   GS+++13R  -0.17999999999999999
+    GP+++_0   GS+++14R  -0.17999999999999999
+    GP+++_0   GS+++15R  -0.17999999999999999
+    GP---_0   GP---_0R  -1
+    GP---_0   GS---_1R  -0.012
+    GP---_0   GS---_2R  -0.012
+    GP---_0   GS---_3R  -0.012
+    GP---_0   GS---_4R  -0.012
+    GP---_0   GS---_5R  -0.012
+    GP---_0   GS---_6R  -0.012
+    A___21_1  DEDO3_1R  1.59091
+    A___21_1  DEDO3_2R  1.59091
+    A___21_1  DEDO3_3R  1.59091
+    A___21_1  DEDO3_4R  1.59091
+    A___21_1  DEDO3_5R  1.59091
+    A___21_1  DEDO3_6R  1.59091
+    A___21_1  DEDO3_7R  1.59091
+    A___21_1  DEDO3_8R  1.59091
+    A___21_1  DEDO3_9R  1.59091
+    A___21_1  DEDO310R  1.59091
+    A___21_1  DEDO311R  1.59091
+    A___21_1  DEDO312R  1.59091
+    A___21_1  DEDO313R  1.59091
+    A___21_1  DEDO314R  1.59091
+    A___21_1  DEDO315R  1.59091
+    A___21_1  R012_MN1  -0.37879000000000002
+    A___21_1  R037_MN1  -0.15151999999999999
+    A___21_1  R048_MN1  -0.24621000000000001
+    A___21_1  R052_MN1  -0.11742
+    A___21_1  R083_MN1  -0.10606
+    A___21_1  AZ__20    1
+    A___22_1  __OBJ___  -0.022381000000000002
+    A___22_1  DEDO3_1R  2.0265200000000001
+    A___22_1  DEDO3_2R  2.4621200000000001
+    A___22_1  DEDO3_3R  2.4621200000000001
+    A___22_1  DEDO3_4R  2.4621200000000001
+    A___22_1  DEDO3_5R  2.4621200000000001
+    A___22_1  DEDO3_6R  2.4621200000000001
+    A___22_1  DEDO3_7R  2.4621200000000001
+    A___22_1  DEDO3_8R  2.4621200000000001
+    A___22_1  DEDO3_9R  2.4621200000000001
+    A___22_1  DEDO310R  2.4621200000000001
+    A___22_1  DEDO311R  2.4621200000000001
+    A___22_1  DEDO312R  2.4621200000000001
+    A___22_1  DEDO313R  2.4621200000000001
+    A___22_1  DEDO314R  2.4621200000000001
+    A___22_1  DEDO315R  2.4621200000000001
+    A___22_1  R012_RD1  -0.37879000000000002
+    A___22_1  R037_RD1  -0.15151999999999999
+    A___22_1  R048_RD1  -0.24621000000000001
+    A___22_1  R052_RD1  -0.11742
+    A___22_1  R083_RD1  -0.10606
+    A___22_1  AZ__20    1
+    A___23_1  __OBJ___  -0.314
+    A___23_1  DEDO3_1R  1.23106
+    A___23_1  DEDO3_2R  0.87121000000000004
+    A___23_1  DEDO3_3R  0.87121000000000004
+    A___23_1  DEDO3_4R  0.87121000000000004
+    A___23_1  DEDO3_5R  0.87121000000000004
+    A___23_1  DEDO3_6R  0.87121000000000004
+    A___23_1  DEDO3_7R  0.87121000000000004
+    A___23_1  DEDO3_8R  0.87121000000000004
+    A___23_1  DEDO3_9R  0.87121000000000004
+    A___23_1  DEDO310R  0.87121000000000004
+    A___23_1  DEDO311R  0.87121000000000004
+    A___23_1  DEDO312R  0.87121000000000004
+    A___23_1  DEDO313R  0.87121000000000004
+    A___23_1  DEDO314R  0.87121000000000004
+    A___23_1  DEDO315R  0.87121000000000004
+    A___23_1  DEDO5_1R  2.4621200000000001
+    A___23_1  DEDO5_2R  2.9545499999999998
+    A___23_1  DEDO5_3R  2.9545499999999998
+    A___23_1  R012_TM1  -0.37879000000000002
+    A___23_1  R037_TM2  -0.15151999999999999
+    A___23_1  R048_TM1  -0.24621000000000001
+    A___23_1  R052_TM1  -0.11742
+    A___23_1  R083_GR2  -0.10606
+    A___23_1  AZ__20    1
+    A___23_2  __OBJ___  -0.21210000000000001
+    A___23_2  DEDO3_1R  1.59091
+    A___23_2  DEDO3_2R  1.23106
+    A___23_2  DEDO3_3R  0.87121000000000004
+    A___23_2  DEDO3_4R  0.87121000000000004
+    A___23_2  DEDO3_5R  0.87121000000000004
+    A___23_2  DEDO3_6R  0.87121000000000004
+    A___23_2  DEDO3_7R  0.87121000000000004
+    A___23_2  DEDO3_8R  0.87121000000000004
+    A___23_2  DEDO3_9R  0.87121000000000004
+    A___23_2  DEDO310R  0.87121000000000004
+    A___23_2  DEDO311R  0.87121000000000004
+    A___23_2  DEDO312R  0.87121000000000004
+    A___23_2  DEDO313R  0.87121000000000004
+    A___23_2  DEDO314R  0.87121000000000004
+    A___23_2  DEDO315R  0.87121000000000004
+    A___23_2  DEDO5_1R  1.4772700000000001
+    A___23_2  DEDO5_2R  2.9545499999999998
+    A___23_2  DEDO5_3R  2.9545499999999998
+    A___23_2  R012_TM2  -0.37879000000000002
+    A___23_2  R037_TM2  -0.15151999999999999
+    A___23_2  R048_TM2  -0.24621000000000001
+    A___23_2  R052_TM2  -0.11742
+    A___23_2  R083_GR2  -0.10606
+    A___23_2  AZ__20    1
+    A___81_1  DEDO3_1R  1.3214300000000001
+    A___81_1  DEDO3_2R  1.3214300000000001
+    A___81_1  DEDO3_3R  1.3214300000000001
+    A___81_1  DEDO3_4R  1.3214300000000001
+    A___81_1  DEDO3_5R  1.3214300000000001
+    A___81_1  DEDO3_6R  1.3214300000000001
+    A___81_1  DEDO3_7R  1.3214300000000001
+    A___81_1  DEDO3_8R  1.3214300000000001
+    A___81_1  DEDO3_9R  1.3214300000000001
+    A___81_1  DEDO310R  1.3214300000000001
+    A___81_1  DEDO311R  1.3214300000000001
+    A___81_1  DEDO312R  1.3214300000000001
+    A___81_1  DEDO313R  1.3214300000000001
+    A___81_1  DEDO314R  1.3214300000000001
+    A___81_1  DEDO315R  1.3214300000000001
+    A___81_1  R012_MN1  -0.32142999999999999
+    A___81_1  R037_MN1  -0.14285999999999999
+    A___81_1  R048_MN1  -0.26785999999999999
+    A___81_1  R083_MN1  -0.20357
+    A___81_1  R092_MN2  -0.06429
+    A___81_1  AZ__80    1
+    A___82_1  __OBJ___  -0.029357999999999999
+    A___82_1  DEDO3_1R  2.2321399999999998
+    A___82_1  DEDO3_2R  3.1428600000000002
+    A___82_1  DEDO3_3R  3.1428600000000002
+    A___82_1  DEDO3_4R  3.1428600000000002
+    A___82_1  DEDO3_5R  3.1428600000000002
+    A___82_1  DEDO3_6R  3.1428600000000002
+    A___82_1  DEDO3_7R  3.1428600000000002
+    A___82_1  DEDO3_8R  3.1428600000000002
+    A___82_1  DEDO3_9R  3.1428600000000002
+    A___82_1  DEDO310R  3.1428600000000002
+    A___82_1  DEDO311R  3.1428600000000002
+    A___82_1  DEDO312R  3.1428600000000002
+    A___82_1  DEDO313R  3.1428600000000002
+    A___82_1  DEDO314R  3.1428600000000002
+    A___82_1  DEDO315R  3.1428600000000002
+    A___82_1  R012_RD1  -0.32142999999999999
+    A___82_1  R037_RD1  -0.14285999999999999
+    A___82_1  R048_RD1  -0.26785999999999999
+    A___82_1  R083_RD1  -0.20357
+    A___82_1  R092_RD1  -0.06429
+    A___82_1  AZ__80    1
+    A___83_1  __OBJ___  -0.35041
+    A___83_1  DEDO3_1R  1.0357099999999999
+    A___83_1  DEDO3_2R  0.71428999999999998
+    A___83_1  DEDO3_3R  0.71428999999999998
+    A___83_1  DEDO3_4R  0.71428999999999998
+    A___83_1  DEDO3_5R  0.71428999999999998
+    A___83_1  DEDO3_6R  0.71428999999999998
+    A___83_1  DEDO3_7R  0.71428999999999998
+    A___83_1  DEDO3_8R  0.71428999999999998
+    A___83_1  DEDO3_9R  0.71428999999999998
+    A___83_1  DEDO310R  0.71428999999999998
+    A___83_1  DEDO311R  0.71428999999999998
+    A___83_1  DEDO312R  0.71428999999999998
+    A___83_1  DEDO313R  0.71428999999999998
+    A___83_1  DEDO314R  0.71428999999999998
+    A___83_1  DEDO315R  0.71428999999999998
+    A___83_1  DEDO5_1R  3.125
+    A___83_1  DEDO5_2R  3.75
+    A___83_1  DEDO5_3R  3.75
+    A___83_1  R012_TM1  -0.32142999999999999
+    A___83_1  R037_TM2  -0.14285999999999999
+    A___83_1  R048_TM1  -0.26785999999999999
+    A___83_1  R083_GR2  -0.20357
+    A___83_1  R092_MN2  -0.06429
+    A___83_1  AZ__80    1
+    A___83_2  __OBJ___  -0.23669000000000001
+    A___83_2  DEDO3_1R  1.35714
+    A___83_2  DEDO3_2R  1.0357099999999999
+    A___83_2  DEDO3_3R  0.71428999999999998
+    A___83_2  DEDO3_4R  0.71428999999999998
+    A___83_2  DEDO3_5R  0.71428999999999998
+    A___83_2  DEDO3_6R  0.71428999999999998
+    A___83_2  DEDO3_7R  0.71428999999999998
+    A___83_2  DEDO3_8R  0.71428999999999998
+    A___83_2  DEDO3_9R  0.71428999999999998
+    A___83_2  DEDO310R  0.71428999999999998
+    A___83_2  DEDO311R  0.71428999999999998
+    A___83_2  DEDO312R  0.71428999999999998
+    A___83_2  DEDO313R  0.71428999999999998
+    A___83_2  DEDO314R  0.71428999999999998
+    A___83_2  DEDO315R  0.71428999999999998
+    A___83_2  DEDO5_1R  1.875
+    A___83_2  DEDO5_2R  3.75
+    A___83_2  DEDO5_3R  3.75
+    A___83_2  R012_TM2  -0.32142999999999999
+    A___83_2  R037_TM2  -0.14285999999999999
+    A___83_2  R048_TM2  -0.26785999999999999
+    A___83_2  R083_GR2  -0.20357
+    A___83_2  R092_MN2  -0.06429
+    A___83_2  AZ__80    1
+    A___84_1  __OBJ___  -0.31496000000000002
+    A___84_1  DEDO3_1R  1.125
+    A___84_1  DEDO3_2R  0.89285999999999999
+    A___84_1  DEDO3_3R  0.89285999999999999
+    A___84_1  DEDO3_4R  0.89285999999999999
+    A___84_1  DEDO3_5R  0.89285999999999999
+    A___84_1  DEDO3_6R  0.89285999999999999
+    A___84_1  DEDO3_7R  0.89285999999999999
+    A___84_1  DEDO3_8R  0.89285999999999999
+    A___84_1  DEDO3_9R  0.89285999999999999
+    A___84_1  DEDO310R  0.89285999999999999
+    A___84_1  DEDO311R  0.89285999999999999
+    A___84_1  DEDO312R  0.89285999999999999
+    A___84_1  DEDO313R  0.89285999999999999
+    A___84_1  DEDO314R  0.89285999999999999
+    A___84_1  DEDO315R  0.89285999999999999
+    A___84_1  DEDO5_1R  2.6785700000000001
+    A___84_1  DEDO5_2R  3.2142900000000001
+    A___84_1  DEDO5_3R  3.2142900000000001
+    A___84_1  R012_TM1  -0.23929
+    A___84_1  R012_TP1  -0.082140000000000005
+    A___84_1  R037_TM2  -0.05357
+    A___84_1  R037_TP2  -0.089289999999999994
+    A___84_1  R048_TM1  -0.23214000000000001
+    A___84_1  R048_TP1  -0.035709999999999999
+    A___84_1  R083_GM2  -0.20357
+    A___84_1  R092_MN2  -0.06429
+    A___84_1  AZ__80    1
+    A___84_2  __OBJ___  -0.21274000000000001
+    A___84_2  DEDO3_1R  1.35714
+    A___84_2  DEDO3_2R  1.125
+    A___84_2  DEDO3_3R  0.89285999999999999
+    A___84_2  DEDO3_4R  0.89285999999999999
+    A___84_2  DEDO3_5R  0.89285999999999999
+    A___84_2  DEDO3_6R  0.89285999999999999
+    A___84_2  DEDO3_7R  0.89285999999999999
+    A___84_2  DEDO3_8R  0.89285999999999999
+    A___84_2  DEDO3_9R  0.89285999999999999
+    A___84_2  DEDO310R  0.89285999999999999
+    A___84_2  DEDO311R  0.89285999999999999
+    A___84_2  DEDO312R  0.89285999999999999
+    A___84_2  DEDO313R  0.89285999999999999
+    A___84_2  DEDO314R  0.89285999999999999
+    A___84_2  DEDO315R  0.89285999999999999
+    A___84_2  DEDO5_1R  1.60714
+    A___84_2  DEDO5_2R  3.2142900000000001
+    A___84_2  DEDO5_3R  3.2142900000000001
+    A___84_2  R012_TM2  -0.23929
+    A___84_2  R012_TP2  -0.082140000000000005
+    A___84_2  R037_TM2  -0.05357
+    A___84_2  R037_TP2  -0.089289999999999994
+    A___84_2  R048_TM2  -0.23214000000000001
+    A___84_2  R048_TP2  -0.035709999999999999
+    A___84_2  R083_GM2  -0.20357
+    A___84_2  R092_MN2  -0.06429
+    A___84_2  AZ__80    1
+    A___91_1  DEDO3_1R  1.59091
+    A___91_1  DEDO3_2R  1.59091
+    A___91_1  DEDO3_3R  1.59091
+    A___91_1  DEDO3_4R  1.59091
+    A___91_1  DEDO3_5R  1.59091
+    A___91_1  DEDO3_6R  1.59091
+    A___91_1  DEDO3_7R  1.59091
+    A___91_1  DEDO3_8R  1.59091
+    A___91_1  DEDO3_9R  1.59091
+    A___91_1  DEDO310R  1.59091
+    A___91_1  DEDO311R  1.59091
+    A___91_1  DEDO312R  1.59091
+    A___91_1  DEDO313R  1.59091
+    A___91_1  DEDO314R  1.59091
+    A___91_1  DEDO315R  1.59091
+    A___91_1  R012_MN1  -0.37879000000000002
+    A___91_1  R037_MN1  -0.15151999999999999
+    A___91_1  R048_MN1  -0.24621000000000001
+    A___91_1  R052_MN1  -0.11742
+    A___91_1  R083_MN1  -0.10606
+    A___91_1  AZ__90    1
+    A___92_1  __OBJ___  -0.022381000000000002
+    A___92_1  DEDO3_1R  2.0265200000000001
+    A___92_1  DEDO3_2R  2.4621200000000001
+    A___92_1  DEDO3_3R  2.4621200000000001
+    A___92_1  DEDO3_4R  2.4621200000000001
+    A___92_1  DEDO3_5R  2.4621200000000001
+    A___92_1  DEDO3_6R  2.4621200000000001
+    A___92_1  DEDO3_7R  2.4621200000000001
+    A___92_1  DEDO3_8R  2.4621200000000001
+    A___92_1  DEDO3_9R  2.4621200000000001
+    A___92_1  DEDO310R  2.4621200000000001
+    A___92_1  DEDO311R  2.4621200000000001
+    A___92_1  DEDO312R  2.4621200000000001
+    A___92_1  DEDO313R  2.4621200000000001
+    A___92_1  DEDO314R  2.4621200000000001
+    A___92_1  DEDO315R  2.4621200000000001
+    A___92_1  R012_RD1  -0.37879000000000002
+    A___92_1  R037_RD1  -0.15151999999999999
+    A___92_1  R048_RD1  -0.24621000000000001
+    A___92_1  R052_RD1  -0.11742
+    A___92_1  R083_RD1  -0.10606
+    A___92_1  AZ__90    1
+    A___93_1  __OBJ___  -0.314
+    A___93_1  LC123     2800
+    A___93_1  DEDO3_1R  1.23106
+    A___93_1  DEDO3_2R  0.87121000000000004
+    A___93_1  DEDO3_3R  0.87121000000000004
+    A___93_1  DEDO3_4R  0.87121000000000004
+    A___93_1  DEDO3_5R  0.87121000000000004
+    A___93_1  DEDO3_6R  0.87121000000000004
+    A___93_1  DEDO3_7R  0.87121000000000004
+    A___93_1  DEDO3_8R  0.87121000000000004
+    A___93_1  DEDO3_9R  0.87121000000000004
+    A___93_1  DEDO310R  0.87121000000000004
+    A___93_1  DEDO311R  0.87121000000000004
+    A___93_1  DEDO312R  0.87121000000000004
+    A___93_1  DEDO313R  0.87121000000000004
+    A___93_1  DEDO314R  0.87121000000000004
+    A___93_1  DEDO315R  0.87121000000000004
+    A___93_1  DEDO5_1R  2.4621200000000001
+    A___93_1  DEDO5_2R  2.9545499999999998
+    A___93_1  DEDO5_3R  2.9545499999999998
+    A___93_1  R012_TM1  -0.125
+    A___93_1  R012_TM2  -0.094700000000000006
+    A___93_1  R012_TM3  -0.15909000000000001
+    A___93_1  R037_TM2  -0.15151999999999999
+    A___93_1  R048_TM1  -0.061550000000000001
+    A___93_1  R048_TM2  -0.061550000000000001
+    A___93_1  R048_TM3  -0.061550000000000001
+    A___93_1  R048_TM4  -0.061550000000000001
+    A___93_1  R052_TM1  -0.029360000000000001
+    A___93_1  R052_TM2  -0.029360000000000001
+    A___93_1  R052_TM3  -0.029360000000000001
+    A___93_1  R052_TM4  -0.029360000000000001
+    A___93_1  R083_GR2  -0.10606
+    A___93_1  AZ__90    1
+    A___93_2  __OBJ___  -0.21210000000000001
+    A___93_2  LC123     2800
+    A___93_2  DEDO3_1R  1.59091
+    A___93_2  DEDO3_2R  1.23106
+    A___93_2  DEDO3_3R  0.87121000000000004
+    A___93_2  DEDO3_4R  0.87121000000000004
+    A___93_2  DEDO3_5R  0.87121000000000004
+    A___93_2  DEDO3_6R  0.87121000000000004
+    A___93_2  DEDO3_7R  0.87121000000000004
+    A___93_2  DEDO3_8R  0.87121000000000004
+    A___93_2  DEDO3_9R  0.87121000000000004
+    A___93_2  DEDO310R  0.87121000000000004
+    A___93_2  DEDO311R  0.87121000000000004
+    A___93_2  DEDO312R  0.87121000000000004
+    A___93_2  DEDO313R  0.87121000000000004
+    A___93_2  DEDO314R  0.87121000000000004
+    A___93_2  DEDO315R  0.87121000000000004
+    A___93_2  DEDO5_1R  1.4772700000000001
+    A___93_2  DEDO5_2R  2.9545499999999998
+    A___93_2  DEDO5_3R  2.9545499999999998
+    A___93_2  R012_TM2  -0.125
+    A___93_2  R012_TM3  -0.094700000000000006
+    A___93_2  R012_TM4  -0.15909000000000001
+    A___93_2  R037_TM2  -0.15151999999999999
+    A___93_2  R048_TM2  -0.061550000000000001
+    A___93_2  R048_TM3  -0.061550000000000001
+    A___93_2  R048_TM4  -0.061550000000000001
+    A___93_2  R048_TM5  -0.061550000000000001
+    A___93_2  R052_TM2  -0.029360000000000001
+    A___93_2  R052_TM3  -0.029360000000000001
+    A___93_2  R052_TM4  -0.029360000000000001
+    A___93_2  R052_TM5  -0.029360000000000001
+    A___93_2  R083_GR2  -0.10606
+    A___93_2  AZ__90    1
+    A__101_1  DEDO3_1R  1.3214300000000001
+    A__101_1  DEDO3_2R  1.3214300000000001
+    A__101_1  DEDO3_3R  1.3214300000000001
+    A__101_1  DEDO3_4R  1.3214300000000001
+    A__101_1  DEDO3_5R  1.3214300000000001
+    A__101_1  DEDO3_6R  1.3214300000000001
+    A__101_1  DEDO3_7R  1.3214300000000001
+    A__101_1  DEDO3_8R  1.3214300000000001
+    A__101_1  DEDO3_9R  1.3214300000000001
+    A__101_1  DEDO310R  1.3214300000000001
+    A__101_1  DEDO311R  1.3214300000000001
+    A__101_1  DEDO312R  1.3214300000000001
+    A__101_1  DEDO313R  1.3214300000000001
+    A__101_1  DEDO314R  1.3214300000000001
+    A__101_1  DEDO315R  1.3214300000000001
+    A__101_1  R012_MN1  -0.32142999999999999
+    A__101_1  R037_MN1  -0.14285999999999999
+    A__101_1  R048_MN1  -0.26785999999999999
+    A__101_1  R083_MN1  -0.20357
+    A__101_1  R092_MN2  -0.06429
+    A__101_1  AZ_100    1
+    A__102_1  __OBJ___  -0.029357999999999999
+    A__102_1  DEDO3_1R  2.2321399999999998
+    A__102_1  DEDO3_2R  3.1428600000000002
+    A__102_1  DEDO3_3R  3.1428600000000002
+    A__102_1  DEDO3_4R  3.1428600000000002
+    A__102_1  DEDO3_5R  3.1428600000000002
+    A__102_1  DEDO3_6R  3.1428600000000002
+    A__102_1  DEDO3_7R  3.1428600000000002
+    A__102_1  DEDO3_8R  3.1428600000000002
+    A__102_1  DEDO3_9R  3.1428600000000002
+    A__102_1  DEDO310R  3.1428600000000002
+    A__102_1  DEDO311R  3.1428600000000002
+    A__102_1  DEDO312R  3.1428600000000002
+    A__102_1  DEDO313R  3.1428600000000002
+    A__102_1  DEDO314R  3.1428600000000002
+    A__102_1  DEDO315R  3.1428600000000002
+    A__102_1  R012_RD1  -0.32142999999999999
+    A__102_1  R037_RD1  -0.14285999999999999
+    A__102_1  R048_RD1  -0.26785999999999999
+    A__102_1  R083_RD1  -0.20357
+    A__102_1  R092_RD1  -0.06429
+    A__102_1  AZ_100    1
+    A__103_1  __OBJ___  -0.35041
+    A__103_1  LC123     2640
+    A__103_1  DEDO3_1R  1.0357099999999999
+    A__103_1  DEDO3_2R  0.71428999999999998
+    A__103_1  DEDO3_3R  0.71428999999999998
+    A__103_1  DEDO3_4R  0.71428999999999998
+    A__103_1  DEDO3_5R  0.71428999999999998
+    A__103_1  DEDO3_6R  0.71428999999999998
+    A__103_1  DEDO3_7R  0.71428999999999998
+    A__103_1  DEDO3_8R  0.71428999999999998
+    A__103_1  DEDO3_9R  0.71428999999999998
+    A__103_1  DEDO310R  0.71428999999999998
+    A__103_1  DEDO311R  0.71428999999999998
+    A__103_1  DEDO312R  0.71428999999999998
+    A__103_1  DEDO313R  0.71428999999999998
+    A__103_1  DEDO314R  0.71428999999999998
+    A__103_1  DEDO315R  0.71428999999999998
+    A__103_1  DEDO5_1R  3.125
+    A__103_1  DEDO5_2R  3.75
+    A__103_1  DEDO5_3R  3.75
+    A__103_1  R012_TM2  -0.12536
+    A__103_1  R012_TM4  -0.10607
+    A__103_1  R012_TM5  -0.089999999999999997
+    A__103_1  R037_TM2  -0.14285999999999999
+    A__103_1  R048_TM1  -0.16339000000000001
+    A__103_1  R048_TM3  -0.10446
+    A__103_1  R083_GR2  -0.20357
+    A__103_1  R092_MN2  -0.06429
+    A__103_1  AZ_100    1
+    A__103_2  __OBJ___  -0.23669000000000001
+    A__103_2  LC123     2640
+    A__103_2  DEDO3_1R  1.35714
+    A__103_2  DEDO3_2R  1.0357099999999999
+    A__103_2  DEDO3_3R  0.71428999999999998
+    A__103_2  DEDO3_4R  0.71428999999999998
+    A__103_2  DEDO3_5R  0.71428999999999998
+    A__103_2  DEDO3_6R  0.71428999999999998
+    A__103_2  DEDO3_7R  0.71428999999999998
+    A__103_2  DEDO3_8R  0.71428999999999998
+    A__103_2  DEDO3_9R  0.71428999999999998
+    A__103_2  DEDO310R  0.71428999999999998
+    A__103_2  DEDO311R  0.71428999999999998
+    A__103_2  DEDO312R  0.71428999999999998
+    A__103_2  DEDO313R  0.71428999999999998
+    A__103_2  DEDO314R  0.71428999999999998
+    A__103_2  DEDO315R  0.71428999999999998
+    A__103_2  DEDO5_1R  1.875
+    A__103_2  DEDO5_2R  3.75
+    A__103_2  DEDO5_3R  3.75
+    A__103_2  R012_TM3  -0.12536
+    A__103_2  R012_TM5  -0.10607
+    A__103_2  R012_TM6  -0.089999999999999997
+    A__103_2  R037_TM2  -0.14285999999999999
+    A__103_2  R048_TM2  -0.16339000000000001
+    A__103_2  R048_TM4  -0.10446
+    A__103_2  R083_GR2  -0.20357
+    A__103_2  R092_MN2  -0.06429
+    A__103_2  AZ_100    1
+    A__104_1  __OBJ___  -0.31496000000000002
+    A__104_1  LC123     2640
+    A__104_1  DEDO3_1R  1.125
+    A__104_1  DEDO3_2R  0.89285999999999999
+    A__104_1  DEDO3_3R  0.89285999999999999
+    A__104_1  DEDO3_4R  0.89285999999999999
+    A__104_1  DEDO3_5R  0.89285999999999999
+    A__104_1  DEDO3_6R  0.89285999999999999
+    A__104_1  DEDO3_7R  0.89285999999999999
+    A__104_1  DEDO3_8R  0.89285999999999999
+    A__104_1  DEDO3_9R  0.89285999999999999
+    A__104_1  DEDO310R  0.89285999999999999
+    A__104_1  DEDO311R  0.89285999999999999
+    A__104_1  DEDO312R  0.89285999999999999
+    A__104_1  DEDO313R  0.89285999999999999
+    A__104_1  DEDO314R  0.89285999999999999
+    A__104_1  DEDO315R  0.89285999999999999
+    A__104_1  DEDO5_1R  2.6785700000000001
+    A__104_1  DEDO5_2R  3.2142900000000001
+    A__104_1  DEDO5_3R  3.2142900000000001
+    A__104_1  R012_TM2  -0.090929999999999997
+    A__104_1  R012_TM4  -0.088539999999999994
+    A__104_1  R012_TM5  -0.059819999999999998
+    A__104_1  R012_TP2  -0.021360000000000001
+    A__104_1  R012_TP3  -0.0073899999999999999
+    A__104_1  R012_TP4  -0.01396
+    A__104_1  R012_TP5  -0.03943
+    A__104_1  R037_TM2  -0.05357
+    A__104_1  R037_TP2  -0.089289999999999994
+    A__104_1  R048_TM1  -0.13929
+    A__104_1  R048_TM3  -0.092859999999999998
+    A__104_1  R048_TP1  -0.017860000000000001
+    A__104_1  R048_TP3  -0.017860000000000001
+    A__104_1  R083_GM2  -0.20357
+    A__104_1  R092_MN2  -0.06429
+    A__104_1  AZ_100    1
+    A__104_2  __OBJ___  -0.21274000000000001
+    A__104_2  LC123     2640
+    A__104_2  DEDO3_1R  1.35714
+    A__104_2  DEDO3_2R  1.125
+    A__104_2  DEDO3_3R  0.89285999999999999
+    A__104_2  DEDO3_4R  0.89285999999999999
+    A__104_2  DEDO3_5R  0.89285999999999999
+    A__104_2  DEDO3_6R  0.89285999999999999
+    A__104_2  DEDO3_7R  0.89285999999999999
+    A__104_2  DEDO3_8R  0.89285999999999999
+    A__104_2  DEDO3_9R  0.89285999999999999
+    A__104_2  DEDO310R  0.89285999999999999
+    A__104_2  DEDO311R  0.89285999999999999
+    A__104_2  DEDO312R  0.89285999999999999
+    A__104_2  DEDO313R  0.89285999999999999
+    A__104_2  DEDO314R  0.89285999999999999
+    A__104_2  DEDO315R  0.89285999999999999
+    A__104_2  DEDO5_1R  1.60714
+    A__104_2  DEDO5_2R  3.2142900000000001
+    A__104_2  DEDO5_3R  3.2142900000000001
+    A__104_2  R012_TM3  -0.090929999999999997
+    A__104_2  R012_TM5  -0.088539999999999994
+    A__104_2  R012_TM6  -0.059819999999999998
+    A__104_2  R012_TP3  -0.021360000000000001
+    A__104_2  R012_TP4  -0.0073899999999999999
+    A__104_2  R012_TP5  -0.01396
+    A__104_2  R012_TP6  -0.03943
+    A__104_2  R037_TM2  -0.05357
+    A__104_2  R037_TP2  -0.089289999999999994
+    A__104_2  R048_TM2  -0.13929
+    A__104_2  R048_TM4  -0.092859999999999998
+    A__104_2  R048_TP2  -0.017860000000000001
+    A__104_2  R048_TP4  -0.017860000000000001
+    A__104_2  R083_GM2  -0.20357
+    A__104_2  R092_MN2  -0.06429
+    A__104_2  AZ_100    1
+    A__105_1  __OBJ___  -0.29354000000000002
+    A__105_1  LC123     2640
+    A__105_1  DEDO3_1R  1.125
+    A__105_1  DEDO3_2R  0.89285999999999999
+    A__105_1  DEDO3_3R  0.89285999999999999
+    A__105_1  DEDO3_4R  0.89285999999999999
+    A__105_1  DEDO3_5R  0.89285999999999999
+    A__105_1  DEDO3_6R  0.89285999999999999
+    A__105_1  DEDO3_7R  0.89285999999999999
+    A__105_1  DEDO3_8R  0.89285999999999999
+    A__105_1  DEDO3_9R  0.89285999999999999
+    A__105_1  DEDO310R  0.89285999999999999
+    A__105_1  DEDO311R  0.89285999999999999
+    A__105_1  DEDO312R  0.89285999999999999
+    A__105_1  DEDO313R  0.89285999999999999
+    A__105_1  DEDO314R  0.89285999999999999
+    A__105_1  DEDO315R  0.89285999999999999
+    A__105_1  DEDO5_1R  2.6785700000000001
+    A__105_1  DEDO5_2R  3.2142900000000001
+    A__105_1  DEDO5_3R  3.2142900000000001
+    A__105_1  R012_TM2  -0.064610000000000001
+    A__105_1  R012_TM4  -0.083750000000000005
+    A__105_1  R012_TM5  -0.090929999999999997
+    A__105_1  R012_TP2  -0.01643
+    A__105_1  R012_TP3  -0.0073899999999999999
+    A__105_1  R012_TP4  -0.014789999999999999
+    A__105_1  R012_TP5  -0.043540000000000002
+    A__105_1  R037_TM2  -0.05357
+    A__105_1  R037_TP2  -0.089289999999999994
+    A__105_1  R048_TM1  -0.090539999999999995
+    A__105_1  R048_TM3  -0.14161000000000001
+    A__105_1  R048_TP1  -0.01536
+    A__105_1  R048_TP3  -0.02036
+    A__105_1  R083_GM2  -0.20357
+    A__105_1  R092_MN2  -0.06429
+    A__105_1  AZ_100    1
+    A__105_2  __OBJ___  -0.19827
+    A__105_2  LC123     2640
+    A__105_2  DEDO3_1R  1.35714
+    A__105_2  DEDO3_2R  1.125
+    A__105_2  DEDO3_3R  0.89285999999999999
+    A__105_2  DEDO3_4R  0.89285999999999999
+    A__105_2  DEDO3_5R  0.89285999999999999
+    A__105_2  DEDO3_6R  0.89285999999999999
+    A__105_2  DEDO3_7R  0.89285999999999999
+    A__105_2  DEDO3_8R  0.89285999999999999
+    A__105_2  DEDO3_9R  0.89285999999999999
+    A__105_2  DEDO310R  0.89285999999999999
+    A__105_2  DEDO311R  0.89285999999999999
+    A__105_2  DEDO312R  0.89285999999999999
+    A__105_2  DEDO313R  0.89285999999999999
+    A__105_2  DEDO314R  0.89285999999999999
+    A__105_2  DEDO315R  0.89285999999999999
+    A__105_2  DEDO5_1R  1.60714
+    A__105_2  DEDO5_2R  3.2142900000000001
+    A__105_2  DEDO5_3R  3.2142900000000001
+    A__105_2  R012_TM3  -0.064610000000000001
+    A__105_2  R012_TM5  -0.083750000000000005
+    A__105_2  R012_TM6  -0.090929999999999997
+    A__105_2  R012_TP3  -0.01643
+    A__105_2  R012_TP4  -0.0073899999999999999
+    A__105_2  R012_TP5  -0.014789999999999999
+    A__105_2  R012_TP6  -0.043540000000000002
+    A__105_2  R037_TM2  -0.05357
+    A__105_2  R037_TP2  -0.089289999999999994
+    A__105_2  R048_TM2  -0.090539999999999995
+    A__105_2  R048_TM4  -0.14161000000000001
+    A__105_2  R048_TP2  -0.01536
+    A__105_2  R048_TP4  -0.02036
+    A__105_2  R083_GM2  -0.20357
+    A__105_2  R092_MN2  -0.06429
+    A__105_2  AZ_100    1
+    M012MN_1  __OBJ___  -0.0012631999999999999
+    M012MN_1  R012_MN1  1
+    M012RD_1  __OBJ___  -0.0010104999999999999
+    M012RD_1  R012_RD1  1
+    T012TM12  R012_TM1  1
+    T012TM12  R012_TM2  -1
+    T012TM23  R012_TM2  1
+    T012TM23  R012_TM3  -1
+    T012TM34  R012_TM3  1
+    T012TM34  R012_TM4  -1
+    T012TM45  R012_TM4  1
+    T012TM45  R012_TM5  -1
+    T012TM56  R012_TM5  1
+    T012TM56  R012_TM6  -1
+    M012TF_1  __OBJ___  0.95137000000000005
+    M012TF_1  VOLM_1_R  0.40200000000000002
+    M012TF_1  VOLM_8_R  0.36099999999999999
+    M012TF_1  VOLM15_R  0.36099999999999999
+    M012TF_1  LTSY_R    0.051569999999999998
+    M012TF_1  AVEINV_R  0.18842999999999999
+    M012TF_1  INVEN_R   0.26700000000000002
+    M012TF_1  A$___1_1  0.019939999999999999
+    M012TF_1  GP+++_0R  1
+    M012TF_1  GS+++_1R  1
+    M012TF_1  GS+++_8R  1
+    M012TF_1  GS+++15R  1
+    M012TF_1  R012_TM1  1
+    M012TF_2  __OBJ___  0.92200000000000004
+    M012TF_2  VOLM_1_R  0.40200000000000002
+    M012TF_2  VOLM_9_R  0.36699999999999999
+    M012TF_2  VOLM17_R  0.36699999999999999
+    M012TF_2  LTSY_R    0.045870000000000001
+    M012TF_2  AVEINV_R  0.21074999999999999
+    M012TF_2  INVEN_R   0.14199999999999999
+    M012TF_2  A$___1_1  0.019939999999999999
+    M012TF_2  GP+++_0R  1
+    M012TF_2  GS+++_1R  1
+    M012TF_2  GS+++_9R  1
+    M012TF_2  R012_TM1  1
+    M012TF_3  __OBJ___  0.68813000000000002
+    M012TF_3  VOLM_2_R  0.42299999999999999
+    M012TF_3  VOLM_9_R  0.36099999999999999
+    M012TF_3  VOLM16_R  0.36099999999999999
+    M012TF_3  LTSY_R    0.051569999999999998
+    M012TF_3  AVEINV_R  0.18842999999999999
+    M012TF_3  INVEN_R   0.20300000000000001
+    M012TF_3  A$___1_2  0.024479999999999998
+    M012TF_3  GP+++_0R  1
+    M012TF_3  GS+++_2R  1
+    M012TF_3  GS+++_9R  1
+    M012TF_3  R012_TM2  1
+    M012TF_4  __OBJ___  0.66835
+    M012TF_4  VOLM_2_R  0.42299999999999999
+    M012TF_4  VOLM10_R  0.36699999999999999
+    M012TF_4  VOLM18_R  0.36699999999999999
+    M012TF_4  LTSY_R    0.045870000000000001
+    M012TF_4  AVEINV_R  0.21074999999999999
+    M012TF_4  INVEN_R   0.021999999999999999
+    M012TF_4  A$___1_2  0.024479999999999998
+    M012TF_4  GP+++_0R  1
+    M012TF_4  GS+++_2R  1
+    M012TF_4  GS+++10R  1
+    M012TF_4  R012_TM2  1
+    M012TF_5  __OBJ___  0.50324999999999998
+    M012TF_5  VOLM_3_R  0.44
+    M012TF_5  VOLM10_R  0.36099999999999999
+    M012TF_5  VOLM17_R  0.36099999999999999
+    M012TF_5  LTSY_R    0.051569999999999998
+    M012TF_5  AVEINV_R  0.18842999999999999
+    M012TF_5  INVEN_R   0.14199999999999999
+    M012TF_5  GP+++_0R  1
+    M012TF_5  GS+++_3R  1
+    M012TF_5  GS+++10R  1
+    M012TF_5  R012_TM3  1
+    M012TF_6  __OBJ___  0.48975000000000002
+    M012TF_6  VOLM_3_R  0.44
+    M012TF_6  VOLM11_R  0.36699999999999999
+    M012TF_6  VOLM19_R  0.36699999999999999
+    M012TF_6  LTSY_R    0.045870000000000001
+    M012TF_6  AVEINV_R  0.21074999999999999
+    M012TF_6  GP+++_0R  1
+    M012TF_6  GS+++_3R  1
+    M012TF_6  GS+++11R  1
+    M012TF_6  R012_TM3  1
+    M012TF_7  __OBJ___  0.38519999999999999
+    M012TF_7  VOLM_4_R  0.437
+    M012TF_7  VOLM11_R  0.36099999999999999
+    M012TF_7  VOLM18_R  0.36099999999999999
+    M012TF_7  LTSY_R    0.051569999999999998
+    M012TF_7  AVEINV_R  0.18842999999999999
+    M012TF_7  INVEN_R   0.021999999999999999
+    M012TF_7  GP+++_0R  1
+    M012TF_7  GS+++_4R  1
+    M012TF_7  GS+++11R  1
+    M012TF_7  R012_TM4  1
+    M012TF_8  __OBJ___  0.37596000000000002
+    M012TF_8  VOLM_4_R  0.437
+    M012TF_8  VOLM12_R  0.36699999999999999
+    M012TF_8  VOLM20_R  0.36699999999999999
+    M012TF_8  LTSY_R    0.045870000000000001
+    M012TF_8  AVEINV_R  0.21074999999999999
+    M012TF_8  INVEN_R   0.36699999999999999
+    M012TF_8  GP+++_0R  1
+    M012TF_8  GS+++_4R  1
+    M012TF_8  GS+++12R  1
+    M012TF_8  R012_TM4  1
+    M012TF_9  __OBJ___  0.26538
+    M012TF_9  VOLM_5_R  0.42899999999999999
+    M012TF_9  VOLM12_R  0.36099999999999999
+    M012TF_9  VOLM19_R  0.36099999999999999
+    M012TF_9  LTSY_R    0.051569999999999998
+    M012TF_9  AVEINV_R  0.18842999999999999
+    M012TF_9  GP+++_0R  1
+    M012TF_9  GS+++_5R  1
+    M012TF_9  GS+++12R  1
+    M012TF_9  R012_TM5  1
+    M012TF_A  __OBJ___  0.25839000000000001
+    M012TF_A  VOLM_5_R  0.42899999999999999
+    M012TF_A  VOLM13_R  0.36699999999999999
+    M012TF_A  LTSY_R    0.045870000000000001
+    M012TF_A  AVEINV_R  0.21074999999999999
+    M012TF_A  INVEN_R   0.36099999999999999
+    M012TF_A  GP+++_0R  1
+    M012TF_A  GS+++_5R  1
+    M012TF_A  GS+++13R  1
+    M012TF_A  R012_TM5  1
+    M012TF_B  __OBJ___  0.17208000000000001
+    M012TF_B  VOLM_6_R  0.41699999999999998
+    M012TF_B  VOLM13_R  0.36099999999999999
+    M012TF_B  VOLM20_R  0.36099999999999999
+    M012TF_B  LTSY_R    0.051569999999999998
+    M012TF_B  AVEINV_R  0.18842999999999999
+    M012TF_B  INVEN_R   0.36099999999999999
+    M012TF_B  GP+++_0R  1
+    M012TF_B  GS+++_6R  1
+    M012TF_B  GS+++13R  1
+    M012TF_B  R012_TM6  1
+    M012TF_C  __OBJ___  0.16728000000000001
+    M012TF_C  VOLM_6_R  0.41699999999999998
+    M012TF_C  VOLM14_R  0.36699999999999999
+    M012TF_C  LTSY_R    0.045870000000000001
+    M012TF_C  AVEINV_R  0.21074999999999999
+    M012TF_C  INVEN_R   0.32400000000000001
+    M012TF_C  GP+++_0R  1
+    M012TF_C  GS+++_6R  1
+    M012TF_C  GS+++14R  1
+    M012TF_C  R012_TM6  1
+    M012TF_D  __OBJ___  0.11232
+    M012TF_D  VOLM_7_R  0.40999999999999998
+    M012TF_D  VOLM14_R  0.36099999999999999
+    M012TF_D  LTSY_R    0.051569999999999998
+    M012TF_D  AVEINV_R  0.18842999999999999
+    M012TF_D  INVEN_R   0.32400000000000001
+    M012TF_D  GP+++_0R  1
+    M012TF_D  GS+++_7R  1
+    M012TF_D  GS+++14R  1
+    M012TF_D  R012_TM6  1
+    M012TF_E  __OBJ___  0.10962
+    M012TF_E  VOLM_7_R  0.40999999999999998
+    M012TF_E  VOLM15_R  0.36699999999999999
+    M012TF_E  LTSY_R    0.045870000000000001
+    M012TF_E  AVEINV_R  0.21074999999999999
+    M012TF_E  INVEN_R   0.26700000000000002
+    M012TF_E  GP+++_0R  1
+    M012TF_E  GS+++_7R  1
+    M012TF_E  GS+++15R  1
+    M012TF_E  R012_TM6  1
+    M012T1_1  __OBJ___  0.98104000000000002
+    M012T1_1  VOLM_1_R  0.40200000000000002
+    M012T1_1  VOLM_5_R  0.052999999999999999
+    M012T1_1  VOLM_8_R  0.33900000000000002
+    M012T1_1  VOLM12_R  0.052999999999999999
+    M012T1_1  VOLM15_R  0.33900000000000002
+    M012T1_1  VOLM19_R  0.052999999999999999
+    M012T1_1  LTSY_R    0.056000000000000001
+    M012T1_1  AVEINV_R  0.18143000000000001
+    M012T1_1  INVEN_R   0.24399999999999999
+    M012T1_1  A$___1_1  0.019939999999999999
+    M012T1_1  GP+++_0R  1
+    M012T1_1  GS+++_1R  1
+    M012T1_1  GS+++_8R  1
+    M012T1_1  GS+++15R  1
+    M012T1_1  R012_TM1  1
+    M012T1_2  __OBJ___  0.95421
+    M012T1_2  VOLM_1_R  0.40200000000000002
+    M012T1_2  VOLM_5_R  0.052999999999999999
+    M012T1_2  VOLM_9_R  0.34499999999999997
+    M012T1_2  VOLM13_R  0.052999999999999999
+    M012T1_2  VOLM17_R  0.34499999999999997
+    M012T1_2  LTSY_R    0.049750000000000003
+    M012T1_2  AVEINV_R  0.20186999999999999
+    M012T1_2  INVEN_R   0.14199999999999999
+    M012T1_2  A$___1_1  0.019939999999999999
+    M012T1_2  GP+++_0R  1
+    M012T1_2  GS+++_1R  1
+    M012T1_2  GS+++_9R  1
+    M012T1_2  R012_TM1  1
+    M012T1_3  __OBJ___  0.93889
+    M012T1_3  VOLM_1_R  0.40200000000000002
+    M012T1_3  VOLM_5_R  0.052999999999999999
+    M012T1_3  VOLM10_R  0.377
+    M012T1_3  VOLM14_R  0.052999999999999999
+    M012T1_3  VOLM19_R  0.377
+    M012T1_3  LTSY_R    0.047780000000000003
+    M012T1_3  AVEINV_R  0.22133
+    M012T1_3  A$___1_1  0.019939999999999999
+    M012T1_3  GP+++_0R  1
+    M012T1_3  GS+++_1R  1
+    M012T1_3  GS+++10R  1
+    M012T1_3  R012_TM1  1
+    M012T1_4  __OBJ___  0.70820000000000005
+    M012T1_4  VOLM_2_R  0.42299999999999999
+    M012T1_4  VOLM_6_R  0.052999999999999999
+    M012T1_4  VOLM_9_R  0.33900000000000002
+    M012T1_4  VOLM13_R  0.052999999999999999
+    M012T1_4  VOLM16_R  0.33900000000000002
+    M012T1_4  VOLM20_R  0.052999999999999999
+    M012T1_4  LTSY_R    0.056000000000000001
+    M012T1_4  AVEINV_R  0.18143000000000001
+    M012T1_4  INVEN_R   0.20599999999999999
+    M012T1_4  A$___1_2  0.024479999999999998
+    M012T1_4  GP+++_0R  1
+    M012T1_4  GS+++_2R  1
+    M012T1_4  GS+++_9R  1
+    M012T1_4  R012_TM2  1
+    M012T1_5  __OBJ___  0.69013000000000002
+    M012T1_5  VOLM_2_R  0.42299999999999999
+    M012T1_5  VOLM_6_R  0.052999999999999999
+    M012T1_5  VOLM10_R  0.34499999999999997
+    M012T1_5  VOLM14_R  0.052999999999999999
+    M012T1_5  VOLM18_R  0.34499999999999997
+    M012T1_5  LTSY_R    0.049750000000000003
+    M012T1_5  AVEINV_R  0.20186999999999999
+    M012T1_5  INVEN_R   0.021999999999999999
+    M012T1_5  A$___1_2  0.024479999999999998
+    M012T1_5  GP+++_0R  1
+    M012T1_5  GS+++_2R  1
+    M012T1_5  GS+++10R  1
+    M012T1_5  R012_TM2  1
+    M012T1_6  __OBJ___  0.67971000000000004
+    M012T1_6  VOLM_2_R  0.42299999999999999
+    M012T1_6  VOLM_6_R  0.052999999999999999
+    M012T1_6  VOLM11_R  0.377
+    M012T1_6  VOLM15_R  0.052999999999999999
+    M012T1_6  VOLM20_R  0.377
+    M012T1_6  LTSY_R    0.047780000000000003
+    M012T1_6  AVEINV_R  0.22133
+    M012T1_6  INVEN_R   0.377
+    M012T1_6  A$___1_2  0.024479999999999998
+    M012T1_6  GP+++_0R  1
+    M012T1_6  GS+++_2R  1
+    M012T1_6  GS+++11R  1
+    M012T1_6  R012_TM2  1
+    M012T1_7  __OBJ___  0.51675000000000004
+    M012T1_7  VOLM_3_R  0.44
+    M012T1_7  VOLM_7_R  0.052999999999999999
+    M012T1_7  VOLM10_R  0.33900000000000002
+    M012T1_7  VOLM14_R  0.052999999999999999
+    M012T1_7  VOLM17_R  0.33900000000000002
+    M012T1_7  LTSY_R    0.056000000000000001
+    M012T1_7  AVEINV_R  0.18143000000000001
+    M012T1_7  INVEN_R   0.14199999999999999
+    M012T1_7  GP+++_0R  1
+    M012T1_7  GS+++_3R  1
+    M012T1_7  GS+++10R  1
+    M012T1_7  R012_TM3  1
+    M012T1_8  __OBJ___  0.50448000000000004
+    M012T1_8  VOLM_3_R  0.44
+    M012T1_8  VOLM_7_R  0.052999999999999999
+    M012T1_8  VOLM11_R  0.34499999999999997
+    M012T1_8  VOLM15_R  0.052999999999999999
+    M012T1_8  VOLM19_R  0.34499999999999997
+    M012T1_8  LTSY_R    0.049750000000000003
+    M012T1_8  AVEINV_R  0.20186999999999999
+    M012T1_8  GP+++_0R  1
+    M012T1_8  GS+++_3R  1
+    M012T1_8  GS+++11R  1
+    M012T1_8  R012_TM3  1
+    M012T1_9  __OBJ___  0.49637999999999999
+    M012T1_9  VOLM_3_R  0.44
+    M012T1_9  VOLM_7_R  0.052999999999999999
+    M012T1_9  VOLM12_R  0.377
+    M012T1_9  VOLM16_R  0.052999999999999999
+    M012T1_9  LTSY_R    0.047780000000000003
+    M012T1_9  AVEINV_R  0.22133
+    M012T1_9  INVEN_R   0.34499999999999997
+    M012T1_9  GP+++_0R  1
+    M012T1_9  GS+++_3R  1
+    M012T1_9  GS+++12R  1
+    M012T1_9  R012_TM3  1
+    M012T1_A  __OBJ___  0.39434999999999998
+    M012T1_A  VOLM_4_R  0.437
+    M012T1_A  VOLM_8_R  0.052999999999999999
+    M012T1_A  VOLM11_R  0.33900000000000002
+    M012T1_A  VOLM15_R  0.052999999999999999
+    M012T1_A  VOLM18_R  0.33900000000000002
+    M012T1_A  LTSY_R    0.056000000000000001
+    M012T1_A  AVEINV_R  0.18143000000000001
+    M012T1_A  INVEN_R   0.021999999999999999
+    M012T1_A  GP+++_0R  1
+    M012T1_A  GS+++_4R  1
+    M012T1_A  GS+++11R  1
+    M012T1_A  R012_TM4  1
+    M012T1_B  __OBJ___  0.38591999999999999
+    M012T1_B  VOLM_4_R  0.437
+    M012T1_B  VOLM_8_R  0.052999999999999999
+    M012T1_B  VOLM12_R  0.34499999999999997
+    M012T1_B  VOLM16_R  0.052999999999999999
+    M012T1_B  VOLM20_R  0.34499999999999997
+    M012T1_B  LTSY_R    0.049750000000000003
+    M012T1_B  AVEINV_R  0.20186999999999999
+    M012T1_B  INVEN_R   0.34499999999999997
+    M012T1_B  GP+++_0R  1
+    M012T1_B  GS+++_4R  1
+    M012T1_B  GS+++12R  1
+    M012T1_B  R012_TM4  1
+    M012T1_C  __OBJ___  0.38046999999999997
+    M012T1_C  VOLM_4_R  0.437
+    M012T1_C  VOLM_8_R  0.052999999999999999
+    M012T1_C  VOLM13_R  0.377
+    M012T1_C  VOLM17_R  0.052999999999999999
+    M012T1_C  LTSY_R    0.047780000000000003
+    M012T1_C  AVEINV_R  0.22133
+    M012T1_C  INVEN_R   0.33900000000000002
+    M012T1_C  GP+++_0R  1
+    M012T1_C  GS+++_4R  1
+    M012T1_C  GS+++13R  1
+    M012T1_C  R012_TM4  1
+    M012T1_D  __OBJ___  0.27156000000000002
+    M012T1_D  VOLM_5_R  0.42899999999999999
+    M012T1_D  VOLM_9_R  0.052999999999999999
+    M012T1_D  VOLM12_R  0.33900000000000002
+    M012T1_D  VOLM16_R  0.052999999999999999
+    M012T1_D  VOLM19_R  0.33900000000000002
+    M012T1_D  LTSY_R    0.056000000000000001
+    M012T1_D  AVEINV_R  0.18143000000000001
+    M012T1_D  GP+++_0R  1
+    M012T1_D  GS+++_5R  1
+    M012T1_D  GS+++12R  1
+    M012T1_D  R012_TM5  1
+    M012T1_E  __OBJ___  0.26512000000000002
+    M012T1_E  VOLM_5_R  0.42899999999999999
+    M012T1_E  VOLM_9_R  0.052999999999999999
+    M012T1_E  VOLM13_R  0.34499999999999997
+    M012T1_E  VOLM17_R  0.052999999999999999
+    M012T1_E  LTSY_R    0.049750000000000003
+    M012T1_E  AVEINV_R  0.20186999999999999
+    M012T1_E  INVEN_R   0.33900000000000002
+    M012T1_E  GP+++_0R  1
+    M012T1_E  GS+++_5R  1
+    M012T1_E  GS+++13R  1
+    M012T1_E  R012_TM5  1
+    M012T1_F  __OBJ___  0.26223000000000002
+    M012T1_F  VOLM_5_R  0.42899999999999999
+    M012T1_F  VOLM_9_R  0.052999999999999999
+    M012T1_F  VOLM14_R  0.377
+    M012T1_F  VOLM18_R  0.052999999999999999
+    M012T1_F  LTSY_R    0.047780000000000003
+    M012T1_F  AVEINV_R  0.22133
+    M012T1_F  INVEN_R   0.317
+    M012T1_F  GP+++_0R  1
+    M012T1_F  GS+++_5R  1
+    M012T1_F  GS+++14R  1
+    M012T1_F  R012_TM5  1
+    M012T1_G  __OBJ___  0.17627000000000001
+    M012T1_G  VOLM_6_R  0.41699999999999998
+    M012T1_G  VOLM10_R  0.052999999999999999
+    M012T1_G  VOLM13_R  0.33900000000000002
+    M012T1_G  VOLM17_R  0.052999999999999999
+    M012T1_G  VOLM20_R  0.33900000000000002
+    M012T1_G  LTSY_R    0.056000000000000001
+    M012T1_G  AVEINV_R  0.18143000000000001
+    M012T1_G  INVEN_R   0.33900000000000002
+    M012T1_G  GP+++_0R  1
+    M012T1_G  GS+++_6R  1
+    M012T1_G  GS+++13R  1
+    M012T1_G  R012_TM6  1
+    M012T1_H  __OBJ___  0.17185
+    M012T1_H  VOLM_6_R  0.41699999999999998
+    M012T1_H  VOLM10_R  0.052999999999999999
+    M012T1_H  VOLM14_R  0.34499999999999997
+    M012T1_H  VOLM18_R  0.052999999999999999
+    M012T1_H  LTSY_R    0.049750000000000003
+    M012T1_H  AVEINV_R  0.20186999999999999
+    M012T1_H  INVEN_R   0.317
+    M012T1_H  GP+++_0R  1
+    M012T1_H  GS+++_6R  1
+    M012T1_H  GS+++14R  1
+    M012T1_H  R012_TM6  1
+    M012T1_I  __OBJ___  0.16969999999999999
+    M012T1_I  VOLM_6_R  0.41699999999999998
+    M012T1_I  VOLM10_R  0.052999999999999999
+    M012T1_I  VOLM15_R  0.377
+    M012T1_I  VOLM19_R  0.052999999999999999
+    M012T1_I  LTSY_R    0.047780000000000003
+    M012T1_I  AVEINV_R  0.22133
+    M012T1_I  INVEN_R   0.24399999999999999
+    M012T1_I  GP+++_0R  1
+    M012T1_I  GS+++_6R  1
+    M012T1_I  GS+++15R  1
+    M012T1_I  R012_TM6  1
+    M012T1_J  __OBJ___  0.11518
+    M012T1_J  VOLM_7_R  0.40999999999999998
+    M012T1_J  VOLM11_R  0.052999999999999999
+    M012T1_J  VOLM14_R  0.33900000000000002
+    M012T1_J  VOLM18_R  0.052999999999999999
+    M012T1_J  LTSY_R    0.056000000000000001
+    M012T1_J  AVEINV_R  0.18143000000000001
+    M012T1_J  INVEN_R   0.317
+    M012T1_J  GP+++_0R  1
+    M012T1_J  GS+++_7R  1
+    M012T1_J  GS+++14R  1
+    M012T1_J  R012_TM6  1
+    M012T1_K  __OBJ___  0.11271
+    M012T1_K  VOLM_7_R  0.40999999999999998
+    M012T1_K  VOLM11_R  0.052999999999999999
+    M012T1_K  VOLM15_R  0.34499999999999997
+    M012T1_K  VOLM19_R  0.052999999999999999
+    M012T1_K  LTSY_R    0.049750000000000003
+    M012T1_K  AVEINV_R  0.20186999999999999
+    M012T1_K  INVEN_R   0.24399999999999999
+    M012T1_K  GP+++_0R  1
+    M012T1_K  GS+++_7R  1
+    M012T1_K  GS+++15R  1
+    M012T1_K  R012_TM6  1
+    M012T1_L  __OBJ___  0.11144999999999999
+    M012T1_L  VOLM_7_R  0.40999999999999998
+    M012T1_L  VOLM11_R  0.052999999999999999
+    M012T1_L  VOLM16_R  0.377
+    M012T1_L  VOLM20_R  0.052999999999999999
+    M012T1_L  LTSY_R    0.047780000000000003
+    M012T1_L  AVEINV_R  0.22133
+    M012T1_L  INVEN_R   0.20599999999999999
+    M012T1_L  GP+++_0R  1
+    M012T1_L  GS+++_7R  1
+    M012T1_L  R012_TM6  1
+    M012T1_M  __OBJ___  0.97760999999999998
+    M012T1_M  VOLM_1_R  0.40200000000000002
+    M012T1_M  VOLM_6_R  0.057000000000000002
+    M012T1_M  VOLM_8_R  0.35599999999999998
+    M012T1_M  VOLM13_R  0.057000000000000002
+    M012T1_M  VOLM15_R  0.35599999999999998
+    M012T1_M  VOLM20_R  0.057000000000000002
+    M012T1_M  LTSY_R    0.058999999999999997
+    M012T1_M  AVEINV_R  0.18343000000000001
+    M012T1_M  INVEN_R   0.24199999999999999
+    M012T1_M  A$___1_1  0.019939999999999999
+    M012T1_M  GP+++_0R  1
+    M012T1_M  GS+++_1R  1
+    M012T1_M  GS+++_8R  1
+    M012T1_M  GS+++15R  1
+    M012T1_M  R012_TM1  1
+    M012T1_N  __OBJ___  0.94943999999999995
+    M012T1_N  VOLM_1_R  0.40200000000000002
+    M012T1_N  VOLM_6_R  0.057000000000000002
+    M012T1_N  VOLM_9_R  0.36199999999999999
+    M012T1_N  VOLM14_R  0.057000000000000002
+    M012T1_N  VOLM17_R  0.36199999999999999
+    M012T1_N  LTSY_R    0.05237
+    M012T1_N  AVEINV_R  0.20574999999999999
+    M012T1_N  INVEN_R   0.14199999999999999
+    M012T1_N  A$___1_1  0.019939999999999999
+    M012T1_N  GP+++_0R  1
+    M012T1_N  GS+++_1R  1
+    M012T1_N  GS+++_9R  1
+    M012T1_N  R012_TM1  1
+    M012T1_O  __OBJ___  0.93228999999999995
+    M012T1_O  VOLM_1_R  0.40200000000000002
+    M012T1_O  VOLM_6_R  0.057000000000000002
+    M012T1_O  VOLM10_R  0.38800000000000001
+    M012T1_O  VOLM15_R  0.057000000000000002
+    M012T1_O  VOLM19_R  0.38800000000000001
+    M012T1_O  LTSY_R    0.049439999999999998
+    M012T1_O  AVEINV_R  0.22600000000000001
+    M012T1_O  A$___1_1  0.019939999999999999
+    M012T1_O  GP+++_0R  1
+    M012T1_O  GS+++_1R  1
+    M012T1_O  GS+++10R  1
+    M012T1_O  R012_TM1  1
+    M012T1_P  __OBJ___  0.70581000000000005
+    M012T1_P  VOLM_2_R  0.42299999999999999
+    M012T1_P  VOLM_7_R  0.057000000000000002
+    M012T1_P  VOLM_9_R  0.35599999999999998
+    M012T1_P  VOLM14_R  0.057000000000000002
+    M012T1_P  VOLM16_R  0.35599999999999998
+    M012T1_P  LTSY_R    0.058999999999999997
+    M012T1_P  AVEINV_R  0.18343000000000001
+    M012T1_P  INVEN_R   0.20300000000000001
+    M012T1_P  A$___1_2  0.024479999999999998
+    M012T1_P  GP+++_0R  1
+    M012T1_P  GS+++_2R  1
+    M012T1_P  GS+++_9R  1
+    M012T1_P  R012_TM2  1
+    M012T1_Q  __OBJ___  0.68691000000000002
+    M012T1_Q  VOLM_2_R  0.42299999999999999
+    M012T1_Q  VOLM_7_R  0.057000000000000002
+    M012T1_Q  VOLM10_R  0.36199999999999999
+    M012T1_Q  VOLM15_R  0.057000000000000002
+    M012T1_Q  VOLM18_R  0.36199999999999999
+    M012T1_Q  LTSY_R    0.05237
+    M012T1_Q  AVEINV_R  0.20574999999999999
+    M012T1_Q  INVEN_R   0.021999999999999999
+    M012T1_Q  A$___1_2  0.024479999999999998
+    M012T1_Q  GP+++_0R  1
+    M012T1_Q  GS+++_2R  1
+    M012T1_Q  GS+++10R  1
+    M012T1_Q  R012_TM2  1
+    M012T1_R  __OBJ___  0.67525000000000002
+    M012T1_R  VOLM_2_R  0.42299999999999999
+    M012T1_R  VOLM_7_R  0.057000000000000002
+    M012T1_R  VOLM11_R  0.38800000000000001
+    M012T1_R  VOLM16_R  0.057000000000000002
+    M012T1_R  VOLM20_R  0.38800000000000001
+    M012T1_R  LTSY_R    0.049439999999999998
+    M012T1_R  AVEINV_R  0.22600000000000001
+    M012T1_R  INVEN_R   0.38800000000000001
+    M012T1_R  A$___1_2  0.024479999999999998
+    M012T1_R  GP+++_0R  1
+    M012T1_R  GS+++_2R  1
+    M012T1_R  GS+++11R  1
+    M012T1_R  R012_TM2  1
+    M012T1_S  __OBJ___  0.51522999999999997
+    M012T1_S  VOLM_3_R  0.44
+    M012T1_S  VOLM_8_R  0.057000000000000002
+    M012T1_S  VOLM10_R  0.35599999999999998
+    M012T1_S  VOLM15_R  0.057000000000000002
+    M012T1_S  VOLM17_R  0.35599999999999998
+    M012T1_S  LTSY_R    0.058999999999999997
+    M012T1_S  AVEINV_R  0.18343000000000001
+    M012T1_S  INVEN_R   0.14199999999999999
+    M012T1_S  GP+++_0R  1
+    M012T1_S  GS+++_3R  1
+    M012T1_S  GS+++10R  1
+    M012T1_S  R012_TM3  1
+    M012T1_T  __OBJ___  0.50231000000000003
+    M012T1_T  VOLM_3_R  0.44
+    M012T1_T  VOLM_8_R  0.057000000000000002
+    M012T1_T  VOLM11_R  0.36199999999999999
+    M012T1_T  VOLM16_R  0.057000000000000002
+    M012T1_T  VOLM19_R  0.36199999999999999
+    M012T1_T  LTSY_R    0.05237
+    M012T1_T  AVEINV_R  0.20574999999999999
+    M012T1_T  GP+++_0R  1
+    M012T1_T  GS+++_3R  1
+    M012T1_T  GS+++11R  1
+    M012T1_T  R012_TM3  1
+    M012T1_U  __OBJ___  0.49335000000000001
+    M012T1_U  VOLM_3_R  0.44
+    M012T1_U  VOLM_8_R  0.057000000000000002
+    M012T1_U  VOLM12_R  0.38800000000000001
+    M012T1_U  VOLM17_R  0.057000000000000002
+    M012T1_U  LTSY_R    0.049439999999999998
+    M012T1_U  AVEINV_R  0.22600000000000001
+    M012T1_U  INVEN_R   0.36199999999999999
+    M012T1_U  GP+++_0R  1
+    M012T1_U  GS+++_3R  1
+    M012T1_U  GS+++12R  1
+    M012T1_U  R012_TM3  1
+    M012T1_V  __OBJ___  0.39333000000000001
+    M012T1_V  VOLM_4_R  0.437
+    M012T1_V  VOLM_9_R  0.057000000000000002
+    M012T1_V  VOLM11_R  0.35599999999999998
+    M012T1_V  VOLM16_R  0.057000000000000002
+    M012T1_V  VOLM18_R  0.35599999999999998
+    M012T1_V  LTSY_R    0.058999999999999997
+    M012T1_V  AVEINV_R  0.18343000000000001
+    M012T1_V  INVEN_R   0.021999999999999999
+    M012T1_V  GP+++_0R  1
+    M012T1_V  GS+++_4R  1
+    M012T1_V  GS+++11R  1
+    M012T1_V  R012_TM4  1
+    M012T1_W  __OBJ___  0.38446000000000002
+    M012T1_W  VOLM_4_R  0.437
+    M012T1_W  VOLM_9_R  0.057000000000000002
+    M012T1_W  VOLM12_R  0.36199999999999999
+    M012T1_W  VOLM17_R  0.057000000000000002
+    M012T1_W  VOLM20_R  0.36199999999999999
+    M012T1_W  LTSY_R    0.05237
+    M012T1_W  AVEINV_R  0.20574999999999999
+    M012T1_W  INVEN_R   0.36199999999999999
+    M012T1_W  GP+++_0R  1
+    M012T1_W  GS+++_4R  1
+    M012T1_W  GS+++12R  1
+    M012T1_W  R012_TM4  1
+    M012T1_X  __OBJ___  0.37842999999999999
+    M012T1_X  VOLM_4_R  0.437
+    M012T1_X  VOLM_9_R  0.057000000000000002
+    M012T1_X  VOLM13_R  0.38800000000000001
+    M012T1_X  VOLM18_R  0.057000000000000002
+    M012T1_X  LTSY_R    0.049439999999999998
+    M012T1_X  AVEINV_R  0.22600000000000001
+    M012T1_X  INVEN_R   0.35599999999999998
+    M012T1_X  GP+++_0R  1
+    M012T1_X  GS+++_4R  1
+    M012T1_X  GS+++13R  1
+    M012T1_X  R012_TM4  1
+    M012T1_Y  __OBJ___  0.27088000000000001
+    M012T1_Y  VOLM_5_R  0.42899999999999999
+    M012T1_Y  VOLM10_R  0.057000000000000002
+    M012T1_Y  VOLM12_R  0.35599999999999998
+    M012T1_Y  VOLM17_R  0.057000000000000002
+    M012T1_Y  VOLM19_R  0.35599999999999998
+    M012T1_Y  LTSY_R    0.058999999999999997
+    M012T1_Y  AVEINV_R  0.18343000000000001
+    M012T1_Y  GP+++_0R  1
+    M012T1_Y  GS+++_5R  1
+    M012T1_Y  GS+++12R  1
+    M012T1_Y  R012_TM5  1
+    M012T1_Z  __OBJ___  0.26411000000000001
+    M012T1_Z  VOLM_5_R  0.42899999999999999
+    M012T1_Z  VOLM10_R  0.057000000000000002
+    M012T1_Z  VOLM13_R  0.36199999999999999
+    M012T1_Z  VOLM18_R  0.057000000000000002
+    M012T1_Z  LTSY_R    0.05237
+    M012T1_Z  AVEINV_R  0.20574999999999999
+    M012T1_Z  INVEN_R   0.35599999999999998
+    M012T1_Z  GP+++_0R  1
+    M012T1_Z  GS+++_5R  1
+    M012T1_Z  GS+++13R  1
+    M012T1_Z  R012_TM5  1
+    M012T1_[  __OBJ___  0.26085000000000003
+    M012T1_[  VOLM_5_R  0.42899999999999999
+    M012T1_[  VOLM10_R  0.057000000000000002
+    M012T1_[  VOLM14_R  0.38800000000000001
+    M012T1_[  VOLM19_R  0.057000000000000002
+    M012T1_[  LTSY_R    0.049439999999999998
+    M012T1_[  AVEINV_R  0.22600000000000001
+    M012T1_[  INVEN_R   0.31900000000000001
+    M012T1_[  GP+++_0R  1
+    M012T1_[  GS+++_5R  1
+    M012T1_[  GS+++14R  1
+    M012T1_[  R012_TM5  1
+    M012T1_]  __OBJ___  0.17580999999999999
+    M012T1_]  VOLM_6_R  0.41699999999999998
+    M012T1_]  VOLM11_R  0.057000000000000002
+    M012T1_]  VOLM13_R  0.35599999999999998
+    M012T1_]  VOLM18_R  0.057000000000000002
+    M012T1_]  VOLM20_R  0.35599999999999998
+    M012T1_]  LTSY_R    0.058999999999999997
+    M012T1_]  AVEINV_R  0.18343000000000001
+    M012T1_]  INVEN_R   0.35599999999999998
+    M012T1_]  GP+++_0R  1
+    M012T1_]  GS+++_6R  1
+    M012T1_]  GS+++13R  1
+    M012T1_]  R012_TM6  1
+    M012T1_#  __OBJ___  0.17116999999999999
+    M012T1_#  VOLM_6_R  0.41699999999999998
+    M012T1_#  VOLM11_R  0.057000000000000002
+    M012T1_#  VOLM14_R  0.36199999999999999
+    M012T1_#  VOLM19_R  0.057000000000000002
+    M012T1_#  LTSY_R    0.05237
+    M012T1_#  AVEINV_R  0.20574999999999999
+    M012T1_#  INVEN_R   0.31900000000000001
+    M012T1_#  GP+++_0R  1
+    M012T1_#  GS+++_6R  1
+    M012T1_#  GS+++14R  1
+    M012T1_#  R012_TM6  1
+    M012T1_^  __OBJ___  0.16877
+    M012T1_^  VOLM_6_R  0.41699999999999998
+    M012T1_^  VOLM11_R  0.057000000000000002
+    M012T1_^  VOLM15_R  0.38800000000000001
+    M012T1_^  VOLM20_R  0.057000000000000002
+    M012T1_^  LTSY_R    0.049439999999999998
+    M012T1_^  AVEINV_R  0.22600000000000001
+    M012T1_^  INVEN_R   0.24199999999999999
+    M012T1_^  GP+++_0R  1
+    M012T1_^  GS+++_6R  1
+    M012T1_^  GS+++15R  1
+    M012T1_^  R012_TM6  1
+    M012T1_)  __OBJ___  0.11484999999999999
+    M012T1_)  VOLM_7_R  0.40999999999999998
+    M012T1_)  VOLM12_R  0.057000000000000002
+    M012T1_)  VOLM14_R  0.35599999999999998
+    M012T1_)  VOLM19_R  0.057000000000000002
+    M012T1_)  LTSY_R    0.058999999999999997
+    M012T1_)  AVEINV_R  0.18343000000000001
+    M012T1_)  INVEN_R   0.31900000000000001
+    M012T1_)  GP+++_0R  1
+    M012T1_)  GS+++_7R  1
+    M012T1_)  GS+++14R  1
+    M012T1_)  R012_TM6  1
+    M012T1_-  __OBJ___  0.11225
+    M012T1_-  VOLM_7_R  0.40999999999999998
+    M012T1_-  VOLM12_R  0.057000000000000002
+    M012T1_-  VOLM15_R  0.36199999999999999
+    M012T1_-  VOLM20_R  0.057000000000000002
+    M012T1_-  LTSY_R    0.05237
+    M012T1_-  AVEINV_R  0.20574999999999999
+    M012T1_-  INVEN_R   0.24199999999999999
+    M012T1_-  GP+++_0R  1
+    M012T1_-  GS+++_7R  1
+    M012T1_-  GS+++15R  1
+    M012T1_-  R012_TM6  1
+    M012T1_+  __OBJ___  0.11073
+    M012T1_+  VOLM_7_R  0.40999999999999998
+    M012T1_+  VOLM12_R  0.057000000000000002
+    M012T1_+  VOLM16_R  0.38800000000000001
+    M012T1_+  LTSY_R    0.049439999999999998
+    M012T1_+  AVEINV_R  0.22600000000000001
+    M012T1_+  INVEN_R   0.20300000000000001
+    M012T1_+  GP+++_0R  1
+    M012T1_+  GS+++_7R  1
+    M012T1_+  R012_TM6  1
+    M012T2_1  __OBJ___  0.98719999999999997
+    M012T2_1  VOLM_1_R  0.40200000000000002
+    M012T2_1  VOLM_5_R  0.050000000000000003
+    M012T2_1  VOLM_7_R  0.096000000000000002
+    M012T2_1  VOLM_9_R  0.34300000000000003
+    M012T2_1  VOLM13_R  0.050000000000000003
+    M012T2_1  VOLM15_R  0.096000000000000002
+    M012T2_1  VOLM17_R  0.34300000000000003
+    M012T2_1  LTSY_R    0.061120000000000001
+    M012T2_1  AVEINV_R  0.20161999999999999
+    M012T2_1  INVEN_R   0.14199999999999999
+    M012T2_1  A$___1_1  0.019939999999999999
+    M012T2_1  GP+++_0R  1
+    M012T2_1  GS+++_1R  1
+    M012T2_1  GS+++_9R  1
+    M012T2_1  R012_TM1  1
+    M012T2_2  __OBJ___  0.97185999999999995
+    M012T2_2  VOLM_1_R  0.40200000000000002
+    M012T2_2  VOLM_5_R  0.050000000000000003
+    M012T2_2  VOLM_7_R  0.096000000000000002
+    M012T2_2  VOLM10_R  0.377
+    M012T2_2  VOLM14_R  0.050000000000000003
+    M012T2_2  VOLM16_R  0.096000000000000002
+    M012T2_2  VOLM19_R  0.377
+    M012T2_2  LTSY_R    0.058110000000000002
+    M012T2_2  AVEINV_R  0.22111
+    M012T2_2  A$___1_1  0.019939999999999999
+    M012T2_2  GP+++_0R  1
+    M012T2_2  GS+++_1R  1
+    M012T2_2  GS+++10R  1
+    M012T2_2  R012_TM1  1
+    M012T2_3  __OBJ___  0.71248
+    M012T2_3  VOLM_2_R  0.42299999999999999
+    M012T2_3  VOLM_6_R  0.050000000000000003
+    M012T2_3  VOLM_8_R  0.096000000000000002
+    M012T2_3  VOLM10_R  0.34300000000000003
+    M012T2_3  VOLM14_R  0.050000000000000003
+    M012T2_3  VOLM16_R  0.096000000000000002
+    M012T2_3  VOLM18_R  0.34300000000000003
+    M012T2_3  LTSY_R    0.061120000000000001
+    M012T2_3  AVEINV_R  0.20161999999999999
+    M012T2_3  INVEN_R   0.021999999999999999
+    M012T2_3  A$___1_2  0.024479999999999998
+    M012T2_3  GP+++_0R  1
+    M012T2_3  GS+++_2R  1
+    M012T2_3  GS+++10R  1
+    M012T2_3  R012_TM2  1
+    M012T2_4  __OBJ___  0.70201999999999998
+    M012T2_4  VOLM_2_R  0.42299999999999999
+    M012T2_4  VOLM_6_R  0.050000000000000003
+    M012T2_4  VOLM_8_R  0.096000000000000002
+    M012T2_4  VOLM11_R  0.377
+    M012T2_4  VOLM15_R  0.050000000000000003
+    M012T2_4  VOLM17_R  0.096000000000000002
+    M012T2_4  VOLM20_R  0.377
+    M012T2_4  LTSY_R    0.058110000000000002
+    M012T2_4  AVEINV_R  0.22111
+    M012T2_4  INVEN_R   0.377
+    M012T2_4  A$___1_2  0.024479999999999998
+    M012T2_4  GP+++_0R  1
+    M012T2_4  GS+++_2R  1
+    M012T2_4  GS+++11R  1
+    M012T2_4  R012_TM2  1
+    M012T2_5  __OBJ___  0.51961000000000002
+    M012T2_5  VOLM_3_R  0.44
+    M012T2_5  VOLM_7_R  0.050000000000000003
+    M012T2_5  VOLM_9_R  0.096000000000000002
+    M012T2_5  VOLM11_R  0.34300000000000003
+    M012T2_5  VOLM15_R  0.050000000000000003
+    M012T2_5  VOLM17_R  0.096000000000000002
+    M012T2_5  VOLM19_R  0.34300000000000003
+    M012T2_5  LTSY_R    0.061120000000000001
+    M012T2_5  AVEINV_R  0.20161999999999999
+    M012T2_5  GP+++_0R  1
+    M012T2_5  GS+++_3R  1
+    M012T2_5  GS+++11R  1
+    M012T2_5  R012_TM3  1
+    M012T2_6  __OBJ___  0.51146999999999998
+    M012T2_6  VOLM_3_R  0.44
+    M012T2_6  VOLM_7_R  0.050000000000000003
+    M012T2_6  VOLM_9_R  0.096000000000000002
+    M012T2_6  VOLM12_R  0.377
+    M012T2_6  VOLM16_R  0.050000000000000003
+    M012T2_6  VOLM18_R  0.096000000000000002
+    M012T2_6  LTSY_R    0.058110000000000002
+    M012T2_6  AVEINV_R  0.22111
+    M012T2_6  INVEN_R   0.34300000000000003
+    M012T2_6  GP+++_0R  1
+    M012T2_6  GS+++_3R  1
+    M012T2_6  GS+++12R  1
+    M012T2_6  R012_TM3  1
+    M012T2_7  __OBJ___  0.39616000000000001
+    M012T2_7  VOLM_4_R  0.437
+    M012T2_7  VOLM_8_R  0.050000000000000003
+    M012T2_7  VOLM10_R  0.096000000000000002
+    M012T2_7  VOLM12_R  0.34300000000000003
+    M012T2_7  VOLM16_R  0.050000000000000003
+    M012T2_7  VOLM18_R  0.096000000000000002
+    M012T2_7  VOLM20_R  0.34300000000000003
+    M012T2_7  LTSY_R    0.061120000000000001
+    M012T2_7  AVEINV_R  0.20161999999999999
+    M012T2_7  INVEN_R   0.34300000000000003
+    M012T2_7  GP+++_0R  1
+    M012T2_7  GS+++_4R  1
+    M012T2_7  GS+++12R  1
+    M012T2_7  R012_TM4  1
+    M012T2_8  __OBJ___  0.39069999999999999
+    M012T2_8  VOLM_4_R  0.437
+    M012T2_8  VOLM_8_R  0.050000000000000003
+    M012T2_8  VOLM10_R  0.096000000000000002
+    M012T2_8  VOLM13_R  0.377
+    M012T2_8  VOLM17_R  0.050000000000000003
+    M012T2_8  VOLM19_R  0.096000000000000002
+    M012T2_8  LTSY_R    0.058110000000000002
+    M012T2_8  AVEINV_R  0.22111
+    M012T2_8  INVEN_R   0.33900000000000002
+    M012T2_8  GP+++_0R  1
+    M012T2_8  GS+++_4R  1
+    M012T2_8  GS+++13R  1
+    M012T2_8  R012_TM4  1
+    M012T2_9  __OBJ___  0.27209
+    M012T2_9  VOLM_5_R  0.42899999999999999
+    M012T2_9  VOLM_9_R  0.050000000000000003
+    M012T2_9  VOLM11_R  0.096000000000000002
+    M012T2_9  VOLM13_R  0.34300000000000003
+    M012T2_9  VOLM17_R  0.050000000000000003
+    M012T2_9  VOLM19_R  0.096000000000000002
+    M012T2_9  LTSY_R    0.061120000000000001
+    M012T2_9  AVEINV_R  0.20161999999999999
+    M012T2_9  INVEN_R   0.33900000000000002
+    M012T2_9  GP+++_0R  1
+    M012T2_9  GS+++_5R  1
+    M012T2_9  GS+++13R  1
+    M012T2_9  R012_TM5  1
+    M012T2_A  __OBJ___  0.26906999999999998
+    M012T2_A  VOLM_5_R  0.42899999999999999
+    M012T2_A  VOLM_9_R  0.050000000000000003
+    M012T2_A  VOLM11_R  0.096000000000000002
+    M012T2_A  VOLM14_R  0.377
+    M012T2_A  VOLM18_R  0.050000000000000003
+    M012T2_A  VOLM20_R  0.096000000000000002
+    M012T2_A  LTSY_R    0.058110000000000002
+    M012T2_A  AVEINV_R  0.22111
+    M012T2_A  INVEN_R   0.317
+    M012T2_A  GP+++_0R  1
+    M012T2_A  GS+++_5R  1
+    M012T2_A  GS+++14R  1
+    M012T2_A  R012_TM5  1
+    M012T2_B  __OBJ___  0.17649000000000001
+    M012T2_B  VOLM_6_R  0.41699999999999998
+    M012T2_B  VOLM10_R  0.050000000000000003
+    M012T2_B  VOLM12_R  0.096000000000000002
+    M012T2_B  VOLM14_R  0.34300000000000003
+    M012T2_B  VOLM18_R  0.050000000000000003
+    M012T2_B  VOLM20_R  0.096000000000000002
+    M012T2_B  LTSY_R    0.061120000000000001
+    M012T2_B  AVEINV_R  0.20161999999999999
+    M012T2_B  INVEN_R   0.317
+    M012T2_B  GP+++_0R  1
+    M012T2_B  GS+++_6R  1
+    M012T2_B  GS+++14R  1
+    M012T2_B  R012_TM6  1
+    M012T2_C  __OBJ___  0.17422000000000001
+    M012T2_C  VOLM_6_R  0.41699999999999998
+    M012T2_C  VOLM10_R  0.050000000000000003
+    M012T2_C  VOLM12_R  0.096000000000000002
+    M012T2_C  VOLM15_R  0.377
+    M012T2_C  VOLM19_R  0.050000000000000003
+    M012T2_C  LTSY_R    0.058110000000000002
+    M012T2_C  AVEINV_R  0.22111
+    M012T2_C  INVEN_R   0.24399999999999999
+    M012T2_C  GP+++_0R  1
+    M012T2_C  GS+++_6R  1
+    M012T2_C  GS+++15R  1
+    M012T2_C  R012_TM6  1
+    M012T2_D  __OBJ___  0.11574
+    M012T2_D  VOLM_7_R  0.40999999999999998
+    M012T2_D  VOLM11_R  0.050000000000000003
+    M012T2_D  VOLM13_R  0.096000000000000002
+    M012T2_D  VOLM15_R  0.34300000000000003
+    M012T2_D  VOLM19_R  0.050000000000000003
+    M012T2_D  LTSY_R    0.061120000000000001
+    M012T2_D  AVEINV_R  0.20161999999999999
+    M012T2_D  INVEN_R   0.24399999999999999
+    M012T2_D  GP+++_0R  1
+    M012T2_D  GS+++_7R  1
+    M012T2_D  GS+++15R  1
+    M012T2_D  R012_TM6  1
+    M012T2_E  __OBJ___  0.11453000000000001
+    M012T2_E  VOLM_7_R  0.40999999999999998
+    M012T2_E  VOLM11_R  0.050000000000000003
+    M012T2_E  VOLM13_R  0.096000000000000002
+    M012T2_E  VOLM16_R  0.377
+    M012T2_E  VOLM20_R  0.050000000000000003
+    M012T2_E  LTSY_R    0.058110000000000002
+    M012T2_E  AVEINV_R  0.22111
+    M012T2_E  INVEN_R   0.20599999999999999
+    M012T2_E  GP+++_0R  1
+    M012T2_E  GS+++_7R  1
+    M012T2_E  R012_TM6  1
+    T012TP12  R012_TP1  1
+    T012TP12  R012_TP2  -1
+    T012TP23  R012_TP2  1
+    T012TP23  R012_TP3  -1
+    T012TP34  R012_TP3  1
+    T012TP34  R012_TP4  -1
+    T012TP45  R012_TP4  1
+    T012TP45  R012_TP5  -1
+    T012TP56  R012_TP5  1
+    T012TP56  R012_TP6  -1
+    M012PF_1  __OBJ___  1.1767000000000001
+    M012PF_1  VOLM_1_R  0.28139999999999998
+    M012PF_1  VOLM_2_R  0.12690000000000001
+    M012PF_1  VOLM_8_R  0.24548
+    M012PF_1  VOLM_9_R  0.11744
+    M012PF_1  VOLM15_R  0.24548
+    M012PF_1  VOLM16_R  0.11744
+    M012PF_1  LTSY_R    0.05185
+    M012PF_1  AVEINV_R  0.20521
+    M012PF_1  INVEN_R   0.26700000000000002
+    M012PF_1  GP---_0R  1
+    M012PF_1  GS---_1R  0.10000000000000001
+    M012PF_1  GS---_2R  0.050000000000000003
+    M012PF_1  GS---_5R  0.066669999999999993
+    M012PF_1  GS---_6R  0.02
+    M012PF_1  R012_TP1  1
+    M012PF_2  __OBJ___  1.1511
+    M012PF_2  VOLM_1_R  0.28139999999999998
+    M012PF_2  VOLM_2_R  0.12690000000000001
+    M012PF_2  VOLM_9_R  0.24956
+    M012PF_2  VOLM10_R  0.1232
+    M012PF_2  VOLM17_R  0.24956
+    M012PF_2  VOLM18_R  0.1232
+    M012PF_2  LTSY_R    0.046589999999999999
+    M012PF_2  AVEINV_R  0.22614999999999999
+    M012PF_2  INVEN_R   0.14199999999999999
+    M012PF_2  GP---_0R  1
+    M012PF_2  GS---_1R  0.10000000000000001
+    M012PF_2  GS---_2R  0.050000000000000003
+    M012PF_2  GS---_5R  0.066669999999999993
+    M012PF_2  GS---_6R  0.02
+    M012PF_2  R012_TP1  1
+    M012PF_3  __OBJ___  0.86846999999999996
+    M012PF_3  VOLM_2_R  0.29609999999999997
+    M012PF_3  VOLM_3_R  0.13200000000000001
+    M012PF_3  VOLM_9_R  0.24548
+    M012PF_3  VOLM10_R  0.11744
+    M012PF_3  VOLM16_R  0.24548
+    M012PF_3  VOLM17_R  0.11744
+    M012PF_3  LTSY_R    0.05185
+    M012PF_3  AVEINV_R  0.20521
+    M012PF_3  INVEN_R   0.20300000000000001
+    M012PF_3  GP---_0R  1
+    M012PF_3  GS---_2R  0.10000000000000001
+    M012PF_3  GS---_5R  0.066669999999999993
+    M012PF_3  GS---_6R  0.02
+    M012PF_3  R012_TP2  1
+    M012PF_4  __OBJ___  0.85079000000000005
+    M012PF_4  VOLM_2_R  0.29609999999999997
+    M012PF_4  VOLM_3_R  0.13200000000000001
+    M012PF_4  VOLM10_R  0.24956
+    M012PF_4  VOLM11_R  0.1232
+    M012PF_4  VOLM18_R  0.24956
+    M012PF_4  VOLM19_R  0.1232
+    M012PF_4  LTSY_R    0.046589999999999999
+    M012PF_4  AVEINV_R  0.22614999999999999
+    M012PF_4  INVEN_R   0.021999999999999999
+    M012PF_4  GP---_0R  1
+    M012PF_4  GS---_2R  0.10000000000000001
+    M012PF_4  GS---_5R  0.033329999999999999
+    M012PF_4  GS---_6R  0.029999999999999999
+    M012PF_4  R012_TP2  1
+    M012PF_5  __OBJ___  0.63685000000000003
+    M012PF_5  VOLM_3_R  0.308
+    M012PF_5  VOLM_4_R  0.13109999999999999
+    M012PF_5  VOLM10_R  0.24548
+    M012PF_5  VOLM11_R  0.11744
+    M012PF_5  VOLM17_R  0.24548
+    M012PF_5  VOLM18_R  0.11744
+    M012PF_5  LTSY_R    0.05185
+    M012PF_5  AVEINV_R  0.20521
+    M012PF_5  INVEN_R   0.14199999999999999
+    M012PF_5  GP---_0R  1
+    M012PF_5  GS---_2R  0.050000000000000003
+    M012PF_5  GS---_3R  0.050000000000000003
+    M012PF_5  GS---_5R  0.033329999999999999
+    M012PF_5  GS---_6R  0.029999999999999999
+    M012PF_5  R012_TP3  1
+    M012PF_6  __OBJ___  0.62436999999999998
+    M012PF_6  VOLM_3_R  0.308
+    M012PF_6  VOLM_4_R  0.13109999999999999
+    M012PF_6  VOLM11_R  0.24956
+    M012PF_6  VOLM12_R  0.1232
+    M012PF_6  VOLM19_R  0.24956
+    M012PF_6  VOLM20_R  0.1232
+    M012PF_6  LTSY_R    0.046589999999999999
+    M012PF_6  AVEINV_R  0.22614999999999999
+    M012PF_6  INVEN_R   0.25409999999999999
+    M012PF_6  GP---_0R  1
+    M012PF_6  GS---_2R  0.050000000000000003
+    M012PF_6  GS---_3R  0.050000000000000003
+    M012PF_6  GS---_6R  0.040000000000000001
+    M012PF_6  R012_TP3  1
+    M012PF_7  __OBJ___  0.46329999999999999
+    M012PF_7  VOLM_4_R  0.30590000000000001
+    M012PF_7  VOLM_5_R  0.12870000000000001
+    M012PF_7  VOLM11_R  0.24548
+    M012PF_7  VOLM12_R  0.11744
+    M012PF_7  VOLM18_R  0.24548
+    M012PF_7  VOLM19_R  0.11744
+    M012PF_7  LTSY_R    0.05185
+    M012PF_7  AVEINV_R  0.20521
+    M012PF_7  INVEN_R   0.021999999999999999
+    M012PF_7  GP---_0R  1
+    M012PF_7  GS---_3R  0.10000000000000001
+    M012PF_7  GS---_6R  0.040000000000000001
+    M012PF_7  R012_TP4  1
+    M012PF_8  __OBJ___  0.45474999999999999
+    M012PF_8  VOLM_4_R  0.30590000000000001
+    M012PF_8  VOLM_5_R  0.12870000000000001
+    M012PF_8  VOLM12_R  0.24956
+    M012PF_8  VOLM13_R  0.1232
+    M012PF_8  VOLM20_R  0.24956
+    M012PF_8  LTSY_R    0.046589999999999999
+    M012PF_8  AVEINV_R  0.22614999999999999
+    M012PF_8  INVEN_R   0.36699999999999999
+    M012PF_8  GP---_0R  1
+    M012PF_8  GS---_3R  0.10000000000000001
+    M012PF_8  GS---_6R  0.029999999999999999
+    M012PF_8  R012_TP4  1
+    M012PF_9  __OBJ___  0.31452999999999998
+    M012PF_9  VOLM_5_R  0.30030000000000001
+    M012PF_9  VOLM_6_R  0.12509999999999999
+    M012PF_9  VOLM12_R  0.24548
+    M012PF_9  VOLM13_R  0.11744
+    M012PF_9  VOLM19_R  0.24548
+    M012PF_9  VOLM20_R  0.11744
+    M012PF_9  LTSY_R    0.05185
+    M012PF_9  AVEINV_R  0.20521
+    M012PF_9  INVEN_R   0.24221999999999999
+    M012PF_9  GP---_0R  1
+    M012PF_9  GS---_3R  0.050000000000000003
+    M012PF_9  GS---_4R  0.050000000000000003
+    M012PF_9  GS---_6R  0.040000000000000001
+    M012PF_9  R012_TP5  1
+    M012PF_A  __OBJ___  0.30825999999999998
+    M012PF_A  VOLM_5_R  0.30030000000000001
+    M012PF_A  VOLM_6_R  0.12509999999999999
+    M012PF_A  VOLM13_R  0.24956
+    M012PF_A  VOLM14_R  0.1232
+    M012PF_A  LTSY_R    0.046589999999999999
+    M012PF_A  AVEINV_R  0.22614999999999999
+    M012PF_A  INVEN_R   0.36099999999999999
+    M012PF_A  GP---_0R  1
+    M012PF_A  GS---_3R  0.050000000000000003
+    M012PF_A  GS---_4R  0.050000000000000003
+    M012PF_A  GS---_6R  0.02
+    M012PF_A  R012_TP5  1
+    M012PF_B  __OBJ___  0.20637
+    M012PF_B  VOLM_6_R  0.29189999999999999
+    M012PF_B  VOLM_7_R  0.123
+    M012PF_B  VOLM13_R  0.24548
+    M012PF_B  VOLM14_R  0.11744
+    M012PF_B  VOLM20_R  0.24548
+    M012PF_B  LTSY_R    0.05185
+    M012PF_B  AVEINV_R  0.20521
+    M012PF_B  INVEN_R   0.36099999999999999
+    M012PF_B  GP---_0R  1
+    M012PF_B  GS---_4R  0.10000000000000001
+    M012PF_B  GS---_6R  0.029999999999999999
+    M012PF_B  R012_TP6  1
+    M012PF_C  __OBJ___  0.20235
+    M012PF_C  VOLM_6_R  0.29189999999999999
+    M012PF_C  VOLM_7_R  0.123
+    M012PF_C  VOLM14_R  0.24956
+    M012PF_C  VOLM15_R  0.1232
+    M012PF_C  LTSY_R    0.046589999999999999
+    M012PF_C  AVEINV_R  0.22614999999999999
+    M012PF_C  INVEN_R   0.32400000000000001
+    M012PF_C  GP---_0R  1
+    M012PF_C  GS---_4R  0.10000000000000001
+    M012PF_C  GS---_6R  0.02
+    M012PF_C  R012_TP6  1
+    M012PF_D  __OBJ___  0.13861000000000001
+    M012PF_D  VOLM_7_R  0.28699999999999998
+    M012PF_D  VOLM_8_R  0.12089999999999999
+    M012PF_D  VOLM14_R  0.24548
+    M012PF_D  VOLM15_R  0.11744
+    M012PF_D  LTSY_R    0.05185
+    M012PF_D  AVEINV_R  0.20521
+    M012PF_D  INVEN_R   0.32400000000000001
+    M012PF_D  GP---_0R  1
+    M012PF_D  GS---_4R  0.050000000000000003
+    M012PF_D  GS---_5R  0.033329999999999999
+    M012PF_D  GS---_6R  0.02
+    M012PF_D  R012_TP6  1
+    M012PF_E  __OBJ___  0.13619999999999999
+    M012PF_E  VOLM_7_R  0.28699999999999998
+    M012PF_E  VOLM_8_R  0.12089999999999999
+    M012PF_E  VOLM15_R  0.24956
+    M012PF_E  VOLM16_R  0.1232
+    M012PF_E  LTSY_R    0.046589999999999999
+    M012PF_E  AVEINV_R  0.22614999999999999
+    M012PF_E  INVEN_R   0.26700000000000002
+    M012PF_E  GP---_0R  1
+    M012PF_E  GS---_4R  0.050000000000000003
+    M012PF_E  GS---_5R  0.033329999999999999
+    M012PF_E  GS---_6R  0.02
+    M012PF_E  R012_TP6  1
+    M012P1_1  __OBJ___  1.2022999999999999
+    M012P1_1  VOLM_1_R  0.28139999999999998
+    M012P1_1  VOLM_2_R  0.12690000000000001
+    M012P1_1  VOLM_5_R  0.052999999999999999
+    M012P1_1  VOLM_8_R  0.16950000000000001
+    M012P1_1  VOLM_9_R  0.17249999999999999
+    M012P1_1  VOLM12_R  0.052999999999999999
+    M012P1_1  VOLM15_R  0.16950000000000001
+    M012P1_1  VOLM16_R  0.17249999999999999
+    M012P1_1  VOLM19_R  0.052999999999999999
+    M012P1_1  LTSY_R    0.056430000000000001
+    M012P1_1  AVEINV_R  0.20607
+    M012P1_1  INVEN_R   0.24399999999999999
+    M012P1_1  GP---_0R  1
+    M012P1_1  GS---_1R  0.10000000000000001
+    M012P1_1  GS---_2R  0.050000000000000003
+    M012P1_1  GS---_5R  0.066669999999999993
+    M012P1_1  GS---_6R  0.02
+    M012P1_1  R012_TP1  1
+    M012P1_2  __OBJ___  1.1809000000000001
+    M012P1_2  VOLM_1_R  0.28139999999999998
+    M012P1_2  VOLM_2_R  0.12690000000000001
+    M012P1_2  VOLM_5_R  0.052999999999999999
+    M012P1_2  VOLM_9_R  0.17249999999999999
+    M012P1_2  VOLM10_R  0.1885
+    M012P1_2  VOLM13_R  0.052999999999999999
+    M012P1_2  VOLM17_R  0.17249999999999999
+    M012P1_2  VOLM18_R  0.1885
+    M012P1_2  LTSY_R    0.051749999999999997
+    M012P1_2  AVEINV_R  0.22544
+    M012P1_2  INVEN_R   0.14199999999999999
+    M012P1_2  GP---_0R  1
+    M012P1_2  GS---_1R  0.10000000000000001
+    M012P1_2  GS---_2R  0.050000000000000003
+    M012P1_2  GS---_5R  0.066669999999999993
+    M012P1_2  GS---_6R  0.02
+    M012P1_2  R012_TP1  1
+    M012P1_3  __OBJ___  1.1645000000000001
+    M012P1_3  VOLM_1_R  0.28139999999999998
+    M012P1_3  VOLM_2_R  0.12690000000000001
+    M012P1_3  VOLM_5_R  0.052999999999999999
+    M012P1_3  VOLM10_R  0.1885
+    M012P1_3  VOLM11_R  0.19550000000000001
+    M012P1_3  VOLM14_R  0.052999999999999999
+    M012P1_3  VOLM19_R  0.1885
+    M012P1_3  VOLM20_R  0.19550000000000001
+    M012P1_3  LTSY_R    0.048559999999999999
+    M012P1_3  AVEINV_R  0.24306
+    M012P1_3  INVEN_R   0.29325000000000001
+    M012P1_3  GP---_0R  1
+    M012P1_3  GS---_1R  0.10000000000000001
+    M012P1_3  GS---_2R  0.050000000000000003
+    M012P1_3  GS---_5R  0.033329999999999999
+    M012P1_3  GS---_6R  0.029999999999999999
+    M012P1_3  R012_TP1  1
+    M012P1_4  __OBJ___  0.88580999999999999
+    M012P1_4  VOLM_2_R  0.29609999999999997
+    M012P1_4  VOLM_3_R  0.13200000000000001
+    M012P1_4  VOLM_6_R  0.052999999999999999
+    M012P1_4  VOLM_9_R  0.16950000000000001
+    M012P1_4  VOLM10_R  0.17249999999999999
+    M012P1_4  VOLM13_R  0.052999999999999999
+    M012P1_4  VOLM16_R  0.16950000000000001
+    M012P1_4  VOLM17_R  0.17249999999999999
+    M012P1_4  VOLM20_R  0.052999999999999999
+    M012P1_4  LTSY_R    0.056430000000000001
+    M012P1_4  AVEINV_R  0.20607
+    M012P1_4  INVEN_R   0.20599999999999999
+    M012P1_4  GP---_0R  1
+    M012P1_4  GS---_2R  0.10000000000000001
+    M012P1_4  GS---_5R  0.066669999999999993
+    M012P1_4  GS---_6R  0.02
+    M012P1_4  R012_TP2  1
+    M012P1_5  __OBJ___  0.87090999999999996
+    M012P1_5  VOLM_2_R  0.29609999999999997
+    M012P1_5  VOLM_3_R  0.13200000000000001
+    M012P1_5  VOLM_6_R  0.052999999999999999
+    M012P1_5  VOLM10_R  0.17249999999999999
+    M012P1_5  VOLM11_R  0.1885
+    M012P1_5  VOLM14_R  0.052999999999999999
+    M012P1_5  VOLM18_R  0.17249999999999999
+    M012P1_5  VOLM19_R  0.1885
+    M012P1_5  LTSY_R    0.051749999999999997
+    M012P1_5  AVEINV_R  0.22544
+    M012P1_5  INVEN_R   0.021999999999999999
+    M012P1_5  GP---_0R  1
+    M012P1_5  GS---_2R  0.10000000000000001
+    M012P1_5  GS---_5R  0.033329999999999999
+    M012P1_5  GS---_6R  0.029999999999999999
+    M012P1_5  R012_TP2  1
+    M012P1_6  __OBJ___  0.85956999999999995
+    M012P1_6  VOLM_2_R  0.29609999999999997
+    M012P1_6  VOLM_3_R  0.13200000000000001
+    M012P1_6  VOLM_6_R  0.052999999999999999
+    M012P1_6  VOLM11_R  0.1885
+    M012P1_6  VOLM12_R  0.19550000000000001
+    M012P1_6  VOLM15_R  0.052999999999999999
+    M012P1_6  VOLM20_R  0.1885
+    M012P1_6  LTSY_R    0.048559999999999999
+    M012P1_6  AVEINV_R  0.24306
+    M012P1_6  INVEN_R   0.377
+    M012P1_6  GP---_0R  1
+    M012P1_6  GS---_2R  0.10000000000000001
+    M012P1_6  GS---_6R  0.029999999999999999
+    M012P1_6  R012_TP2  1
+    M012P1_7  __OBJ___  0.64853000000000005
+    M012P1_7  VOLM_3_R  0.308
+    M012P1_7  VOLM_4_R  0.13109999999999999
+    M012P1_7  VOLM_7_R  0.052999999999999999
+    M012P1_7  VOLM10_R  0.16950000000000001
+    M012P1_7  VOLM11_R  0.17249999999999999
+    M012P1_7  VOLM14_R  0.052999999999999999
+    M012P1_7  VOLM17_R  0.16950000000000001
+    M012P1_7  VOLM18_R  0.17249999999999999
+    M012P1_7  LTSY_R    0.056430000000000001
+    M012P1_7  AVEINV_R  0.20607
+    M012P1_7  INVEN_R   0.14199999999999999
+    M012P1_7  GP---_0R  1
+    M012P1_7  GS---_2R  0.050000000000000003
+    M012P1_7  GS---_3R  0.050000000000000003
+    M012P1_7  GS---_5R  0.033329999999999999
+    M012P1_7  GS---_6R  0.029999999999999999
+    M012P1_7  R012_TP3  1
+    M012P1_8  __OBJ___  0.63797999999999999
+    M012P1_8  VOLM_3_R  0.308
+    M012P1_8  VOLM_4_R  0.13109999999999999
+    M012P1_8  VOLM_7_R  0.052999999999999999
+    M012P1_8  VOLM11_R  0.17249999999999999
+    M012P1_8  VOLM12_R  0.1885
+    M012P1_8  VOLM15_R  0.052999999999999999
+    M012P1_8  VOLM19_R  0.17249999999999999
+    M012P1_8  VOLM20_R  0.1885
+    M012P1_8  LTSY_R    0.051749999999999997
+    M012P1_8  AVEINV_R  0.22544
+    M012P1_8  INVEN_R   0.28275
+    M012P1_8  GP---_0R  1
+    M012P1_8  GS---_2R  0.050000000000000003
+    M012P1_8  GS---_3R  0.050000000000000003
+    M012P1_8  GS---_6R  0.040000000000000001
+    M012P1_8  R012_TP3  1
+    M012P1_9  __OBJ___  0.62970999999999999
+    M012P1_9  VOLM_3_R  0.308
+    M012P1_9  VOLM_4_R  0.13109999999999999
+    M012P1_9  VOLM_7_R  0.052999999999999999
+    M012P1_9  VOLM12_R  0.1885
+    M012P1_9  VOLM13_R  0.19550000000000001
+    M012P1_9  VOLM16_R  0.052999999999999999
+    M012P1_9  LTSY_R    0.048559999999999999
+    M012P1_9  AVEINV_R  0.24306
+    M012P1_9  INVEN_R   0.34499999999999997
+    M012P1_9  GP---_0R  1
+    M012P1_9  GS---_2R  0.050000000000000003
+    M012P1_9  GS---_3R  0.050000000000000003
+    M012P1_9  GS---_6R  0.02
+    M012P1_9  R012_TP3  1
+    M012P1_A  __OBJ___  0.47120000000000001
+    M012P1_A  VOLM_4_R  0.30590000000000001
+    M012P1_A  VOLM_5_R  0.12870000000000001
+    M012P1_A  VOLM_8_R  0.052999999999999999
+    M012P1_A  VOLM11_R  0.16950000000000001
+    M012P1_A  VOLM12_R  0.17249999999999999
+    M012P1_A  VOLM15_R  0.052999999999999999
+    M012P1_A  VOLM18_R  0.16950000000000001
+    M012P1_A  VOLM19_R  0.17249999999999999
+    M012P1_A  LTSY_R    0.056430000000000001
+    M012P1_A  AVEINV_R  0.20607
+    M012P1_A  INVEN_R   0.021999999999999999
+    M012P1_A  GP---_0R  1
+    M012P1_A  GS---_3R  0.10000000000000001
+    M012P1_A  GS---_6R  0.040000000000000001
+    M012P1_A  R012_TP4  1
+    M012P1_B  __OBJ___  0.46377000000000002
+    M012P1_B  VOLM_4_R  0.30590000000000001
+    M012P1_B  VOLM_5_R  0.12870000000000001
+    M012P1_B  VOLM_8_R  0.052999999999999999
+    M012P1_B  VOLM12_R  0.17249999999999999
+    M012P1_B  VOLM13_R  0.1885
+    M012P1_B  VOLM16_R  0.052999999999999999
+    M012P1_B  VOLM20_R  0.17249999999999999
+    M012P1_B  LTSY_R    0.051749999999999997
+    M012P1_B  AVEINV_R  0.22544
+    M012P1_B  INVEN_R   0.34499999999999997
+    M012P1_B  GP---_0R  1
+    M012P1_B  GS---_3R  0.10000000000000001
+    M012P1_B  GS---_6R  0.029999999999999999
+    M012P1_B  R012_TP4  1
+    M012P1_C  __OBJ___  0.4587
+    M012P1_C  VOLM_4_R  0.30590000000000001
+    M012P1_C  VOLM_5_R  0.12870000000000001
+    M012P1_C  VOLM_8_R  0.052999999999999999
+    M012P1_C  VOLM13_R  0.1885
+    M012P1_C  VOLM14_R  0.19550000000000001
+    M012P1_C  VOLM17_R  0.052999999999999999
+    M012P1_C  LTSY_R    0.048559999999999999
+    M012P1_C  AVEINV_R  0.24306
+    M012P1_C  INVEN_R   0.33900000000000002
+    M012P1_C  GP---_0R  1
+    M012P1_C  GS---_3R  0.10000000000000001
+    M012P1_C  GS---_6R  0.02
+    M012P1_C  R012_TP4  1
+    M012P1_D  __OBJ___  0.31986999999999999
+    M012P1_D  VOLM_5_R  0.30030000000000001
+    M012P1_D  VOLM_6_R  0.12509999999999999
+    M012P1_D  VOLM_9_R  0.052999999999999999
+    M012P1_D  VOLM12_R  0.16950000000000001
+    M012P1_D  VOLM13_R  0.17249999999999999
+    M012P1_D  VOLM16_R  0.052999999999999999
+    M012P1_D  VOLM19_R  0.16950000000000001
+    M012P1_D  VOLM20_R  0.17249999999999999
+    M012P1_D  LTSY_R    0.056430000000000001
+    M012P1_D  AVEINV_R  0.20607
+    M012P1_D  INVEN_R   0.25874999999999998
+    M012P1_D  GP---_0R  1
+    M012P1_D  GS---_3R  0.050000000000000003
+    M012P1_D  GS---_4R  0.050000000000000003
+    M012P1_D  GS---_6R  0.040000000000000001
+    M012P1_D  R012_TP5  1
+    M012P1_E  __OBJ___  0.3145
+    M012P1_E  VOLM_5_R  0.30030000000000001
+    M012P1_E  VOLM_6_R  0.12509999999999999
+    M012P1_E  VOLM_9_R  0.052999999999999999
+    M012P1_E  VOLM13_R  0.17249999999999999
+    M012P1_E  VOLM14_R  0.1885
+    M012P1_E  VOLM17_R  0.052999999999999999
+    M012P1_E  LTSY_R    0.051749999999999997
+    M012P1_E  AVEINV_R  0.22544
+    M012P1_E  INVEN_R   0.33900000000000002
+    M012P1_E  GP---_0R  1
+    M012P1_E  GS---_3R  0.050000000000000003
+    M012P1_E  GS---_4R  0.050000000000000003
+    M012P1_E  GS---_6R  0.02
+    M012P1_E  R012_TP5  1
+    M012P1_F  __OBJ___  0.31147999999999998
+    M012P1_F  VOLM_5_R  0.30030000000000001
+    M012P1_F  VOLM_6_R  0.12509999999999999
+    M012P1_F  VOLM_9_R  0.052999999999999999
+    M012P1_F  VOLM14_R  0.1885
+    M012P1_F  VOLM15_R  0.19550000000000001
+    M012P1_F  VOLM18_R  0.052999999999999999
+    M012P1_F  LTSY_R    0.048559999999999999
+    M012P1_F  AVEINV_R  0.24306
+    M012P1_F  INVEN_R   0.317
+    M012P1_F  GP---_0R  1
+    M012P1_F  GS---_3R  0.050000000000000003
+    M012P1_F  GS---_4R  0.050000000000000003
+    M012P1_F  GS---_6R  0.02
+    M012P1_F  R012_TP5  1
+    M012P1_G  __OBJ___  0.20984
+    M012P1_G  VOLM_6_R  0.29189999999999999
+    M012P1_G  VOLM_7_R  0.123
+    M012P1_G  VOLM10_R  0.052999999999999999
+    M012P1_G  VOLM13_R  0.16950000000000001
+    M012P1_G  VOLM14_R  0.17249999999999999
+    M012P1_G  VOLM17_R  0.052999999999999999
+    M012P1_G  VOLM20_R  0.16950000000000001
+    M012P1_G  LTSY_R    0.056430000000000001
+    M012P1_G  AVEINV_R  0.20607
+    M012P1_G  INVEN_R   0.33900000000000002
+    M012P1_G  GP---_0R  1
+    M012P1_G  GS---_4R  0.10000000000000001
+    M012P1_G  GS---_6R  0.029999999999999999
+    M012P1_G  R012_TP6  1
+    M012P1_H  __OBJ___  0.20660000000000001
+    M012P1_H  VOLM_6_R  0.29189999999999999
+    M012P1_H  VOLM_7_R  0.123
+    M012P1_H  VOLM10_R  0.052999999999999999
+    M012P1_H  VOLM14_R  0.17249999999999999
+    M012P1_H  VOLM15_R  0.1885
+    M012P1_H  VOLM18_R  0.052999999999999999
+    M012P1_H  LTSY_R    0.051749999999999997
+    M012P1_H  AVEINV_R  0.22544
+    M012P1_H  INVEN_R   0.317
+    M012P1_H  GP---_0R  1
+    M012P1_H  GS---_4R  0.10000000000000001
+    M012P1_H  GS---_6R  0.02
+    M012P1_H  R012_TP6  1
+    M012P1_I  __OBJ___  0.20435
+    M012P1_I  VOLM_6_R  0.29189999999999999
+    M012P1_I  VOLM_7_R  0.123
+    M012P1_I  VOLM10_R  0.052999999999999999
+    M012P1_I  VOLM15_R  0.1885
+    M012P1_I  VOLM16_R  0.19550000000000001
+    M012P1_I  VOLM19_R  0.052999999999999999
+    M012P1_I  LTSY_R    0.048559999999999999
+    M012P1_I  AVEINV_R  0.24306
+    M012P1_I  INVEN_R   0.24399999999999999
+    M012P1_I  GP---_0R  1
+    M012P1_I  GS---_4R  0.10000000000000001
+    M012P1_I  GS---_6R  0.02
+    M012P1_I  R012_TP6  1
+    M012P1_J  __OBJ___  0.14112
+    M012P1_J  VOLM_7_R  0.28699999999999998
+    M012P1_J  VOLM_8_R  0.12089999999999999
+    M012P1_J  VOLM11_R  0.052999999999999999
+    M012P1_J  VOLM14_R  0.16950000000000001
+    M012P1_J  VOLM15_R  0.17249999999999999
+    M012P1_J  VOLM18_R  0.052999999999999999
+    M012P1_J  LTSY_R    0.056430000000000001
+    M012P1_J  AVEINV_R  0.20607
+    M012P1_J  INVEN_R   0.317
+    M012P1_J  GP---_0R  1
+    M012P1_J  GS---_4R  0.050000000000000003
+    M012P1_J  GS---_5R  0.033329999999999999
+    M012P1_J  GS---_6R  0.02
+    M012P1_J  R012_TP6  1
+    M012P1_K  __OBJ___  0.13907
+    M012P1_K  VOLM_7_R  0.28699999999999998
+    M012P1_K  VOLM_8_R  0.12089999999999999
+    M012P1_K  VOLM11_R  0.052999999999999999
+    M012P1_K  VOLM15_R  0.17249999999999999
+    M012P1_K  VOLM16_R  0.1885
+    M012P1_K  VOLM19_R  0.052999999999999999
+    M012P1_K  LTSY_R    0.051749999999999997
+    M012P1_K  AVEINV_R  0.22544
+    M012P1_K  INVEN_R   0.24399999999999999
+    M012P1_K  GP---_0R  1
+    M012P1_K  GS---_4R  0.050000000000000003
+    M012P1_K  GS---_5R  0.033329999999999999
+    M012P1_K  GS---_6R  0.02
+    M012P1_K  R012_TP6  1
+    M012P1_L  __OBJ___  0.13772000000000001
+    M012P1_L  VOLM_7_R  0.28699999999999998
+    M012P1_L  VOLM_8_R  0.12089999999999999
+    M012P1_L  VOLM11_R  0.052999999999999999
+    M012P1_L  VOLM16_R  0.1885
+    M012P1_L  VOLM17_R  0.19550000000000001
+    M012P1_L  VOLM20_R  0.052999999999999999
+    M012P1_L  LTSY_R    0.048559999999999999
+    M012P1_L  AVEINV_R  0.24306
+    M012P1_L  INVEN_R   0.20599999999999999
+    M012P1_L  GP---_0R  1
+    M012P1_L  GS---_4R  0.050000000000000003
+    M012P1_L  GS---_5R  0.033329999999999999
+    M012P1_L  GS---_6R  0.02
+    M012P1_L  R012_TP6  1
+    M012P1_M  __OBJ___  1.1981999999999999
+    M012P1_M  VOLM_1_R  0.28139999999999998
+    M012P1_M  VOLM_2_R  0.12690000000000001
+    M012P1_M  VOLM_6_R  0.057000000000000002
+    M012P1_M  VOLM_8_R  0.17799999999999999
+    M012P1_M  VOLM_9_R  0.18099999999999999
+    M012P1_M  VOLM13_R  0.057000000000000002
+    M012P1_M  VOLM15_R  0.17799999999999999
+    M012P1_M  VOLM16_R  0.18099999999999999
+    M012P1_M  VOLM20_R  0.057000000000000002
+    M012P1_M  LTSY_R    0.059429999999999997
+    M012P1_M  AVEINV_R  0.20929
+    M012P1_M  INVEN_R   0.24199999999999999
+    M012P1_M  GP---_0R  1
+    M012P1_M  GS---_1R  0.10000000000000001
+    M012P1_M  GS---_2R  0.050000000000000003
+    M012P1_M  GS---_5R  0.066669999999999993
+    M012P1_M  GS---_6R  0.02
+    M012P1_M  R012_TP1  1
+    M012P1_N  __OBJ___  1.1752
+    M012P1_N  VOLM_1_R  0.28139999999999998
+    M012P1_N  VOLM_2_R  0.12690000000000001
+    M012P1_N  VOLM_6_R  0.057000000000000002
+    M012P1_N  VOLM_9_R  0.18099999999999999
+    M012P1_N  VOLM10_R  0.19400000000000001
+    M012P1_N  VOLM14_R  0.057000000000000002
+    M012P1_N  VOLM17_R  0.18099999999999999
+    M012P1_N  VOLM18_R  0.19400000000000001
+    M012P1_N  LTSY_R    0.053999999999999999
+    M012P1_N  AVEINV_R  0.23000000000000001
+    M012P1_N  INVEN_R   0.14199999999999999
+    M012P1_N  GP---_0R  1
+    M012P1_N  GS---_1R  0.10000000000000001
+    M012P1_N  GS---_2R  0.050000000000000003
+    M012P1_N  GS---_5R  0.066669999999999993
+    M012P1_N  GS---_6R  0.02
+    M012P1_N  R012_TP1  1
+    M012P1_O  __OBJ___  1.1576
+    M012P1_O  VOLM_1_R  0.28139999999999998
+    M012P1_O  VOLM_2_R  0.12690000000000001
+    M012P1_O  VOLM_6_R  0.057000000000000002
+    M012P1_O  VOLM10_R  0.19400000000000001
+    M012P1_O  VOLM11_R  0.20100000000000001
+    M012P1_O  VOLM15_R  0.057000000000000002
+    M012P1_O  VOLM19_R  0.19400000000000001
+    M012P1_O  VOLM20_R  0.20100000000000001
+    M012P1_O  LTSY_R    0.050220000000000001
+    M012P1_O  AVEINV_R  0.24833
+    M012P1_O  INVEN_R   0.30149999999999999
+    M012P1_O  GP---_0R  1
+    M012P1_O  GS---_1R  0.10000000000000001
+    M012P1_O  GS---_2R  0.050000000000000003
+    M012P1_O  GS---_5R  0.033329999999999999
+    M012P1_O  GS---_6R  0.029999999999999999
+    M012P1_O  R012_TP1  1
+    M012P1_P  __OBJ___  0.88290999999999997
+    M012P1_P  VOLM_2_R  0.29609999999999997
+    M012P1_P  VOLM_3_R  0.13200000000000001
+    M012P1_P  VOLM_7_R  0.057000000000000002
+    M012P1_P  VOLM_9_R  0.17799999999999999
+    M012P1_P  VOLM10_R  0.18099999999999999
+    M012P1_P  VOLM14_R  0.057000000000000002
+    M012P1_P  VOLM16_R  0.17799999999999999
+    M012P1_P  VOLM17_R  0.18099999999999999
+    M012P1_P  LTSY_R    0.059429999999999997
+    M012P1_P  AVEINV_R  0.20929
+    M012P1_P  INVEN_R   0.20300000000000001
+    M012P1_P  GP---_0R  1
+    M012P1_P  GS---_2R  0.10000000000000001
+    M012P1_P  GS---_5R  0.066669999999999993
+    M012P1_P  GS---_6R  0.02
+    M012P1_P  R012_TP2  1
+    M012P1_Q  __OBJ___  0.86704000000000003
+    M012P1_Q  VOLM_2_R  0.29609999999999997
+    M012P1_Q  VOLM_3_R  0.13200000000000001
+    M012P1_Q  VOLM_7_R  0.057000000000000002
+    M012P1_Q  VOLM10_R  0.18099999999999999
+    M012P1_Q  VOLM11_R  0.19400000000000001
+    M012P1_Q  VOLM15_R  0.057000000000000002
+    M012P1_Q  VOLM18_R  0.18099999999999999
+    M012P1_Q  VOLM19_R  0.19400000000000001
+    M012P1_Q  LTSY_R    0.053999999999999999
+    M012P1_Q  AVEINV_R  0.23000000000000001
+    M012P1_Q  INVEN_R   0.021999999999999999
+    M012P1_Q  GP---_0R  1
+    M012P1_Q  GS---_2R  0.10000000000000001
+    M012P1_Q  GS---_5R  0.033329999999999999
+    M012P1_Q  GS---_6R  0.029999999999999999
+    M012P1_Q  R012_TP2  1
+    M012P1_R  __OBJ___  0.85492999999999997
+    M012P1_R  VOLM_2_R  0.29609999999999997
+    M012P1_R  VOLM_3_R  0.13200000000000001
+    M012P1_R  VOLM_7_R  0.057000000000000002
+    M012P1_R  VOLM11_R  0.19400000000000001
+    M012P1_R  VOLM12_R  0.20100000000000001
+    M012P1_R  VOLM16_R  0.057000000000000002
+    M012P1_R  VOLM20_R  0.19400000000000001
+    M012P1_R  LTSY_R    0.050220000000000001
+    M012P1_R  AVEINV_R  0.24833
+    M012P1_R  INVEN_R   0.38800000000000001
+    M012P1_R  GP---_0R  1
+    M012P1_R  GS---_2R  0.10000000000000001
+    M012P1_R  GS---_6R  0.029999999999999999
+    M012P1_R  R012_TP2  1
+    M012P1_S  __OBJ___  0.64668000000000003
+    M012P1_S  VOLM_3_R  0.308
+    M012P1_S  VOLM_4_R  0.13109999999999999
+    M012P1_S  VOLM_8_R  0.057000000000000002
+    M012P1_S  VOLM10_R  0.17799999999999999
+    M012P1_S  VOLM11_R  0.18099999999999999
+    M012P1_S  VOLM15_R  0.057000000000000002
+    M012P1_S  VOLM17_R  0.17799999999999999
+    M012P1_S  VOLM18_R  0.18099999999999999
+    M012P1_S  LTSY_R    0.059429999999999997
+    M012P1_S  AVEINV_R  0.20929
+    M012P1_S  INVEN_R   0.14199999999999999
+    M012P1_S  GP---_0R  1
+    M012P1_S  GS---_2R  0.050000000000000003
+    M012P1_S  GS---_3R  0.050000000000000003
+    M012P1_S  GS---_5R  0.033329999999999999
+    M012P1_S  GS---_6R  0.029999999999999999
+    M012P1_S  R012_TP3  1
+    M012P1_T  __OBJ___  0.63537999999999994
+    M012P1_T  VOLM_3_R  0.308
+    M012P1_T  VOLM_4_R  0.13109999999999999
+    M012P1_T  VOLM_8_R  0.057000000000000002
+    M012P1_T  VOLM11_R  0.18099999999999999
+    M012P1_T  VOLM12_R  0.19400000000000001
+    M012P1_T  VOLM16_R  0.057000000000000002
+    M012P1_T  VOLM19_R  0.18099999999999999
+    M012P1_T  VOLM20_R  0.19400000000000001
+    M012P1_T  LTSY_R    0.053999999999999999
+    M012P1_T  AVEINV_R  0.23000000000000001
+    M012P1_T  INVEN_R   0.29099999999999998
+    M012P1_T  GP---_0R  1
+    M012P1_T  GS---_2R  0.050000000000000003
+    M012P1_T  GS---_3R  0.050000000000000003
+    M012P1_T  GS---_6R  0.040000000000000001
+    M012P1_T  R012_TP3  1
+    M012P1_U  __OBJ___  0.62656000000000001
+    M012P1_U  VOLM_3_R  0.308
+    M012P1_U  VOLM_4_R  0.13109999999999999
+    M012P1_U  VOLM_8_R  0.057000000000000002
+    M012P1_U  VOLM12_R  0.19400000000000001
+    M012P1_U  VOLM13_R  0.20100000000000001
+    M012P1_U  VOLM17_R  0.057000000000000002
+    M012P1_U  LTSY_R    0.050220000000000001
+    M012P1_U  AVEINV_R  0.24833
+    M012P1_U  INVEN_R   0.36199999999999999
+    M012P1_U  GP---_0R  1
+    M012P1_U  GS---_2R  0.050000000000000003
+    M012P1_U  GS---_3R  0.050000000000000003
+    M012P1_U  GS---_6R  0.02
+    M012P1_U  R012_TP3  1
+    M012P1_V  __OBJ___  0.46994999999999998
+    M012P1_V  VOLM_4_R  0.30590000000000001
+    M012P1_V  VOLM_5_R  0.12870000000000001
+    M012P1_V  VOLM_9_R  0.057000000000000002
+    M012P1_V  VOLM11_R  0.17799999999999999
+    M012P1_V  VOLM12_R  0.18099999999999999
+    M012P1_V  VOLM16_R  0.057000000000000002
+    M012P1_V  VOLM18_R  0.17799999999999999
+    M012P1_V  VOLM19_R  0.18099999999999999
+    M012P1_V  LTSY_R    0.059429999999999997
+    M012P1_V  AVEINV_R  0.20929
+    M012P1_V  INVEN_R   0.021999999999999999
+    M012P1_V  GP---_0R  1
+    M012P1_V  GS---_3R  0.10000000000000001
+    M012P1_V  GS---_6R  0.040000000000000001
+    M012P1_V  R012_TP4  1
+    M012P1_W  __OBJ___  0.46200000000000002
+    M012P1_W  VOLM_4_R  0.30590000000000001
+    M012P1_W  VOLM_5_R  0.12870000000000001
+    M012P1_W  VOLM_9_R  0.057000000000000002
+    M012P1_W  VOLM12_R  0.18099999999999999
+    M012P1_W  VOLM13_R  0.19400000000000001
+    M012P1_W  VOLM17_R  0.057000000000000002
+    M012P1_W  VOLM20_R  0.18099999999999999
+    M012P1_W  LTSY_R    0.053999999999999999
+    M012P1_W  AVEINV_R  0.23000000000000001
+    M012P1_W  INVEN_R   0.36199999999999999
+    M012P1_W  GP---_0R  1
+    M012P1_W  GS---_3R  0.10000000000000001
+    M012P1_W  GS---_6R  0.029999999999999999
+    M012P1_W  R012_TP4  1
+    M012P1_X  __OBJ___  0.45657999999999999
+    M012P1_X  VOLM_4_R  0.30590000000000001
+    M012P1_X  VOLM_5_R  0.12870000000000001
+    M012P1_X  VOLM_9_R  0.057000000000000002
+    M012P1_X  VOLM13_R  0.19400000000000001
+    M012P1_X  VOLM14_R  0.20100000000000001
+    M012P1_X  VOLM18_R  0.057000000000000002
+    M012P1_X  LTSY_R    0.050220000000000001
+    M012P1_X  AVEINV_R  0.24833
+    M012P1_X  INVEN_R   0.35599999999999998
+    M012P1_X  GP---_0R  1
+    M012P1_X  GS---_3R  0.10000000000000001
+    M012P1_X  GS---_6R  0.02
+    M012P1_X  R012_TP4  1
+    M012P1_Y  __OBJ___  0.31902999999999998
+    M012P1_Y  VOLM_5_R  0.30030000000000001
+    M012P1_Y  VOLM_6_R  0.12509999999999999
+    M012P1_Y  VOLM10_R  0.057000000000000002
+    M012P1_Y  VOLM12_R  0.17799999999999999
+    M012P1_Y  VOLM13_R  0.18099999999999999
+    M012P1_Y  VOLM17_R  0.057000000000000002
+    M012P1_Y  VOLM19_R  0.17799999999999999
+    M012P1_Y  VOLM20_R  0.18099999999999999
+    M012P1_Y  LTSY_R    0.059429999999999997
+    M012P1_Y  AVEINV_R  0.20929
+    M012P1_Y  INVEN_R   0.27150000000000002
+    M012P1_Y  GP---_0R  1
+    M012P1_Y  GS---_3R  0.050000000000000003
+    M012P1_Y  GS---_4R  0.050000000000000003
+    M012P1_Y  GS---_6R  0.040000000000000001
+    M012P1_Y  R012_TP5  1
+    M012P1_Z  __OBJ___  0.31330000000000002
+    M012P1_Z  VOLM_5_R  0.30030000000000001
+    M012P1_Z  VOLM_6_R  0.12509999999999999
+    M012P1_Z  VOLM10_R  0.057000000000000002
+    M012P1_Z  VOLM13_R  0.18099999999999999
+    M012P1_Z  VOLM14_R  0.19400000000000001
+    M012P1_Z  VOLM18_R  0.057000000000000002
+    M012P1_Z  LTSY_R    0.053999999999999999
+    M012P1_Z  AVEINV_R  0.23000000000000001
+    M012P1_Z  INVEN_R   0.35599999999999998
+    M012P1_Z  GP---_0R  1
+    M012P1_Z  GS---_3R  0.050000000000000003
+    M012P1_Z  GS---_4R  0.050000000000000003
+    M012P1_Z  GS---_6R  0.02
+    M012P1_Z  R012_TP5  1
+    M012P1_[  __OBJ___  0.31004999999999999
+    M012P1_[  VOLM_5_R  0.30030000000000001
+    M012P1_[  VOLM_6_R  0.12509999999999999
+    M012P1_[  VOLM10_R  0.057000000000000002
+    M012P1_[  VOLM14_R  0.19400000000000001
+    M012P1_[  VOLM15_R  0.20100000000000001
+    M012P1_[  VOLM19_R  0.057000000000000002
+    M012P1_[  LTSY_R    0.050220000000000001
+    M012P1_[  AVEINV_R  0.24833
+    M012P1_[  INVEN_R   0.31900000000000001
+    M012P1_[  GP---_0R  1
+    M012P1_[  GS---_3R  0.050000000000000003
+    M012P1_[  GS---_4R  0.050000000000000003
+    M012P1_[  GS---_6R  0.02
+    M012P1_[  R012_TP5  1
+    M012P1_]  __OBJ___  0.20926
+    M012P1_]  VOLM_6_R  0.29189999999999999
+    M012P1_]  VOLM_7_R  0.123
+    M012P1_]  VOLM11_R  0.057000000000000002
+    M012P1_]  VOLM13_R  0.17799999999999999
+    M012P1_]  VOLM14_R  0.18099999999999999
+    M012P1_]  VOLM18_R  0.057000000000000002
+    M012P1_]  VOLM20_R  0.17799999999999999
+    M012P1_]  LTSY_R    0.059429999999999997
+    M012P1_]  AVEINV_R  0.20929
+    M012P1_]  INVEN_R   0.35599999999999998
+    M012P1_]  GP---_0R  1
+    M012P1_]  GS---_4R  0.10000000000000001
+    M012P1_]  GS---_6R  0.029999999999999999
+    M012P1_]  R012_TP6  1
+    M012P1_#  __OBJ___  0.20577999999999999
+    M012P1_#  VOLM_6_R  0.29189999999999999
+    M012P1_#  VOLM_7_R  0.123
+    M012P1_#  VOLM11_R  0.057000000000000002
+    M012P1_#  VOLM14_R  0.18099999999999999
+    M012P1_#  VOLM15_R  0.19400000000000001
+    M012P1_#  VOLM19_R  0.057000000000000002
+    M012P1_#  LTSY_R    0.053999999999999999
+    M012P1_#  AVEINV_R  0.23000000000000001
+    M012P1_#  INVEN_R   0.31900000000000001
+    M012P1_#  GP---_0R  1
+    M012P1_#  GS---_4R  0.10000000000000001
+    M012P1_#  GS---_6R  0.02
+    M012P1_#  R012_TP6  1
+    M012P1_^  __OBJ___  0.20338999999999999
+    M012P1_^  VOLM_6_R  0.29189999999999999
+    M012P1_^  VOLM_7_R  0.123
+    M012P1_^  VOLM11_R  0.057000000000000002
+    M012P1_^  VOLM15_R  0.19400000000000001
+    M012P1_^  VOLM16_R  0.20100000000000001
+    M012P1_^  VOLM20_R  0.057000000000000002
+    M012P1_^  LTSY_R    0.050220000000000001
+    M012P1_^  AVEINV_R  0.24833
+    M012P1_^  INVEN_R   0.24199999999999999
+    M012P1_^  GP---_0R  1
+    M012P1_^  GS---_4R  0.10000000000000001
+    M012P1_^  GS---_6R  0.02
+    M012P1_^  R012_TP6  1
+    M012P1_)  __OBJ___  0.14072000000000001
+    M012P1_)  VOLM_7_R  0.28699999999999998
+    M012P1_)  VOLM_8_R  0.12089999999999999
+    M012P1_)  VOLM12_R  0.057000000000000002
+    M012P1_)  VOLM14_R  0.17799999999999999
+    M012P1_)  VOLM15_R  0.18099999999999999
+    M012P1_)  VOLM19_R  0.057000000000000002
+    M012P1_)  LTSY_R    0.059429999999999997
+    M012P1_)  AVEINV_R  0.20929
+    M012P1_)  INVEN_R   0.31900000000000001
+    M012P1_)  GP---_0R  1
+    M012P1_)  GS---_4R  0.050000000000000003
+    M012P1_)  GS---_5R  0.033329999999999999
+    M012P1_)  GS---_6R  0.02
+    M012P1_)  R012_TP6  1
+    M012P1_-  __OBJ___  0.13852
+    M012P1_-  VOLM_7_R  0.28699999999999998
+    M012P1_-  VOLM_8_R  0.12089999999999999
+    M012P1_-  VOLM12_R  0.057000000000000002
+    M012P1_-  VOLM15_R  0.18099999999999999
+    M012P1_-  VOLM16_R  0.19400000000000001
+    M012P1_-  VOLM20_R  0.057000000000000002
+    M012P1_-  LTSY_R    0.053999999999999999
+    M012P1_-  AVEINV_R  0.23000000000000001
+    M012P1_-  INVEN_R   0.24199999999999999
+    M012P1_-  GP---_0R  1
+    M012P1_-  GS---_4R  0.050000000000000003
+    M012P1_-  GS---_5R  0.033329999999999999
+    M012P1_-  GS---_6R  0.02
+    M012P1_-  R012_TP6  1
+    M012P1_+  __OBJ___  0.13697999999999999
+    M012P1_+  VOLM_7_R  0.28699999999999998
+    M012P1_+  VOLM_8_R  0.12089999999999999
+    M012P1_+  VOLM12_R  0.057000000000000002
+    M012P1_+  VOLM16_R  0.19400000000000001
+    M012P1_+  VOLM17_R  0.20100000000000001
+    M012P1_+  LTSY_R    0.050220000000000001
+    M012P1_+  AVEINV_R  0.24833
+    M012P1_+  INVEN_R   0.20300000000000001
+    M012P1_+  GP---_0R  1
+    M012P1_+  GS---_4R  0.050000000000000003
+    M012P1_+  GS---_5R  0.033329999999999999
+    M012P1_+  GS---_6R  0.02
+    M012P1_+  R012_TP6  1
+    M012P2_1  __OBJ___  1.1999
+    M012P2_1  VOLM_1_R  0.28139999999999998
+    M012P2_1  VOLM_2_R  0.12690000000000001
+    M012P2_1  VOLM_5_R  0.050000000000000003
+    M012P2_1  VOLM_7_R  0.096000000000000002
+    M012P2_1  VOLM_9_R  0.068599999999999994
+    M012P2_1  VOLM10_R  0.1885
+    M012P2_1  VOLM12_R  0.1173
+    M012P2_1  VOLM14_R  0.050000000000000003
+    M012P2_1  VOLM16_R  0.096000000000000002
+    M012P2_1  VOLM18_R  0.068599999999999994
+    M012P2_1  VOLM19_R  0.1885
+    M012P2_1  LTSY_R    0.057820000000000003
+    M012P2_1  AVEINV_R  0.23880000000000001
+    M012P2_1  INVEN_R   0.25414999999999999
+    M012P2_1  GP---_0R  1
+    M012P2_1  GS---_1R  0.10000000000000001
+    M012P2_1  GS---_2R  0.050000000000000003
+    M012P2_1  GS---_5R  0.066669999999999993
+    M012P2_1  GS---_6R  0.029999999999999999
+    M012P2_1  R012_TP1  1
+    M012P2_2  __OBJ___  1.1857
+    M012P2_2  VOLM_1_R  0.28139999999999998
+    M012P2_2  VOLM_2_R  0.12690000000000001
+    M012P2_2  VOLM_5_R  0.050000000000000003
+    M012P2_2  VOLM_7_R  0.096000000000000002
+    M012P2_2  VOLM10_R  0.075399999999999995
+    M012P2_2  VOLM11_R  0.19550000000000001
+    M012P2_2  VOLM13_R  0.1173
+    M012P2_2  VOLM15_R  0.050000000000000003
+    M012P2_2  VOLM17_R  0.096000000000000002
+    M012P2_2  VOLM20_R  0.075399999999999995
+    M012P2_2  LTSY_R    0.053420000000000002
+    M012P2_2  AVEINV_R  0.25374000000000002
+    M012P2_2  INVEN_R   0.377
+    M012P2_2  GP---_0R  1
+    M012P2_2  GS---_1R  0.10000000000000001
+    M012P2_2  GS---_2R  0.050000000000000003
+    M012P2_2  GS---_5R  0.033329999999999999
+    M012P2_2  GS---_6R  0.029999999999999999
+    M012P2_2  R012_TP1  1
+    M012P2_3  __OBJ___  0.88399000000000005
+    M012P2_3  VOLM_2_R  0.29609999999999997
+    M012P2_3  VOLM_3_R  0.13200000000000001
+    M012P2_3  VOLM_6_R  0.050000000000000003
+    M012P2_3  VOLM_8_R  0.096000000000000002
+    M012P2_3  VOLM10_R  0.068599999999999994
+    M012P2_3  VOLM11_R  0.1885
+    M012P2_3  VOLM13_R  0.1173
+    M012P2_3  VOLM15_R  0.050000000000000003
+    M012P2_3  VOLM17_R  0.096000000000000002
+    M012P2_3  VOLM19_R  0.068599999999999994
+    M012P2_3  VOLM20_R  0.1885
+    M012P2_3  LTSY_R    0.057820000000000003
+    M012P2_3  AVEINV_R  0.23880000000000001
+    M012P2_3  INVEN_R   0.33929999999999999
+    M012P2_3  GP---_0R  1
+    M012P2_3  GS---_2R  0.10000000000000001
+    M012P2_3  GS---_5R  0.033329999999999999
+    M012P2_3  GS---_6R  0.040000000000000001
+    M012P2_3  R012_TP2  1
+    M012P2_4  __OBJ___  0.87414000000000003
+    M012P2_4  VOLM_2_R  0.29609999999999997
+    M012P2_4  VOLM_3_R  0.13200000000000001
+    M012P2_4  VOLM_6_R  0.050000000000000003
+    M012P2_4  VOLM_8_R  0.096000000000000002
+    M012P2_4  VOLM11_R  0.075399999999999995
+    M012P2_4  VOLM12_R  0.19550000000000001
+    M012P2_4  VOLM14_R  0.1173
+    M012P2_4  VOLM16_R  0.050000000000000003
+    M012P2_4  VOLM18_R  0.096000000000000002
+    M012P2_4  LTSY_R    0.053420000000000002
+    M012P2_4  AVEINV_R  0.25374000000000002
+    M012P2_4  INVEN_R   0.34300000000000003
+    M012P2_4  GP---_0R  1
+    M012P2_4  GS---_2R  0.10000000000000001
+    M012P2_4  GS---_6R  0.029999999999999999
+    M012P2_4  R012_TP2  1
+    M012P2_5  __OBJ___  0.64622999999999997
+    M012P2_5  VOLM_3_R  0.308
+    M012P2_5  VOLM_4_R  0.13109999999999999
+    M012P2_5  VOLM_7_R  0.050000000000000003
+    M012P2_5  VOLM_9_R  0.096000000000000002
+    M012P2_5  VOLM11_R  0.068599999999999994
+    M012P2_5  VOLM12_R  0.1885
+    M012P2_5  VOLM14_R  0.1173
+    M012P2_5  VOLM16_R  0.050000000000000003
+    M012P2_5  VOLM18_R  0.096000000000000002
+    M012P2_5  VOLM20_R  0.068599999999999994
+    M012P2_5  LTSY_R    0.057820000000000003
+    M012P2_5  AVEINV_R  0.23880000000000001
+    M012P2_5  INVEN_R   0.34300000000000003
+    M012P2_5  GP---_0R  1
+    M012P2_5  GS---_2R  0.050000000000000003
+    M012P2_5  GS---_3R  0.050000000000000003
+    M012P2_5  GS---_6R  0.040000000000000001
+    M012P2_5  R012_TP3  1
+    M012P2_6  __OBJ___  0.6401
+    M012P2_6  VOLM_3_R  0.308
+    M012P2_6  VOLM_4_R  0.13109999999999999
+    M012P2_6  VOLM_7_R  0.050000000000000003
+    M012P2_6  VOLM_9_R  0.096000000000000002
+    M012P2_6  VOLM12_R  0.075399999999999995
+    M012P2_6  VOLM13_R  0.19550000000000001
+    M012P2_6  VOLM15_R  0.1173
+    M012P2_6  VOLM17_R  0.050000000000000003
+    M012P2_6  VOLM19_R  0.096000000000000002
+    M012P2_6  LTSY_R    0.053420000000000002
+    M012P2_6  AVEINV_R  0.25374000000000002
+    M012P2_6  INVEN_R   0.33900000000000002
+    M012P2_6  GP---_0R  1
+    M012P2_6  GS---_2R  0.050000000000000003
+    M012P2_6  GS---_3R  0.050000000000000003
+    M012P2_6  GS---_6R  0.029999999999999999
+    M012P2_6  R012_TP3  1
+    M012P2_7  __OBJ___  0.46975
+    M012P2_7  VOLM_4_R  0.30590000000000001
+    M012P2_7  VOLM_5_R  0.12870000000000001
+    M012P2_7  VOLM_8_R  0.050000000000000003
+    M012P2_7  VOLM10_R  0.096000000000000002
+    M012P2_7  VOLM12_R  0.068599999999999994
+    M012P2_7  VOLM13_R  0.1885
+    M012P2_7  VOLM15_R  0.1173
+    M012P2_7  VOLM17_R  0.050000000000000003
+    M012P2_7  VOLM19_R  0.096000000000000002
+    M012P2_7  LTSY_R    0.057820000000000003
+    M012P2_7  AVEINV_R  0.23880000000000001
+    M012P2_7  INVEN_R   0.33900000000000002
+    M012P2_7  GP---_0R  1
+    M012P2_7  GS---_3R  0.10000000000000001
+    M012P2_7  GS---_6R  0.029999999999999999
+    M012P2_7  R012_TP4  1
+    M012P2_8  __OBJ___  0.46566999999999997
+    M012P2_8  VOLM_4_R  0.30590000000000001
+    M012P2_8  VOLM_5_R  0.12870000000000001
+    M012P2_8  VOLM_8_R  0.050000000000000003
+    M012P2_8  VOLM10_R  0.096000000000000002
+    M012P2_8  VOLM13_R  0.075399999999999995
+    M012P2_8  VOLM14_R  0.19550000000000001
+    M012P2_8  VOLM16_R  0.1173
+    M012P2_8  VOLM18_R  0.050000000000000003
+    M012P2_8  VOLM20_R  0.096000000000000002
+    M012P2_8  LTSY_R    0.053420000000000002
+    M012P2_8  AVEINV_R  0.25374000000000002
+    M012P2_8  INVEN_R   0.317
+    M012P2_8  GP---_0R  1
+    M012P2_8  GS---_3R  0.10000000000000001
+    M012P2_8  GS---_6R  0.029999999999999999
+    M012P2_8  R012_TP4  1
+    M012P2_9  __OBJ___  0.31885999999999998
+    M012P2_9  VOLM_5_R  0.30030000000000001
+    M012P2_9  VOLM_6_R  0.12509999999999999
+    M012P2_9  VOLM_9_R  0.050000000000000003
+    M012P2_9  VOLM11_R  0.096000000000000002
+    M012P2_9  VOLM13_R  0.068599999999999994
+    M012P2_9  VOLM14_R  0.1885
+    M012P2_9  VOLM16_R  0.1173
+    M012P2_9  VOLM18_R  0.050000000000000003
+    M012P2_9  VOLM20_R  0.096000000000000002
+    M012P2_9  LTSY_R    0.057820000000000003
+    M012P2_9  AVEINV_R  0.23880000000000001
+    M012P2_9  INVEN_R   0.317
+    M012P2_9  GP---_0R  1
+    M012P2_9  GS---_3R  0.050000000000000003
+    M012P2_9  GS---_4R  0.050000000000000003
+    M012P2_9  GS---_6R  0.029999999999999999
+    M012P2_9  R012_TP5  1
+    M012P2_A  __OBJ___  0.31591999999999998
+    M012P2_A  VOLM_5_R  0.30030000000000001
+    M012P2_A  VOLM_6_R  0.12509999999999999
+    M012P2_A  VOLM_9_R  0.050000000000000003
+    M012P2_A  VOLM11_R  0.096000000000000002
+    M012P2_A  VOLM14_R  0.075399999999999995
+    M012P2_A  VOLM15_R  0.19550000000000001
+    M012P2_A  VOLM17_R  0.1173
+    M012P2_A  VOLM19_R  0.050000000000000003
+    M012P2_A  LTSY_R    0.053420000000000002
+    M012P2_A  AVEINV_R  0.25374000000000002
+    M012P2_A  INVEN_R   0.24399999999999999
+    M012P2_A  GP---_0R  1
+    M012P2_A  GS---_3R  0.050000000000000003
+    M012P2_A  GS---_4R  0.050000000000000003
+    M012P2_A  GS---_6R  0.029999999999999999
+    M012P2_A  R012_TP5  1
+    M012P2_B  __OBJ___  0.20927000000000001
+    M012P2_B  VOLM_6_R  0.29189999999999999
+    M012P2_B  VOLM_7_R  0.123
+    M012P2_B  VOLM10_R  0.050000000000000003
+    M012P2_B  VOLM12_R  0.096000000000000002
+    M012P2_B  VOLM14_R  0.068599999999999994
+    M012P2_B  VOLM15_R  0.1885
+    M012P2_B  VOLM17_R  0.1173
+    M012P2_B  VOLM19_R  0.050000000000000003
+    M012P2_B  LTSY_R    0.057820000000000003
+    M012P2_B  AVEINV_R  0.23880000000000001
+    M012P2_B  INVEN_R   0.24399999999999999
+    M012P2_B  GP---_0R  1
+    M012P2_B  GS---_4R  0.10000000000000001
+    M012P2_B  GS---_6R  0.029999999999999999
+    M012P2_B  R012_TP6  1
+    M012P2_C  __OBJ___  0.20784
+    M012P2_C  VOLM_6_R  0.29189999999999999
+    M012P2_C  VOLM_7_R  0.123
+    M012P2_C  VOLM10_R  0.050000000000000003
+    M012P2_C  VOLM12_R  0.096000000000000002
+    M012P2_C  VOLM15_R  0.075399999999999995
+    M012P2_C  VOLM16_R  0.19550000000000001
+    M012P2_C  VOLM18_R  0.1173
+    M012P2_C  VOLM20_R  0.050000000000000003
+    M012P2_C  LTSY_R    0.053420000000000002
+    M012P2_C  AVEINV_R  0.25374000000000002
+    M012P2_C  INVEN_R   0.20599999999999999
+    M012P2_C  GP---_0R  1
+    M012P2_C  GS---_4R  0.10000000000000001
+    M012P2_C  GS---_6R  0.029999999999999999
+    M012P2_C  R012_TP6  1
+    M012P2_D  __OBJ___  0.14135
+    M012P2_D  VOLM_7_R  0.28699999999999998
+    M012P2_D  VOLM_8_R  0.12089999999999999
+    M012P2_D  VOLM11_R  0.050000000000000003
+    M012P2_D  VOLM13_R  0.096000000000000002
+    M012P2_D  VOLM15_R  0.068599999999999994
+    M012P2_D  VOLM16_R  0.1885
+    M012P2_D  VOLM18_R  0.1173
+    M012P2_D  VOLM20_R  0.050000000000000003
+    M012P2_D  LTSY_R    0.057820000000000003
+    M012P2_D  AVEINV_R  0.23880000000000001
+    M012P2_D  INVEN_R   0.20599999999999999
+    M012P2_D  GP---_0R  1
+    M012P2_D  GS---_4R  0.050000000000000003
+    M012P2_D  GS---_5R  0.033329999999999999
+    M012P2_D  GS---_6R  0.029999999999999999
+    M012P2_D  R012_TP6  1
+    M012P2_E  __OBJ___  0.14019999999999999
+    M012P2_E  VOLM_7_R  0.28699999999999998
+    M012P2_E  VOLM_8_R  0.12089999999999999
+    M012P2_E  VOLM11_R  0.050000000000000003
+    M012P2_E  VOLM13_R  0.096000000000000002
+    M012P2_E  VOLM16_R  0.075399999999999995
+    M012P2_E  VOLM17_R  0.19550000000000001
+    M012P2_E  VOLM19_R  0.1173
+    M012P2_E  LTSY_R    0.053420000000000002
+    M012P2_E  AVEINV_R  0.25374000000000002
+    M012P2_E  INVEN_R   0.14199999999999999
+    M012P2_E  GP---_0R  1
+    M012P2_E  GS---_4R  0.050000000000000003
+    M012P2_E  GS---_5R  0.033329999999999999
+    M012P2_E  GS---_6R  0.029999999999999999
+    M012P2_E  R012_TP6  1
+    M037MN_1  __OBJ___  -0.0012631999999999999
+    M037MN_1  R037_MN1  1
+    M037RD_1  __OBJ___  -0.0010104999999999999
+    M037RD_1  R037_RD1  1
+    M037TF_1  __OBJ___  0.39118999999999998
+    M037TF_1  VOLM_3_R  0.38900000000000001
+    M037TF_1  VOLM10_R  0.36099999999999999
+    M037TF_1  VOLM17_R  0.36099999999999999
+    M037TF_1  LTSY_R    0.051569999999999998
+    M037TF_1  AVEINV_R  0.18842999999999999
+    M037TF_1  INVEN_R   0.14199999999999999
+    M037TF_1  GP+++_0R  1
+    M037TF_1  GS+++_3R  1
+    M037TF_1  GS+++10R  1
+    M037TF_1  R037_TM2  1
+    M037TF_2  __OBJ___  0.37769000000000003
+    M037TF_2  VOLM_3_R  0.38900000000000001
+    M037TF_2  VOLM11_R  0.36699999999999999
+    M037TF_2  VOLM19_R  0.36699999999999999
+    M037TF_2  LTSY_R    0.045870000000000001
+    M037TF_2  AVEINV_R  0.21074999999999999
+    M037TF_2  GP+++_0R  1
+    M037TF_2  GS+++_3R  1
+    M037TF_2  GS+++11R  1
+    M037TF_2  R037_TM2  1
+    M037TF_3  __OBJ___  0.30569000000000002
+    M037TF_3  VOLM_4_R  0.40200000000000002
+    M037TF_3  VOLM11_R  0.36099999999999999
+    M037TF_3  VOLM18_R  0.36099999999999999
+    M037TF_3  LTSY_R    0.051569999999999998
+    M037TF_3  AVEINV_R  0.18842999999999999
+    M037TF_3  INVEN_R   0.021999999999999999
+    M037TF_3  GP+++_0R  1
+    M037TF_3  GS+++_4R  1
+    M037TF_3  GS+++11R  1
+    M037TF_3  R037_TM2  1
+    M037TF_4  __OBJ___  0.29644999999999999
+    M037TF_4  VOLM_4_R  0.40200000000000002
+    M037TF_4  VOLM12_R  0.36699999999999999
+    M037TF_4  VOLM20_R  0.36699999999999999
+    M037TF_4  LTSY_R    0.045870000000000001
+    M037TF_4  AVEINV_R  0.21074999999999999
+    M037TF_4  INVEN_R   0.36699999999999999
+    M037TF_4  GP+++_0R  1
+    M037TF_4  GS+++_4R  1
+    M037TF_4  GS+++12R  1
+    M037TF_4  R037_TM2  1
+    M037TF_5  __OBJ___  0.23233999999999999
+    M037TF_5  VOLM_5_R  0.42299999999999999
+    M037TF_5  VOLM12_R  0.36099999999999999
+    M037TF_5  VOLM19_R  0.36099999999999999
+    M037TF_5  LTSY_R    0.051569999999999998
+    M037TF_5  AVEINV_R  0.18842999999999999
+    M037TF_5  GP+++_0R  1
+    M037TF_5  GS+++_5R  1
+    M037TF_5  GS+++12R  1
+    M037TF_5  R037_TM2  1
+    M037TF_6  __OBJ___  0.22534999999999999
+    M037TF_6  VOLM_5_R  0.42299999999999999
+    M037TF_6  VOLM13_R  0.36699999999999999
+    M037TF_6  LTSY_R    0.045870000000000001
+    M037TF_6  AVEINV_R  0.21074999999999999
+    M037TF_6  INVEN_R   0.36099999999999999
+    M037TF_6  GP+++_0R  1
+    M037TF_6  GS+++_5R  1
+    M037TF_6  GS+++13R  1
+    M037TF_6  R037_TM2  1
+    M037TF_7  __OBJ___  0.16521
+    M037TF_7  VOLM_6_R  0.44
+    M037TF_7  VOLM13_R  0.36099999999999999
+    M037TF_7  VOLM20_R  0.36099999999999999
+    M037TF_7  LTSY_R    0.051569999999999998
+    M037TF_7  AVEINV_R  0.18842999999999999
+    M037TF_7  INVEN_R   0.36099999999999999
+    M037TF_7  GP+++_0R  1
+    M037TF_7  GS+++_6R  1
+    M037TF_7  GS+++13R  1
+    M037TF_7  R037_TM2  1
+    M037TF_8  __OBJ___  0.16042000000000001
+    M037TF_8  VOLM_6_R  0.44
+    M037TF_8  VOLM14_R  0.36699999999999999
+    M037TF_8  LTSY_R    0.045870000000000001
+    M037TF_8  AVEINV_R  0.21074999999999999
+    M037TF_8  INVEN_R   0.32400000000000001
+    M037TF_8  GP+++_0R  1
+    M037TF_8  GS+++_6R  1
+    M037TF_8  GS+++14R  1
+    M037TF_8  R037_TM2  1
+    M037TF_9  __OBJ___  0.12252
+    M037TF_9  VOLM_7_R  0.437
+    M037TF_9  VOLM14_R  0.36099999999999999
+    M037TF_9  LTSY_R    0.051569999999999998
+    M037TF_9  AVEINV_R  0.18842999999999999
+    M037TF_9  INVEN_R   0.32400000000000001
+    M037TF_9  GP+++_0R  1
+    M037TF_9  GS+++_7R  1
+    M037TF_9  GS+++14R  1
+    M037TF_9  R037_TM2  1
+    M037TF_A  __OBJ___  0.11982
+    M037TF_A  VOLM_7_R  0.437
+    M037TF_A  VOLM15_R  0.36699999999999999
+    M037TF_A  LTSY_R    0.045870000000000001
+    M037TF_A  AVEINV_R  0.21074999999999999
+    M037TF_A  INVEN_R   0.26700000000000002
+    M037TF_A  GP+++_0R  1
+    M037TF_A  GS+++_7R  1
+    M037TF_A  GS+++15R  1
+    M037TF_A  R037_TM2  1
+    M037TF_B  __OBJ___  0.079981999999999998
+    M037TF_B  VOLM_8_R  0.42899999999999999
+    M037TF_B  VOLM15_R  0.36099999999999999
+    M037TF_B  LTSY_R    0.051569999999999998
+    M037TF_B  AVEINV_R  0.18842999999999999
+    M037TF_B  INVEN_R   0.26700000000000002
+    M037TF_B  GP+++_0R  1
+    M037TF_B  GS+++_8R  1
+    M037TF_B  GS+++15R  1
+    M037TF_B  R037_TM2  1
+    M037TF_C  __OBJ___  0.078330999999999998
+    M037TF_C  VOLM_8_R  0.42899999999999999
+    M037TF_C  VOLM16_R  0.36699999999999999
+    M037TF_C  LTSY_R    0.045870000000000001
+    M037TF_C  AVEINV_R  0.21074999999999999
+    M037TF_C  INVEN_R   0.20300000000000001
+    M037TF_C  GP+++_0R  1
+    M037TF_C  GS+++_8R  1
+    M037TF_C  R037_TM2  1
+    M037T1_1  __OBJ___  0.4047
+    M037T1_1  VOLM_3_R  0.38900000000000001
+    M037T1_1  VOLM_7_R  0.052999999999999999
+    M037T1_1  VOLM10_R  0.33900000000000002
+    M037T1_1  VOLM14_R  0.052999999999999999
+    M037T1_1  VOLM17_R  0.33900000000000002
+    M037T1_1  LTSY_R    0.056000000000000001
+    M037T1_1  AVEINV_R  0.18143000000000001
+    M037T1_1  INVEN_R   0.14199999999999999
+    M037T1_1  GP+++_0R  1
+    M037T1_1  GS+++_3R  1
+    M037T1_1  GS+++10R  1
+    M037T1_1  R037_TM2  1
+    M037T1_2  __OBJ___  0.39241999999999999
+    M037T1_2  VOLM_3_R  0.38900000000000001
+    M037T1_2  VOLM_7_R  0.052999999999999999
+    M037T1_2  VOLM11_R  0.34499999999999997
+    M037T1_2  VOLM15_R  0.052999999999999999
+    M037T1_2  VOLM19_R  0.34499999999999997
+    M037T1_2  LTSY_R    0.049750000000000003
+    M037T1_2  AVEINV_R  0.20186999999999999
+    M037T1_2  GP+++_0R  1
+    M037T1_2  GS+++_3R  1
+    M037T1_2  GS+++11R  1
+    M037T1_2  R037_TM2  1
+    M037T1_3  __OBJ___  0.38433
+    M037T1_3  VOLM_3_R  0.38900000000000001
+    M037T1_3  VOLM_7_R  0.052999999999999999
+    M037T1_3  VOLM12_R  0.377
+    M037T1_3  VOLM16_R  0.052999999999999999
+    M037T1_3  LTSY_R    0.047780000000000003
+    M037T1_3  AVEINV_R  0.22133
+    M037T1_3  INVEN_R   0.34499999999999997
+    M037T1_3  GP+++_0R  1
+    M037T1_3  GS+++_3R  1
+    M037T1_3  GS+++12R  1
+    M037T1_3  R037_TM2  1
+    M037T1_4  __OBJ___  0.31484000000000001
+    M037T1_4  VOLM_4_R  0.40200000000000002
+    M037T1_4  VOLM_8_R  0.052999999999999999
+    M037T1_4  VOLM11_R  0.33900000000000002
+    M037T1_4  VOLM15_R  0.052999999999999999
+    M037T1_4  VOLM18_R  0.33900000000000002
+    M037T1_4  LTSY_R    0.056000000000000001
+    M037T1_4  AVEINV_R  0.18143000000000001
+    M037T1_4  INVEN_R   0.021999999999999999
+    M037T1_4  GP+++_0R  1
+    M037T1_4  GS+++_4R  1
+    M037T1_4  GS+++11R  1
+    M037T1_4  R037_TM2  1
+    M037T1_5  __OBJ___  0.30641000000000002
+    M037T1_5  VOLM_4_R  0.40200000000000002
+    M037T1_5  VOLM_8_R  0.052999999999999999
+    M037T1_5  VOLM12_R  0.34499999999999997
+    M037T1_5  VOLM16_R  0.052999999999999999
+    M037T1_5  VOLM20_R  0.34499999999999997
+    M037T1_5  LTSY_R    0.049750000000000003
+    M037T1_5  AVEINV_R  0.20186999999999999
+    M037T1_5  INVEN_R   0.34499999999999997
+    M037T1_5  GP+++_0R  1
+    M037T1_5  GS+++_4R  1
+    M037T1_5  GS+++12R  1
+    M037T1_5  R037_TM2  1
+    M037T1_6  __OBJ___  0.30096000000000001
+    M037T1_6  VOLM_4_R  0.40200000000000002
+    M037T1_6  VOLM_8_R  0.052999999999999999
+    M037T1_6  VOLM13_R  0.377
+    M037T1_6  VOLM17_R  0.052999999999999999
+    M037T1_6  LTSY_R    0.047780000000000003
+    M037T1_6  AVEINV_R  0.22133
+    M037T1_6  INVEN_R   0.33900000000000002
+    M037T1_6  GP+++_0R  1
+    M037T1_6  GS+++_4R  1
+    M037T1_6  GS+++13R  1
+    M037T1_6  R037_TM2  1
+    M037T1_7  __OBJ___  0.23852000000000001
+    M037T1_7  VOLM_5_R  0.42299999999999999
+    M037T1_7  VOLM_9_R  0.052999999999999999
+    M037T1_7  VOLM12_R  0.33900000000000002
+    M037T1_7  VOLM16_R  0.052999999999999999
+    M037T1_7  VOLM19_R  0.33900000000000002
+    M037T1_7  LTSY_R    0.056000000000000001
+    M037T1_7  AVEINV_R  0.18143000000000001
+    M037T1_7  GP+++_0R  1
+    M037T1_7  GS+++_5R  1
+    M037T1_7  GS+++12R  1
+    M037T1_7  R037_TM2  1
+    M037T1_8  __OBJ___  0.23208999999999999
+    M037T1_8  VOLM_5_R  0.42299999999999999
+    M037T1_8  VOLM_9_R  0.052999999999999999
+    M037T1_8  VOLM13_R  0.34499999999999997
+    M037T1_8  VOLM17_R  0.052999999999999999
+    M037T1_8  LTSY_R    0.049750000000000003
+    M037T1_8  AVEINV_R  0.20186999999999999
+    M037T1_8  INVEN_R   0.33900000000000002
+    M037T1_8  GP+++_0R  1
+    M037T1_8  GS+++_5R  1
+    M037T1_8  GS+++13R  1
+    M037T1_8  R037_TM2  1
+    M037T1_9  __OBJ___  0.22919
+    M037T1_9  VOLM_5_R  0.42299999999999999
+    M037T1_9  VOLM_9_R  0.052999999999999999
+    M037T1_9  VOLM14_R  0.377
+    M037T1_9  VOLM18_R  0.052999999999999999
+    M037T1_9  LTSY_R    0.047780000000000003
+    M037T1_9  AVEINV_R  0.22133
+    M037T1_9  INVEN_R   0.317
+    M037T1_9  GP+++_0R  1
+    M037T1_9  GS+++_5R  1
+    M037T1_9  GS+++14R  1
+    M037T1_9  R037_TM2  1
+    M037T1_A  __OBJ___  0.1694
+    M037T1_A  VOLM_6_R  0.44
+    M037T1_A  VOLM10_R  0.052999999999999999
+    M037T1_A  VOLM13_R  0.33900000000000002
+    M037T1_A  VOLM17_R  0.052999999999999999
+    M037T1_A  VOLM20_R  0.33900000000000002
+    M037T1_A  LTSY_R    0.056000000000000001
+    M037T1_A  AVEINV_R  0.18143000000000001
+    M037T1_A  INVEN_R   0.33900000000000002
+    M037T1_A  GP+++_0R  1
+    M037T1_A  GS+++_6R  1
+    M037T1_A  GS+++13R  1
+    M037T1_A  R037_TM2  1
+    M037T1_B  __OBJ___  0.16499
+    M037T1_B  VOLM_6_R  0.44
+    M037T1_B  VOLM10_R  0.052999999999999999
+    M037T1_B  VOLM14_R  0.34499999999999997
+    M037T1_B  VOLM18_R  0.052999999999999999
+    M037T1_B  LTSY_R    0.049750000000000003
+    M037T1_B  AVEINV_R  0.20186999999999999
+    M037T1_B  INVEN_R   0.317
+    M037T1_B  GP+++_0R  1
+    M037T1_B  GS+++_6R  1
+    M037T1_B  GS+++14R  1
+    M037T1_B  R037_TM2  1
+    M037T1_C  __OBJ___  0.16283
+    M037T1_C  VOLM_6_R  0.44
+    M037T1_C  VOLM10_R  0.052999999999999999
+    M037T1_C  VOLM15_R  0.377
+    M037T1_C  VOLM19_R  0.052999999999999999
+    M037T1_C  LTSY_R    0.047780000000000003
+    M037T1_C  AVEINV_R  0.22133
+    M037T1_C  INVEN_R   0.24399999999999999
+    M037T1_C  GP+++_0R  1
+    M037T1_C  GS+++_6R  1
+    M037T1_C  GS+++15R  1
+    M037T1_C  R037_TM2  1
+    M037T1_D  __OBJ___  0.12539
+    M037T1_D  VOLM_7_R  0.437
+    M037T1_D  VOLM11_R  0.052999999999999999
+    M037T1_D  VOLM14_R  0.33900000000000002
+    M037T1_D  VOLM18_R  0.052999999999999999
+    M037T1_D  LTSY_R    0.056000000000000001
+    M037T1_D  AVEINV_R  0.18143000000000001
+    M037T1_D  INVEN_R   0.317
+    M037T1_D  GP+++_0R  1
+    M037T1_D  GS+++_7R  1
+    M037T1_D  GS+++14R  1
+    M037T1_D  R037_TM2  1
+    M037T1_E  __OBJ___  0.12291000000000001
+    M037T1_E  VOLM_7_R  0.437
+    M037T1_E  VOLM11_R  0.052999999999999999
+    M037T1_E  VOLM15_R  0.34499999999999997
+    M037T1_E  VOLM19_R  0.052999999999999999
+    M037T1_E  LTSY_R    0.049750000000000003
+    M037T1_E  AVEINV_R  0.20186999999999999
+    M037T1_E  INVEN_R   0.24399999999999999
+    M037T1_E  GP+++_0R  1
+    M037T1_E  GS+++_7R  1
+    M037T1_E  GS+++15R  1
+    M037T1_E  R037_TM2  1
+    M037T1_F  __OBJ___  0.12164999999999999
+    M037T1_F  VOLM_7_R  0.437
+    M037T1_F  VOLM11_R  0.052999999999999999
+    M037T1_F  VOLM16_R  0.377
+    M037T1_F  VOLM20_R  0.052999999999999999
+    M037T1_F  LTSY_R    0.047780000000000003
+    M037T1_F  AVEINV_R  0.22133
+    M037T1_F  INVEN_R   0.20599999999999999
+    M037T1_F  GP+++_0R  1
+    M037T1_F  GS+++_7R  1
+    M037T1_F  R037_TM2  1
+    M037T1_G  __OBJ___  0.081922999999999996
+    M037T1_G  VOLM_8_R  0.42899999999999999
+    M037T1_G  VOLM12_R  0.052999999999999999
+    M037T1_G  VOLM15_R  0.33900000000000002
+    M037T1_G  VOLM19_R  0.052999999999999999
+    M037T1_G  LTSY_R    0.056000000000000001
+    M037T1_G  AVEINV_R  0.18143000000000001
+    M037T1_G  INVEN_R   0.24399999999999999
+    M037T1_G  GP+++_0R  1
+    M037T1_G  GS+++_8R  1
+    M037T1_G  GS+++15R  1
+    M037T1_G  R037_TM2  1
+    M037T1_H  __OBJ___  0.080438999999999997
+    M037T1_H  VOLM_8_R  0.42899999999999999
+    M037T1_H  VOLM12_R  0.052999999999999999
+    M037T1_H  VOLM16_R  0.34499999999999997
+    M037T1_H  VOLM20_R  0.052999999999999999
+    M037T1_H  LTSY_R    0.049750000000000003
+    M037T1_H  AVEINV_R  0.20186999999999999
+    M037T1_H  INVEN_R   0.20599999999999999
+    M037T1_H  GP+++_0R  1
+    M037T1_H  GS+++_8R  1
+    M037T1_H  R037_TM2  1
+    M037T1_I  __OBJ___  0.079580999999999999
+    M037T1_I  VOLM_8_R  0.42899999999999999
+    M037T1_I  VOLM12_R  0.052999999999999999
+    M037T1_I  VOLM17_R  0.377
+    M037T1_I  LTSY_R    0.047780000000000003
+    M037T1_I  AVEINV_R  0.22133
+    M037T1_I  INVEN_R   0.14199999999999999
+    M037T1_I  GP+++_0R  1
+    M037T1_I  GS+++_8R  1
+    M037T1_I  R037_TM2  1
+    M037T1_J  __OBJ___  0.40316999999999997
+    M037T1_J  VOLM_3_R  0.38900000000000001
+    M037T1_J  VOLM_8_R  0.057000000000000002
+    M037T1_J  VOLM10_R  0.35599999999999998
+    M037T1_J  VOLM15_R  0.057000000000000002
+    M037T1_J  VOLM17_R  0.35599999999999998
+    M037T1_J  LTSY_R    0.058999999999999997
+    M037T1_J  AVEINV_R  0.18343000000000001
+    M037T1_J  INVEN_R   0.14199999999999999
+    M037T1_J  GP+++_0R  1
+    M037T1_J  GS+++_3R  1
+    M037T1_J  GS+++10R  1
+    M037T1_J  R037_TM2  1
+    M037T1_K  __OBJ___  0.39026
+    M037T1_K  VOLM_3_R  0.38900000000000001
+    M037T1_K  VOLM_8_R  0.057000000000000002
+    M037T1_K  VOLM11_R  0.36199999999999999
+    M037T1_K  VOLM16_R  0.057000000000000002
+    M037T1_K  VOLM19_R  0.36199999999999999
+    M037T1_K  LTSY_R    0.05237
+    M037T1_K  AVEINV_R  0.20574999999999999
+    M037T1_K  GP+++_0R  1
+    M037T1_K  GS+++_3R  1
+    M037T1_K  GS+++11R  1
+    M037T1_K  R037_TM2  1
+    M037T1_L  __OBJ___  0.38129999999999997
+    M037T1_L  VOLM_3_R  0.38900000000000001
+    M037T1_L  VOLM_8_R  0.057000000000000002
+    M037T1_L  VOLM12_R  0.38800000000000001
+    M037T1_L  VOLM17_R  0.057000000000000002
+    M037T1_L  LTSY_R    0.049439999999999998
+    M037T1_L  AVEINV_R  0.22600000000000001
+    M037T1_L  INVEN_R   0.36199999999999999
+    M037T1_L  GP+++_0R  1
+    M037T1_L  GS+++_3R  1
+    M037T1_L  GS+++12R  1
+    M037T1_L  R037_TM2  1
+    M037T1_M  __OBJ___  0.31381999999999999
+    M037T1_M  VOLM_4_R  0.40200000000000002
+    M037T1_M  VOLM_9_R  0.057000000000000002
+    M037T1_M  VOLM11_R  0.35599999999999998
+    M037T1_M  VOLM16_R  0.057000000000000002
+    M037T1_M  VOLM18_R  0.35599999999999998
+    M037T1_M  LTSY_R    0.058999999999999997
+    M037T1_M  AVEINV_R  0.18343000000000001
+    M037T1_M  INVEN_R   0.021999999999999999
+    M037T1_M  GP+++_0R  1
+    M037T1_M  GS+++_4R  1
+    M037T1_M  GS+++11R  1
+    M037T1_M  R037_TM2  1
+    M037T1_N  __OBJ___  0.30495
+    M037T1_N  VOLM_4_R  0.40200000000000002
+    M037T1_N  VOLM_9_R  0.057000000000000002
+    M037T1_N  VOLM12_R  0.36199999999999999
+    M037T1_N  VOLM17_R  0.057000000000000002
+    M037T1_N  VOLM20_R  0.36199999999999999
+    M037T1_N  LTSY_R    0.05237
+    M037T1_N  AVEINV_R  0.20574999999999999
+    M037T1_N  INVEN_R   0.36199999999999999
+    M037T1_N  GP+++_0R  1
+    M037T1_N  GS+++_4R  1
+    M037T1_N  GS+++12R  1
+    M037T1_N  R037_TM2  1
+    M037T1_O  __OBJ___  0.29892000000000002
+    M037T1_O  VOLM_4_R  0.40200000000000002
+    M037T1_O  VOLM_9_R  0.057000000000000002
+    M037T1_O  VOLM13_R  0.38800000000000001
+    M037T1_O  VOLM18_R  0.057000000000000002
+    M037T1_O  LTSY_R    0.049439999999999998
+    M037T1_O  AVEINV_R  0.22600000000000001
+    M037T1_O  INVEN_R   0.35599999999999998
+    M037T1_O  GP+++_0R  1
+    M037T1_O  GS+++_4R  1
+    M037T1_O  GS+++13R  1
+    M037T1_O  R037_TM2  1
+    M037T1_P  __OBJ___  0.23784
+    M037T1_P  VOLM_5_R  0.42299999999999999
+    M037T1_P  VOLM10_R  0.057000000000000002
+    M037T1_P  VOLM12_R  0.35599999999999998
+    M037T1_P  VOLM17_R  0.057000000000000002
+    M037T1_P  VOLM19_R  0.35599999999999998
+    M037T1_P  LTSY_R    0.058999999999999997
+    M037T1_P  AVEINV_R  0.18343000000000001
+    M037T1_P  GP+++_0R  1
+    M037T1_P  GS+++_5R  1
+    M037T1_P  GS+++12R  1
+    M037T1_P  R037_TM2  1
+    M037T1_Q  __OBJ___  0.23107
+    M037T1_Q  VOLM_5_R  0.42299999999999999
+    M037T1_Q  VOLM10_R  0.057000000000000002
+    M037T1_Q  VOLM13_R  0.36199999999999999
+    M037T1_Q  VOLM18_R  0.057000000000000002
+    M037T1_Q  LTSY_R    0.05237
+    M037T1_Q  AVEINV_R  0.20574999999999999
+    M037T1_Q  INVEN_R   0.35599999999999998
+    M037T1_Q  GP+++_0R  1
+    M037T1_Q  GS+++_5R  1
+    M037T1_Q  GS+++13R  1
+    M037T1_Q  R037_TM2  1
+    M037T1_R  __OBJ___  0.22781000000000001
+    M037T1_R  VOLM_5_R  0.42299999999999999
+    M037T1_R  VOLM10_R  0.057000000000000002
+    M037T1_R  VOLM14_R  0.38800000000000001
+    M037T1_R  VOLM19_R  0.057000000000000002
+    M037T1_R  LTSY_R    0.049439999999999998
+    M037T1_R  AVEINV_R  0.22600000000000001
+    M037T1_R  INVEN_R   0.31900000000000001
+    M037T1_R  GP+++_0R  1
+    M037T1_R  GS+++_5R  1
+    M037T1_R  GS+++14R  1
+    M037T1_R  R037_TM2  1
+    M037T1_S  __OBJ___  0.16894999999999999
+    M037T1_S  VOLM_6_R  0.44
+    M037T1_S  VOLM11_R  0.057000000000000002
+    M037T1_S  VOLM13_R  0.35599999999999998
+    M037T1_S  VOLM18_R  0.057000000000000002
+    M037T1_S  VOLM20_R  0.35599999999999998
+    M037T1_S  LTSY_R    0.058999999999999997
+    M037T1_S  AVEINV_R  0.18343000000000001
+    M037T1_S  INVEN_R   0.35599999999999998
+    M037T1_S  GP+++_0R  1
+    M037T1_S  GS+++_6R  1
+    M037T1_S  GS+++13R  1
+    M037T1_S  R037_TM2  1
+    M037T1_T  __OBJ___  0.16431000000000001
+    M037T1_T  VOLM_6_R  0.44
+    M037T1_T  VOLM11_R  0.057000000000000002
+    M037T1_T  VOLM14_R  0.36199999999999999
+    M037T1_T  VOLM19_R  0.057000000000000002
+    M037T1_T  LTSY_R    0.05237
+    M037T1_T  AVEINV_R  0.20574999999999999
+    M037T1_T  INVEN_R   0.31900000000000001
+    M037T1_T  GP+++_0R  1
+    M037T1_T  GS+++_6R  1
+    M037T1_T  GS+++14R  1
+    M037T1_T  R037_TM2  1
+    M037T1_U  __OBJ___  0.16189999999999999
+    M037T1_U  VOLM_6_R  0.44
+    M037T1_U  VOLM11_R  0.057000000000000002
+    M037T1_U  VOLM15_R  0.38800000000000001
+    M037T1_U  VOLM20_R  0.057000000000000002
+    M037T1_U  LTSY_R    0.049439999999999998
+    M037T1_U  AVEINV_R  0.22600000000000001
+    M037T1_U  INVEN_R   0.24199999999999999
+    M037T1_U  GP+++_0R  1
+    M037T1_U  GS+++_6R  1
+    M037T1_U  GS+++15R  1
+    M037T1_U  R037_TM2  1
+    M037T1_V  __OBJ___  0.12504999999999999
+    M037T1_V  VOLM_7_R  0.437
+    M037T1_V  VOLM12_R  0.057000000000000002
+    M037T1_V  VOLM14_R  0.35599999999999998
+    M037T1_V  VOLM19_R  0.057000000000000002
+    M037T1_V  LTSY_R    0.058999999999999997
+    M037T1_V  AVEINV_R  0.18343000000000001
+    M037T1_V  INVEN_R   0.31900000000000001
+    M037T1_V  GP+++_0R  1
+    M037T1_V  GS+++_7R  1
+    M037T1_V  GS+++14R  1
+    M037T1_V  R037_TM2  1
+    M037T1_W  __OBJ___  0.12245
+    M037T1_W  VOLM_7_R  0.437
+    M037T1_W  VOLM12_R  0.057000000000000002
+    M037T1_W  VOLM15_R  0.36199999999999999
+    M037T1_W  VOLM20_R  0.057000000000000002
+    M037T1_W  LTSY_R    0.05237
+    M037T1_W  AVEINV_R  0.20574999999999999
+    M037T1_W  INVEN_R   0.24199999999999999
+    M037T1_W  GP+++_0R  1
+    M037T1_W  GS+++_7R  1
+    M037T1_W  GS+++15R  1
+    M037T1_W  R037_TM2  1
+    M037T1_X  __OBJ___  0.12094000000000001
+    M037T1_X  VOLM_7_R  0.437
+    M037T1_X  VOLM12_R  0.057000000000000002
+    M037T1_X  VOLM16_R  0.38800000000000001
+    M037T1_X  LTSY_R    0.049439999999999998
+    M037T1_X  AVEINV_R  0.22600000000000001
+    M037T1_X  INVEN_R   0.20300000000000001
+    M037T1_X  GP+++_0R  1
+    M037T1_X  GS+++_7R  1
+    M037T1_X  R037_TM2  1
+    M037T1_Y  __OBJ___  0.081696000000000005
+    M037T1_Y  VOLM_8_R  0.42899999999999999
+    M037T1_Y  VOLM13_R  0.057000000000000002
+    M037T1_Y  VOLM15_R  0.35599999999999998
+    M037T1_Y  VOLM20_R  0.057000000000000002
+    M037T1_Y  LTSY_R    0.058999999999999997
+    M037T1_Y  AVEINV_R  0.18343000000000001
+    M037T1_Y  INVEN_R   0.24199999999999999
+    M037T1_Y  GP+++_0R  1
+    M037T1_Y  GS+++_8R  1
+    M037T1_Y  GS+++15R  1
+    M037T1_Y  R037_TM2  1
+    M037T1_Z  __OBJ___  0.080044000000000004
+    M037T1_Z  VOLM_8_R  0.42899999999999999
+    M037T1_Z  VOLM13_R  0.057000000000000002
+    M037T1_Z  VOLM16_R  0.36199999999999999
+    M037T1_Z  LTSY_R    0.05237
+    M037T1_Z  AVEINV_R  0.20574999999999999
+    M037T1_Z  INVEN_R   0.20300000000000001
+    M037T1_Z  GP+++_0R  1
+    M037T1_Z  GS+++_8R  1
+    M037T1_Z  R037_TM2  1
+    M037T1_[  __OBJ___  0.079177999999999998
+    M037T1_[  VOLM_8_R  0.42899999999999999
+    M037T1_[  VOLM13_R  0.057000000000000002
+    M037T1_[  VOLM17_R  0.38800000000000001
+    M037T1_[  LTSY_R    0.049439999999999998
+    M037T1_[  AVEINV_R  0.22600000000000001
+    M037T1_[  INVEN_R   0.14199999999999999
+    M037T1_[  GP+++_0R  1
+    M037T1_[  GS+++_8R  1
+    M037T1_[  R037_TM2  1
+    M037T2_1  __OBJ___  0.40755999999999998
+    M037T2_1  VOLM_3_R  0.38900000000000001
+    M037T2_1  VOLM_7_R  0.050000000000000003
+    M037T2_1  VOLM_9_R  0.096000000000000002
+    M037T2_1  VOLM11_R  0.34300000000000003
+    M037T2_1  VOLM15_R  0.050000000000000003
+    M037T2_1  VOLM17_R  0.096000000000000002
+    M037T2_1  VOLM19_R  0.34300000000000003
+    M037T2_1  LTSY_R    0.061120000000000001
+    M037T2_1  AVEINV_R  0.20161999999999999
+    M037T2_1  GP+++_0R  1
+    M037T2_1  GS+++_3R  1
+    M037T2_1  GS+++11R  1
+    M037T2_1  R037_TM2  1
+    M037T2_2  __OBJ___  0.39943000000000001
+    M037T2_2  VOLM_3_R  0.38900000000000001
+    M037T2_2  VOLM_7_R  0.050000000000000003
+    M037T2_2  VOLM_9_R  0.096000000000000002
+    M037T2_2  VOLM12_R  0.377
+    M037T2_2  VOLM16_R  0.050000000000000003
+    M037T2_2  VOLM18_R  0.096000000000000002
+    M037T2_2  LTSY_R    0.058110000000000002
+    M037T2_2  AVEINV_R  0.22111
+    M037T2_2  INVEN_R   0.34300000000000003
+    M037T2_2  GP+++_0R  1
+    M037T2_2  GS+++_3R  1
+    M037T2_2  GS+++12R  1
+    M037T2_2  R037_TM2  1
+    M037T2_3  __OBJ___  0.31664999999999999
+    M037T2_3  VOLM_4_R  0.40200000000000002
+    M037T2_3  VOLM_8_R  0.050000000000000003
+    M037T2_3  VOLM10_R  0.096000000000000002
+    M037T2_3  VOLM12_R  0.34300000000000003
+    M037T2_3  VOLM16_R  0.050000000000000003
+    M037T2_3  VOLM18_R  0.096000000000000002
+    M037T2_3  VOLM20_R  0.34300000000000003
+    M037T2_3  LTSY_R    0.061120000000000001
+    M037T2_3  AVEINV_R  0.20161999999999999
+    M037T2_3  INVEN_R   0.34300000000000003
+    M037T2_3  GP+++_0R  1
+    M037T2_3  GS+++_4R  1
+    M037T2_3  GS+++12R  1
+    M037T2_3  R037_TM2  1
+    M037T2_4  __OBJ___  0.31119999999999998
+    M037T2_4  VOLM_4_R  0.40200000000000002
+    M037T2_4  VOLM_8_R  0.050000000000000003
+    M037T2_4  VOLM10_R  0.096000000000000002
+    M037T2_4  VOLM13_R  0.377
+    M037T2_4  VOLM17_R  0.050000000000000003
+    M037T2_4  VOLM19_R  0.096000000000000002
+    M037T2_4  LTSY_R    0.058110000000000002
+    M037T2_4  AVEINV_R  0.22111
+    M037T2_4  INVEN_R   0.33900000000000002
+    M037T2_4  GP+++_0R  1
+    M037T2_4  GS+++_4R  1
+    M037T2_4  GS+++13R  1
+    M037T2_4  R037_TM2  1
+    M037T2_5  __OBJ___  0.23905000000000001
+    M037T2_5  VOLM_5_R  0.42299999999999999
+    M037T2_5  VOLM_9_R  0.050000000000000003
+    M037T2_5  VOLM11_R  0.096000000000000002
+    M037T2_5  VOLM13_R  0.34300000000000003
+    M037T2_5  VOLM17_R  0.050000000000000003
+    M037T2_5  VOLM19_R  0.096000000000000002
+    M037T2_5  LTSY_R    0.061120000000000001
+    M037T2_5  AVEINV_R  0.20161999999999999
+    M037T2_5  INVEN_R   0.33900000000000002
+    M037T2_5  GP+++_0R  1
+    M037T2_5  GS+++_5R  1
+    M037T2_5  GS+++13R  1
+    M037T2_5  R037_TM2  1
+    M037T2_6  __OBJ___  0.23602999999999999
+    M037T2_6  VOLM_5_R  0.42299999999999999
+    M037T2_6  VOLM_9_R  0.050000000000000003
+    M037T2_6  VOLM11_R  0.096000000000000002
+    M037T2_6  VOLM14_R  0.377
+    M037T2_6  VOLM18_R  0.050000000000000003
+    M037T2_6  VOLM20_R  0.096000000000000002
+    M037T2_6  LTSY_R    0.058110000000000002
+    M037T2_6  AVEINV_R  0.22111
+    M037T2_6  INVEN_R   0.317
+    M037T2_6  GP+++_0R  1
+    M037T2_6  GS+++_5R  1
+    M037T2_6  GS+++14R  1
+    M037T2_6  R037_TM2  1
+    M037T2_7  __OBJ___  0.16961999999999999
+    M037T2_7  VOLM_6_R  0.44
+    M037T2_7  VOLM10_R  0.050000000000000003
+    M037T2_7  VOLM12_R  0.096000000000000002
+    M037T2_7  VOLM14_R  0.34300000000000003
+    M037T2_7  VOLM18_R  0.050000000000000003
+    M037T2_7  VOLM20_R  0.096000000000000002
+    M037T2_7  LTSY_R    0.061120000000000001
+    M037T2_7  AVEINV_R  0.20161999999999999
+    M037T2_7  INVEN_R   0.317
+    M037T2_7  GP+++_0R  1
+    M037T2_7  GS+++_6R  1
+    M037T2_7  GS+++14R  1
+    M037T2_7  R037_TM2  1
+    M037T2_8  __OBJ___  0.16736000000000001
+    M037T2_8  VOLM_6_R  0.44
+    M037T2_8  VOLM10_R  0.050000000000000003
+    M037T2_8  VOLM12_R  0.096000000000000002
+    M037T2_8  VOLM15_R  0.377
+    M037T2_8  VOLM19_R  0.050000000000000003
+    M037T2_8  LTSY_R    0.058110000000000002
+    M037T2_8  AVEINV_R  0.22111
+    M037T2_8  INVEN_R   0.24399999999999999
+    M037T2_8  GP+++_0R  1
+    M037T2_8  GS+++_6R  1
+    M037T2_8  GS+++15R  1
+    M037T2_8  R037_TM2  1
+    M037T2_9  __OBJ___  0.12594
+    M037T2_9  VOLM_7_R  0.437
+    M037T2_9  VOLM11_R  0.050000000000000003
+    M037T2_9  VOLM13_R  0.096000000000000002
+    M037T2_9  VOLM15_R  0.34300000000000003
+    M037T2_9  VOLM19_R  0.050000000000000003
+    M037T2_9  LTSY_R    0.061120000000000001
+    M037T2_9  AVEINV_R  0.20161999999999999
+    M037T2_9  INVEN_R   0.24399999999999999
+    M037T2_9  GP+++_0R  1
+    M037T2_9  GS+++_7R  1
+    M037T2_9  GS+++15R  1
+    M037T2_9  R037_TM2  1
+    M037T2_A  __OBJ___  0.12472999999999999
+    M037T2_A  VOLM_7_R  0.437
+    M037T2_A  VOLM11_R  0.050000000000000003
+    M037T2_A  VOLM13_R  0.096000000000000002
+    M037T2_A  VOLM16_R  0.377
+    M037T2_A  VOLM20_R  0.050000000000000003
+    M037T2_A  LTSY_R    0.058110000000000002
+    M037T2_A  AVEINV_R  0.22111
+    M037T2_A  INVEN_R   0.20599999999999999
+    M037T2_A  GP+++_0R  1
+    M037T2_A  GS+++_7R  1
+    M037T2_A  R037_TM2  1
+    M037T2_B  __OBJ___  0.082505999999999996
+    M037T2_B  VOLM_8_R  0.42899999999999999
+    M037T2_B  VOLM12_R  0.050000000000000003
+    M037T2_B  VOLM14_R  0.096000000000000002
+    M037T2_B  VOLM16_R  0.34300000000000003
+    M037T2_B  VOLM20_R  0.050000000000000003
+    M037T2_B  LTSY_R    0.061120000000000001
+    M037T2_B  AVEINV_R  0.20161999999999999
+    M037T2_B  INVEN_R   0.20599999999999999
+    M037T2_B  GP+++_0R  1
+    M037T2_B  GS+++_8R  1
+    M037T2_B  R037_TM2  1
+    M037T2_C  __OBJ___  0.081696000000000005
+    M037T2_C  VOLM_8_R  0.42899999999999999
+    M037T2_C  VOLM12_R  0.050000000000000003
+    M037T2_C  VOLM14_R  0.096000000000000002
+    M037T2_C  VOLM17_R  0.377
+    M037T2_C  LTSY_R    0.058110000000000002
+    M037T2_C  AVEINV_R  0.22111
+    M037T2_C  INVEN_R   0.14199999999999999
+    M037T2_C  GP+++_0R  1
+    M037T2_C  GS+++_8R  1
+    M037T2_C  R037_TM2  1
+    M037PF_1  __OBJ___  0.53454000000000002
+    M037PF_1  VOLM_3_R  0.27229999999999999
+    M037PF_1  VOLM_4_R  0.1206
+    M037PF_1  VOLM10_R  0.24548
+    M037PF_1  VOLM11_R  0.11744
+    M037PF_1  VOLM17_R  0.24548
+    M037PF_1  VOLM18_R  0.11744
+    M037PF_1  LTSY_R    0.05185
+    M037PF_1  AVEINV_R  0.20521
+    M037PF_1  INVEN_R   0.14199999999999999
+    M037PF_1  GP---_0R  1
+    M037PF_1  GS---_2R  0.050000000000000003
+    M037PF_1  GS---_3R  0.050000000000000003
+    M037PF_1  GS---_5R  0.033329999999999999
+    M037PF_1  GS---_6R  0.029999999999999999
+    M037PF_1  R037_TP2  1
+    M037PF_2  __OBJ___  0.52207000000000003
+    M037PF_2  VOLM_3_R  0.27229999999999999
+    M037PF_2  VOLM_4_R  0.1206
+    M037PF_2  VOLM11_R  0.24956
+    M037PF_2  VOLM12_R  0.1232
+    M037PF_2  VOLM19_R  0.24956
+    M037PF_2  VOLM20_R  0.1232
+    M037PF_2  LTSY_R    0.046589999999999999
+    M037PF_2  AVEINV_R  0.22614999999999999
+    M037PF_2  INVEN_R   0.25409999999999999
+    M037PF_2  GP---_0R  1
+    M037PF_2  GS---_2R  0.050000000000000003
+    M037PF_2  GS---_3R  0.050000000000000003
+    M037PF_2  GS---_6R  0.040000000000000001
+    M037PF_2  R037_TP2  1
+    M037PF_3  __OBJ___  0.39772999999999997
+    M037PF_3  VOLM_4_R  0.28139999999999998
+    M037PF_3  VOLM_5_R  0.12690000000000001
+    M037PF_3  VOLM11_R  0.24548
+    M037PF_3  VOLM12_R  0.11744
+    M037PF_3  VOLM18_R  0.24548
+    M037PF_3  VOLM19_R  0.11744
+    M037PF_3  LTSY_R    0.05185
+    M037PF_3  AVEINV_R  0.20521
+    M037PF_3  INVEN_R   0.021999999999999999
+    M037PF_3  GP---_0R  1
+    M037PF_3  GS---_3R  0.10000000000000001
+    M037PF_3  GS---_6R  0.040000000000000001
+    M037PF_3  R037_TP2  1
+    M037PF_4  __OBJ___  0.38918000000000003
+    M037PF_4  VOLM_4_R  0.28139999999999998
+    M037PF_4  VOLM_5_R  0.12690000000000001
+    M037PF_4  VOLM12_R  0.24956
+    M037PF_4  VOLM13_R  0.1232
+    M037PF_4  VOLM20_R  0.24956
+    M037PF_4  LTSY_R    0.046589999999999999
+    M037PF_4  AVEINV_R  0.22614999999999999
+    M037PF_4  INVEN_R   0.36699999999999999
+    M037PF_4  GP---_0R  1
+    M037PF_4  GS---_3R  0.10000000000000001
+    M037PF_4  GS---_6R  0.029999999999999999
+    M037PF_4  R037_TP2  1
+    M037PF_5  __OBJ___  0.28935
+    M037PF_5  VOLM_5_R  0.29609999999999997
+    M037PF_5  VOLM_6_R  0.13200000000000001
+    M037PF_5  VOLM12_R  0.24548
+    M037PF_5  VOLM13_R  0.11744
+    M037PF_5  VOLM19_R  0.24548
+    M037PF_5  VOLM20_R  0.11744
+    M037PF_5  LTSY_R    0.05185
+    M037PF_5  AVEINV_R  0.20521
+    M037PF_5  INVEN_R   0.24221999999999999
+    M037PF_5  GP---_0R  1
+    M037PF_5  GS---_3R  0.050000000000000003
+    M037PF_5  GS---_4R  0.050000000000000003
+    M037PF_5  GS---_6R  0.040000000000000001
+    M037PF_5  R037_TP2  1
+    M037PF_6  __OBJ___  0.28306999999999999
+    M037PF_6  VOLM_5_R  0.29609999999999997
+    M037PF_6  VOLM_6_R  0.13200000000000001
+    M037PF_6  VOLM13_R  0.24956
+    M037PF_6  VOLM14_R  0.1232
+    M037PF_6  LTSY_R    0.046589999999999999
+    M037PF_6  AVEINV_R  0.22614999999999999
+    M037PF_6  INVEN_R   0.36099999999999999
+    M037PF_6  GP---_0R  1
+    M037PF_6  GS---_3R  0.050000000000000003
+    M037PF_6  GS---_4R  0.050000000000000003
+    M037PF_6  GS---_6R  0.02
+    M037PF_6  R037_TP2  1
+    M037PF_7  __OBJ___  0.20463000000000001
+    M037PF_7  VOLM_6_R  0.308
+    M037PF_7  VOLM_7_R  0.13109999999999999
+    M037PF_7  VOLM13_R  0.24548
+    M037PF_7  VOLM14_R  0.11744
+    M037PF_7  VOLM20_R  0.24548
+    M037PF_7  LTSY_R    0.05185
+    M037PF_7  AVEINV_R  0.20521
+    M037PF_7  INVEN_R   0.36099999999999999
+    M037PF_7  GP---_0R  1
+    M037PF_7  GS---_4R  0.10000000000000001
+    M037PF_7  GS---_6R  0.029999999999999999
+    M037PF_7  R037_TP2  1
+    M037PF_8  __OBJ___  0.20061000000000001
+    M037PF_8  VOLM_6_R  0.308
+    M037PF_8  VOLM_7_R  0.13109999999999999
+    M037PF_8  VOLM14_R  0.24956
+    M037PF_8  VOLM15_R  0.1232
+    M037PF_8  LTSY_R    0.046589999999999999
+    M037PF_8  AVEINV_R  0.22614999999999999
+    M037PF_8  INVEN_R   0.32400000000000001
+    M037PF_8  GP---_0R  1
+    M037PF_8  GS---_4R  0.10000000000000001
+    M037PF_8  GS---_6R  0.02
+    M037PF_8  R037_TP2  1
+    M037PF_9  __OBJ___  0.14527999999999999
+    M037PF_9  VOLM_7_R  0.30590000000000001
+    M037PF_9  VOLM_8_R  0.12870000000000001
+    M037PF_9  VOLM14_R  0.24548
+    M037PF_9  VOLM15_R  0.11744
+    M037PF_9  LTSY_R    0.05185
+    M037PF_9  AVEINV_R  0.20521
+    M037PF_9  INVEN_R   0.32400000000000001
+    M037PF_9  GP---_0R  1
+    M037PF_9  GS---_4R  0.050000000000000003
+    M037PF_9  GS---_5R  0.033329999999999999
+    M037PF_9  GS---_6R  0.02
+    M037PF_9  R037_TP2  1
+    M037PF_A  __OBJ___  0.14285999999999999
+    M037PF_A  VOLM_7_R  0.30590000000000001
+    M037PF_A  VOLM_8_R  0.12870000000000001
+    M037PF_A  VOLM15_R  0.24956
+    M037PF_A  VOLM16_R  0.1232
+    M037PF_A  LTSY_R    0.046589999999999999
+    M037PF_A  AVEINV_R  0.22614999999999999
+    M037PF_A  INVEN_R   0.26700000000000002
+    M037PF_A  GP---_0R  1
+    M037PF_A  GS---_4R  0.050000000000000003
+    M037PF_A  GS---_5R  0.033329999999999999
+    M037PF_A  GS---_6R  0.02
+    M037PF_A  R037_TP2  1
+    M037PF_B  __OBJ___  0.095505999999999994
+    M037PF_B  VOLM_8_R  0.30030000000000001
+    M037PF_B  VOLM_9_R  0.12509999999999999
+    M037PF_B  VOLM15_R  0.24548
+    M037PF_B  VOLM16_R  0.11744
+    M037PF_B  LTSY_R    0.05185
+    M037PF_B  AVEINV_R  0.20521
+    M037PF_B  INVEN_R   0.26700000000000002
+    M037PF_B  GP---_0R  1
+    M037PF_B  GS---_5R  0.066669999999999993
+    M037PF_B  GS---_6R  0.02
+    M037PF_B  R037_TP2  1
+    M037PF_C  __OBJ___  0.094017000000000003
+    M037PF_C  VOLM_8_R  0.30030000000000001
+    M037PF_C  VOLM_9_R  0.12509999999999999
+    M037PF_C  VOLM16_R  0.24956
+    M037PF_C  VOLM17_R  0.1232
+    M037PF_C  LTSY_R    0.046589999999999999
+    M037PF_C  AVEINV_R  0.22614999999999999
+    M037PF_C  INVEN_R   0.20300000000000001
+    M037PF_C  GP---_0R  1
+    M037PF_C  GS---_5R  0.066669999999999993
+    M037PF_C  GS---_6R  0.02
+    M037PF_C  R037_TP2  1
+    M037P1_1  __OBJ___  0.54622000000000004
+    M037P1_1  VOLM_3_R  0.27229999999999999
+    M037P1_1  VOLM_4_R  0.1206
+    M037P1_1  VOLM_7_R  0.052999999999999999
+    M037P1_1  VOLM10_R  0.16950000000000001
+    M037P1_1  VOLM11_R  0.17249999999999999
+    M037P1_1  VOLM14_R  0.052999999999999999
+    M037P1_1  VOLM17_R  0.16950000000000001
+    M037P1_1  VOLM18_R  0.17249999999999999
+    M037P1_1  LTSY_R    0.056430000000000001
+    M037P1_1  AVEINV_R  0.20607
+    M037P1_1  INVEN_R   0.14199999999999999
+    M037P1_1  GP---_0R  1
+    M037P1_1  GS---_2R  0.050000000000000003
+    M037P1_1  GS---_3R  0.050000000000000003
+    M037P1_1  GS---_5R  0.033329999999999999
+    M037P1_1  GS---_6R  0.029999999999999999
+    M037P1_1  R037_TP2  1
+    M037P1_2  __OBJ___  0.53569
+    M037P1_2  VOLM_3_R  0.27229999999999999
+    M037P1_2  VOLM_4_R  0.1206
+    M037P1_2  VOLM_7_R  0.052999999999999999
+    M037P1_2  VOLM11_R  0.17249999999999999
+    M037P1_2  VOLM12_R  0.1885
+    M037P1_2  VOLM15_R  0.052999999999999999
+    M037P1_2  VOLM19_R  0.17249999999999999
+    M037P1_2  VOLM20_R  0.1885
+    M037P1_2  LTSY_R    0.051749999999999997
+    M037P1_2  AVEINV_R  0.22544
+    M037P1_2  INVEN_R   0.28275
+    M037P1_2  GP---_0R  1
+    M037P1_2  GS---_2R  0.050000000000000003
+    M037P1_2  GS---_3R  0.050000000000000003
+    M037P1_2  GS---_6R  0.040000000000000001
+    M037P1_2  R037_TP2  1
+    M037P1_3  __OBJ___  0.52742
+    M037P1_3  VOLM_3_R  0.27229999999999999
+    M037P1_3  VOLM_4_R  0.1206
+    M037P1_3  VOLM_7_R  0.052999999999999999
+    M037P1_3  VOLM12_R  0.1885
+    M037P1_3  VOLM13_R  0.19550000000000001
+    M037P1_3  VOLM16_R  0.052999999999999999
+    M037P1_3  LTSY_R    0.048559999999999999
+    M037P1_3  AVEINV_R  0.24306
+    M037P1_3  INVEN_R   0.34499999999999997
+    M037P1_3  GP---_0R  1
+    M037P1_3  GS---_2R  0.050000000000000003
+    M037P1_3  GS---_3R  0.050000000000000003
+    M037P1_3  GS---_6R  0.02
+    M037P1_3  R037_TP2  1
+    M037P1_4  __OBJ___  0.40562999999999999
+    M037P1_4  VOLM_4_R  0.28139999999999998
+    M037P1_4  VOLM_5_R  0.12690000000000001
+    M037P1_4  VOLM_8_R  0.052999999999999999
+    M037P1_4  VOLM11_R  0.16950000000000001
+    M037P1_4  VOLM12_R  0.17249999999999999
+    M037P1_4  VOLM15_R  0.052999999999999999
+    M037P1_4  VOLM18_R  0.16950000000000001
+    M037P1_4  VOLM19_R  0.17249999999999999
+    M037P1_4  LTSY_R    0.056430000000000001
+    M037P1_4  AVEINV_R  0.20607
+    M037P1_4  INVEN_R   0.021999999999999999
+    M037P1_4  GP---_0R  1
+    M037P1_4  GS---_3R  0.10000000000000001
+    M037P1_4  GS---_6R  0.040000000000000001
+    M037P1_4  R037_TP2  1
+    M037P1_5  __OBJ___  0.3982
+    M037P1_5  VOLM_4_R  0.28139999999999998
+    M037P1_5  VOLM_5_R  0.12690000000000001
+    M037P1_5  VOLM_8_R  0.052999999999999999
+    M037P1_5  VOLM12_R  0.17249999999999999
+    M037P1_5  VOLM13_R  0.1885
+    M037P1_5  VOLM16_R  0.052999999999999999
+    M037P1_5  VOLM20_R  0.17249999999999999
+    M037P1_5  LTSY_R    0.051749999999999997
+    M037P1_5  AVEINV_R  0.22544
+    M037P1_5  INVEN_R   0.34499999999999997
+    M037P1_5  GP---_0R  1
+    M037P1_5  GS---_3R  0.10000000000000001
+    M037P1_5  GS---_6R  0.029999999999999999
+    M037P1_5  R037_TP2  1
+    M037P1_6  __OBJ___  0.39313999999999999
+    M037P1_6  VOLM_4_R  0.28139999999999998
+    M037P1_6  VOLM_5_R  0.12690000000000001
+    M037P1_6  VOLM_8_R  0.052999999999999999
+    M037P1_6  VOLM13_R  0.1885
+    M037P1_6  VOLM14_R  0.19550000000000001
+    M037P1_6  VOLM17_R  0.052999999999999999
+    M037P1_6  LTSY_R    0.048559999999999999
+    M037P1_6  AVEINV_R  0.24306
+    M037P1_6  INVEN_R   0.33900000000000002
+    M037P1_6  GP---_0R  1
+    M037P1_6  GS---_3R  0.10000000000000001
+    M037P1_6  GS---_6R  0.02
+    M037P1_6  R037_TP2  1
+    M037P1_7  __OBJ___  0.29469000000000001
+    M037P1_7  VOLM_5_R  0.29609999999999997
+    M037P1_7  VOLM_6_R  0.13200000000000001
+    M037P1_7  VOLM_9_R  0.052999999999999999
+    M037P1_7  VOLM12_R  0.16950000000000001
+    M037P1_7  VOLM13_R  0.17249999999999999
+    M037P1_7  VOLM16_R  0.052999999999999999
+    M037P1_7  VOLM19_R  0.16950000000000001
+    M037P1_7  VOLM20_R  0.17249999999999999
+    M037P1_7  LTSY_R    0.056430000000000001
+    M037P1_7  AVEINV_R  0.20607
+    M037P1_7  INVEN_R   0.25874999999999998
+    M037P1_7  GP---_0R  1
+    M037P1_7  GS---_3R  0.050000000000000003
+    M037P1_7  GS---_4R  0.050000000000000003
+    M037P1_7  GS---_6R  0.040000000000000001
+    M037P1_7  R037_TP2  1
+    M037P1_8  __OBJ___  0.28932000000000002
+    M037P1_8  VOLM_5_R  0.29609999999999997
+    M037P1_8  VOLM_6_R  0.13200000000000001
+    M037P1_8  VOLM_9_R  0.052999999999999999
+    M037P1_8  VOLM13_R  0.17249999999999999
+    M037P1_8  VOLM14_R  0.1885
+    M037P1_8  VOLM17_R  0.052999999999999999
+    M037P1_8  LTSY_R    0.051749999999999997
+    M037P1_8  AVEINV_R  0.22544
+    M037P1_8  INVEN_R   0.33900000000000002
+    M037P1_8  GP---_0R  1
+    M037P1_8  GS---_3R  0.050000000000000003
+    M037P1_8  GS---_4R  0.050000000000000003
+    M037P1_8  GS---_6R  0.02
+    M037P1_8  R037_TP2  1
+    M037P1_9  __OBJ___  0.28628999999999999
+    M037P1_9  VOLM_5_R  0.29609999999999997
+    M037P1_9  VOLM_6_R  0.13200000000000001
+    M037P1_9  VOLM_9_R  0.052999999999999999
+    M037P1_9  VOLM14_R  0.1885
+    M037P1_9  VOLM15_R  0.19550000000000001
+    M037P1_9  VOLM18_R  0.052999999999999999
+    M037P1_9  LTSY_R    0.048559999999999999
+    M037P1_9  AVEINV_R  0.24306
+    M037P1_9  INVEN_R   0.317
+    M037P1_9  GP---_0R  1
+    M037P1_9  GS---_3R  0.050000000000000003
+    M037P1_9  GS---_4R  0.050000000000000003
+    M037P1_9  GS---_6R  0.02
+    M037P1_9  R037_TP2  1
+    M037P1_A  __OBJ___  0.20810000000000001
+    M037P1_A  VOLM_6_R  0.308
+    M037P1_A  VOLM_7_R  0.13109999999999999
+    M037P1_A  VOLM10_R  0.052999999999999999
+    M037P1_A  VOLM13_R  0.16950000000000001
+    M037P1_A  VOLM14_R  0.17249999999999999
+    M037P1_A  VOLM17_R  0.052999999999999999
+    M037P1_A  VOLM20_R  0.16950000000000001
+    M037P1_A  LTSY_R    0.056430000000000001
+    M037P1_A  AVEINV_R  0.20607
+    M037P1_A  INVEN_R   0.33900000000000002
+    M037P1_A  GP---_0R  1
+    M037P1_A  GS---_4R  0.10000000000000001
+    M037P1_A  GS---_6R  0.029999999999999999
+    M037P1_A  R037_TP2  1
+    M037P1_B  __OBJ___  0.20485
+    M037P1_B  VOLM_6_R  0.308
+    M037P1_B  VOLM_7_R  0.13109999999999999
+    M037P1_B  VOLM10_R  0.052999999999999999
+    M037P1_B  VOLM14_R  0.17249999999999999
+    M037P1_B  VOLM15_R  0.1885
+    M037P1_B  VOLM18_R  0.052999999999999999
+    M037P1_B  LTSY_R    0.051749999999999997
+    M037P1_B  AVEINV_R  0.22544
+    M037P1_B  INVEN_R   0.317
+    M037P1_B  GP---_0R  1
+    M037P1_B  GS---_4R  0.10000000000000001
+    M037P1_B  GS---_6R  0.02
+    M037P1_B  R037_TP2  1
+    M037P1_C  __OBJ___  0.2026
+    M037P1_C  VOLM_6_R  0.308
+    M037P1_C  VOLM_7_R  0.13109999999999999
+    M037P1_C  VOLM10_R  0.052999999999999999
+    M037P1_C  VOLM15_R  0.1885
+    M037P1_C  VOLM16_R  0.19550000000000001
+    M037P1_C  VOLM19_R  0.052999999999999999
+    M037P1_C  LTSY_R    0.048559999999999999
+    M037P1_C  AVEINV_R  0.24306
+    M037P1_C  INVEN_R   0.24399999999999999
+    M037P1_C  GP---_0R  1
+    M037P1_C  GS---_4R  0.10000000000000001
+    M037P1_C  GS---_6R  0.02
+    M037P1_C  R037_TP2  1
+    M037P1_D  __OBJ___  0.14777999999999999
+    M037P1_D  VOLM_7_R  0.30590000000000001
+    M037P1_D  VOLM_8_R  0.12870000000000001
+    M037P1_D  VOLM11_R  0.052999999999999999
+    M037P1_D  VOLM14_R  0.16950000000000001
+    M037P1_D  VOLM15_R  0.17249999999999999
+    M037P1_D  VOLM18_R  0.052999999999999999
+    M037P1_D  LTSY_R    0.056430000000000001
+    M037P1_D  AVEINV_R  0.20607
+    M037P1_D  INVEN_R   0.317
+    M037P1_D  GP---_0R  1
+    M037P1_D  GS---_4R  0.050000000000000003
+    M037P1_D  GS---_5R  0.033329999999999999
+    M037P1_D  GS---_6R  0.02
+    M037P1_D  R037_TP2  1
+    M037P1_E  __OBJ___  0.14573
+    M037P1_E  VOLM_7_R  0.30590000000000001
+    M037P1_E  VOLM_8_R  0.12870000000000001
+    M037P1_E  VOLM11_R  0.052999999999999999
+    M037P1_E  VOLM15_R  0.17249999999999999
+    M037P1_E  VOLM16_R  0.1885
+    M037P1_E  VOLM19_R  0.052999999999999999
+    M037P1_E  LTSY_R    0.051749999999999997
+    M037P1_E  AVEINV_R  0.22544
+    M037P1_E  INVEN_R   0.24399999999999999
+    M037P1_E  GP---_0R  1
+    M037P1_E  GS---_4R  0.050000000000000003
+    M037P1_E  GS---_5R  0.033329999999999999
+    M037P1_E  GS---_6R  0.02
+    M037P1_E  R037_TP2  1
+    M037P1_F  __OBJ___  0.14438000000000001
+    M037P1_F  VOLM_7_R  0.30590000000000001
+    M037P1_F  VOLM_8_R  0.12870000000000001
+    M037P1_F  VOLM11_R  0.052999999999999999
+    M037P1_F  VOLM16_R  0.1885
+    M037P1_F  VOLM17_R  0.19550000000000001
+    M037P1_F  VOLM20_R  0.052999999999999999
+    M037P1_F  LTSY_R    0.048559999999999999
+    M037P1_F  AVEINV_R  0.24306
+    M037P1_F  INVEN_R   0.20599999999999999
+    M037P1_F  GP---_0R  1
+    M037P1_F  GS---_4R  0.050000000000000003
+    M037P1_F  GS---_5R  0.033329999999999999
+    M037P1_F  GS---_6R  0.02
+    M037P1_F  R037_TP2  1
+    M037P1_G  __OBJ___  0.097202999999999998
+    M037P1_G  VOLM_8_R  0.30030000000000001
+    M037P1_G  VOLM_9_R  0.12509999999999999
+    M037P1_G  VOLM12_R  0.052999999999999999
+    M037P1_G  VOLM15_R  0.16950000000000001
+    M037P1_G  VOLM16_R  0.17249999999999999
+    M037P1_G  VOLM19_R  0.052999999999999999
+    M037P1_G  LTSY_R    0.056430000000000001
+    M037P1_G  AVEINV_R  0.20607
+    M037P1_G  INVEN_R   0.24399999999999999
+    M037P1_G  GP---_0R  1
+    M037P1_G  GS---_5R  0.066669999999999993
+    M037P1_G  GS---_6R  0.02
+    M037P1_G  R037_TP2  1
+    M037P1_H  __OBJ___  0.095975000000000005
+    M037P1_H  VOLM_8_R  0.30030000000000001
+    M037P1_H  VOLM_9_R  0.12509999999999999
+    M037P1_H  VOLM12_R  0.052999999999999999
+    M037P1_H  VOLM16_R  0.17249999999999999
+    M037P1_H  VOLM17_R  0.1885
+    M037P1_H  VOLM20_R  0.052999999999999999
+    M037P1_H  LTSY_R    0.051749999999999997
+    M037P1_H  AVEINV_R  0.22544
+    M037P1_H  INVEN_R   0.20599999999999999
+    M037P1_H  GP---_0R  1
+    M037P1_H  GS---_5R  0.066669999999999993
+    M037P1_H  GS---_6R  0.02
+    M037P1_H  R037_TP2  1
+    M037P1_I  __OBJ___  0.095433000000000004
+    M037P1_I  VOLM_8_R  0.30030000000000001
+    M037P1_I  VOLM_9_R  0.12509999999999999
+    M037P1_I  VOLM12_R  0.052999999999999999
+    M037P1_I  VOLM17_R  0.1885
+    M037P1_I  VOLM18_R  0.19550000000000001
+    M037P1_I  LTSY_R    0.048559999999999999
+    M037P1_I  AVEINV_R  0.24306
+    M037P1_I  INVEN_R   0.14199999999999999
+    M037P1_I  GP---_0R  1
+    M037P1_I  GS---_5R  0.066669999999999993
+    M037P1_I  GS---_6R  0.02
+    M037P1_I  R037_TP2  1
+    M037P1_J  __OBJ___  0.54437000000000002
+    M037P1_J  VOLM_3_R  0.27229999999999999
+    M037P1_J  VOLM_4_R  0.1206
+    M037P1_J  VOLM_8_R  0.057000000000000002
+    M037P1_J  VOLM10_R  0.17799999999999999
+    M037P1_J  VOLM11_R  0.18099999999999999
+    M037P1_J  VOLM15_R  0.057000000000000002
+    M037P1_J  VOLM17_R  0.17799999999999999
+    M037P1_J  VOLM18_R  0.18099999999999999
+    M037P1_J  LTSY_R    0.059429999999999997
+    M037P1_J  AVEINV_R  0.20929
+    M037P1_J  INVEN_R   0.14199999999999999
+    M037P1_J  GP---_0R  1
+    M037P1_J  GS---_2R  0.050000000000000003
+    M037P1_J  GS---_3R  0.050000000000000003
+    M037P1_J  GS---_5R  0.033329999999999999
+    M037P1_J  GS---_6R  0.029999999999999999
+    M037P1_J  R037_TP2  1
+    M037P1_K  __OBJ___  0.53308999999999995
+    M037P1_K  VOLM_3_R  0.27229999999999999
+    M037P1_K  VOLM_4_R  0.1206
+    M037P1_K  VOLM_8_R  0.057000000000000002
+    M037P1_K  VOLM11_R  0.18099999999999999
+    M037P1_K  VOLM12_R  0.19400000000000001
+    M037P1_K  VOLM16_R  0.057000000000000002
+    M037P1_K  VOLM19_R  0.18099999999999999
+    M037P1_K  VOLM20_R  0.19400000000000001
+    M037P1_K  LTSY_R    0.053999999999999999
+    M037P1_K  AVEINV_R  0.23000000000000001
+    M037P1_K  INVEN_R   0.29099999999999998
+    M037P1_K  GP---_0R  1
+    M037P1_K  GS---_2R  0.050000000000000003
+    M037P1_K  GS---_3R  0.050000000000000003
+    M037P1_K  GS---_6R  0.040000000000000001
+    M037P1_K  R037_TP2  1
+    M037P1_L  __OBJ___  0.52427999999999997
+    M037P1_L  VOLM_3_R  0.27229999999999999
+    M037P1_L  VOLM_4_R  0.1206
+    M037P1_L  VOLM_8_R  0.057000000000000002
+    M037P1_L  VOLM12_R  0.19400000000000001
+    M037P1_L  VOLM13_R  0.20100000000000001
+    M037P1_L  VOLM17_R  0.057000000000000002
+    M037P1_L  LTSY_R    0.050220000000000001
+    M037P1_L  AVEINV_R  0.24833
+    M037P1_L  INVEN_R   0.36199999999999999
+    M037P1_L  GP---_0R  1
+    M037P1_L  GS---_2R  0.050000000000000003
+    M037P1_L  GS---_3R  0.050000000000000003
+    M037P1_L  GS---_6R  0.02
+    M037P1_L  R037_TP2  1
+    M037P1_M  __OBJ___  0.40438000000000002
+    M037P1_M  VOLM_4_R  0.28139999999999998
+    M037P1_M  VOLM_5_R  0.12690000000000001
+    M037P1_M  VOLM_9_R  0.057000000000000002
+    M037P1_M  VOLM11_R  0.17799999999999999
+    M037P1_M  VOLM12_R  0.18099999999999999
+    M037P1_M  VOLM16_R  0.057000000000000002
+    M037P1_M  VOLM18_R  0.17799999999999999
+    M037P1_M  VOLM19_R  0.18099999999999999
+    M037P1_M  LTSY_R    0.059429999999999997
+    M037P1_M  AVEINV_R  0.20929
+    M037P1_M  INVEN_R   0.021999999999999999
+    M037P1_M  GP---_0R  1
+    M037P1_M  GS---_3R  0.10000000000000001
+    M037P1_M  GS---_6R  0.040000000000000001
+    M037P1_M  R037_TP2  1
+    M037P1_N  __OBJ___  0.39644000000000001
+    M037P1_N  VOLM_4_R  0.28139999999999998
+    M037P1_N  VOLM_5_R  0.12690000000000001
+    M037P1_N  VOLM_9_R  0.057000000000000002
+    M037P1_N  VOLM12_R  0.18099999999999999
+    M037P1_N  VOLM13_R  0.19400000000000001
+    M037P1_N  VOLM17_R  0.057000000000000002
+    M037P1_N  VOLM20_R  0.18099999999999999
+    M037P1_N  LTSY_R    0.053999999999999999
+    M037P1_N  AVEINV_R  0.23000000000000001
+    M037P1_N  INVEN_R   0.36199999999999999
+    M037P1_N  GP---_0R  1
+    M037P1_N  GS---_3R  0.10000000000000001
+    M037P1_N  GS---_6R  0.029999999999999999
+    M037P1_N  R037_TP2  1
+    M037P1_O  __OBJ___  0.39101000000000002
+    M037P1_O  VOLM_4_R  0.28139999999999998
+    M037P1_O  VOLM_5_R  0.12690000000000001
+    M037P1_O  VOLM_9_R  0.057000000000000002
+    M037P1_O  VOLM13_R  0.19400000000000001
+    M037P1_O  VOLM14_R  0.20100000000000001
+    M037P1_O  VOLM18_R  0.057000000000000002
+    M037P1_O  LTSY_R    0.050220000000000001
+    M037P1_O  AVEINV_R  0.24833
+    M037P1_O  INVEN_R   0.35599999999999998
+    M037P1_O  GP---_0R  1
+    M037P1_O  GS---_3R  0.10000000000000001
+    M037P1_O  GS---_6R  0.02
+    M037P1_O  R037_TP2  1
+    M037P1_P  __OBJ___  0.29385
+    M037P1_P  VOLM_5_R  0.29609999999999997
+    M037P1_P  VOLM_6_R  0.13200000000000001
+    M037P1_P  VOLM10_R  0.057000000000000002
+    M037P1_P  VOLM12_R  0.17799999999999999
+    M037P1_P  VOLM13_R  0.18099999999999999
+    M037P1_P  VOLM17_R  0.057000000000000002
+    M037P1_P  VOLM19_R  0.17799999999999999
+    M037P1_P  VOLM20_R  0.18099999999999999
+    M037P1_P  LTSY_R    0.059429999999999997
+    M037P1_P  AVEINV_R  0.20929
+    M037P1_P  INVEN_R   0.27150000000000002
+    M037P1_P  GP---_0R  1
+    M037P1_P  GS---_3R  0.050000000000000003
+    M037P1_P  GS---_4R  0.050000000000000003
+    M037P1_P  GS---_6R  0.040000000000000001
+    M037P1_P  R037_TP2  1
+    M037P1_Q  __OBJ___  0.28810999999999998
+    M037P1_Q  VOLM_5_R  0.29609999999999997
+    M037P1_Q  VOLM_6_R  0.13200000000000001
+    M037P1_Q  VOLM10_R  0.057000000000000002
+    M037P1_Q  VOLM13_R  0.18099999999999999
+    M037P1_Q  VOLM14_R  0.19400000000000001
+    M037P1_Q  VOLM18_R  0.057000000000000002
+    M037P1_Q  LTSY_R    0.053999999999999999
+    M037P1_Q  AVEINV_R  0.23000000000000001
+    M037P1_Q  INVEN_R   0.35599999999999998
+    M037P1_Q  GP---_0R  1
+    M037P1_Q  GS---_3R  0.050000000000000003
+    M037P1_Q  GS---_4R  0.050000000000000003
+    M037P1_Q  GS---_6R  0.02
+    M037P1_Q  R037_TP2  1
+    M037P1_R  __OBJ___  0.28486
+    M037P1_R  VOLM_5_R  0.29609999999999997
+    M037P1_R  VOLM_6_R  0.13200000000000001
+    M037P1_R  VOLM10_R  0.057000000000000002
+    M037P1_R  VOLM14_R  0.19400000000000001
+    M037P1_R  VOLM15_R  0.20100000000000001
+    M037P1_R  VOLM19_R  0.057000000000000002
+    M037P1_R  LTSY_R    0.050220000000000001
+    M037P1_R  AVEINV_R  0.24833
+    M037P1_R  INVEN_R   0.31900000000000001
+    M037P1_R  GP---_0R  1
+    M037P1_R  GS---_3R  0.050000000000000003
+    M037P1_R  GS---_4R  0.050000000000000003
+    M037P1_R  GS---_6R  0.02
+    M037P1_R  R037_TP2  1
+    M037P1_S  __OBJ___  0.20752000000000001
+    M037P1_S  VOLM_6_R  0.308
+    M037P1_S  VOLM_7_R  0.13109999999999999
+    M037P1_S  VOLM11_R  0.057000000000000002
+    M037P1_S  VOLM13_R  0.17799999999999999
+    M037P1_S  VOLM14_R  0.18099999999999999
+    M037P1_S  VOLM18_R  0.057000000000000002
+    M037P1_S  VOLM20_R  0.17799999999999999
+    M037P1_S  LTSY_R    0.059429999999999997
+    M037P1_S  AVEINV_R  0.20929
+    M037P1_S  INVEN_R   0.35599999999999998
+    M037P1_S  GP---_0R  1
+    M037P1_S  GS---_4R  0.10000000000000001
+    M037P1_S  GS---_6R  0.029999999999999999
+    M037P1_S  R037_TP2  1
+    M037P1_T  __OBJ___  0.20404
+    M037P1_T  VOLM_6_R  0.308
+    M037P1_T  VOLM_7_R  0.13109999999999999
+    M037P1_T  VOLM11_R  0.057000000000000002
+    M037P1_T  VOLM14_R  0.18099999999999999
+    M037P1_T  VOLM15_R  0.19400000000000001
+    M037P1_T  VOLM19_R  0.057000000000000002
+    M037P1_T  LTSY_R    0.053999999999999999
+    M037P1_T  AVEINV_R  0.23000000000000001
+    M037P1_T  INVEN_R   0.31900000000000001
+    M037P1_T  GP---_0R  1
+    M037P1_T  GS---_4R  0.10000000000000001
+    M037P1_T  GS---_6R  0.02
+    M037P1_T  R037_TP2  1
+    M037P1_U  __OBJ___  0.20164000000000001
+    M037P1_U  VOLM_6_R  0.308
+    M037P1_U  VOLM_7_R  0.13109999999999999
+    M037P1_U  VOLM11_R  0.057000000000000002
+    M037P1_U  VOLM15_R  0.19400000000000001
+    M037P1_U  VOLM16_R  0.20100000000000001
+    M037P1_U  VOLM20_R  0.057000000000000002
+    M037P1_U  LTSY_R    0.050220000000000001
+    M037P1_U  AVEINV_R  0.24833
+    M037P1_U  INVEN_R   0.24199999999999999
+    M037P1_U  GP---_0R  1
+    M037P1_U  GS---_4R  0.10000000000000001
+    M037P1_U  GS---_6R  0.02
+    M037P1_U  R037_TP2  1
+    M037P1_V  __OBJ___  0.14738000000000001
+    M037P1_V  VOLM_7_R  0.30590000000000001
+    M037P1_V  VOLM_8_R  0.12870000000000001
+    M037P1_V  VOLM12_R  0.057000000000000002
+    M037P1_V  VOLM14_R  0.17799999999999999
+    M037P1_V  VOLM15_R  0.18099999999999999
+    M037P1_V  VOLM19_R  0.057000000000000002
+    M037P1_V  LTSY_R    0.059429999999999997
+    M037P1_V  AVEINV_R  0.20929
+    M037P1_V  INVEN_R   0.31900000000000001
+    M037P1_V  GP---_0R  1
+    M037P1_V  GS---_4R  0.050000000000000003
+    M037P1_V  GS---_5R  0.033329999999999999
+    M037P1_V  GS---_6R  0.02
+    M037P1_V  R037_TP2  1
+    M037P1_W  __OBJ___  0.14518
+    M037P1_W  VOLM_7_R  0.30590000000000001
+    M037P1_W  VOLM_8_R  0.12870000000000001
+    M037P1_W  VOLM12_R  0.057000000000000002
+    M037P1_W  VOLM15_R  0.18099999999999999
+    M037P1_W  VOLM16_R  0.19400000000000001
+    M037P1_W  VOLM20_R  0.057000000000000002
+    M037P1_W  LTSY_R    0.053999999999999999
+    M037P1_W  AVEINV_R  0.23000000000000001
+    M037P1_W  INVEN_R   0.24199999999999999
+    M037P1_W  GP---_0R  1
+    M037P1_W  GS---_4R  0.050000000000000003
+    M037P1_W  GS---_5R  0.033329999999999999
+    M037P1_W  GS---_6R  0.02
+    M037P1_W  R037_TP2  1
+    M037P1_X  __OBJ___  0.14363999999999999
+    M037P1_X  VOLM_7_R  0.30590000000000001
+    M037P1_X  VOLM_8_R  0.12870000000000001
+    M037P1_X  VOLM12_R  0.057000000000000002
+    M037P1_X  VOLM16_R  0.19400000000000001
+    M037P1_X  VOLM17_R  0.20100000000000001
+    M037P1_X  LTSY_R    0.050220000000000001
+    M037P1_X  AVEINV_R  0.24833
+    M037P1_X  INVEN_R   0.20300000000000001
+    M037P1_X  GP---_0R  1
+    M037P1_X  GS---_4R  0.050000000000000003
+    M037P1_X  GS---_5R  0.033329999999999999
+    M037P1_X  GS---_6R  0.02
+    M037P1_X  R037_TP2  1
+    M037P1_Y  __OBJ___  0.096931000000000003
+    M037P1_Y  VOLM_8_R  0.30030000000000001
+    M037P1_Y  VOLM_9_R  0.12509999999999999
+    M037P1_Y  VOLM13_R  0.057000000000000002
+    M037P1_Y  VOLM15_R  0.17799999999999999
+    M037P1_Y  VOLM16_R  0.18099999999999999
+    M037P1_Y  VOLM20_R  0.057000000000000002
+    M037P1_Y  LTSY_R    0.059429999999999997
+    M037P1_Y  AVEINV_R  0.20929
+    M037P1_Y  INVEN_R   0.24199999999999999
+    M037P1_Y  GP---_0R  1
+    M037P1_Y  GS---_5R  0.066669999999999993
+    M037P1_Y  GS---_6R  0.02
+    M037P1_Y  R037_TP2  1
+    M037P1_Z  __OBJ___  0.095520999999999995
+    M037P1_Z  VOLM_8_R  0.30030000000000001
+    M037P1_Z  VOLM_9_R  0.12509999999999999
+    M037P1_Z  VOLM13_R  0.057000000000000002
+    M037P1_Z  VOLM16_R  0.18099999999999999
+    M037P1_Z  VOLM17_R  0.19400000000000001
+    M037P1_Z  LTSY_R    0.053999999999999999
+    M037P1_Z  AVEINV_R  0.23000000000000001
+    M037P1_Z  INVEN_R   0.20300000000000001
+    M037P1_Z  GP---_0R  1
+    M037P1_Z  GS---_5R  0.066669999999999993
+    M037P1_Z  GS---_6R  0.02
+    M037P1_Z  R037_TP2  1
+    M037P1_[  __OBJ___  0.095019999999999993
+    M037P1_[  VOLM_8_R  0.30030000000000001
+    M037P1_[  VOLM_9_R  0.12509999999999999
+    M037P1_[  VOLM13_R  0.057000000000000002
+    M037P1_[  VOLM17_R  0.19400000000000001
+    M037P1_[  VOLM18_R  0.20100000000000001
+    M037P1_[  LTSY_R    0.050220000000000001
+    M037P1_[  AVEINV_R  0.24833
+    M037P1_[  INVEN_R   0.14199999999999999
+    M037P1_[  GP---_0R  1
+    M037P1_[  GS---_5R  0.066669999999999993
+    M037P1_[  GS---_6R  0.02
+    M037P1_[  R037_TP2  1
+    M037P2_1  __OBJ___  0.54395000000000004
+    M037P2_1  VOLM_3_R  0.27229999999999999
+    M037P2_1  VOLM_4_R  0.1206
+    M037P2_1  VOLM_7_R  0.050000000000000003
+    M037P2_1  VOLM_9_R  0.096000000000000002
+    M037P2_1  VOLM11_R  0.068599999999999994
+    M037P2_1  VOLM12_R  0.1885
+    M037P2_1  VOLM14_R  0.1173
+    M037P2_1  VOLM16_R  0.050000000000000003
+    M037P2_1  VOLM18_R  0.096000000000000002
+    M037P2_1  VOLM20_R  0.068599999999999994
+    M037P2_1  LTSY_R    0.057820000000000003
+    M037P2_1  AVEINV_R  0.23880000000000001
+    M037P2_1  INVEN_R   0.34300000000000003
+    M037P2_1  GP---_0R  1
+    M037P2_1  GS---_2R  0.050000000000000003
+    M037P2_1  GS---_3R  0.050000000000000003
+    M037P2_1  GS---_6R  0.040000000000000001
+    M037P2_1  R037_TP2  1
+    M037P2_2  __OBJ___  0.53781000000000001
+    M037P2_2  VOLM_3_R  0.27229999999999999
+    M037P2_2  VOLM_4_R  0.1206
+    M037P2_2  VOLM_7_R  0.050000000000000003
+    M037P2_2  VOLM_9_R  0.096000000000000002
+    M037P2_2  VOLM12_R  0.075399999999999995
+    M037P2_2  VOLM13_R  0.19550000000000001
+    M037P2_2  VOLM15_R  0.1173
+    M037P2_2  VOLM17_R  0.050000000000000003
+    M037P2_2  VOLM19_R  0.096000000000000002
+    M037P2_2  LTSY_R    0.053420000000000002
+    M037P2_2  AVEINV_R  0.25374000000000002
+    M037P2_2  INVEN_R   0.33900000000000002
+    M037P2_2  GP---_0R  1
+    M037P2_2  GS---_2R  0.050000000000000003
+    M037P2_2  GS---_3R  0.050000000000000003
+    M037P2_2  GS---_6R  0.029999999999999999
+    M037P2_2  R037_TP2  1
+    M037P2_3  __OBJ___  0.40417999999999998
+    M037P2_3  VOLM_4_R  0.28139999999999998
+    M037P2_3  VOLM_5_R  0.12690000000000001
+    M037P2_3  VOLM_8_R  0.050000000000000003
+    M037P2_3  VOLM10_R  0.096000000000000002
+    M037P2_3  VOLM12_R  0.068599999999999994
+    M037P2_3  VOLM13_R  0.1885
+    M037P2_3  VOLM15_R  0.1173
+    M037P2_3  VOLM17_R  0.050000000000000003
+    M037P2_3  VOLM19_R  0.096000000000000002
+    M037P2_3  LTSY_R    0.057820000000000003
+    M037P2_3  AVEINV_R  0.23880000000000001
+    M037P2_3  INVEN_R   0.33900000000000002
+    M037P2_3  GP---_0R  1
+    M037P2_3  GS---_3R  0.10000000000000001
+    M037P2_3  GS---_6R  0.029999999999999999
+    M037P2_3  R037_TP2  1
+    M037P2_4  __OBJ___  0.40011000000000002
+    M037P2_4  VOLM_4_R  0.28139999999999998
+    M037P2_4  VOLM_5_R  0.12690000000000001
+    M037P2_4  VOLM_8_R  0.050000000000000003
+    M037P2_4  VOLM10_R  0.096000000000000002
+    M037P2_4  VOLM13_R  0.075399999999999995
+    M037P2_4  VOLM14_R  0.19550000000000001
+    M037P2_4  VOLM16_R  0.1173
+    M037P2_4  VOLM18_R  0.050000000000000003
+    M037P2_4  VOLM20_R  0.096000000000000002
+    M037P2_4  LTSY_R    0.053420000000000002
+    M037P2_4  AVEINV_R  0.25374000000000002
+    M037P2_4  INVEN_R   0.317
+    M037P2_4  GP---_0R  1
+    M037P2_4  GS---_3R  0.10000000000000001
+    M037P2_4  GS---_6R  0.029999999999999999
+    M037P2_4  R037_TP2  1
+    M037P2_5  __OBJ___  0.29368
+    M037P2_5  VOLM_5_R  0.29609999999999997
+    M037P2_5  VOLM_6_R  0.13200000000000001
+    M037P2_5  VOLM_9_R  0.050000000000000003
+    M037P2_5  VOLM11_R  0.096000000000000002
+    M037P2_5  VOLM13_R  0.068599999999999994
+    M037P2_5  VOLM14_R  0.1885
+    M037P2_5  VOLM16_R  0.1173
+    M037P2_5  VOLM18_R  0.050000000000000003
+    M037P2_5  VOLM20_R  0.096000000000000002
+    M037P2_5  LTSY_R    0.057820000000000003
+    M037P2_5  AVEINV_R  0.23880000000000001
+    M037P2_5  INVEN_R   0.317
+    M037P2_5  GP---_0R  1
+    M037P2_5  GS---_3R  0.050000000000000003
+    M037P2_5  GS---_4R  0.050000000000000003
+    M037P2_5  GS---_6R  0.029999999999999999
+    M037P2_5  R037_TP2  1
+    M037P2_6  __OBJ___  0.29072999999999999
+    M037P2_6  VOLM_5_R  0.29609999999999997
+    M037P2_6  VOLM_6_R  0.13200000000000001
+    M037P2_6  VOLM_9_R  0.050000000000000003
+    M037P2_6  VOLM11_R  0.096000000000000002
+    M037P2_6  VOLM14_R  0.075399999999999995
+    M037P2_6  VOLM15_R  0.19550000000000001
+    M037P2_6  VOLM17_R  0.1173
+    M037P2_6  VOLM19_R  0.050000000000000003
+    M037P2_6  LTSY_R    0.053420000000000002
+    M037P2_6  AVEINV_R  0.25374000000000002
+    M037P2_6  INVEN_R   0.24399999999999999
+    M037P2_6  GP---_0R  1
+    M037P2_6  GS---_3R  0.050000000000000003
+    M037P2_6  GS---_4R  0.050000000000000003
+    M037P2_6  GS---_6R  0.029999999999999999
+    M037P2_6  R037_TP2  1
+    M037P2_7  __OBJ___  0.20752000000000001
+    M037P2_7  VOLM_6_R  0.308
+    M037P2_7  VOLM_7_R  0.13109999999999999
+    M037P2_7  VOLM10_R  0.050000000000000003
+    M037P2_7  VOLM12_R  0.096000000000000002
+    M037P2_7  VOLM14_R  0.068599999999999994
+    M037P2_7  VOLM15_R  0.1885
+    M037P2_7  VOLM17_R  0.1173
+    M037P2_7  VOLM19_R  0.050000000000000003
+    M037P2_7  LTSY_R    0.057820000000000003
+    M037P2_7  AVEINV_R  0.23880000000000001
+    M037P2_7  INVEN_R   0.24399999999999999
+    M037P2_7  GP---_0R  1
+    M037P2_7  GS---_4R  0.10000000000000001
+    M037P2_7  GS---_6R  0.029999999999999999
+    M037P2_7  R037_TP2  1
+    M037P2_8  __OBJ___  0.20610000000000001
+    M037P2_8  VOLM_6_R  0.308
+    M037P2_8  VOLM_7_R  0.13109999999999999
+    M037P2_8  VOLM10_R  0.050000000000000003
+    M037P2_8  VOLM12_R  0.096000000000000002
+    M037P2_8  VOLM15_R  0.075399999999999995
+    M037P2_8  VOLM16_R  0.19550000000000001
+    M037P2_8  VOLM18_R  0.1173
+    M037P2_8  VOLM20_R  0.050000000000000003
+    M037P2_8  LTSY_R    0.053420000000000002
+    M037P2_8  AVEINV_R  0.25374000000000002
+    M037P2_8  INVEN_R   0.20599999999999999
+    M037P2_8  GP---_0R  1
+    M037P2_8  GS---_4R  0.10000000000000001
+    M037P2_8  GS---_6R  0.029999999999999999
+    M037P2_8  R037_TP2  1
+    M037P2_9  __OBJ___  0.14802000000000001
+    M037P2_9  VOLM_7_R  0.30590000000000001
+    M037P2_9  VOLM_8_R  0.12870000000000001
+    M037P2_9  VOLM11_R  0.050000000000000003
+    M037P2_9  VOLM13_R  0.096000000000000002
+    M037P2_9  VOLM15_R  0.068599999999999994
+    M037P2_9  VOLM16_R  0.1885
+    M037P2_9  VOLM18_R  0.1173
+    M037P2_9  VOLM20_R  0.050000000000000003
+    M037P2_9  LTSY_R    0.057820000000000003
+    M037P2_9  AVEINV_R  0.23880000000000001
+    M037P2_9  INVEN_R   0.20599999999999999
+    M037P2_9  GP---_0R  1
+    M037P2_9  GS---_4R  0.050000000000000003
+    M037P2_9  GS---_5R  0.033329999999999999
+    M037P2_9  GS---_6R  0.029999999999999999
+    M037P2_9  R037_TP2  1
+    M037P2_A  __OBJ___  0.14688000000000001
+    M037P2_A  VOLM_7_R  0.30590000000000001
+    M037P2_A  VOLM_8_R  0.12870000000000001
+    M037P2_A  VOLM11_R  0.050000000000000003
+    M037P2_A  VOLM13_R  0.096000000000000002
+    M037P2_A  VOLM16_R  0.075399999999999995
+    M037P2_A  VOLM17_R  0.19550000000000001
+    M037P2_A  VOLM19_R  0.1173
+    M037P2_A  LTSY_R    0.053420000000000002
+    M037P2_A  AVEINV_R  0.25374000000000002
+    M037P2_A  INVEN_R   0.14199999999999999
+    M037P2_A  GP---_0R  1
+    M037P2_A  GS---_4R  0.050000000000000003
+    M037P2_A  GS---_5R  0.033329999999999999
+    M037P2_A  GS---_6R  0.029999999999999999
+    M037P2_A  R037_TP2  1
+    M037P2_B  __OBJ___  0.097746
+    M037P2_B  VOLM_8_R  0.30030000000000001
+    M037P2_B  VOLM_9_R  0.12509999999999999
+    M037P2_B  VOLM12_R  0.050000000000000003
+    M037P2_B  VOLM14_R  0.096000000000000002
+    M037P2_B  VOLM16_R  0.068599999999999994
+    M037P2_B  VOLM17_R  0.1885
+    M037P2_B  VOLM19_R  0.1173
+    M037P2_B  LTSY_R    0.057820000000000003
+    M037P2_B  AVEINV_R  0.23880000000000001
+    M037P2_B  INVEN_R   0.14199999999999999
+    M037P2_B  GP---_0R  1
+    M037P2_B  GS---_5R  0.066669999999999993
+    M037P2_B  GS---_6R  0.029999999999999999
+    M037P2_B  R037_TP2  1
+    M037P2_C  __OBJ___  0.096662999999999999
+    M037P2_C  VOLM_8_R  0.30030000000000001
+    M037P2_C  VOLM_9_R  0.12509999999999999
+    M037P2_C  VOLM12_R  0.050000000000000003
+    M037P2_C  VOLM14_R  0.096000000000000002
+    M037P2_C  VOLM17_R  0.075399999999999995
+    M037P2_C  VOLM18_R  0.19550000000000001
+    M037P2_C  VOLM20_R  0.1173
+    M037P2_C  LTSY_R    0.053420000000000002
+    M037P2_C  AVEINV_R  0.25374000000000002
+    M037P2_C  INVEN_R   0.13930000000000001
+    M037P2_C  GP---_0R  1
+    M037P2_C  GS---_5R  0.066669999999999993
+    M037P2_C  GS---_6R  0.029999999999999999
+    M037P2_C  R037_TP2  1
+    M048MN_1  __OBJ___  -0.0012631999999999999
+    M048MN_1  R048_MN1  1
+    M048RD_1  __OBJ___  -0.0010104999999999999
+    M048RD_1  R048_RD1  1
+    T048TM12  R048_TM1  1
+    T048TM12  R048_TM2  -1
+    T048TM23  R048_TM2  1
+    T048TM23  R048_TM3  -1
+    T048TM34  R048_TM3  1
+    T048TM34  R048_TM4  -1
+    T048TM45  R048_TM4  1
+    T048TM45  R048_TM5  -1
+    M048TF_1  __OBJ___  0.37541999999999998
+    M048TF_1  VOLM_1_R  0.30299999999999999
+    M048TF_1  VOLM_9_R  0.31900000000000001
+    M048TF_1  VOLM17_R  0.31900000000000001
+    M048TF_1  LTSY_R    0.039870000000000003
+    M048TF_1  AVEINV_R  0.16900000000000001
+    M048TF_1  INVEN_R   0.058000000000000003
+    M048TF_1  A$___1_1  0.019939999999999999
+    M048TF_1  GP+++_0R  1
+    M048TF_1  GS+++_1R  1
+    M048TF_1  GS+++_9R  1
+    M048TF_1  R048_TM1  1
+    M048TF_2  __OBJ___  0.37053000000000003
+    M048TF_2  VOLM_1_R  0.30299999999999999
+    M048TF_2  VOLM10_R  0.32600000000000001
+    M048TF_2  VOLM19_R  0.32600000000000001
+    M048TF_2  LTSY_R    0.036220000000000002
+    M048TF_2  AVEINV_R  0.18643999999999999
+    M048TF_2  A$___1_1  0.019939999999999999
+    M048TF_2  GP+++_0R  1
+    M048TF_2  GS+++_1R  1
+    M048TF_2  GS+++10R  1
+    M048TF_2  R048_TM1  1
+    M048TF_3  __OBJ___  0.26168000000000002
+    M048TF_3  VOLM_2_R  0.312
+    M048TF_3  VOLM10_R  0.31900000000000001
+    M048TF_3  VOLM18_R  0.31900000000000001
+    M048TF_3  LTSY_R    0.039870000000000003
+    M048TF_3  AVEINV_R  0.16900000000000001
+    M048TF_3  INVEN_R   0.016
+    M048TF_3  A$___1_2  0.024479999999999998
+    M048TF_3  GP+++_0R  1
+    M048TF_3  GS+++_2R  1
+    M048TF_3  GS+++10R  1
+    M048TF_3  R048_TM2  1
+    M048TF_4  __OBJ___  0.25836999999999999
+    M048TF_4  VOLM_2_R  0.312
+    M048TF_4  VOLM11_R  0.32600000000000001
+    M048TF_4  VOLM20_R  0.32600000000000001
+    M048TF_4  LTSY_R    0.036220000000000002
+    M048TF_4  AVEINV_R  0.18643999999999999
+    M048TF_4  INVEN_R   0.32600000000000001
+    M048TF_4  A$___1_2  0.024479999999999998
+    M048TF_4  GP+++_0R  1
+    M048TF_4  GS+++_2R  1
+    M048TF_4  GS+++11R  1
+    M048TF_4  R048_TM2  1
+    M048TF_5  __OBJ___  0.15873999999999999
+    M048TF_5  VOLM_3_R  0.29699999999999999
+    M048TF_5  VOLM11_R  0.31900000000000001
+    M048TF_5  VOLM19_R  0.31900000000000001
+    M048TF_5  LTSY_R    0.039870000000000003
+    M048TF_5  AVEINV_R  0.16900000000000001
+    M048TF_5  GP+++_0R  1
+    M048TF_5  GS+++_3R  1
+    M048TF_5  GS+++11R  1
+    M048TF_5  R048_TM3  1
+    M048TF_6  __OBJ___  0.15578
+    M048TF_6  VOLM_3_R  0.29699999999999999
+    M048TF_6  VOLM12_R  0.32600000000000001
+    M048TF_6  LTSY_R    0.036220000000000002
+    M048TF_6  AVEINV_R  0.18643999999999999
+    M048TF_6  INVEN_R   0.31900000000000001
+    M048TF_6  GP+++_0R  1
+    M048TF_6  GS+++_3R  1
+    M048TF_6  GS+++12R  1
+    M048TF_6  R048_TM3  1
+    M048TF_7  __OBJ___  0.10279000000000001
+    M048TF_7  VOLM_4_R  0.28799999999999998
+    M048TF_7  VOLM12_R  0.31900000000000001
+    M048TF_7  VOLM20_R  0.31900000000000001
+    M048TF_7  LTSY_R    0.039870000000000003
+    M048TF_7  AVEINV_R  0.16900000000000001
+    M048TF_7  INVEN_R   0.31900000000000001
+    M048TF_7  GP+++_0R  1
+    M048TF_7  GS+++_4R  1
+    M048TF_7  GS+++12R  1
+    M048TF_7  R048_TM4  1
+    M048TF_8  __OBJ___  0.10057000000000001
+    M048TF_8  VOLM_4_R  0.28799999999999998
+    M048TF_8  VOLM13_R  0.32600000000000001
+    M048TF_8  LTSY_R    0.036220000000000002
+    M048TF_8  AVEINV_R  0.18643999999999999
+    M048TF_8  INVEN_R   0.29999999999999999
+    M048TF_8  GP+++_0R  1
+    M048TF_8  GS+++_4R  1
+    M048TF_8  GS+++13R  1
+    M048TF_8  R048_TM4  1
+    M048TF_9  __OBJ___  0.067389000000000004
+    M048TF_9  VOLM_5_R  0.27900000000000003
+    M048TF_9  VOLM13_R  0.31900000000000001
+    M048TF_9  LTSY_R    0.039870000000000003
+    M048TF_9  AVEINV_R  0.16900000000000001
+    M048TF_9  INVEN_R   0.29999999999999999
+    M048TF_9  GP+++_0R  1
+    M048TF_9  GS+++_5R  1
+    M048TF_9  GS+++13R  1
+    M048TF_9  R048_TM5  1
+    M048TF_A  __OBJ___  0.066501000000000005
+    M048TF_A  VOLM_5_R  0.27900000000000003
+    M048TF_A  VOLM14_R  0.32600000000000001
+    M048TF_A  LTSY_R    0.036220000000000002
+    M048TF_A  AVEINV_R  0.18643999999999999
+    M048TF_A  INVEN_R   0.26700000000000002
+    M048TF_A  GP+++_0R  1
+    M048TF_A  GS+++_5R  1
+    M048TF_A  GS+++14R  1
+    M048TF_A  R048_TM5  1
+    M048TF_B  __OBJ___  0.059138000000000003
+    M048TF_B  VOLM_6_R  0.27000000000000002
+    M048TF_B  VOLM14_R  0.31900000000000001
+    M048TF_B  LTSY_R    0.039870000000000003
+    M048TF_B  AVEINV_R  0.16900000000000001
+    M048TF_B  INVEN_R   0.26700000000000002
+    M048TF_B  GP+++_0R  1
+    M048TF_B  GS+++_6R  1
+    M048TF_B  GS+++14R  1
+    M048TF_B  R048_TM5  1
+    M048TF_C  __OBJ___  0.05849
+    M048TF_C  VOLM_6_R  0.27000000000000002
+    M048TF_C  VOLM15_R  0.32600000000000001
+    M048TF_C  LTSY_R    0.036220000000000002
+    M048TF_C  AVEINV_R  0.18643999999999999
+    M048TF_C  INVEN_R   0.22
+    M048TF_C  GP+++_0R  1
+    M048TF_C  GS+++_6R  1
+    M048TF_C  GS+++15R  1
+    M048TF_C  R048_TM5  1
+    M048TF_D  __OBJ___  0.030706000000000001
+    M048TF_D  VOLM_7_R  0.24299999999999999
+    M048TF_D  VOLM15_R  0.31900000000000001
+    M048TF_D  LTSY_R    0.039870000000000003
+    M048TF_D  AVEINV_R  0.16900000000000001
+    M048TF_D  INVEN_R   0.22
+    M048TF_D  GP+++_0R  1
+    M048TF_D  GS+++_7R  1
+    M048TF_D  GS+++15R  1
+    M048TF_D  R048_TM5  1
+    M048TF_E  __OBJ___  0.030345
+    M048TF_E  VOLM_7_R  0.24299999999999999
+    M048TF_E  VOLM16_R  0.32600000000000001
+    M048TF_E  LTSY_R    0.036220000000000002
+    M048TF_E  AVEINV_R  0.18643999999999999
+    M048TF_E  INVEN_R   0.17199999999999999
+    M048TF_E  GP+++_0R  1
+    M048TF_E  GS+++_7R  1
+    M048TF_E  R048_TM5  1
+    T048TP12  R048_TP1  1
+    T048TP12  R048_TP2  -1
+    T048TP23  R048_TP2  1
+    T048TP23  R048_TP3  -1
+    T048TP34  R048_TP3  1
+    T048TP34  R048_TP4  -1
+    M048PF_1  __OBJ___  0.63171999999999995
+    M048PF_1  VOLM_1_R  0.2424
+    M048PF_1  VOLM_2_R  0.062399999999999997
+    M048PF_1  VOLM_9_R  0.23924999999999999
+    M048PF_1  VOLM10_R  0.081500000000000003
+    M048PF_1  VOLM17_R  0.23924999999999999
+    M048PF_1  VOLM18_R  0.081500000000000003
+    M048PF_1  LTSY_R    0.040090000000000001
+    M048PF_1  AVEINV_R  0.17918999999999999
+    M048PF_1  INVEN_R   0.058000000000000003
+    M048PF_1  GP---_0R  1
+    M048PF_1  GS---_1R  0.10000000000000001
+    M048PF_1  GS---_2R  0.050000000000000003
+    M048PF_1  GS---_5R  0.066669999999999993
+    M048PF_1  GS---_6R  0.02
+    M048PF_1  R048_TP1  1
+    M048PF_2  __OBJ___  0.62524000000000002
+    M048PF_2  VOLM_1_R  0.2424
+    M048PF_2  VOLM_2_R  0.062399999999999997
+    M048PF_2  VOLM10_R  0.2445
+    M048PF_2  VOLM11_R  0.081500000000000003
+    M048PF_2  VOLM19_R  0.2445
+    M048PF_2  VOLM20_R  0.081500000000000003
+    M048PF_2  LTSY_R    0.036220000000000002
+    M048PF_2  AVEINV_R  0.19550000000000001
+    M048PF_2  INVEN_R   0.20374999999999999
+    M048PF_2  GP---_0R  1
+    M048PF_2  GS---_1R  0.10000000000000001
+    M048PF_2  GS---_2R  0.050000000000000003
+    M048PF_2  GS---_5R  0.033329999999999999
+    M048PF_2  GS---_6R  0.029999999999999999
+    M048PF_2  R048_TP1  1
+    M048PF_3  __OBJ___  0.46189999999999998
+    M048PF_3  VOLM_2_R  0.24959999999999999
+    M048PF_3  VOLM_3_R  0.059400000000000001
+    M048PF_3  VOLM10_R  0.23924999999999999
+    M048PF_3  VOLM11_R  0.081500000000000003
+    M048PF_3  VOLM18_R  0.23924999999999999
+    M048PF_3  VOLM19_R  0.081500000000000003
+    M048PF_3  LTSY_R    0.040090000000000001
+    M048PF_3  AVEINV_R  0.17918999999999999
+    M048PF_3  INVEN_R   0.016
+    M048PF_3  GP---_0R  1
+    M048PF_3  GS---_2R  0.10000000000000001
+    M048PF_3  GS---_5R  0.033329999999999999
+    M048PF_3  GS---_6R  0.029999999999999999
+    M048PF_3  R048_TP2  1
+    M048PF_4  __OBJ___  0.45761000000000002
+    M048PF_4  VOLM_2_R  0.24959999999999999
+    M048PF_4  VOLM_3_R  0.059400000000000001
+    M048PF_4  VOLM11_R  0.2445
+    M048PF_4  VOLM12_R  0.081500000000000003
+    M048PF_4  VOLM20_R  0.2445
+    M048PF_4  LTSY_R    0.036220000000000002
+    M048PF_4  AVEINV_R  0.19550000000000001
+    M048PF_4  INVEN_R   0.32600000000000001
+    M048PF_4  GP---_0R  1
+    M048PF_4  GS---_2R  0.10000000000000001
+    M048PF_4  GS---_6R  0.029999999999999999
+    M048PF_4  R048_TP2  1
+    M048PF_5  __OBJ___  0.30731000000000003
+    M048PF_5  VOLM_3_R  0.23760000000000001
+    M048PF_5  VOLM_4_R  0.057599999999999998
+    M048PF_5  VOLM11_R  0.23924999999999999
+    M048PF_5  VOLM12_R  0.081500000000000003
+    M048PF_5  VOLM19_R  0.23924999999999999
+    M048PF_5  VOLM20_R  0.081500000000000003
+    M048PF_5  LTSY_R    0.040090000000000001
+    M048PF_5  AVEINV_R  0.17918999999999999
+    M048PF_5  INVEN_R   0.20374999999999999
+    M048PF_5  GP---_0R  1
+    M048PF_5  GS---_2R  0.050000000000000003
+    M048PF_5  GS---_3R  0.050000000000000003
+    M048PF_5  GS---_6R  0.040000000000000001
+    M048PF_5  R048_TP3  1
+    M048PF_6  __OBJ___  0.30384
+    M048PF_6  VOLM_3_R  0.23760000000000001
+    M048PF_6  VOLM_4_R  0.057599999999999998
+    M048PF_6  VOLM12_R  0.2445
+    M048PF_6  VOLM13_R  0.081500000000000003
+    M048PF_6  LTSY_R    0.036220000000000002
+    M048PF_6  AVEINV_R  0.19550000000000001
+    M048PF_6  INVEN_R   0.31900000000000001
+    M048PF_6  GP---_0R  1
+    M048PF_6  GS---_2R  0.050000000000000003
+    M048PF_6  GS---_3R  0.050000000000000003
+    M048PF_6  GS---_6R  0.02
+    M048PF_6  R048_TP3  1
+    M048PF_7  __OBJ___  0.20376
+    M048PF_7  VOLM_4_R  0.23039999999999999
+    M048PF_7  VOLM_5_R  0.055800000000000002
+    M048PF_7  VOLM12_R  0.23924999999999999
+    M048PF_7  VOLM13_R  0.081500000000000003
+    M048PF_7  VOLM20_R  0.23924999999999999
+    M048PF_7  LTSY_R    0.040090000000000001
+    M048PF_7  AVEINV_R  0.17918999999999999
+    M048PF_7  INVEN_R   0.31900000000000001
+    M048PF_7  GP---_0R  1
+    M048PF_7  GS---_3R  0.10000000000000001
+    M048PF_7  GS---_6R  0.029999999999999999
+    M048PF_7  R048_TP4  1
+    M048PF_8  __OBJ___  0.20136999999999999
+    M048PF_8  VOLM_4_R  0.23039999999999999
+    M048PF_8  VOLM_5_R  0.055800000000000002
+    M048PF_8  VOLM13_R  0.2445
+    M048PF_8  VOLM14_R  0.081500000000000003
+    M048PF_8  LTSY_R    0.036220000000000002
+    M048PF_8  AVEINV_R  0.19550000000000001
+    M048PF_8  INVEN_R   0.29999999999999999
+    M048PF_8  GP---_0R  1
+    M048PF_8  GS---_3R  0.10000000000000001
+    M048PF_8  GS---_6R  0.02
+    M048PF_8  R048_TP4  1
+    M048PF_9  __OBJ___  0.13886999999999999
+    M048PF_9  VOLM_5_R  0.22320000000000001
+    M048PF_9  VOLM_6_R  0.053999999999999999
+    M048PF_9  VOLM13_R  0.23924999999999999
+    M048PF_9  VOLM14_R  0.081500000000000003
+    M048PF_9  LTSY_R    0.040090000000000001
+    M048PF_9  AVEINV_R  0.17918999999999999
+    M048PF_9  INVEN_R   0.29999999999999999
+    M048PF_9  GP---_0R  1
+    M048PF_9  GS---_3R  0.050000000000000003
+    M048PF_9  GS---_4R  0.050000000000000003
+    M048PF_9  GS---_6R  0.02
+    M048PF_9  R048_TP4  1
+    M048PF_A  __OBJ___  0.13774
+    M048PF_A  VOLM_5_R  0.22320000000000001
+    M048PF_A  VOLM_6_R  0.053999999999999999
+    M048PF_A  VOLM14_R  0.2445
+    M048PF_A  VOLM15_R  0.081500000000000003
+    M048PF_A  LTSY_R    0.036220000000000002
+    M048PF_A  AVEINV_R  0.19550000000000001
+    M048PF_A  INVEN_R   0.26700000000000002
+    M048PF_A  GP---_0R  1
+    M048PF_A  GS---_3R  0.050000000000000003
+    M048PF_A  GS---_4R  0.050000000000000003
+    M048PF_A  GS---_6R  0.02
+    M048PF_A  R048_TP4  1
+    M048PF_B  __OBJ___  0.10302
+    M048PF_B  VOLM_6_R  0.216
+    M048PF_B  VOLM_7_R  0.048599999999999997
+    M048PF_B  VOLM14_R  0.23924999999999999
+    M048PF_B  VOLM15_R  0.081500000000000003
+    M048PF_B  LTSY_R    0.040090000000000001
+    M048PF_B  AVEINV_R  0.17918999999999999
+    M048PF_B  INVEN_R   0.26700000000000002
+    M048PF_B  GP---_0R  1
+    M048PF_B  GS---_4R  0.10000000000000001
+    M048PF_B  GS---_6R  0.02
+    M048PF_B  R048_TP4  1
+    M048PF_C  __OBJ___  0.10221
+    M048PF_C  VOLM_6_R  0.216
+    M048PF_C  VOLM_7_R  0.048599999999999997
+    M048PF_C  VOLM15_R  0.2445
+    M048PF_C  VOLM16_R  0.081500000000000003
+    M048PF_C  LTSY_R    0.036220000000000002
+    M048PF_C  AVEINV_R  0.19550000000000001
+    M048PF_C  INVEN_R   0.22
+    M048PF_C  GP---_0R  1
+    M048PF_C  GS---_4R  0.10000000000000001
+    M048PF_C  GS---_6R  0.02
+    M048PF_C  R048_TP4  1
+    M048PF_D  __OBJ___  0.061712999999999997
+    M048PF_D  VOLM_7_R  0.19439999999999999
+    M048PF_D  VOLM_8_R  0.046199999999999998
+    M048PF_D  VOLM15_R  0.23924999999999999
+    M048PF_D  VOLM16_R  0.081500000000000003
+    M048PF_D  LTSY_R    0.040090000000000001
+    M048PF_D  AVEINV_R  0.17918999999999999
+    M048PF_D  INVEN_R   0.22
+    M048PF_D  GP---_0R  1
+    M048PF_D  GS---_4R  0.050000000000000003
+    M048PF_D  GS---_5R  0.033329999999999999
+    M048PF_D  GS---_6R  0.02
+    M048PF_D  R048_TP4  1
+    M048PF_E  __OBJ___  0.061100000000000002
+    M048PF_E  VOLM_7_R  0.19439999999999999
+    M048PF_E  VOLM_8_R  0.046199999999999998
+    M048PF_E  VOLM16_R  0.2445
+    M048PF_E  VOLM17_R  0.081500000000000003
+    M048PF_E  LTSY_R    0.036220000000000002
+    M048PF_E  AVEINV_R  0.19550000000000001
+    M048PF_E  INVEN_R   0.17199999999999999
+    M048PF_E  GP---_0R  1
+    M048PF_E  GS---_4R  0.050000000000000003
+    M048PF_E  GS---_5R  0.033329999999999999
+    M048PF_E  GS---_6R  0.02
+    M048PF_E  R048_TP4  1
+    M052MN_1  __OBJ___  -0.0012631999999999999
+    M052MN_1  R052_MN1  1
+    M052RD_1  __OBJ___  -0.0010104999999999999
+    M052RD_1  R052_RD1  1
+    T052TM12  R052_TM1  1
+    T052TM12  R052_TM2  -1
+    T052TM23  R052_TM2  1
+    T052TM23  R052_TM3  -1
+    T052TM34  R052_TM3  1
+    T052TM34  R052_TM4  -1
+    T052TM45  R052_TM4  1
+    T052TM45  R052_TM5  -1
+    M052TF_1  __OBJ___  0.075314999999999993
+    M052TF_1  VOLM_1_R  0.27800000000000002
+    M052TF_1  VOLM_9_R  0.42299999999999999
+    M052TF_1  VOLM17_R  0.42299999999999999
+    M052TF_1  LTSY_R    0.052880000000000003
+    M052TF_1  AVEINV_R  0.20000000000000001
+    M052TF_1  INVEN_R   0.075999999999999998
+    M052TF_1  A$___1_1  0.019939999999999999
+    M052TF_1  GP+++_0R  1
+    M052TF_1  GS+++_1R  1
+    M052TF_1  GS+++_9R  1
+    M052TF_1  R052_TM1  1
+    M052TF_2  __OBJ___  0.060634
+    M052TF_2  VOLM_1_R  0.27800000000000002
+    M052TF_2  VOLM10_R  0.47799999999999998
+    M052TF_2  VOLM19_R  0.47799999999999998
+    M052TF_2  LTSY_R    0.053109999999999997
+    M052TF_2  AVEINV_R  0.23089000000000001
+    M052TF_2  A$___1_1  0.019939999999999999
+    M052TF_2  GP+++_0R  1
+    M052TF_2  GS+++_1R  1
+    M052TF_2  GS+++10R  1
+    M052TF_2  R052_TM1  1
+    M052TF_3  __OBJ___  0.13184999999999999
+    M052TF_3  VOLM_2_R  0.30199999999999999
+    M052TF_3  VOLM10_R  0.42299999999999999
+    M052TF_3  VOLM18_R  0.42299999999999999
+    M052TF_3  LTSY_R    0.052880000000000003
+    M052TF_3  AVEINV_R  0.20000000000000001
+    M052TF_3  INVEN_R   0.034000000000000002
+    M052TF_3  A$___1_2  0.024479999999999998
+    M052TF_3  GP+++_0R  1
+    M052TF_3  GS+++_2R  1
+    M052TF_3  GS+++10R  1
+    M052TF_3  R052_TM2  1
+    M052TF_4  __OBJ___  0.12194000000000001
+    M052TF_4  VOLM_2_R  0.30199999999999999
+    M052TF_4  VOLM11_R  0.47799999999999998
+    M052TF_4  VOLM20_R  0.47799999999999998
+    M052TF_4  LTSY_R    0.053109999999999997
+    M052TF_4  AVEINV_R  0.23089000000000001
+    M052TF_4  INVEN_R   0.47799999999999998
+    M052TF_4  A$___1_2  0.024479999999999998
+    M052TF_4  GP+++_0R  1
+    M052TF_4  GS+++_2R  1
+    M052TF_4  GS+++11R  1
+    M052TF_4  R052_TM2  1
+    M052TF_5  __OBJ___  0.093679999999999999
+    M052TF_5  VOLM_3_R  0.32700000000000001
+    M052TF_5  VOLM11_R  0.42299999999999999
+    M052TF_5  VOLM19_R  0.42299999999999999
+    M052TF_5  LTSY_R    0.052880000000000003
+    M052TF_5  AVEINV_R  0.20000000000000001
+    M052TF_5  GP+++_0R  1
+    M052TF_5  GS+++_3R  1
+    M052TF_5  GS+++11R  1
+    M052TF_5  R052_TM3  1
+    M052TF_6  __OBJ___  0.086180999999999994
+    M052TF_6  VOLM_3_R  0.32700000000000001
+    M052TF_6  VOLM12_R  0.47799999999999998
+    M052TF_6  LTSY_R    0.053109999999999997
+    M052TF_6  AVEINV_R  0.23089000000000001
+    M052TF_6  INVEN_R   0.42299999999999999
+    M052TF_6  GP+++_0R  1
+    M052TF_6  GS+++_3R  1
+    M052TF_6  GS+++12R  1
+    M052TF_6  R052_TM3  1
+    M052TF_7  __OBJ___  0.068433999999999995
+    M052TF_7  VOLM_4_R  0.34100000000000003
+    M052TF_7  VOLM12_R  0.42299999999999999
+    M052TF_7  VOLM20_R  0.42299999999999999
+    M052TF_7  LTSY_R    0.052880000000000003
+    M052TF_7  AVEINV_R  0.20000000000000001
+    M052TF_7  INVEN_R   0.42299999999999999
+    M052TF_7  GP+++_0R  1
+    M052TF_7  GS+++_4R  1
+    M052TF_7  GS+++12R  1
+    M052TF_7  R052_TM4  1
+    M052TF_8  __OBJ___  0.063485
+    M052TF_8  VOLM_4_R  0.34100000000000003
+    M052TF_8  VOLM13_R  0.47799999999999998
+    M052TF_8  LTSY_R    0.053109999999999997
+    M052TF_8  AVEINV_R  0.23089000000000001
+    M052TF_8  INVEN_R   0.34499999999999997
+    M052TF_8  GP+++_0R  1
+    M052TF_8  GS+++_4R  1
+    M052TF_8  GS+++13R  1
+    M052TF_8  R052_TM4  1
+    M052TF_9  __OBJ___  0.044678000000000002
+    M052TF_9  VOLM_5_R  0.34300000000000003
+    M052TF_9  VOLM13_R  0.42299999999999999
+    M052TF_9  LTSY_R    0.052880000000000003
+    M052TF_9  AVEINV_R  0.20000000000000001
+    M052TF_9  INVEN_R   0.34499999999999997
+    M052TF_9  GP+++_0R  1
+    M052TF_9  GS+++_5R  1
+    M052TF_9  GS+++13R  1
+    M052TF_9  R052_TM5  1
+    M052TF_A  __OBJ___  0.041871999999999999
+    M052TF_A  VOLM_5_R  0.34300000000000003
+    M052TF_A  VOLM14_R  0.47799999999999998
+    M052TF_A  LTSY_R    0.053109999999999997
+    M052TF_A  AVEINV_R  0.23089000000000001
+    M052TF_A  INVEN_R   0.29899999999999999
+    M052TF_A  GP+++_0R  1
+    M052TF_A  GS+++_5R  1
+    M052TF_A  GS+++14R  1
+    M052TF_A  R052_TM5  1
+    M052TF_B  __OBJ___  0.026533000000000001
+    M052TF_B  VOLM_6_R  0.33100000000000002
+    M052TF_B  VOLM14_R  0.42299999999999999
+    M052TF_B  LTSY_R    0.052880000000000003
+    M052TF_B  AVEINV_R  0.20000000000000001
+    M052TF_B  INVEN_R   0.29899999999999999
+    M052TF_B  GP+++_0R  1
+    M052TF_B  GS+++_6R  1
+    M052TF_B  GS+++14R  1
+    M052TF_B  R052_TM5  1
+    M052TF_C  __OBJ___  0.024656999999999998
+    M052TF_C  VOLM_6_R  0.33100000000000002
+    M052TF_C  VOLM15_R  0.47799999999999998
+    M052TF_C  LTSY_R    0.053109999999999997
+    M052TF_C  AVEINV_R  0.23089000000000001
+    M052TF_C  INVEN_R   0.245
+    M052TF_C  GP+++_0R  1
+    M052TF_C  GS+++_6R  1
+    M052TF_C  GS+++15R  1
+    M052TF_C  R052_TM5  1
+    M052TF_D  __OBJ___  0.016863
+    M052TF_D  VOLM_7_R  0.32900000000000001
+    M052TF_D  VOLM15_R  0.42299999999999999
+    M052TF_D  LTSY_R    0.052880000000000003
+    M052TF_D  AVEINV_R  0.20000000000000001
+    M052TF_D  INVEN_R   0.245
+    M052TF_D  GP+++_0R  1
+    M052TF_D  GS+++_7R  1
+    M052TF_D  GS+++15R  1
+    M052TF_D  R052_TM5  1
+    M052TF_E  __OBJ___  0.015622
+    M052TF_E  VOLM_7_R  0.32900000000000001
+    M052TF_E  VOLM16_R  0.47799999999999998
+    M052TF_E  LTSY_R    0.053109999999999997
+    M052TF_E  AVEINV_R  0.23089000000000001
+    M052TF_E  INVEN_R   0.17799999999999999
+    M052TF_E  GP+++_0R  1
+    M052TF_E  GS+++_7R  1
+    M052TF_E  R052_TM5  1
+    M083MN_1  __OBJ___  -0.0012631999999999999
+    M083MN_1  R083_MN1  1
+    M083MN21  __OBJ___  -0.0012631999999999999
+    M083MN21  R083_GM2  1
+    M083RD_1  __OBJ___  -0.0010104999999999999
+    M083RD_1  R083_RD1  1
+    M083GB_1  __OBJ___  0.049699
+    M083GB_1  R083_GR2  1
+    M083GB21  __OBJ___  0.049699
+    M083GB21  R083_GM2  1
+    M092MN_1  __OBJ___  -0.0012631999999999999
+    M092MN_1  R092_MN2  1
+    M092RD_1  __OBJ___  -0.0010104999999999999
+    M092RD_1  R092_RD1  1
 RHS
-    RHS 1     LC123         7392000.   BR   1 1         2345.
-    RHS 1     BR   2 2         2800.   BR   2 3         2800.
-    RHS 1     LTSYCT             10.   A$   1 1         3500.
-    RHS 1     A$   1 2         3500.   A$ 4-8 1         4712.
-    RHS 1     A$ 4-8 2         4712.   A$ 4-8 3         4712.
-    RHS 1     A$ 4-8 4         4712.   AZ  20           2640.
-    RHS 1     AZ  80           2800.   AZ  90           2640.
-    RHS 1     AZ 100           2800.
+    RHS       LC123     7392000
+    RHS       BR___1_1  2345
+    RHS       BR___2_2  2800
+    RHS       BR___2_3  2800
+    RHS       LTSYCT    285000
+    RHS       A$___1_1  3500
+    RHS       A$___1_2  3500
+    RHS       A$_4-8_1  4712
+    RHS       A$_4-8_2  4712
+    RHS       A$_4-8_3  4712
+    RHS       A$_4-8_4  4712
+    RHS       AZ__20    2640
+    RHS       AZ__80    2800
+    RHS       AZ__90    2640
+    RHS       AZ_100    2800
 RANGES
-    RNG 1     LTSYCT         284990.
+    RANGE     LTSYCT    284990
 BOUNDS
- UP BND-1     DEDO3 11       200000.
- UP BND-1     DEDO3 21       220000.
- UP BND-1     DEDO3 31       275000.
- UP BND-1     DEDO3 41       275000.
- UP BND-1     DEDO3 51       298000.
- UP BND-1     DEDO3 61       298000.
- UP BND-1     DEDO3 71       298000.
- UP BND-1     DEDO3 81       298000.
- UP BND-1     DEDO3 91       298000.
- UP BND-1     DEDO3101       298000.
- UP BND-1     DEDO3111       298000.
- UP BND-1     DEDO3121       298000.
- UP BND-1     DEDO3131       298000.
- UP BND-1     DEDO3141       298000.
- UP BND-1     DEDO3151       298000.
- UP BND-1     DEDO5 11       120000.
- UP BND-1     DEDO5 12      9999999.
- UP BND-1     DEDO5 21       135000.
- UP BND-1     DEDO5 22      9999999.
- UP BND-1     DEDO5 31       147000.
- UP BND-1     DEDO5 32      9999999.
- FX BND-1     A   22 1         2640.
- FX BND-1     A   83 1            0.
- FX BND-1     A   83 2            0.
+ UP BOUND     DEDO3_11  200000
+ UP BOUND     DEDO3_21  220000
+ UP BOUND     DEDO3_31  275000
+ UP BOUND     DEDO3_41  275000
+ UP BOUND     DEDO3_51  298000
+ UP BOUND     DEDO3_61  298000
+ UP BOUND     DEDO3_71  298000
+ UP BOUND     DEDO3_81  298000
+ UP BOUND     DEDO3_91  298000
+ UP BOUND     DEDO3101  298000
+ UP BOUND     DEDO3111  298000
+ UP BOUND     DEDO3121  298000
+ UP BOUND     DEDO3131  298000
+ UP BOUND     DEDO3141  298000
+ UP BOUND     DEDO3151  298000
+ UP BOUND     DEDO5_11  120000
+ UP BOUND     DEDO5_12  9999999
+ UP BOUND     DEDO5_21  135000
+ UP BOUND     DEDO5_22  9999999
+ UP BOUND     DEDO5_31  147000
+ UP BOUND     DEDO5_32  9999999
+ FX BOUND     A___22_1  2640
+ FX BOUND     A___83_1  0
+ FX BOUND     A___83_2  0
 ENDATA

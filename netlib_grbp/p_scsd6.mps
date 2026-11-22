@@ -1,4 +1,4 @@
-NAME (null)_copy
+NAME SCSD6_pre
 ROWS
  N  OBJ
  E  10000001
@@ -5826,4 +5826,5 @@ RHS
     RHS1      20000043  -1
     RHS1      20000044  -1
 BOUNDS
+* Note: variable lower bounds are 0 unless specified otherwise
 ENDATA

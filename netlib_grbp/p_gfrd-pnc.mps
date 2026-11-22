@@ -1,6 +1,8 @@
-NAME (null)_copy
+NAME COPTPROB_pre
 ROWS
  N  OBJ
+ E  AD1     
+ E  AD2     
  E  BA1     
  E  BA2     
  E  DZ1     
@@ -41,8 +43,6 @@ ROWS
  E  EU2     
  E  FC1     
  E  FC2     
- E  FA1     
- E  FA2     
  E  FJ1     
  E  FJ2     
  E  FV1     
@@ -73,8 +73,8 @@ ROWS
  E  KB2     
  E  KD1     
  E  KD2     
- E  KG1     
- E  KG2     
+ E  MA1     
+ E  MA2     
  E  PA1     
  E  PA2     
  E  NC1     
@@ -83,6 +83,8 @@ ROWS
  E  SL2     
  E  SK1     
  E  SK2     
+ E  RA1     
+ E  RA2     
  E  TA1     
  E  TA2     
  E  SJ1     
@@ -101,8 +103,6 @@ ROWS
  E  TH2     
  E  TQ1     
  E  TQ2     
- E  TV1     
- E  TV2     
  E  TZ1     
  E  TZ2     
  E  ZF1     
@@ -171,23 +171,23 @@ ROWS
  L  PYR     
  L  PYU     
 COLUMNS
-    AI1BA1    OBJ       5.83
-    AI1BA1    FA1       1
+    AI1BA1    OBJ       2.92
+    AI1BA1    AD1       1
     AI1BA1    BA1       -1
-    AI2BA2    OBJ       2.25
-    AI2BA2    FA2       1
+    AI2BA2    OBJ       1.13
+    AI2BA2    AD2       1
     AI2BA2    BA2       -1
-    AI1DZ1    OBJ       13.93
-    AI1DZ1    FA1       1
+    AI1DZ1    OBJ       11.02
+    AI1DZ1    AD1       1
     AI1DZ1    DZ1       -1
-    AI2DZ2    OBJ       5.37
-    AI2DZ2    FA2       1
+    AI2DZ2    OBJ       4.25
+    AI2DZ2    AD2       1
     AI2DZ2    DZ2       -1
-    BA1AI1    OBJ       -4.53
-    BA1AI1    FA1       -1
+    BA1AI1    OBJ       -1.62
+    BA1AI1    AD1       -1
     BA1AI1    BA1       1
-    BA2AI2    OBJ       -1.75
-    BA2AI2    FA2       -1
+    BA2AI2    OBJ       -0.63
+    BA2AI2    AD2       -1
     BA2AI2    BA2       1
     BA1CF1    OBJ       0.58
     BA1CF1    BA1       1
@@ -196,11 +196,11 @@ COLUMNS
     BA2CF2    BA2       1
     BA2CF2    CF2       -1
     CF1BA1    OBJ       0.57
-    CF1BA1    CF1       1
     CF1BA1    BA1       -1
+    CF1BA1    CF1       1
     CF2BA2    OBJ       0.22
-    CF2BA2    CF2       1
     CF2BA2    BA2       -1
+    CF2BA2    CF2       1
     CF1CH1    OBJ       0.64
     CF1CH1    CF1       1
     CF1CH1    CH1       -1
@@ -208,11 +208,11 @@ COLUMNS
     CF2CH2    CF2       1
     CF2CH2    CH2       -1
     CH1CF1    OBJ       0.57
-    CH1CF1    CH1       1
     CH1CF1    CF1       -1
+    CH1CF1    CH1       1
     CH2CF2    OBJ       0.22
-    CH2CF2    CH2       1
     CH2CF2    CF2       -1
+    CH2CF2    CH2       1
     CH1CI1    OBJ       1.1600000000000001e+00
     CH1CI1    EV1       -1
     CH1CI1    CH1       1
@@ -238,11 +238,11 @@ COLUMNS
     EA2EC2    EA2       1
     EA2EC2    EC2       -1
     EC1EA1    OBJ       0.52
-    EC1EA1    EC1       1
     EC1EA1    EA1       -1
+    EC1EA1    EC1       1
     EC2EA2    OBJ       0.2
-    EC2EA2    EC2       1
     EC2EA2    EA2       -1
+    EC2EA2    EC2       1
     EC1ED1    OBJ       1.21
     EC1ED1    FH1       -1
     EC1ED1    EC1       1
@@ -256,11 +256,11 @@ COLUMNS
     EC2EE2    EC2       1
     EC2EE2    EE2       -1
     EE1EC1    OBJ       0.51
-    EE1EC1    EE1       1
     EE1EC1    EC1       -1
+    EE1EC1    EE1       1
     EE2EC2    OBJ       0.19
-    EE2EC2    EE2       1
     EE2EC2    EC2       -1
+    EE2EC2    EE2       1
     EE1EF1    OBJ       0.66
     EE1EF1    EE1       1
     EE1EF1    EF1       -1
@@ -274,11 +274,11 @@ COLUMNS
     EE2EK2    EE2       1
     EE2EK2    EK2       -1
     EF1EE1    OBJ       0.68
-    EF1EE1    EF1       1
     EF1EE1    EE1       -1
+    EF1EE1    EF1       1
     EF2EE2    OBJ       0.26
-    EF2EE2    EF2       1
     EF2EE2    EE2       -1
+    EF2EE2    EF2       1
     EF1EH1    OBJ       0.51
     EF1EH1    EF1       1
     EF1EH1    EH1       -1
@@ -286,11 +286,11 @@ COLUMNS
     EF2EH2    EF2       1
     EF2EH2    EH2       -1
     EH1EF1    OBJ       0.53
-    EH1EF1    EH1       1
     EH1EF1    EF1       -1
+    EH1EF1    EH1       1
     EH2EF2    OBJ       0.2
-    EH2EF2    EH2       1
     EH2EF2    EF2       -1
+    EH2EF2    EH2       1
     EH1FK1    OBJ       1.17
     EH1FK1    FJ1       -1
     EH1FK1    EH1       1
@@ -298,11 +298,11 @@ COLUMNS
     EH2FK2    FJ2       -1
     EH2FK2    EH2       1
     EK1EE1    OBJ       0.7
-    EK1EE1    EK1       1
     EK1EE1    EE1       -1
+    EK1EE1    EK1       1
     EK2EE2    OBJ       0.27
-    EK2EE2    EK2       1
     EK2EE2    EE2       -1
+    EK2EE2    EK2       1
     EK1EL1    OBJ       0.59
     EK1EL1    EK1       1
     EK1EL1    EL1       -1
@@ -310,11 +310,11 @@ COLUMNS
     EK2EL2    EK2       1
     EK2EL2    EL2       -1
     EL1EK1    OBJ       0.7
-    EL1EK1    EL1       1
     EL1EK1    EK1       -1
+    EL1EK1    EL1       1
     EL2EK2    OBJ       0.27
-    EL2EK2    EL2       1
     EL2EK2    EK2       -1
+    EL2EK2    EL2       1
     EL1EM1    OBJ       0.55
     EL1EM1    EL1       1
     EL1EM1    EM1       -1
@@ -328,11 +328,11 @@ COLUMNS
     EL2ER2    ES2       -1
     EL2ER2    EL2       1
     EM1EL1    OBJ       0.61
-    EM1EL1    EM1       1
     EM1EL1    EL1       -1
+    EM1EL1    EM1       1
     EM2EL2    OBJ       0.23
-    EM2EL2    EM2       1
     EM2EL2    EL2       -1
+    EM2EL2    EM2       1
     EM1EN1    OBJ       0.63
     EM1EN1    EM1       1
     EM1EN1    EN1       -1
@@ -340,11 +340,11 @@ COLUMNS
     EM2EN2    EM2       1
     EM2EN2    EN2       -1
     EN1EM1    OBJ       0.64
-    EN1EM1    EN1       1
     EN1EM1    EM1       -1
+    EN1EM1    EN1       1
     EN2EM2    OBJ       0.24
-    EN2EM2    EN2       1
     EN2EM2    EM2       -1
+    EN2EM2    EN2       1
     EN1EP1    OBJ       1.1099999999999999e+00
     EN1EP1    EQ1       -1
     EN1EP1    EN1       1
@@ -376,11 +376,11 @@ COLUMNS
     ES2ET2    ES2       1
     ES2ET2    ET2       -1
     ET1ES1    OBJ       0.68
-    ET1ES1    ET1       1
     ET1ES1    ES1       -1
+    ET1ES1    ET1       1
     ET2ES2    OBJ       0.26
-    ET2ES2    ET2       1
     ET2ES2    ES2       -1
+    ET2ES2    ET2       1
     ET1EU1    OBJ       0.66
     ET1EU1    ET1       1
     ET1EU1    EU1       -1
@@ -388,11 +388,11 @@ COLUMNS
     ET2EU2    ET2       1
     ET2EU2    EU2       -1
     EU1ET1    OBJ       0.64
-    EU1ET1    EU1       1
     EU1ET1    ET1       -1
+    EU1ET1    EU1       1
     EU2ET2    OBJ       0.24
-    EU2ET2    EU2       1
     EU2ET2    ET2       -1
+    EU2ET2    EU2       1
     EU1KA1    OBJ       1.22
     EU1KA1    KB1       -1
     EU1KA1    EU1       1
@@ -412,11 +412,11 @@ COLUMNS
     EV2FC2    EV2       1
     EV2FC2    FC2       -1
     FC1EV1    OBJ       0.59
-    FC1EV1    FC1       1
     FC1EV1    EV1       -1
+    FC1EV1    FC1       1
     FC2EV2    OBJ       0.23
-    FC2EV2    FC2       1
     FC2EV2    EV2       -1
+    FC2EV2    FC2       1
     FC1FD1    OBJ       2.83
     FC1FD1    EQ1       -1
     FC1FD1    FC1       1
@@ -448,17 +448,17 @@ COLUMNS
     FJ2FK2    EH2       -1
     FJ2FK2    FJ2       1
     FX1HE1    OBJ       3
-    FX1HE1    FV1       1
     FX1HE1    H11       -1
+    FX1HE1    FV1       1
     FX2HE2    OBJ       1.15
-    FX2HE2    FV2       1
     FX2HE2    H12       -1
+    FX2HE2    FV2       1
     FX1HM1    OBJ       3.64
-    FX1HM1    FV1       1
     FX1HM1    HP1       -1
+    FX1HM1    FV1       1
     FX2HM2    OBJ       1.41
-    FX2HM2    FV2       1
     FX2HM2    HP2       -1
+    FX2HM2    FV2       1
     F31F41    OBJ       3.0599999999999996e+00
     F31F41    HW1       -1
     F31F41    F31       1
@@ -466,11 +466,11 @@ COLUMNS
     F32F42    HW2       -1
     F32F42    F32       1
     F31LA1    OBJ       0.63
-    F31LA1    F31       1
     F31LA1    LA1       -1
+    F31LA1    F31       1
     F32LA2    OBJ       0.24
-    F32LA2    F32       1
     F32LA2    LA2       -1
+    F32LA2    F32       1
     F81F71    OBJ       1.15
     F81F71    KE1       -1
     F81F71    F81       1
@@ -483,7 +483,7 @@ COLUMNS
     F82KH2    OBJ       0.48
     F82KH2    PA2       -1
     F82KH2    F82       1
-    HP1HN1    OBJ       6.0000000000000053e-02
+    HP1HN1    OBJ       5.9999999999999831e-02
     HP1HN1    FV1       -1
     HP1HN1    HP1       1
     HP2HN2    OBJ       2.0000000000000018e-02
@@ -508,11 +508,11 @@ COLUMNS
     HS2HT2    HS2       1
     HS2HT2    HT2       -1
     HT1HS1    OBJ       0.57
-    HT1HS1    HT1       1
     HT1HS1    HS1       -1
+    HT1HS1    HT1       1
     HT2HS2    OBJ       0.22
-    HT2HS2    HT2       1
     HT2HS2    HS2       -1
+    HT2HS2    HT2       1
     HT1SQ1    OBJ       0.71
     HT1SQ1    HT1       1
     HT1SQ1    SQ1       -1
@@ -531,17 +531,17 @@ COLUMNS
     HW2SN2    OBJ       0.25
     HW2SN2    HW2       1
     HW2SN2    SN2       -1
-    H11HE1    OBJ       -4.1000000000000014e-01
+    H11HE1    OBJ       -4.1000000000000003e-01
     H11HE1    FV1       -1
     H11HE1    H11       1
-    H12HE2    OBJ       -1.5999999999999992e-01
+    H12HE2    OBJ       -1.5999999999999995e-01
     H12HE2    FV2       -1
     H12HE2    H12       1
-    H11IA1    OBJ       2.88
-    H11IA1    FA1       -1
+    H11IA1    OBJ       5.79
+    H11IA1    AD1       -1
     H11IA1    H11       1
-    H12IA2    OBJ       1.11
-    H12IA2    FA2       -1
+    H12IA2    OBJ       2.23
+    H12IA2    AD2       -1
     H12IA2    H12       1
     KB1KA1    OBJ       1.27
     KB1KA1    EU1       -1
@@ -550,23 +550,23 @@ COLUMNS
     KB2KA2    EU2       -1
     KB2KA2    KB2       1
     KB1LA1    OBJ       0.66
-    KB1LA1    KB1       1
     KB1LA1    LA1       -1
+    KB1LA1    KB1       1
     KB2LA2    OBJ       0.25
-    KB2LA2    KB2       1
     KB2LA2    LA2       -1
-    KD1KC1    OBJ       -1.1799999999999997e+00
-    KD1KC1    KG1       -1
+    KB2LA2    KB2       1
+    KD1KC1    OBJ       1.08
+    KD1KC1    MA1       -1
     KD1KC1    KD1       1
-    KD2KC2    OBJ       -4.6000000000000008e-01
-    KD2KC2    KG2       -1
+    KD2KC2    OBJ       4.1000000000000003e-01
+    KD2KC2    MA2       -1
     KD2KC2    KD2       1
     KD1KE1    OBJ       0.59
-    KD1KE1    KD1       1
     KD1KE1    KE1       -1
+    KD1KE1    KD1       1
     KD2KE2    OBJ       0.23
-    KD2KE2    KD2       1
     KD2KE2    KE2       -1
+    KD2KE2    KD2       1
     KE1F71    OBJ       1.1400000000000001e+00
     KE1F71    F81       -1
     KE1F71    KE1       1
@@ -591,18 +591,18 @@ COLUMNS
     LA2KB2    OBJ       0.29
     LA2KB2    LA2       1
     LA2KB2    KB2       -1
-    MA1KC1    OBJ       3.34
-    MA1KC1    KG1       1
+    MA1KC1    OBJ       1.08
     MA1KC1    KD1       -1
-    MA2KC2    OBJ       1.29
-    MA2KC2    KG2       1
+    MA1KC1    MA1       1
+    MA2KC2    OBJ       0.42
     MA2KC2    KD2       -1
-    MA1KI1    OBJ       3.4499999999999997e+00
-    MA1KI1    KG1       1
+    MA2KC2    MA2       1
+    MA1KI1    OBJ       1.19
     MA1KI1    EU1       -1
-    MA2KI2    OBJ       1.33
-    MA2KI2    KG2       1
+    MA1KI1    MA1       1
+    MA2KI2    OBJ       0.46
     MA2KI2    EU2       -1
+    MA2KI2    MA2       1
     NC1ND1    OBJ       1.73
     NC1ND1    F81       -1
     NC1ND1    NC1       1
@@ -634,17 +634,17 @@ COLUMNS
     SJ2SI2    TA2       -1
     SJ2SI2    SJ2       1
     SJ1SK1    OBJ       0.55
-    SJ1SK1    SJ1       1
     SJ1SK1    SK1       -1
+    SJ1SK1    SJ1       1
     SJ2SK2    OBJ       0.21
-    SJ2SK2    SJ2       1
     SJ2SK2    SK2       -1
+    SJ2SK2    SJ2       1
     SK1PA1    OBJ       0.59
-    SK1PA1    SK1       1
     SK1PA1    PA1       -1
+    SK1PA1    SK1       1
     SK2PA2    OBJ       0.23
-    SK2PA2    SK2       1
     SK2PA2    PA2       -1
+    SK2PA2    SK2       1
     SK1SJ1    OBJ       0.55
     SK1SJ1    SK1       1
     SK1SJ1    SJ1       -1
@@ -652,17 +652,17 @@ COLUMNS
     SK2SJ2    SK2       1
     SK2SJ2    SJ2       -1
     SK1SL1    OBJ       0.56
-    SK1SL1    SK1       1
     SK1SL1    SL1       -1
+    SK1SL1    SK1       1
     SK2SL2    OBJ       0.22
-    SK2SL2    SK2       1
     SK2SL2    SL2       -1
+    SK2SL2    SK2       1
     SL1NC1    OBJ       0.56
-    SL1NC1    SL1       1
     SL1NC1    NC1       -1
+    SL1NC1    SL1       1
     SL2NC2    OBJ       0.22
-    SL2NC2    SL2       1
     SL2NC2    NC2       -1
+    SL2NC2    SL2       1
     SL1SK1    OBJ       0.58
     SL1SK1    SL1       1
     SL1SK1    SK1       -1
@@ -670,11 +670,11 @@ COLUMNS
     SL2SK2    SL2       1
     SL2SK2    SK2       -1
     SN1HW1    OBJ       0.65
-    SN1HW1    SN1       1
     SN1HW1    HW1       -1
+    SN1HW1    SN1       1
     SN2HW2    OBJ       0.25
-    SN2HW2    SN2       1
     SN2HW2    HW2       -1
+    SN2HW2    SN2       1
     SN1SM1    OBJ       1.73
     SN1SM1    TQ1       -1
     SN1SM1    SN1       1
@@ -688,23 +688,17 @@ COLUMNS
     SN2SP2    SQ2       -1
     SN2SP2    SN2       1
     SQ1HT1    OBJ       0.71
-    SQ1HT1    SQ1       1
     SQ1HT1    HT1       -1
+    SQ1HT1    SQ1       1
     SQ2HT2    OBJ       0.27
-    SQ2HT2    SQ2       1
     SQ2HT2    HT2       -1
+    SQ2HT2    SQ2       1
     SQ1SP1    OBJ       1.21
     SQ1SP1    SN1       -1
     SQ1SP1    SQ1       1
     SQ2SP2    OBJ       4.5999999999999996e-01
     SQ2SP2    SN2       -1
     SQ2SP2    SQ2       1
-    SR2RA2    OBJ       8.1736791453615766e+01
-    SR2RA2    TV2       -1
-    SR2RA2    TV1       -1
-    SW2YG2    OBJ       9.1520046856696609e+01
-    SW2YG2    YG1       -1
-    SW2YG2    YG2       -1
     SX1SY1    OBJ       0.51
     SX1SY1    SX1       1
     SX1SY1    SY1       -1
@@ -718,11 +712,11 @@ COLUMNS
     SX2T12    SX2       1
     SX2T12    T12       -1
     SY1SX1    OBJ       0.51
-    SY1SX1    SY1       1
     SY1SX1    SX1       -1
+    SY1SX1    SY1       1
     SY2SX2    OBJ       0.2
-    SY2SX2    SY2       1
     SY2SX2    SX2       -1
+    SY2SX2    SY2       1
     SY1YK1    OBJ       1.25
     SY1YK1    YF1       -1
     SY1YK1    SY1       1
@@ -753,7 +747,7 @@ COLUMNS
     TC2TB2    OBJ       0.46
     TC2TB2    TA2       -1
     TC2TB2    TC2       1
-    TC1TD1    OBJ       -1.66
+    TC1TD1    OBJ       -1.6599999999999997e+00
     TC1TD1    TH1       -1
     TC1TD1    TC1       1
     TC2TD2    OBJ       -6.3000000000000012e-01
@@ -765,42 +759,42 @@ COLUMNS
     TQ2TP2    OBJ       0.66
     TQ2TP2    SN2       -1
     TQ2TP2    TQ2       1
-    TQ1TR1    OBJ       1.86
-    TQ1TR1    TV1       -1
+    TQ1TR1    OBJ       -1.89
+    TQ1TR1    RA1       -1
     TQ1TR1    TQ1       1
-    TQ2TR2    OBJ       0.72
-    TQ2TR2    TV2       -1
+    TQ2TR2    OBJ       -7.3999999999999988e-01
+    TQ2TR2    RA2       -1
     TQ2TR2    TQ2       1
-    TV1TS1    OBJ       1.9500000000000002e+00
+    TV1TS1    OBJ       5.7
     TV1TS1    TQ1       -1
-    TV1TS1    TV1       1
-    TV2TS2    OBJ       0.75
+    TV1TS1    RA1       1
+    TV2TS2    OBJ       2.21
     TV2TS2    TQ2       -1
-    TV2TS2    TV2       1
-    TV1TW1    OBJ       2.29
+    TV2TS2    RA2       1
+    TV1TW1    OBJ       6.0400000000000009e+00
     TV1TW1    TZ1       -1
-    TV1TW1    TV1       1
-    TV2TW2    OBJ       8.9999999999999991e-01
+    TV1TW1    RA1       1
+    TV2TW2    OBJ       2.3600000000000003e+00
     TV2TW2    TZ2       -1
-    TV2TW2    TV2       1
-    TZ1TY1    OBJ       2.28
-    TZ1TY1    TV1       -1
+    TV2TW2    RA2       1
+    TZ1TY1    OBJ       -1.4700000000000002e+00
+    TZ1TY1    RA1       -1
     TZ1TY1    TZ1       1
-    TZ2TY2    OBJ       0.88
-    TZ2TY2    TV2       -1
+    TZ2TY2    OBJ       -5.8000000000000007e-01
+    TZ2TY2    RA2       -1
     TZ2TY2    TZ2       1
     TZ1T11    OBJ       0.57
-    TZ1T11    TZ1       1
     TZ1T11    T11       -1
+    TZ1T11    TZ1       1
     TZ2T12    OBJ       0.22
-    TZ2T12    TZ2       1
     TZ2T12    T12       -1
+    TZ2T12    TZ2       1
     T11SX1    OBJ       0.69
-    T11SX1    T11       1
     T11SX1    SX1       -1
+    T11SX1    T11       1
     T12SX2    OBJ       0.27
-    T12SX2    T12       1
     T12SX2    SX2       -1
+    T12SX2    T12       1
     T11TZ1    OBJ       0.55
     T11TZ1    T11       1
     T11TZ1    TZ1       -1
@@ -826,11 +820,11 @@ COLUMNS
     T32X12    X22       -1
     T32X12    T32       1
     T41T31    OBJ       0.51
-    T41T31    T41       1
     T41T31    T31       -1
+    T41T31    T41       1
     T42T32    OBJ       0.2
-    T42T32    T42       1
     T42T32    T32       -1
+    T42T32    T42       1
     T41T71    OBJ       0.54
     T41T71    T41       1
     T41T71    T71       -1
@@ -838,11 +832,11 @@ COLUMNS
     T42T72    T42       1
     T42T72    T72       -1
     T71T41    OBJ       0.54
-    T71T41    T71       1
     T71T41    T41       -1
+    T71T41    T71       1
     T72T42    OBJ       0.21
-    T72T42    T72       1
     T72T42    T42       -1
+    T72T42    T72       1
     T71X81    OBJ       0.55
     T71X81    T71       1
     T71X81    X81       -1
@@ -850,18 +844,18 @@ COLUMNS
     T72X82    T72       1
     T72X82    X82       -1
     XA1TD1    OBJ       4.16
-    XA1TD1    TH1       1
     XA1TD1    TC1       -1
+    XA1TD1    TH1       1
     XA2TD2    OBJ       1.58
-    XA2TD2    TH2       1
     XA2TD2    TC2       -1
+    XA2TD2    TH2       1
     XA1XC1    OBJ       4.6099999999999994e+00
-    XA1XC1    TH1       1
     XA1XC1    XE1       -1
+    XA1XC1    TH1       1
     XA2XC2    OBJ       1.77
-    XA2XC2    TH2       1
     XA2XC2    XE2       -1
-    XE1XD1    OBJ       -9.8999999999999977e-01
+    XA2XC2    TH2       1
+    XE1XD1    OBJ       -9.9000000000000010e-01
     XE1XD1    TH1       -1
     XE1XD1    XE1       1
     XE2XD2    OBJ       -3.7000000000000011e-01
@@ -880,11 +874,11 @@ COLUMNS
     XE2XH2    XE2       1
     XE2XH2    XH2       -1
     XF1XE1    OBJ       0.52
-    XF1XE1    XF1       1
     XF1XE1    XE1       -1
+    XF1XE1    XF1       1
     XF2XE2    OBJ       0.2
-    XF2XE2    XF2       1
     XF2XE2    XE2       -1
+    XF2XE2    XF2       1
     XF1XG1    OBJ       1.1
     XF1XG1    XR1       -1
     XF1XG1    XF1       1
@@ -898,11 +892,11 @@ COLUMNS
     XF2X32    X82       -1
     XF2X32    XF2       1
     XH1XE1    OBJ       0.57
-    XH1XE1    XH1       1
     XH1XE1    XE1       -1
+    XH1XE1    XH1       1
     XH2XE2    OBJ       0.22
-    XH2XE2    XH2       1
     XH2XE2    XE2       -1
+    XH2XE2    XH2       1
     XH1XI1    OBJ       0.62
     XH1XI1    XH1       1
     XH1XI1    XI1       -1
@@ -916,11 +910,11 @@ COLUMNS
     XH2XR2    XH2       1
     XH2XR2    XR2       -1
     XI1XH1    OBJ       0.61
-    XI1XH1    XI1       1
     XI1XH1    XH1       -1
+    XI1XH1    XI1       1
     XI2XH2    OBJ       0.23
-    XI2XH2    XI2       1
     XI2XH2    XH2       -1
+    XI2XH2    XI2       1
     XI1XJ1    OBJ       0.59
     XI1XJ1    XI1       1
     XI1XJ1    XJ1       -1
@@ -928,17 +922,17 @@ COLUMNS
     XI2XJ2    XI2       1
     XI2XJ2    XJ2       -1
     XJ1DZ1    OBJ       13.01
-    XJ1DZ1    XJ1       1
     XJ1DZ1    DZ1       -1
+    XJ1DZ1    XJ1       1
     XJ2DZ2    OBJ       5.02
-    XJ2DZ2    XJ2       1
     XJ2DZ2    DZ2       -1
+    XJ2DZ2    XJ2       1
     XJ1XI1    OBJ       0.59
-    XJ1XI1    XJ1       1
     XJ1XI1    XI1       -1
+    XJ1XI1    XJ1       1
     XJ2XI2    OBJ       0.23
-    XJ2XI2    XJ2       1
     XJ2XI2    XI2       -1
+    XJ2XI2    XJ2       1
     XP1XN1    OBJ       6.17
     XP1XN1    WA1       1
     XP1XN1    XJ1       -1
@@ -946,11 +940,11 @@ COLUMNS
     XP2XN2    WA2       1
     XP2XN2    XJ2       -1
     XP1XU1    OBJ       4.45
-    XP1XU1    WA1       1
     XP1XU1    XT1       -1
+    XP1XU1    WA1       1
     XP2XU2    OBJ       1.72
-    XP2XU2    WA2       1
     XP2XU2    XT2       -1
+    XP2XU2    WA2       1
     XR1XG1    OBJ       1.1
     XR1XG1    XF1       -1
     XR1XG1    XR1       1
@@ -958,11 +952,11 @@ COLUMNS
     XR2XG2    XF2       -1
     XR2XG2    XR2       1
     XR1XH1    OBJ       0.62
-    XR1XH1    XR1       1
     XR1XH1    XH1       -1
+    XR1XH1    XR1       1
     XR2XH2    OBJ       0.24
-    XR2XH2    XR2       1
     XR2XH2    XH2       -1
+    XR2XH2    XR2       1
     XR1XS1    OBJ       1.18
     XR1XS1    XT1       -1
     XR1XS1    XR1       1
@@ -994,11 +988,11 @@ COLUMNS
     XT2ZV2    ZU2       -1
     XT2ZV2    XT2       1
     XV1XR1    OBJ       0.57
-    XV1XR1    XV1       1
     XV1XR1    XR1       -1
+    XV1XR1    XV1       1
     XV2XR2    OBJ       0.22
-    XV2XR2    XV2       1
     XV2XR2    XR2       -1
+    XV2XR2    XV2       1
     XV1XW1    OBJ       1.29
     XV1XW1    ZQ1       -1
     XV1XW1    XV1       1
@@ -1012,11 +1006,11 @@ COLUMNS
     XV2X22    XV2       1
     XV2X22    X22       -1
     X21XV1    OBJ       0.65
-    X21XV1    X21       1
     X21XV1    XV1       -1
+    X21XV1    X21       1
     X22XV2    OBJ       0.25
-    X22XV2    X22       1
     X22XV2    XV2       -1
+    X22XV2    X22       1
     X21X11    OBJ       1.27
     X21X11    T31       -1
     X21X11    X21       1
@@ -1030,11 +1024,11 @@ COLUMNS
     X22ZK2    ZF2       -1
     X22ZK2    X22       1
     X81T71    OBJ       0.55
-    X81T71    X81       1
     X81T71    T71       -1
+    X81T71    X81       1
     X82T72    OBJ       0.21
-    X82T72    X82       1
     X82T72    T72       -1
+    X82T72    X82       1
     X81X31    OBJ       1.27
     X81X31    XF1       -1
     X81X31    X81       1
@@ -1042,11 +1036,11 @@ COLUMNS
     X82X32    XF2       -1
     X82X32    X82       1
     YF1YG1    OBJ       0.51
-    YF1YG1    YF1       1
     YF1YG1    YG1       -1
+    YF1YG1    YF1       1
     YF2YG2    OBJ       0.2
-    YF2YG2    YF2       1
     YF2YG2    YG2       -1
+    YF2YG2    YF2       1
     YF1YK1    OBJ       1.51
     YF1YK1    SY1       -1
     YF1YK1    YF1       1
@@ -1071,12 +1065,12 @@ COLUMNS
     YI2YH2    OBJ       0.53
     YI2YH2    YG2       -1
     YI2YH2    YI2       1
-    YZ1HA1    OBJ       3.9699999999999998e+00
-    YZ1HA1    YI1       1
-    YZ1HA1    FA1       -1
-    YZ2HA2    OBJ       1.52
-    YZ2HA2    YI2       1
-    YZ2HA2    FA2       -1
+    YJ1YZ1    OBJ       6.88
+    YJ1YZ1    AD1       -1
+    YJ1YZ1    YI1       1
+    YJ2YZ2    OBJ       2.64
+    YJ2YZ2    AD2       -1
+    YJ2YZ2    YI2       1
     ZD1ZC1    OBJ       2.2800000000000002e+00
     ZD1ZC1    SY1       -1
     ZD1ZC1    ZD1       1
@@ -1096,11 +1090,11 @@ COLUMNS
     ZE2ZD2    YR2       1
     ZE2ZD2    ZD2       -1
     ZF1T11    OBJ       0.62
-    ZF1T11    ZF1       1
     ZF1T11    T11       -1
+    ZF1T11    ZF1       1
     ZF2T12    OBJ       0.24
-    ZF2T12    ZF2       1
     ZF2T12    T12       -1
+    ZF2T12    ZF2       1
     ZF1ZK1    OBJ       1.33
     ZF1ZK1    X21       -1
     ZF1ZK1    ZF1       1
@@ -1113,9 +1107,6 @@ COLUMNS
     ZJ2ZI2    OBJ       1.4300000000000002e+00
     ZJ2ZI2    ZF2       -1
     ZJ2ZI2    YR2       1
-    ZP2ZQ2    OBJ       7.6466791453615784e+01
-    ZP2ZQ2    ZQ1       -1
-    ZP2ZQ2    ZQ2       -1
     ZQ1XW1    OBJ       1.18
     ZQ1XW1    XV1       -1
     ZQ1XW1    ZQ1       1
@@ -1140,12 +1131,12 @@ COLUMNS
     ZU2ZV2    OBJ       4.5999999999999996e-01
     ZU2ZV2    XT2       -1
     ZU2ZV2    ZU2       1
-    P1AG      OBJ       5.4927077500000007e+04
-    P1AG      FA2       -640.25
-    P1AG      FA1       -640.25
-    P2AF      OBJ       79409.438
-    P2AF      FA2       -1095.2
-    P2AF      FA1       -1095.2
+    P1AG      OBJ       5.7507284999999996e+04
+    P1AG      AD2       -640.25
+    P1AG      AD1       -640.25
+    P2AF      OBJ       83823.094
+    P2AF      AD2       -1095.2
+    P2AF      AD1       -1095.2
     P1BB      OBJ       57558.505
     P1BB      BA2       -640.25
     P1BB      BA1       -640.25
@@ -1278,18 +1269,18 @@ COLUMNS
     P6ES      ES1       -1095.19
     P6ES      ES2       -1095.19
     P6ES      PES       1095.19
-    P1FO      OBJ       5.6649350000000006e+04
-    P1FO      FA2       -640.25
-    P1FO      FA1       -640.25
+    P1FO      OBJ       59229.5575
+    P1FO      AD2       -640.25
+    P1FO      AD1       -640.25
     P2FL      OBJ       82946.934
     P2FL      FC2       -1095.2
     P2FL      FC1       -1095.2
-    P1FU      OBJ       58518.88
+    P1FU      OBJ       5.8518880000000005e+04
     P1FU      FV2       -640.25
     P1FU      FV1       -640.25
-    P1FN      OBJ       5.8115522499999992e+04
-    P1FN      FA2       -640.25
-    P1FN      FA1       -640.25
+    P1FN      OBJ       6.0695729999999996e+04
+    P1FN      AD2       -640.25
+    P1FN      AD1       -640.25
     P1FH      OBJ       57033.5
     P1FH      FH1       -640.25
     P1FH      FH2       -640.25
@@ -1299,12 +1290,12 @@ COLUMNS
     P1FM      OBJ       58128.3275
     P1FM      FC2       -640.25
     P1FM      FC1       -640.25
-    P1FT      OBJ       59018.275
+    P1FT      OBJ       5.9018275000000009e+04
     P1FT      FV2       -640.25
     P1FT      FV1       -640.25
-    P1FR      OBJ       59613.7075
-    P1FR      FA2       -640.25
-    P1FR      FA1       -640.25
+    P1FR      OBJ       62193.915
+    P1FR      AD2       -640.25
+    P1FR      AD1       -640.25
     P1FV      OBJ       52489.75
     P1FV      FV1       -711.75
     P1FV      FV2       -711.75
@@ -1327,21 +1318,21 @@ COLUMNS
     P1FW      OBJ       56546.91
     P1FW      FV2       -640.25
     P1FW      FV1       -640.25
-    P1FS      OBJ       55941.7375
-    P1FS      FA2       -711.75
-    P1FS      FA1       -711.75
+    P1FS      OBJ       58810.09
+    P1FS      AD2       -711.75
+    P1FS      AD1       -711.75
     P1FS      PFS       711.75
-    P2FS      OBJ       6.0830662000000004e+04
-    P2FS      FA2       -782.92
-    P2FS      FA1       -782.92
+    P2FS      OBJ       6.3985829600000005e+04
+    P2FS      AD2       -782.92
+    P2FS      AD1       -782.92
     P2FS      PFS       782.92
-    P3FS      OBJ       66817.0585
-    P3FS      FA2       -861.21
-    P3FS      FA1       -861.21
+    P3FS      OBJ       70287.7348
+    P3FS      AD2       -861.21
+    P3FS      AD1       -861.21
     P3FS      PFS       861.21
-    P4FS      OBJ       8.7360541499999992e+04
-    P4FS      FA2       -1095.19
-    P4FS      FA1       -1095.19
+    P4FS      OBJ       91774.1572
+    P4FS      AD2       -1095.19
+    P4FS      AD1       -1095.19
     P4FS      PFS       1095.19
     P2FZ      OBJ       82925.03
     P2FZ      LA2       -1095.2
@@ -1355,52 +1346,52 @@ COLUMNS
     P2F8      OBJ       82048.87
     P2F8      F81       -1095.2
     P2F8      F82       -1095.2
-    P1GA      OBJ       56393.25
-    P1GA      FA2       -640.25
-    P1GA      FA1       -640.25
-    P2GB      OBJ       82202.198
-    P2GB      FA2       -1095.2
-    P2GB      FA1       -1095.2
-    P1GC      OBJ       5.7628932499999995e+04
-    P1GC      FA2       -640.25
-    P1GC      FA1       -640.25
-    P3HB      OBJ       6.3311933800000006e+04
-    P3HB      FA2       -861.21
-    P3HB      FA1       -861.21
-    P2FA      OBJ       82048.87
-    P2FA      FA1       -1095.2
-    P2FA      FA2       -1095.2
-    P1HC      OBJ       53585.845
-    P1HC      FA2       -711.75
-    P1HC      FA1       -711.75
+    P1GA      OBJ       5.8973457500000004e+04
+    P1GA      AD2       -640.25
+    P1GA      AD1       -640.25
+    P2GB      OBJ       86615.854
+    P2GB      AD2       -1095.2
+    P2GB      AD1       -1095.2
+    P1GC      OBJ       60209.14
+    P1GC      AD2       -640.25
+    P1GC      AD1       -640.25
+    P3HB      OBJ       66782.6101
+    P3HB      AD2       -861.21
+    P3HB      AD1       -861.21
+    P2FA      OBJ       86462.526
+    P2FA      AD2       -1095.2
+    P2FA      AD1       -1095.2
+    P1HC      OBJ       56454.1975
+    P1HC      AD2       -711.75
+    P1HC      AD1       -711.75
     P1HC      PHC       711.75
-    P2HC      OBJ       58239.1968
-    P2HC      FA2       -782.92
-    P2HC      FA1       -782.92
+    P2HC      OBJ       61394.3644
+    P2HC      AD2       -782.92
+    P2HC      AD1       -782.92
     P2HC      PHC       782.92
-    P3HC      OBJ       63966.4534
-    P3HC      FA2       -861.21
-    P3HC      FA1       -861.21
+    P3HC      OBJ       6.7437129699999990e+04
+    P3HC      AD2       -861.21
+    P3HC      AD1       -861.21
     P3HC      PHC       861.21
-    P4HC      OBJ       83735.4626
-    P4HC      FA2       -1095.19
-    P4HC      FA1       -1095.19
+    P4HC      OBJ       88149.0783
+    P4HC      AD2       -1095.19
+    P4HC      AD1       -1095.19
     P4HC      PHC       1095.19
-    P1HD      OBJ       5.4141009999999995e+04
-    P1HD      FA2       -711.75
-    P1HD      FA1       -711.75
+    P1HD      OBJ       57009.3625
+    P1HD      AD2       -711.75
+    P1HD      AD1       -711.75
     P1HD      PHD       711.75
-    P2HD      OBJ       58849.8744
-    P2HD      FA2       -782.92
-    P2HD      FA1       -782.92
+    P2HD      OBJ       62005.042
+    P2HD      AD2       -782.92
+    P2HD      AD1       -782.92
     P2HD      PHD       782.92
-    P3HD      OBJ       64638.1972
-    P3HD      FA2       -861.21
-    P3HD      FA1       -861.21
+    P3HD      OBJ       68108.8735
+    P3HD      AD2       -861.21
+    P3HD      AD1       -861.21
     P3HD      PHD       861.21
-    P4HD      OBJ       84589.7108
-    P4HD      FA2       -1095.19
-    P4HD      FA1       -1095.19
+    P4HD      OBJ       89003.3265
+    P4HD      AD2       -1095.19
+    P4HD      AD1       -1095.19
     P4HD      PHD       1095.19
     P1HY      OBJ       53044.915
     P1HY      FV2       -711.75
@@ -1418,7 +1409,7 @@ COLUMNS
     P4HY      FV2       -1095.19
     P4HY      FV1       -1095.19
     P4HY      PHY       1095.19
-    P1HZ      OBJ       5.5945075000000004e+04
+    P1HZ      OBJ       55945.075
     P1HZ      FV2       -640.25
     P1HZ      FV1       -640.25
     P1H1      OBJ       52489.75
@@ -1437,9 +1428,9 @@ COLUMNS
     P4H1      H11       -1095.19
     P4H1      H12       -1095.19
     P4H1      PH1       1095.19
-    P2HA      OBJ       8.3242637999999992e+04
-    P2HA      FA2       -1095.2
-    P2HA      FA1       -1095.2
+    P2HA      OBJ       87656.294
+    P2HA      AD2       -1095.2
+    P2HA      AD1       -1095.2
     P2HG      OBJ       83910.71
     P2HG      H12       -1095.2
     P2HG      H11       -1095.2
@@ -1455,37 +1446,40 @@ COLUMNS
     P1HV      OBJ       5.7532895000000004e+04
     P1HV      HW2       -640.25
     P1HV      HW1       -640.25
+    P2HU      OBJ       8.3812141999999993e+04
+    P2HU      RA2       -1095.2
+    P2HU      RA1       -1095.2
     P1H2      OBJ       62430.8075
     P1H2      H12       -640.25
     P1H2      H11       -640.25
     P1HL      OBJ       62968.6175
     P1HL      H12       -640.25
     P1HL      H11       -640.25
-    P1IA      OBJ       59101.5075
-    P1IA      FA2       -640.25
-    P1IA      FA1       -640.25
+    P1IA      OBJ       6.1681715000000004e+04
+    P1IA      AD2       -640.25
+    P1IA      AD1       -640.25
     P1JB      OBJ       6.1284759999999995e+04
     P1JB      H12       -640.25
     P1JB      H11       -640.25
-    P2KG      OBJ       52489.75
-    P2KG      KG1       -711.75
-    P2KG      KG2       -711.75
+    P2KG      OBJ       5.4717527500000004e+04
+    P2KG      MA2       -711.75
+    P2KG      MA1       -711.75
     P2KG      PKG       711.75
-    P3KG      OBJ       57033.5
-    P3KG      KG1       -782.92
-    P3KG      KG2       -782.92
+    P3KG      OBJ       59484.0396
+    P3KG      MA2       -782.92
+    P3KG      MA1       -782.92
     P3KG      PKG       782.92
-    P4KG      OBJ       62640.19
-    P4KG      KG1       -861.21
-    P4KG      KG2       -861.21
+    P4KG      OBJ       65335.7773
+    P4KG      MA2       -861.21
+    P4KG      MA1       -861.21
     P4KG      PKG       861.21
-    P5KG      OBJ       69997.95
-    P5KG      KG1       -947.33
-    P5KG      KG2       -947.33
+    P5KG      OBJ       72963.0929
+    P5KG      MA2       -947.33
+    P5KG      MA1       -947.33
     P5KG      PKG       947.33
-    P6KG      OBJ       82048.87
-    P6KG      KG1       -1095.19
-    P6KG      KG2       -1095.19
+    P6KG      OBJ       85476.8147
+    P6KG      MA2       -1095.19
+    P6KG      MA1       -1095.19
     P6KG      PKG       1095.19
     P1KB      OBJ       52489.75
     P1KB      KB1       -711.75
@@ -1522,15 +1516,15 @@ COLUMNS
     P4KD      KD1       -1095.19
     P4KD      KD2       -1095.19
     P4KD      PKD       1095.19
-    P2MA      OBJ       78620.894
-    P2MA      KG2       -1095.2
-    P2MA      KG1       -1095.2
+    P2MA      OBJ       82048.87
+    P2MA      MA1       -1095.2
+    P2MA      MA2       -1095.2
     P1KE      OBJ       57033.5
     P1KE      KE1       -640.25
     P1KE      KE2       -640.25
-    P1KF      OBJ       5.6105137500000004e+04
-    P1KF      KG2       -640.25
-    P1KF      KG1       -640.25
+    P1KF      OBJ       5.8109120000000010e+04
+    P1KF      MA2       -640.25
+    P1KF      MA1       -640.25
     P1LB      OBJ       57603.3225
     P1LB      KB2       -640.25
     P1LB      KB1       -640.25
@@ -1550,9 +1544,9 @@ COLUMNS
     P4LC      KB2       -1095.19
     P4LC      KB1       -1095.19
     P4LC      PLC       1095.19
-    P2MC      OBJ       80285.598
-    P2MC      KG2       -1095.2
-    P2MC      KG1       -1095.2
+    P2MC      OBJ       83713.574
+    P2MC      MA2       -1095.2
+    P2MC      MA1       -1095.2
     P2ND      OBJ       8.3834045999999988e+04
     P2ND      F82       -1095.2
     P2ND      F81       -1095.2
@@ -1562,15 +1556,18 @@ COLUMNS
     P1QC      OBJ       57968.265
     P1QC      NC2       -640.25
     P1QC      NC1       -640.25
-    P1RA      OBJ       6.0369202500000007e+04
-    P1RA      TV2       -640.25
-    P1RA      TV1       -640.25
-    P2SB      OBJ       8.3812141999999993e+04
-    P2SB      KG2       -1095.2
-    P2SB      KG1       -1095.2
-    P1SD      OBJ       59075.8975
-    P1SD      KG2       -640.25
-    P1SD      KG1       -640.25
+    P1RA      OBJ       57033.5
+    P1RA      RA1       -640.25
+    P1RA      RA2       -640.25
+    P1RC      OBJ       58595.71
+    P1RC      YG2       -640.25
+    P1RC      YG1       -640.25
+    P2SB      OBJ       87240.118
+    P2SB      MA2       -1095.2
+    P2SB      MA1       -1095.2
+    P1SD      OBJ       61079.88
+    P1SD      MA2       -640.25
+    P1SD      MA1       -640.25
     P2SJ      OBJ       82048.87
     P2SJ      SJ1       -1095.2
     P2SJ      SJ2       -1095.2
@@ -1580,15 +1577,15 @@ COLUMNS
     P2SN      OBJ       82048.87
     P2SN      SN1       -1095.2
     P2SN      SN2       -1095.2
-    P1ST      OBJ       59274.375
-    P1ST      TV2       -640.25
-    P1ST      TV1       -640.25
-    P2SU      OBJ       8.4863533999999985e+04
-    P2SU      TV2       -1095.2
-    P2SU      TV1       -1095.2
-    P1SV      OBJ       58698.15
-    P1SV      TV2       -640.25
-    P1SV      TV1       -640.25
+    P1ST      OBJ       55938.6725
+    P1ST      RA2       -640.25
+    P1ST      RA1       -640.25
+    P2SU      OBJ       7.9157541999999987e+04
+    P2SU      RA2       -1095.2
+    P2SU      RA1       -1095.2
+    P1SV      OBJ       55362.4475
+    P1SV      RA2       -640.25
+    P1SV      RA1       -640.25
     P1SX      OBJ       57033.5
     P1SX      SX1       -640.25
     P1SX      SX2       -640.25
@@ -1636,9 +1633,9 @@ COLUMNS
     P2TK      OBJ       82158.39
     P2TK      TH2       -1095.2
     P2TK      TH1       -1095.2
-    P1TT      OBJ       58109.12
-    P1TT      TV2       -640.25
-    P1TT      TV1       -640.25
+    P1TT      OBJ       5.4773417499999996e+04
+    P1TT      RA2       -640.25
+    P1TT      RA1       -640.25
     P1TL      OBJ       57737.775
     P1TL      TH2       -640.25
     P1TL      TH1       -640.25
@@ -1760,13 +1757,13 @@ COLUMNS
     P1X2      OBJ       57033.5
     P1X2      X21       -640.25
     P1X2      X22       -640.25
-    P1YA      OBJ       63538.44
+    P1YA      OBJ       6.3538439999999995e+04
     P1YA      H12       -640.25
     P1YA      H11       -640.25
-    P1YB      OBJ       6.3532037500000006e+04
+    P1YB      OBJ       63532.0375
     P1YB      H12       -640.25
     P1YB      H11       -640.25
-    P1YD      OBJ       6.4524424999999996e+04
+    P1YD      OBJ       64524.425
     P1YD      H12       -640.25
     P1YD      H11       -640.25
     P1YE      OBJ       65049.43
@@ -1835,6 +1832,9 @@ COLUMNS
     P2ZI      OBJ       8.4677349999999991e+04
     P2ZI      ZF2       -1095.2
     P2ZI      ZF1       -1095.2
+    P2ZM      OBJ       83746.43
+    P2ZM      ZQ2       -1095.2
+    P2ZM      ZQ1       -1095.2
     P1ZU      OBJ       57033.5
     P1ZU      ZU1       -640.25
     P1ZU      ZU2       -640.25
@@ -1868,13 +1868,11 @@ RHS
     RHS1      PYR       1095.19
     RHS1      PYU       1095.19
 BOUNDS
+* Note: variable lower bounds are 0 unless specified otherwise
  UP BND1      AI1DZ1    113407.94565
  UP BND1      AI2DZ2    113407.94565
- UP BND1      SR2RA2    1095.2
- UP BND1      SW2YG2    640.25
  UP BND1      XJ1DZ1    113407.94565
  UP BND1      XJ2DZ2    113407.94565
- UP BND1      ZP2ZQ2    1095.2
  UP BND1      P1AG      1
  UP BND1      P2AF      1
  UP BND1      P1BB      1
@@ -1887,13 +1885,13 @@ BOUNDS
  UP BND1      P3EE      1
  UP BND1      P4EE      1
  UP BND1      P5EE      1
- UP BND1      P6EE      1
+ UP BND1      P6EE      1.002
  UP BND1      P1EG      1
  UP BND1      P2EH      1
  UP BND1      P3EH      1
  UP BND1      P4EH      1
  UP BND1      P5EH      1
- UP BND1      P6EH      1
+ UP BND1      P6EH      1.002
  UP BND1      P2EK      1
  UP BND1      P2EM      1
  UP BND1      P2EN      1
@@ -1902,7 +1900,7 @@ BOUNDS
  UP BND1      P3EU      1
  UP BND1      P4EU      1
  UP BND1      P5EU      1
- UP BND1      P6EU      1
+ UP BND1      P6EU      1.002
  UP BND1      P1EW      1
  UP BND1      P2EW      1
  UP BND1      P3EW      1
@@ -1912,7 +1910,7 @@ BOUNDS
  UP BND1      P3ES      1
  UP BND1      P4ES      1
  UP BND1      P5ES      1
- UP BND1      P6ES      1
+ UP BND1      P6ES      1.002
  UP BND1      P1FO      1
  UP BND1      P2FL      1
  UP BND1      P1FU      1
@@ -1964,6 +1962,7 @@ BOUNDS
  UP BND1      P2HS      1
  UP BND1      P2HT      1
  UP BND1      P1HV      1
+ UP BND1      P2HU      1
  UP BND1      P1H2      1
  UP BND1      P1HL      1
  UP BND1      P1IA      1
@@ -1972,7 +1971,7 @@ BOUNDS
  UP BND1      P3KG      1
  UP BND1      P4KG      1
  UP BND1      P5KG      1
- UP BND1      P6KG      1
+ UP BND1      P6KG      1.002
  UP BND1      P1KB      1
  UP BND1      P2KB      1
  UP BND1      P3KB      1
@@ -1995,6 +1994,7 @@ BOUNDS
  UP BND1      P1PA      1
  UP BND1      P1QC      1
  UP BND1      P1RA      1
+ UP BND1      P1RC      1
  UP BND1      P2SB      1
  UP BND1      P1SD      1
  UP BND1      P2SJ      1
@@ -2037,7 +2037,7 @@ BOUNDS
  UP BND1      P3WE      1
  UP BND1      P4WE      1
  UP BND1      P5WE      1
- UP BND1      P6WE      1
+ UP BND1      P6WE      1.002
  UP BND1      P1WA      1
  UP BND1      P2WA      1
  UP BND1      P3WA      1
@@ -2074,6 +2074,7 @@ BOUNDS
  UP BND1      P4YU      1
  UP BND1      P2ZD      1
  UP BND1      P2ZI      1
+ UP BND1      P2ZM      1
  UP BND1      P1ZU      1
  UP BND1      P2ZX      1
  LO BND1      MILL1     70000

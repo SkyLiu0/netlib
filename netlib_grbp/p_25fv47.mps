@@ -1,4 +1,4 @@
-NAME (null)_copy
+NAME 25FV47_pre
 ROWS
  N  OBJ
  E  2SF145  
@@ -39,7 +39,6 @@ ROWS
  E  RA018   
  E  RA019   
  E  RA020   
- E  1RA020  
  E  RA022   
  E  RA023   
  E  RA024   
@@ -163,9 +162,7 @@ ROWS
  E  1RB031  
  E  RB033   
  E  RB034   
- E  RB035   
  E  RB036   
- E  RB037   
  E  RB038   
  E  1RB038  
  E  RB039   
@@ -173,7 +170,6 @@ ROWS
  E  RB042   
  E  RB045   
  E  1RB045  
- E  4RB045  
  L  RB046   
  E  RB047   
  E  RB048   
@@ -268,7 +264,6 @@ ROWS
  E  RE035   
  E  RE037   
  E  RE039   
- E  RE040   
  E  RE045   
  E  RE048   
  E  1RE056  
@@ -358,9 +353,7 @@ ROWS
  E  1RH033  
  E  2RH033  
  E  RH034   
- E  1RH034  
  E  RH035   
- E  1RH035  
  E  RH036   
  E  1RH036  
  E  RH038   
@@ -369,7 +362,6 @@ ROWS
  E  RH039   
  E  2RH039  
  E  RH041   
- E  RH042   
  E  2RH042  
  E  RH043   
  E  2RH043  
@@ -449,7 +441,6 @@ ROWS
  L  RH117   
  L  RH118   
  L  1RH118  
- E  R1002   
  E  R1003   
  L  2R1006  
  E  R1009   
@@ -476,9 +467,7 @@ ROWS
  E  R1025   
  E  R1026   
  E  R1027   
- E  1R1027  
  E  R1028   
- E  1R1028  
  E  2R1028  
  E  3R1028  
  E  R1029   
@@ -487,7 +476,6 @@ ROWS
  E  R1032   
  E  R1033   
  E  1R1033  
- E  2R1033  
  E  3R1033  
  E  R1034   
  E  R1035   
@@ -500,9 +488,7 @@ ROWS
  E  1R1039  
  E  R1040   
  E  R1041   
- E  R1043   
  E  R1046   
- E  R1047   
  E  R1050   
  E  R1051   
  E  R1054   
@@ -516,7 +502,6 @@ ROWS
  E  2R1062  
  E  R1063   
  E  R1064   
- E  1R1064  
  E  R1065   
  E  R1068   
  E  1R1068  
@@ -599,13 +584,11 @@ ROWS
  E  RJ038   
  E  RJ039   
  E  RJ040   
- E  1RJ041  
  E  RJ042   
  E  RJ043   
  E  RJ045   
  E  2RJ045  
  E  RJ046   
- E  2RJ046  
  L  RJ048   
  L  RJ049   
  L  RJ050   
@@ -640,8 +623,6 @@ ROWS
  L  RJ078   
  L  RJ079   
  L  RJ080   
- E  RJ082   
- E  RJ083   
  E  RJ084   
  E  1RJ084  
  L  RJ095   
@@ -659,11 +640,9 @@ ROWS
  L  RJ106   
  L  1RM001  
  E  RM002   
- E  1RM003  
  E  2RM003  
  E  RM005   
  E  RM006   
- E  1RM006  
  E  RR010   
  E  RRG29   
  L  UKLDF   
@@ -678,7 +657,6 @@ ROWS
  E  RY002   
  E  RY004   
  L  RY005   
- E  RZ001   
  E  RZ002   
  E  RZ004   
  E  RZ005   
@@ -694,8 +672,6 @@ ROWS
  L  RK1RK   
  L  RL1BY   
  L  RMN1G   
- L  RMURB   
- L  RQATR   
  L  RT1JA   
 COLUMNS
     MSEXP     OBJ       -0.1
@@ -723,21 +699,6 @@ COLUMNS
     BK1RK     RB047     -0.02
     BK1RK     RB052     0.06
     BK1RK     RK1RK     1
-    HK1RK     OBJ       0.4249
-    HK1RK     RH003     -1
-    HK1RK     RH039     -0.02
-    HK1RK     RH042     -0.02
-    HK1RK     RH048     -0.02
-    HK1RK     3RH052    0.06
-    HK1RK     RK1RK     1
-    1K1RK     OBJ       0.3059
-    1K1RK     R1002     -1
-    1K1RK     R1055     -0.02
-    1K1RK     R1057     -0.02
-    1K1RK     1R1057    -0.02
-    1K1RK     R1062     -0.02
-    1K1RK     R1068     0.06
-    1K1RK     RK1RK     1
     BKUWT     OBJ       3.2864
     BKUWT     RB002     -1
     1KUWT     OBJ       3.2904
@@ -764,9 +725,11 @@ COLUMNS
     KWPMS     OBJ       20
     KWPMS     RA039     1
     PMS       OBJ       13.9748
+    PMS       2RH106    -1
+    PMS       RH067     -1.745
+    PMS       RH035     1
     PMS       RC0ST     1.658
     PMS       RMSEX     -1
-    PMS       1RH035    1
     RMS       OBJ       11.5968
     RMS       RC0ST     1.658
     RMS       RMSEX     -1
@@ -775,10 +738,14 @@ COLUMNS
     PGB0      RC0ST     1.658
     PGB0      RPKEX     -1
     PGB0      RH041     1
-    ATK       OBJ       11.1467
+    ATK       OBJ       32.3917
+    ATK       RK1RK     50
+    ATK       3RH052    3
+    ATK       RH048     -1
+    ATK       RH039     -1
+    ATK       RH003     -50
     ATK       RC0ST     1.658
     ATK       RRKEX     -1
-    ATK       RH042     1
     KWG20     OBJ       15
     KWG20     RA044     1
     G29       OBJ       7.9067
@@ -802,7 +769,12 @@ COLUMNS
     F81       RB054     1
     ADDAE     OBJ       0.6374
     ADDAE     KW1RC     1
-    CA001     OBJ       -1.5320287499999998e+00
+    CA001     OBJ       -1.5289987499999997e+00
+    CA001     RA057     4.0723200000000004e-01
+    CA001     RA034     0.00404
+    CA001     1RA029    1.4988400000000002e-01
+    CA001     RA026     2.0604000000000003e-01
+    CA001     RA024     4.4036000000000006e-02
     CA001     RABDH     1.0125
     CA001     RA009     0.167
     CA001     RA011     0.06
@@ -810,9 +782,8 @@ COLUMNS
     CA001     RA013     0.1
     CA001     RA014     0.09
     CA001     RA016     0.116
-    CA001     1RA020    0.404
     CA001     RA035     0.018
-    CA001     RA036     -0.0223
+    CA001     RA036     -0.0235928
     CA001     RA055     1.13
     CA001     1RA055    1.13
     CA002     OBJ       -1.4306921
@@ -840,18 +811,17 @@ COLUMNS
     CA003     RA036     -0.0223
     CA003     RA055     1
     CA003     RA072     -0.101
-    CA004     OBJ       -1.6551487499999997e+00
-    CA004     RQATR     1.0125
-    CA004     RA009     0.192
-    CA004     RA011     0.07
-    CA004     RA012     0.048
-    CA004     RA013     0.115
-    CA004     RA014     0.113
-    CA004     RA016     0.074
-    CA004     RA020     0.355
-    CA004     RA035     0.033
-    CA004     RA036     -0.0223
-    CA004     RA055     1.25
+    CA004     OBJ       1.6551487499999997e+00
+    CA004     RA009     -0.192
+    CA004     RA011     -0.07
+    CA004     RA012     -0.048
+    CA004     RA013     -0.115
+    CA004     RA014     -0.113
+    CA004     RA016     -0.074
+    CA004     RA020     -0.355
+    CA004     RA035     -0.033
+    CA004     RA036     0.0223
+    CA004     RA055     -1.25
     CA006     OBJ       -1.2493336
     CA006     RGACH     1.0115
     CA006     RA006     0.533
@@ -1602,21 +1572,19 @@ COLUMNS
     CA085     RA034     0.01
     CA085     RA036     -0.0032
     CA085     RA057     1.074
-    1CA085    OBJ       0.0075
-    1CA085    1RA020    -1
-    1CA085    RA024     0.109
-    1CA085    RA026     0.51
-    1CA085    1RA029    0.371
-    1CA085    RA034     0.01
-    1CA085    RA036     -0.0032
-    1CA085    RA057     1.008
     CA086     RA020     -1
     CA086     RA048     1
     CA086     RA089     -0.56
     CA086     RA090     -0.25
     CA086     RA091     0.5
     CA086     RA092     22
-    1CA086    1RA020    -1
+    1CA086    OBJ       -0.0075
+    1CA086    RA057     -1.008
+    1CA086    RA036     0.0032
+    1CA086    RA034     -0.01
+    1CA086    1RA029    -0.371
+    1CA086    RA026     -0.51
+    1CA086    RA024     -0.109
     1CA086    RA048     1
     1CA086    RA089     1.34
     1CA086    RA090     -2.15
@@ -1628,7 +1596,13 @@ COLUMNS
     CA087     RA094     -0.25
     CA087     RA095     -8
     CA087     RA096     31
-    1CA087    1RA020    -1
+    1CA087    OBJ       -0.0075
+    1CA087    RA057     -1.008
+    1CA087    RA036     0.0032
+    1CA087    RA034     -0.01
+    1CA087    1RA029    -0.371
+    1CA087    RA026     -0.51
+    1CA087    RA024     -0.109
     1CA087    RA051     1
     1CA087    RA093     1.34
     1CA087    RA094     -2.15
@@ -1956,14 +1930,6 @@ COLUMNS
     CA129     RA086     -4
     CA129     RA087     -14
     CA129     RA088     -14
-    CA131     OBJ       -1.6699999999999715e-02
-    CA131     RE025     0.81
-    CA131     RE022     0.13
-    CA131     RE017     0.06
-    CA131     RC0ST     0.496
-    CA131     RA013     -0.06
-    CA131     RA016     -0.13
-    CA131     RA018     -0.81
     CA133     RA051     -1
     CA133     RA052     1
     CA133     RA093     -2.94
@@ -3807,12 +3773,6 @@ COLUMNS
     2CB133    RB027     -0.51
     2CB133    RB028     -0.424
     2CB133    RB033     1
-    CB135     RB034     -1
-    CB135     RB035     1
-    CB135     RB064     1.745
-    CB138     RB036     -1
-    CB138     RB037     1
-    CB138     RB068     6.85
     CB139     RB016     -1
     CB139     RB031     1.051
     1CB139    1RB016    -1
@@ -3839,13 +3799,6 @@ COLUMNS
     1CB143    RB012     -4.0000000000000036e-02
     1CB143    1RB013    -0.38
     1CB143    1RB016    -0.63
-    CB144     4RB045    1
-    CB144     RB047     -1
-    CB144     RB081     -0.8
-    CB144     RB082     -5.4
-    CB144     RB083     2.5
-    CB144     RB084     -0.5
-    CB144     RB086     -7.42
     CB146     1RB001    1
     CB146     RB031     1.088
     CB146     RB101     0.969
@@ -4448,10 +4401,25 @@ COLUMNS
     CE125     OBJ       0.2564
     CE125     RE072     -15.27
     CE125     RE075     1
-    CE130     RE037     -1
-    CE130     RE040     1
-    CE130     RE072     -4.73
-    CE130     RE073     -5.4
+    CE135     OBJ       -4.443125
+    CE135     RA088     -2.75
+    CE135     RA087     -3.25
+    CE135     RA086     1.5
+    CE135     RA082     0.325
+    CE135     RA046     0.25
+    CE135     KW1RC     1
+    CE135     1RA081    11.25
+    CE135     RA044     0.75
+    CE135     RE045     -1
+    CE135     RE085     7
+    CE138     OBJ       1.6699999999999715e-02
+    CE138     RA018     0.81
+    CE138     RA016     0.13
+    CE138     RA013     0.06
+    CE138     RC0ST     -0.496
+    CE138     RE017     -0.06
+    CE138     RE022     -0.13
+    CE138     RE025     -0.81
     CH002     OBJ       3.296236
     CH002     RH001     1
     CH002     RH007     0.0024
@@ -5696,15 +5664,30 @@ COLUMNS
     1CH151    RH096     1
     2CH151    RH013     -1
     2CH151    RH096     1.1
-    CH153     RH042     -1
+    CH153     OBJ       -21.245
+    CH153     RK1RK     -50
+    CH153     3RH052    -3
+    CH153     RH048     1
+    CH153     RH039     1
+    CH153     RH003     50
     CH153     2RH042    1
+    CH155     OBJ       21.245
+    CH155     RK1RK     50
+    CH155     3RH052    3
+    CH155     RH048     -1
+    CH155     RH039     -1
+    CH155     RH003     -50
     CH155     RH018     -0.49
     CH155     3RH018    -0.51
-    CH155     RH042     1
     CH155     RH096     -0.002
+    CH156     OBJ       21.245
+    CH156     RK1RK     50
+    CH156     3RH052    3
+    CH156     RH048     -1
+    CH156     RH039     -1
+    CH156     RH003     -50
     CH156     RH018     -0.64
     CH156     RH019     -0.36
-    CH156     RH042     1
     CH156     RH096     -0.002
     1CH156    1RH018    1
     1CH156    2RH018    -1
@@ -5764,14 +5747,6 @@ COLUMNS
     CH188     1RH008    -1
     CH190     RH096     1.16
     CH190     RH114     -1
-    CH196     RH034     -1
-    CH196     1RH034    1
-    CH196     RH063     -0.94
-    CH196     2RH106    1
-    CH197     RH035     -1
-    CH197     1RH035    1
-    CH197     RH067     1.745
-    CH197     2RH106    1
     CH200     RH036     -1
     CH200     1RH036    1
     CH200     RH072     7.31
@@ -6513,7 +6488,13 @@ COLUMNS
     CHF80     RH052     -1
     CHF80     2RH052    1
     CHF80     RH094     5
-    C1002     R1002     1.01
+    C1002     OBJ       0.308959
+    C1002     RK1RK     1.01
+    C1002     R1068     0.0606
+    C1002     R1062     -0.0202
+    C1002     1R1057    -0.0202
+    C1002     R1057     -0.0202
+    C1002     R1055     -0.0202
     C1002     R1012     0.012
     C1002     R1013     0.0775
     C1002     R1015     0.09
@@ -6575,6 +6556,10 @@ COLUMNS
     C1005     1R1071    1
     C1005     2R1071    1
     1C1005    OBJ       9.5481359999999993e-01
+    1C1005    R1072     0.515
+    1C1005    R1037     -7.9825000000000007e-02
+    1C1005    3R1033    0.355865
+    1C1005    R1030     0.23896
     1C1005    RL1BY     0.202
     1C1005    RGACH     0.808
     1C1005    2R1006    0.202
@@ -6587,13 +6572,26 @@ COLUMNS
     1C1005    R1018     0.1096
     1C1005    3R1021    0.1256
     1C1005    R1023     0.0498
-    1C1005    1R1027    0.515
-    1C1005    R1039     -0.019277
+    1C1005    R1039     -0.027208
     1C1005    R1071     1.004
     1C1005    1R1071    1.0032
     1C1005    2R1071    1
-    1C1006    OBJ       1.030099
-    1C1006    RMURB     1.01
+    1C1006    OBJ       6.1660500000000007e-01
+    1C1006    RJ048     -1.222
+    1C1006    RJ031     0.0234
+    1C1006    RJ024     -0.389
+    1C1006    RJ019     -0.028
+    1C1006    RJ018     -0.192
+    1C1006    RJ014     -0.016
+    1C1006    RJ013     -0.141
+    1C1006    RJ012     -0.066
+    1C1006    RJ010     -0.083
+    1C1006    1RJ008    -0.06
+    1C1006    1RJ007    -0.006
+    1C1006    RJ007     -0.019
+    1C1006    R1072     0.38398
+    1C1006    1R1033    0.126655
+    1C1006    R1030     0.238345
     1C1006    R1010     0.0005
     1C1006    R1012     0.007
     1C1006    R1013     0.067
@@ -6603,8 +6601,7 @@ COLUMNS
     1C1006    R1018     0.17
     1C1006    1R1020    0.158
     1C1006    R1023     0.057
-    1C1006    1R1028    0.365
-    1C1006    R1039     -2.0534999999999998e-02
+    1C1006    R1039     -0.026156
     1C1006    R1071     1.052
     1C1006    1R1071    0.95
     1C1006    2R1071    1
@@ -6657,9 +6654,14 @@ COLUMNS
     1C1008    R1071     0.9834
     1C1008    1R1071    0.9968
     1C1008    2R1071    1
-    C1009     OBJ       1.7250800000000002e-01
+    C1009     OBJ       4.0422725000000004e-01
+    C1009     RK1RK     0.7575
+    C1009     R1068     0.04545
+    C1009     R1062     -1.5149999999999999e-02
+    C1009     1R1057    -1.5149999999999999e-02
+    C1009     R1057     -1.5149999999999999e-02
+    C1009     R1055     -1.5149999999999999e-02
     C1009     RL1BY     0.2525
-    C1009     R1002     0.7575
     C1009     2R1006    0.2525
     C1009     R1010     0.0003
     C1009     R1012     0.011
@@ -7152,12 +7154,6 @@ COLUMNS
     C1091     R1113     -37.4
     C1091     R1114     -3.61
     C1091     R1115     -24
-    1C1091    3R1028    -1
-    1C1091    R1030     0.5
-    1C1091    2R1033    0.598
-    1C1091    R1037     -0.098
-    1C1091    R1039     -0.0154
-    1C1091    R1072     1.005
     2C1091    3R1028    -1
     2C1091    R1065     1
     2C1091    R1106     -0.26
@@ -7212,13 +7208,11 @@ COLUMNS
     C1097     R1113     1.5
     C1097     R1114     -0.8
     C1097     R1115     -7
-    1C1097    1R1027    -1
-    1C1097    R1030     0.464
-    1C1097    3R1033    0.691
-    1C1097    R1037     -0.155
-    1C1097    R1039     -0.0154
-    1C1097    R1072     1
-    2C1097    1R1027    -1
+    2C1097    R1072     -1
+    2C1097    R1039     0.0154
+    2C1097    R1037     0.155
+    2C1097    3R1033    -0.691
+    2C1097    R1030     -0.464
     2C1097    R1065     1
     2C1097    R1106     1.73
     2C1097    R1107     -2.44
@@ -7265,19 +7259,20 @@ COLUMNS
     C1103     R1113     -13.7
     C1103     R1114     -0.8
     C1103     R1115     3
-    1C1103    1R1028    -1
-    1C1103    R1030     0.653
-    1C1103    1R1033    0.347
-    1C1103    R1039     -0.0154
-    1C1103    R1072     1.052
-    2C1103    1R1028    -1
+    2C1103    R1072     -1.052
+    2C1103    R1039     0.0154
+    2C1103    1R1033    -0.347
+    2C1103    R1030     -0.653
     2C1103    R1065     1
     2C1103    R1106     -5.35
     2C1103    R1107     4.64
     2C1103    R1108     -4.5
     2C1103    R1109     -0.8
     2C1103    R1110     4
-    3C1103    1R1028    -1
+    3C1103    R1072     -1.052
+    3C1103    R1039     0.0154
+    3C1103    1R1033    -0.347
+    3C1103    R1030     -0.653
     3C1103    R1068     1
     3C1103    R1111     -4.83
     3C1103    R1112     4.14
@@ -7497,14 +7492,22 @@ COLUMNS
     1C1120    R1108     30.9
     1C1120    R1109     -0.8
     1C1120    R1110     -54
-    2C1120    2R1033    -1
+    2C1120    R1072     1.6806020066889631e+00
+    2C1120    R1039     -2.5752508361204015e-02
+    2C1120    R1037     -1.6387959866220736e-01
+    2C1120    R1030     8.3612040133779264e-01
+    2C1120    3R1028    -1.6722408026755853e+00
     2C1120    R1065     1
     2C1120    R1106     3.01
     2C1120    R1107     -3.72
     2C1120    R1108     18.5
     2C1120    R1109     -0.8
     2C1120    R1110     -17
-    3C1120    2R1033    -1
+    3C1120    R1072     1.6806020066889631e+00
+    3C1120    R1039     -2.5752508361204015e-02
+    3C1120    R1037     -1.6387959866220736e-01
+    3C1120    R1030     8.3612040133779264e-01
+    3C1120    3R1028    -1.6722408026755853e+00
     3C1120    R1068     1
     3C1120    R1111     3.53
     3C1120    R1112     -4.22
@@ -7731,16 +7734,15 @@ COLUMNS
     C1152     R1080     -0.529
     C1152     R1081     68.5
     C1152     R1082     -51.3
-    C1154     OBJ       0.166
-    C1154     R1043     1
+    C1154     OBJ       4.7619999999999996e-01
+    C1154     RH095     -0.452
+    C1154     RH011     -0.548
+    C1154     RC0ST     0.492
     C1154     R1046     1
     C1154     R1075     -4.38
     C1154     R1076     -0.42
     C1154     R1077     21.25
     C1154     R1078     -24.4
-    C1158     R1046     -1
-    C1158     R1047     1
-    C1158     R1075     1.32
     C1162     R1050     -1
     C1162     R1051     1
     C1162     R1079     6.9
@@ -7783,9 +7785,6 @@ COLUMNS
     C1168     OBJ       0.591
     C1168     R1079     -11.2
     C1168     R1080     1
-    C1F28     R1064     -1
-    C1F28     1R1064    1
-    C1F28     R1103     2
     C1F35     R1068     -1
     C1F35     R1069     1
     C1F35     R1111     1.83
@@ -7797,20 +7796,19 @@ COLUMNS
     C1F64     R1112     0.15
     C1F64     R1113     5.5
     C1F64     R1115     3
-    CJ001     OBJ       0.413494
-    CJ001     RMURB     1.01
-    CJ001     RJ007     0.019
-    CJ001     1RJ007    0.006
-    CJ001     1RJ008    0.06
-    CJ001     RJ010     0.083
-    CJ001     RJ012     0.066
-    CJ001     RJ013     0.141
-    CJ001     RJ014     0.016
-    CJ001     RJ018     0.192
-    CJ001     RJ019     0.028
-    CJ001     RJ024     0.389
-    CJ001     RJ031     -0.0234
-    CJ001     RJ048     1.222
+    CJ001     OBJ       -0.413494
+    CJ001     RJ007     -0.019
+    CJ001     1RJ007    -0.006
+    CJ001     1RJ008    -0.06
+    CJ001     RJ010     -0.083
+    CJ001     RJ012     -0.066
+    CJ001     RJ013     -0.141
+    CJ001     RJ014     -0.016
+    CJ001     RJ018     -0.192
+    CJ001     RJ019     -0.028
+    CJ001     RJ024     -0.389
+    CJ001     RJ031     0.0234
+    CJ001     RJ048     -1.222
     2CJ002    OBJ       2.475308
     2CJ002    RY001     0.101
     2CJ002    RJ007     0.013
@@ -7838,8 +7836,17 @@ COLUMNS
     CJ003     RJ026     0.463
     CJ003     RJ031     -0.022
     CJ003     RJ048     1.052
-    CJ005     OBJ       0.404101
-    CJ005     RQATR     1.01
+    CJ005     OBJ       2.0551629629629624e+00
+    CJ005     RA055     -1.2469135802469136e+00
+    CJ005     RA036     2.2244938271604942e-02
+    CJ005     RA035     -3.2918518518518521e-02
+    CJ005     RA020     -3.5412345679012347e-01
+    CJ005     RA016     -7.3817283950617291e-02
+    CJ005     RA014     -0.112720987654321
+    CJ005     RA013     -1.1471604938271605e-01
+    CJ005     RA012     -4.7881481481481483e-02
+    CJ005     RA011     -6.9827160493827173e-02
+    CJ005     RA009     -1.9152592592592593e-01
     CJ005     RJ007     0.024
     CJ005     1RJ007    0.009
     CJ005     1RJ008    0.078
@@ -8732,19 +8739,6 @@ COLUMNS
     CJ122     RJ045     -1
     1CJ122    RJ031     1
     1CJ122    RJ046     -1
-    CJ124     RJ032     -0.65
-    CJ124     RJ033     -0.35
-    CJ124     RJ053     2.6
-    CJ124     RJ054     -6.07
-    CJ124     RJ056     1.4
-    CJ124     RJ057     -3.27
-    CJ124     RJ082     1
-    1CJ125    OBJ       0.165
-    1CJ125    RJ032     -1
-    1CJ125    RJ052     5.73
-    1CJ125    RJ053     4
-    1CJ125    RJ054     -9.33
-    1CJ125    RJ083     1
     CJ126     OBJ       1.0891
     CJ126     RC0ST     1.258
     CJ126     RJ038     -1
@@ -8762,31 +8756,22 @@ COLUMNS
     CJ151     OBJ       0.651
     CJ151     RJ055     -15.625
     CJ151     RJ096     1
-    CJG55     RJ040     -1
-    CJG55     1RJ041    1
-    CJG55     RJ062     2.5
-    CJF35     RJ046     -1
-    CJF35     2RJ046    1
-    CJF35     RJ075     5
     CJF80     RJ045     -1
     CJF80     2RJ045    1
     CJF80     RJ072     5
     CJF80     1RJ073    0.26
     CJF80     1RJ074    3
     CM001     OBJ       2.005
+    CM001     RM005     6.4912280701754388e-01
     CM001     1RM001    1
     CM001     RM002     0.155
-    CM001     2RM003    0.24
-    CM001     1RM006    0.555
+    CM001     2RM003    1.4587719298245611e-01
     CM001     RGACH     0.5
-    1CM004    2RM003    -0.145
-    1CM004    RM005     1
-    1CM004    1RM006    -0.855
     CM005     OBJ       3.1437
+    CM005     RM005     6.3742690058479534e-01
     CM005     1RM001    1
     CM005     RM002     0.15
-    CM005     2RM003    0.255
-    CM005     1RM006    0.545
+    CM005     2RM003    1.6257309941520470e-01
     CM007     OBJ       2.0719756
     CM007     RH110     9.3130000000000018e-02
     CM007     RH106     0.139
@@ -8811,12 +8796,6 @@ COLUMNS
     CY002     RY001     1
     CY003     OBJ       -2.4
     CY003     1RY001    1
-    CZ001     RZ001     -1
-    CZ001     RZ002     1.4
-    CZ001     RZ004     -0.3
-    CZ001     RZ005     0.2
-    CZ001     RZ006     -0.25
-    CZ001     RZ019     -0.05
     CZ013     RZ002     0.16
     CZ013     RZ004     -0.1
     CZ013     RZ005     0.9
@@ -8827,16 +8806,24 @@ COLUMNS
     CZ014     RZ019     0.8
     CZ014     RZ020     -1
     ZH145     OBJ       1.798
+    ZH145     RZ019     -0.05
+    ZH145     RZ006     -0.25
+    ZH145     RZ005     0.2
+    ZH145     RZ004     -0.3
+    ZH145     RZ002     1.4
     ZH145     RC0ST     2.5667
     ZH145     RMSEX     -1
     ZH145     RH031     1
     ZH145     RH106     1
-    ZH145     RZ001     1
     ZM145     OBJ       1.2229999999999999e+00
     ZM145     RH031     1
     ZM145     RMSEX     -1
+    ZM145     RZ019     -0.05
+    ZM145     RZ006     -0.25
+    ZM145     RZ005     0.2
+    ZM145     RZ004     -0.3
+    ZM145     RZ002     1.4
     ZM145     RC0ST     1.509
-    ZM145     RZ001     1
     ZH130     OBJ       1.665
     ZH130     RC0ST     2.5667
     ZH130     RMSEX     -1
@@ -8849,65 +8836,105 @@ COLUMNS
     ZM130     RC0ST     1.35
     ZM130     RZ002     1
     HBBMS     OBJ       0.3197
+    HBBMS     2RH106    1
+    HBBMS     RH063     -0.94
+    HBBMS     RH034     -1
     HBBMS     RC0ST     0.629
     HBBMS     RB033     1
-    HBBMS     1RH034    -1
     HDBMS     OBJ       -0.0993
     HDBMS     RB033     1
+    HDBMS     2RH106    1
+    HDBMS     RH063     -0.94
+    HDBMS     RH034     -1
     HDBMS     RC0ST     -1.0499999999999998e-01
-    HDBMS     1RH034    -1
-    H1BMS     OBJ       -0.0338
-    H1BMS     R1043     -0.6
+    H1BMS     OBJ       -2.1991999999999995e-01
     H1BMS     R1040     -0.2
     H1BMS     R1035     0.2
-    H1BMS     RC0ST     0.492
-    H1BMS     1RH034    -1
+    H1BMS     RH011     3.2880000000000004e-01
+    H1BMS     RH095     0.2712
+    H1BMS     2RH106    1
+    H1BMS     RH063     -0.94
+    H1BMS     RH034     -1
+    H1BMS     RC0ST     1.9680000000000003e-01
     HBPMS     OBJ       0.3196
+    HBPMS     2RH106    1
+    HBPMS     RH067     1.745
+    HBPMS     RH035     -1
+    HBPMS     RB064     -1.745
+    HBPMS     RB034     1
     HBPMS     RC0ST     0.6292
-    HBPMS     RB035     1
-    HBPMS     1RH035    -1
-    JBPMS     OBJ       1.301
+    JBPMS     OBJ       1.466
+    JBPMS     RJ054     -9.33
+    JBPMS     RJ053     4
+    JBPMS     RJ052     5.73
+    JBPMS     RJ032     -1
+    JBPMS     RB064     -1.745
+    JBPMS     RB034     1
     JBPMS     RC0ST     2.038
     JBPMS     RMSEX     -1
-    JBPMS     RB035     1
-    JBPMS     RJ083     -1
     BHPMS     OBJ       0.2875
+    BHPMS     2RH106    -1
+    BHPMS     RH067     -1.745
+    BHPMS     RH035     1
+    BHPMS     RB064     1.745
+    BHPMS     RB034     -1
     BHPMS     RC0ST     0.5
-    BHPMS     RB035     -1
-    BHPMS     1RH035    1
     BHPMS     RH106     1
     1HPMS     OBJ       0.256
+    1HPMS     2RH106    -1
+    1HPMS     RH067     -1.745
+    1HPMS     RH035     1
+    1HPMS     R1075     1.32
+    1HPMS     R1046     -1
     1HPMS     RC0ST     0.377
-    1HPMS     1RH035    1
     1HPMS     RH106     1
-    1HPMS     R1047     -1
-    JHPMS     OBJ       1.2071
+    JHPMS     OBJ       1.3721
+    JHPMS     2RH106    -1
+    JHPMS     RH067     -1.745
+    JHPMS     RH035     1
+    JHPMS     RJ054     -9.33
+    JHPMS     RJ053     4
+    JHPMS     RJ052     5.73
+    JHPMS     RJ032     -1
     JHPMS     RC0ST     1.883
     JHPMS     RMSEX     -1
-    JHPMS     1RH035    1
     JHPMS     RH106     1
-    JHPMS     RJ083     -1
     H1PMS     OBJ       0.3102
+    H1PMS     2RH106    1
+    H1PMS     RH067     1.745
+    H1PMS     RH035     -1
+    H1PMS     R1075     -1.32
+    H1PMS     R1046     1
     H1PMS     RC0ST     0.492
-    H1PMS     1RH035    -1
-    H1PMS     R1047     1
-    J1PMS     OBJ       1.4161
+    J1PMS     OBJ       1.5811
+    J1PMS     RJ054     -9.33
+    J1PMS     RJ053     4
+    J1PMS     RJ052     5.73
+    J1PMS     RJ032     -1
+    J1PMS     R1075     -1.32
+    J1PMS     R1046     1
     J1PMS     RC0ST     2.112
     J1PMS     RMSEX     -1
-    J1PMS     R1047     1
-    J1PMS     RJ083     -1
     HBRMS     OBJ       0.3196
+    HBRMS     RB068     -6.85
+    HBRMS     RB036     1
     HBRMS     RC0ST     0.6292
-    HBRMS     RB037     1
     HBRMS     1RH036    -1
     JBRMS     OBJ       1.301
+    JBRMS     RJ057     -3.27
+    JBRMS     RJ056     1.4
+    JBRMS     RJ054     -6.07
+    JBRMS     RJ053     2.6
+    JBRMS     RJ033     -0.35
+    JBRMS     RJ032     -0.65
+    JBRMS     RB068     -6.85
+    JBRMS     RB036     1
     JBRMS     RC0ST     2.038
     JBRMS     RMSEX     -1
-    JBRMS     RB037     1
-    JBRMS     RJ082     -1
     BHRMS     OBJ       0.2875
+    BHRMS     RB068     6.85
+    BHRMS     RB036     -1
     BHRMS     RC0ST     0.5
-    BHRMS     RB037     -1
     BHRMS     1RH036    1
     BHRMS     RH106     1
     1HRMS     OBJ       0.256
@@ -8916,20 +8943,30 @@ COLUMNS
     1HRMS     RH106     1
     1HRMS     R1051     -1
     JHRMS     OBJ       1.2071
+    JHRMS     RJ057     -3.27
+    JHRMS     RJ056     1.4
+    JHRMS     RJ054     -6.07
+    JHRMS     RJ053     2.6
+    JHRMS     RJ033     -0.35
+    JHRMS     RJ032     -0.65
     JHRMS     RC0ST     1.883
     JHRMS     RMSEX     -1
     JHRMS     1RH036    1
     JHRMS     RH106     1
-    JHRMS     RJ082     -1
     H1RMS     OBJ       0.3102
     H1RMS     RC0ST     0.492
     H1RMS     1RH036    -1
     H1RMS     R1051     1
     J1RMS     OBJ       1.4161
+    J1RMS     RJ057     -3.27
+    J1RMS     RJ056     1.4
+    J1RMS     RJ054     -6.07
+    J1RMS     RJ053     2.6
+    J1RMS     RJ033     -0.35
+    J1RMS     RJ032     -0.65
     J1RMS     RC0ST     2.112
     J1RMS     RMSEX     -1
     J1RMS     R1051     1
-    J1RMS     RJ082     -1
     ZBM83     OBJ       1.8441
     ZBM83     RC0ST     2.708
     ZBM83     RMSEX     -1
@@ -8952,13 +8989,17 @@ COLUMNS
     ZJM83     RJ096     -0.594
     ZJM83     RZ006     1
     EAM87     OBJ       1.1876
+    EAM87     RE073     -5.4
+    EAM87     RE072     -4.73
+    EAM87     RE037     -1
     EAM87     KW1RC     1
     EAM87     1RA099    1
-    EAM87     RE040     -1
     AEM87     OBJ       1.3354
+    AEM87     RE073     5.4
+    AEM87     RE072     4.73
+    AEM87     RE037     1
     AEM87     KW1RC     -1
     AEM87     1RA099    -1
-    AEM87     RE040     1
     HNM90     OBJ       0.4099
     HNM90     30M91     1
     HNM90     RC0ST     0.575
@@ -9433,11 +9474,12 @@ COLUMNS
     JNG17     RJ040     -1
     JNG17     RJ061     -0.8
     JNG17     RJ064     6
-    MNG17     OBJ       0.858
+    MNG17     OBJ       0.9401484
+    MNG17     2RH025    0.171
+    MNG17     2RM003    -1.1710000000000003e+00
     MNG17     30G17     1
-    MNG17     RC0ST     1.646
-    MNG17     RH106     1
-    MNG17     1RM003    -1
+    MNG17     RC0ST     1.8370069999999998e+00
+    MNG17     RH106     1.171
     HAG20     OBJ       -3.0715
     HAG20     RC0ST     1.8
     HAG20     RA044     1
@@ -9461,10 +9503,12 @@ COLUMNS
     BJG22     RB083     2.5
     BJG22     RB086     -7.42
     BJG22     1RJ084    1
-    MJG22     OBJ       0.2747
-    MJG22     RC0ST     0.329
+    MJG22     OBJ       0.3568484
+    MJG22     RH106     0.171
+    MJG22     2RH025    0.171
+    MJG22     2RM003    -1.1710000000000003e+00
+    MJG22     RC0ST     0.520007
     MJG22     1RJ084    1
-    MJG22     1RM003    -1
     YJG22     OBJ       0.4078
     YJG22     RC0ST     0.858
     YJG22     RJ040     1
@@ -9669,8 +9713,13 @@ COLUMNS
     11NG44    R1087     5
     11NG44    R1088     0.61
     BDG55     OBJ       0.2566
+    BDG55     RB086     -7.42
+    BDG55     RB084     -0.5
+    BDG55     RB083     2.5
+    BDG55     RB082     -5.4
+    BDG55     RB081     -0.8
+    BDG55     RB047     -1
     BDG55     RC0ST     0.44
-    BDG55     4RB045    -1
     BDG55     RDG55     1
     HDG55     OBJ       0.1698
     HDG55     RC0ST     0.335
@@ -9681,16 +9730,22 @@ COLUMNS
     1DG55     RDG55     1
     1DG55     2R1062    -1
     JDG55     OBJ       1.2169
+    JDG55     RJ062     2.5
+    JDG55     RJ040     -1
     JDG55     RC0ST     1.825
     JDG55     RDG55     1
-    JDG55     1RJ041    -1
     MDG55     OBJ       0.5461
     MDG55     RC0ST     1.058
     MDG55     RDG55     1
     MDG55     2RM003    -1
     BHG55     OBJ       0.275
+    BHG55     RB086     -7.42
+    BHG55     RB084     -0.5
+    BHG55     RB083     2.5
+    BHG55     RB082     -5.4
+    BHG55     RB081     -0.8
+    BHG55     RB047     -1
     BHG55     RC0ST     0.5
-    BHG55     4RB045    -1
     BHG55     3RH048    1
     BHG55     RH106     1
     1HG55     OBJ       0.256
@@ -9699,27 +9754,34 @@ COLUMNS
     1HG55     RH106     1
     1HG55     2R1062    -1
     JHG55     OBJ       1.2071
+    JHG55     RJ062     2.5
+    JHG55     RJ040     -1
     JHG55     RC0ST     1.883
     JHG55     3RH048    1
     JHG55     RH106     1
-    JHG55     1RJ041    -1
     MHG55     OBJ       0.5362
     MHG55     RC0ST     1.117
     MHG55     3RH048    1
     MHG55     RH106     1
     MHG55     2RM003    -1
     B1G55     OBJ       0.4546
+    B1G55     RB086     -7.42
+    B1G55     RB084     -0.5
+    B1G55     RB083     2.5
+    B1G55     RB082     -5.4
+    B1G55     RB081     -0.8
+    B1G55     RB047     -1
     B1G55     RC0ST     0.717
-    B1G55     4RB045    -1
     B1G55     2R1062    1
     H1G55     OBJ       0.3102
     H1G55     RC0ST     0.492
     H1G55     3RH048    -1
     H1G55     2R1062    1
     J1G55     OBJ       1.4161
+    J1G55     RJ062     2.5
+    J1G55     RJ040     -1
     J1G55     RC0ST     2.112
     J1G55     2R1062    1
-    J1G55     1RJ041    -1
     M1G55     OBJ       0.745
     M1G55     RC0ST     1.346
     M1G55     2R1062    1
@@ -9734,23 +9796,6 @@ COLUMNS
     ZAD11     RA046     1
     ZAD11     RZ016     0.65
     ZAD11     RZ019     0.35
-    AED16     OBJ       4.443125
-    AED16     RE085     -7
-    AED16     RE045     1
-    AED16     RA088     2.75
-    AED16     RA087     3.25
-    AED16     RA086     -1.5
-    AED16     RA082     -0.325
-    AED16     RA046     -0.25
-    AED16     RA044     -0.75
-    AED16     1RA081    -11.25
-    AED16     KW1RC     -1
-    MHD20     OBJ       0.4804
-    MHD20     2RM003    -6.8479532163742691e+00
-    MHD20     1RM003    5.8479532163742682e+00
-    MHD20     RC0ST     1.117
-    MHD20     2RH025    1
-    MHD20     RH106     1
     AJD20     OBJ       3.8249
     AJD20     RC0ST     0.5917
     AJD20     RA046     -1
@@ -9866,21 +9911,24 @@ COLUMNS
     BHF28     1RH051    1
     BHF28     RH106     1
     B1F28     OBJ       0.398
+    B1F28     R1103     -2
+    B1F28     R1064     1
     B1F28     RC0ST     0.717
     B1F28     RB050     -1
-    B1F28     1R1064    1
     H1F28     OBJ       0.3335
+    H1F28     R1103     -2
+    H1F28     R1064     1
     H1F28     RC0ST     0.604
     H1F28     1RH051    -1
-    H1F28     1R1064    1
     HBF35     OBJ       0.2033
     HBF35     RC0ST     0.429
     HBF35     RB052     1
     HBF35     3RH052    -1
     JBF35     OBJ       1.1142
+    JBF35     RJ075     5
+    JBF35     RJ046     -1
     JBF35     RC0ST     1.838
     JBF35     RB052     1
-    JBF35     2RJ046    -1
     MBF35     OBJ       0.4716
     MBF35     RC0ST     1.071
     MBF35     RB052     1
@@ -9894,9 +9942,10 @@ COLUMNS
     HCF35     RCF35     1
     HCF35     3RH052    -1
     JCF35     OBJ       1.4671
+    JCF35     RJ075     5
+    JCF35     RJ046     -1
     JCF35     RC0ST     2.217
     JCF35     RCF35     1
-    JCF35     2RJ046    -1
     MCF35     OBJ       0.8382
     MCF35     RC0ST     1.458
     MCF35     RCF35     1
@@ -9918,9 +9967,10 @@ COLUMNS
     1DF35     RDF35     1
     1DF35     R1069     -1
     JDF35     OBJ       1.1257
+    JDF35     RJ075     5
+    JDF35     RJ046     -1
     JDF35     RC0ST     1.825
     JDF35     RDF35     1
-    JDF35     2RJ046    -1
     MDF35     OBJ       0.4932
     MDF35     RC0ST     1.058
     MDF35     RDF35     1
@@ -9940,10 +9990,11 @@ COLUMNS
     1HF35     RH106     1
     1HF35     R1069     -1
     JHF35     OBJ       1.1129
+    JHF35     RJ075     5
+    JHF35     RJ046     -1
     JHF35     RC0ST     1.883
     JHF35     3RH052    1
     JHF35     RH106     1
-    JHF35     2RJ046    -1
     MHF35     OBJ       0.4804
     MHF35     RC0ST     1.117
     MHF35     3RH052    1
@@ -9963,9 +10014,10 @@ COLUMNS
     H1F35     3RH052    -1
     H1F35     R1069     1
     J1F35     OBJ       1.3104
+    J1F35     RJ075     5
+    J1F35     RJ046     -1
     J1F35     RC0ST     2.112
     J1F35     R1069     1
-    J1F35     2RJ046    -1
     M1F35     OBJ       0.6778
     M1F35     RC0ST     1.346
     M1F35     R1069     1
@@ -9988,8 +10040,9 @@ COLUMNS
     HVF35     3RH052    -1
     HVF35     RV002     1
     JVF35     OBJ       1.0101
+    JVF35     RJ075     5
+    JVF35     RJ046     -1
     JVF35     RC0ST     1.504
-    JVF35     2RJ046    -1
     JVF35     RV002     1
     YVF35     OBJ       1.2527
     YVF35     RC0ST     2.075
@@ -10035,10 +10088,11 @@ COLUMNS
     1NF48     R1112     -1.67
     1NF48     R1115     2
     JNF48     OBJ       1.4154
+    JNF48     RJ075     5
+    JNF48     RJ046     -1
     JNF48     30F48     1
     JNF48     RC0ST     2.429
     JNF48     RH106     1
-    JNF48     2RJ046    -1
     JNF48     RJ076     1.03
     JNF48     1RJ076    -1.77
     JNF48     RJ078     2
@@ -10055,9 +10109,10 @@ COLUMNS
     HNF52     RC0ST     0.575
     HNF52     1RH051    -1
     1NF52     OBJ       0.4804
+    1NF52     R1103     2
+    1NF52     R1064     -1
     1NF52     30F52     1
     1NF52     RC0ST     0.729
-    1NF52     1R1064    -1
     ZJF57     OBJ       0.3896
     ZJF57     RJ078     3
     ZJF57     1RJ076    1.77
@@ -10530,11 +10585,6 @@ COLUMNS
     ZJFCR     RJ054     -10.2
     ZJFCR     RJ095     -0.402
     ZJFCR     RZ004     1
-    H1HCR     OBJ       0.3102
-    H1HCR     RC0ST     0.492
-    H1HCR     RH011     -0.548
-    H1HCR     RH095     -0.452
-    H1HCR     R1043     -1
     BHLCS     OBJ       0.2875
     BHLCS     RC0ST     0.5
     BHLCS     RB028     -1
@@ -10623,9 +10673,11 @@ COLUMNS
     EHKLG     RH088     -9
     EHKLG     RH089     -2.795
     EHKLG     RH106     1
-    MUKG0     OBJ       -0.9481
-    MUKG0     RC0ST     -1.342
-    MUKG0     1RM003    -1
+    MUKG0     OBJ       -0.8659516
+    MUKG0     RH106     0.171
+    MUKG0     2RH025    0.171
+    MUKG0     2RM003    -1.1710000000000003e+00
+    MUKG0     RC0ST     -1.1509930000000002e+00
     MUKG0     RY002     -1
     1YBLG0    OBJ       1.5743
     1YBLG0    RC0ST     2.612
@@ -10804,11 +10856,12 @@ COLUMNS
     1MHRES    RH110     2.41
     1MHRES    RM005     -1
     2MHRES    OBJ       0.4804
+    2MHRES    RM005     -1.1695906432748537e+00
+    2MHRES    2RM003    1.6959064327485379e-01
     2MHRES    RC0ST     1.117
     2MHRES    RH052     1
     2MHRES    RH106     1
     2MHRES    RH110     0.67
-    2MHRES    1RM006    -1
     YHRES     OBJ       1.3573
     YHRES     RC0ST     2.458
     YHRES     RH052     1
@@ -10886,7 +10939,9 @@ COLUMNS
     2ZJREX    RJ106     -4
     2ZJREX    RZ020     1
     HSPMS     OBJ       -9
-    HSPMS     1RH035    -1
+    HSPMS     2RH106    1
+    HSPMS     RH067     1.745
+    HSPMS     RH035     -1
     HSRMS     OBJ       -8
     HSRMS     1RH036    -1
     HSLDF     OBJ       -7
@@ -11284,10 +11339,10 @@ COLUMNS
     1ZHREX    RH118     -14
     1ZHREX    1RH118    -5
     1ZHREX    RZ020     1
-    C1462     1R1039    1
-    C1463     2RE061    1
+    C1440     1R1039    1
+    C1441     2RE061    1
 RHS
-    RHS1      OBJ       -2.4927207111111113e+02
+    RHS1      OBJ       4.8531020185185190e+02
     RHS1      2SF145    29
     RHS1      2SF129    73
     RHS1      30M94     27
@@ -11301,14 +11356,19 @@ RHS
     RHS1      30D30     1
     RHS1      30F52     86
     RHS1      30F48     108
-    RHS1      RC0ST     -2.0207659999999998e+02
+    RHS1      RC0ST     -2.1703900000000002e+02
     RHS1      RMSEX     -86
     RHS1      RLDEX     -34
-    RHS1      KW1RC     13.8
-    RHS1      RA009     0.8
-    RHS1      RA012     3.08
-    RHS1      RA013     4.55
+    RHS1      KW1RC     31.8
+    RHS1      RA009     -2.6885925925925928e+01
+    RHS1      RA011     -1.0093827160493829e+01
+    RHS1      RA012     -3.8414814814814822e+00
+    RHS1      RA013     -1.0472716049382713e+01
+    RHS1      RA014     -1.6294320987654324e+01
     RHS1      RA015     -0.63
+    RHS1      RA016     -7.2906172839506178e+00
+    RHS1      RA018     2.1060000000000002e+01
+    RHS1      RA020     -5.1190123456790126e+01
     RHS1      RA023     2
     RHS1      RA026     45
     RHS1      RA031     -11.475
@@ -11317,20 +11377,20 @@ RHS
     RHS1      RA034     -3.69
     RHS1      1RA034    -2.9250000000000003e+00
     RHS1      2RA034    -3.42
-    RHS1      RA035     -4.51
-    RHS1      RA036     12.13
+    RHS1      RA035     -9.2685185185185190e+00
+    RHS1      RA036     1.5345604938271606e+01
     RHS1      RA038     4.6
     RHS1      RA039     80
     RHS1      RA040     1
     RHS1      RA041     31
     RHS1      RA043     25
-    RHS1      RA044     37.8
-    RHS1      RA046     13
+    RHS1      RA044     51.3
+    RHS1      RA046     17.5
     RHS1      RA049     2
     RHS1      RA051     73.299998
     RHS1      RA052     32
     RHS1      RA054     19
-    RHS1      RA055     700
+    RHS1      RA055     5.1975308641975312e+02
     RHS1      1RA055    350
     RHS1      RA056     135
     RHS1      RA057     230
@@ -11340,10 +11400,11 @@ RHS
     RHS1      3RA060    133
     RHS1      RA064     2.1472000000000003e+02
     RHS1      RA065     128.8
-    RHS1      RA082     6.5
-    RHS1      RA086     30
-    RHS1      RA087     -65
-    RHS1      RA088     -55
+    RHS1      1RA081    202.5
+    RHS1      RA082     12.35
+    RHS1      RA086     57
+    RHS1      RA087     -123.5
+    RHS1      RA088     -104.5
     RHS1      RA093     1.1299999999999999e+01
     RHS1      RA094     -1.0049999999999999e+01
     RHS1      RA095     30
@@ -11364,21 +11425,19 @@ RHS
     RHS1      RB022     -6.4684684684684681e+00
     RHS1      1RB022    12
     RHS1      RB030     5
-    RHS1      RB031     4.7737796357938844e+00
+    RHS1      RB031     4.7737796357938853e+00
     RHS1      1RB031    5
     RHS1      RB033     25
-    RHS1      RB034     -14
-    RHS1      RB035     60
-    RHS1      RB037     31
+    RHS1      RB034     46
+    RHS1      RB036     31
     RHS1      RB038     10
     RHS1      1RB038    52
     RHS1      RB039     40
     RHS1      RB041     6.2
     RHS1      RB042     22
     RHS1      1RB045    51
-    RHS1      4RB045    33
     RHS1      RB046     60
-    RHS1      RB047     30
+    RHS1      RB047     63
     RHS1      RB048     24.7
     RHS1      RB050     57
     RHS1      RB051     -6.5585585585585591e+00
@@ -11395,15 +11454,16 @@ RHS
     RHS1      RB061     130.299997
     RHS1      RB062     1.3354922279792746e+01
     RHS1      RB063     22
-    RHS1      RB064     -1.4924000000000001e+01
+    RHS1      RB064     -1.1962400000000001e+02
     RHS1      RB065     5.8379999999999995e+01
     RHS1      RB066     -68.04
     RHS1      RB067     5.2219999999999995e+00
-    RHS1      RB081     -21
-    RHS1      RB082     816
-    RHS1      RB083     60
-    RHS1      RB084     39
-    RHS1      RB086     222.6
+    RHS1      RB068     -212.35
+    RHS1      RB081     5.4000000000000021e+00
+    RHS1      RB082     994.2
+    RHS1      RB083     -22.5
+    RHS1      RB084     55.5
+    RHS1      RB086     467.46
     RHS1      RB091     -6.9009009009009020e+01
     RHS1      RB092     7.6756756756756758e+01
     RHS1      1RB092    2.2882882882882882e+02
@@ -11419,16 +11479,14 @@ RHS
     RHS1      RDK19     55
     RHS1      RDG55     1
     RHS1      RDF35     83
-    RHS1      RE008     8.6200000000000010e+00
+    RHS1      RE008     8.62
     RHS1      RE010     1.98
     RHS1      RE011     1.8
-    RHS1      RE017     -6.4999999999999991e-01
-    RHS1      RE022     3.38
+    RHS1      RE017     -2.21
     RHS1      RE024     7.6722418290624521e+00
-    RHS1      RE025     2.1060000000000002e+01
     RHS1      RE035     56
-    RHS1      RE040     17
-    RHS1      RE045     29
+    RHS1      RE037     17
+    RHS1      RE045     11
     RHS1      RE048     7.3409390823998777e+01
     RHS1      1RE056    15
     RHS1      RE058     35.41
@@ -11439,7 +11497,8 @@ RHS
     RHS1      RE063     105
     RHS1      RE068     73.36
     RHS1      RE069     292.88
-    RHS1      RE085     -126
+    RHS1      RE072     8.0410000000000011e+01
+    RHS1      RE073     9.1800000000000011e+01
     RHS1      RE088     -2.9887183980359060e+02
     RHS1      RE089     2.1682682215743441e+02
     RHS1      RE090     -4.8514086235998161e+02
@@ -11450,35 +11509,36 @@ RHS
     RHS1      RE100     115
     RHS1      RE101     -184
     RHS1      RH001     1972.699966
+    RHS1      RH003     -1500
     RHS1      RH008     19.4
     RHS1      1RH008    3.2
     RHS1      RH009     -1
     RHS1      RH010     1
-    RHS1      RH011     4
+    RHS1      RH011     6.3016000000000005e+00
     RHS1      RH016     -14.2
     RHS1      RH018     0.2
     RHS1      2RH025    -16
     RHS1      RH031     48.8
     RHS1      RH032     18.5
-    RHS1      RH034     77
-    RHS1      1RH034    8
-    RHS1      1RH035    42
+    RHS1      RH034     85
+    RHS1      RH035     42
     RHS1      1RH036    22
     RHS1      RH038     2.68
     RHS1      2RH038    4.03
+    RHS1      RH039     -30
     RHS1      2RH039    30
     RHS1      RH041     14
-    RHS1      RH042     30
     RHS1      2RH042    48
     RHS1      2RH043    31
     RHS1      RH046     73
+    RHS1      RH048     -30
     RHS1      3RH048    38
     RHS1      RH050     30
     RHS1      1RH051    89
     RHS1      2RH051    12
     RHS1      RH052     110
     RHS1      2RH052    177.699997
-    RHS1      3RH052    49
+    RHS1      3RH052    139
     RHS1      RH053     110.3
     RHS1      RH054     4.88
     RHS1      1RH054    80
@@ -11488,18 +11548,20 @@ RHS
     RHS1      1RH060    390.399994
     RHS1      RH061     134.199999
     RHS1      RH062     1.02
-    RHS1      RH063     175.637
+    RHS1      RH063     183.157
     RHS1      1RH066    -1.1549999999999999e+01
+    RHS1      RH067     -73.29
     RHS1      RH093     -75
     RHS1      1RH093    1210
     RHS1      RH094     -1810
+    RHS1      RH095     1.8984
     RHS1      RH096     3.97
     RHS1      RH099     109.799999
     RHS1      RH103     200
     RHS1      RH105     45.75
     RHS1      RH106     2000
     RHS1      1RH106    60
-    RHS1      2RH106    223
+    RHS1      2RH106    173
     RHS1      RH107     986.399986
     RHS1      2RH107    260
     RHS1      RH109     73
@@ -11525,8 +11587,7 @@ RHS
     RHS1      1R1039    35
     RHS1      R1040     22
     RHS1      R1041     11
-    RHS1      R1043     -4.1999999999999993e+00
-    RHS1      R1047     52
+    RHS1      R1046     52
     RHS1      R1051     27.8
     RHS1      R1055     62
     RHS1      R1057     15
@@ -11535,7 +11596,7 @@ RHS
     RHS1      R1061     36
     RHS1      2R1062    49
     RHS1      R1063     8
-    RHS1      1R1064    24
+    RHS1      R1064     24
     RHS1      R1065     6.9605555555555554e+01
     RHS1      1R1068    154
     RHS1      R1069     44
@@ -11544,29 +11605,34 @@ RHS
     RHS1      2R1071    823.5
     RHS1      R1072     231.799999
     RHS1      R1073     129.9
+    RHS1      R1075     -68.64
     RHS1      R1097     22.64
     RHS1      R1098     -24
     RHS1      R1099     68
     RHS1      R1101     58.88
+    RHS1      R1103     -48
     RHS1      R1106     3.3333333333333330e+00
     RHS1      R1107     -2.8888888888888888e+00
     RHS1      R1108     6.0088888888888889e+01
     RHS1      R1109     4.8888888888888887e-01
     RHS1      R1110     -1.2322222222222223e+02
-    RHS1      RJ007     -2.2762376237623765e+00
-    RHS1      1RJ007    2.6455445544554452e+00
+    RHS1      RJ007     -5.06039603960396
+    RHS1      1RJ007    1.7663366336633661e+00
     RHS1      RJ008     5
-    RHS1      1RJ008    -1.1104950495049504e+01
-    RHS1      RJ010     -1.8368316831683167e+01
+    RHS1      1RJ008    -1.9897029702970293e+01
+    RHS1      RJ010     -3.0530693069306928e+01
     RHS1      RJ011     -1.7000000000000002e+00
-    RHS1      RJ012     -9.9247524752475229e+00
-    RHS1      RJ013     6.6851485148514911e+00
-    RHS1      RJ014     -1.4153465346534653e+00
+    RHS1      RJ012     -1.9596039603960392e+01
+    RHS1      RJ013     -1.3976237623762373e+01
+    RHS1      RJ014     -3.75990099009901
     RHS1      RJ015     -3.3361287128712874e+01
     RHS1      RJ016     -5.3227722772277222e+00
+    RHS1      RJ018     -2.8134653465346535e+01
+    RHS1      RJ019     -4.1029702970297031e+00
+    RHS1      RJ024     -57.0019801980198
     RHS1      RJ025     -9.7380792079207936e+01
     RHS1      RJ027     -1.1358415841584158e+01
-    RHS1      RJ031     1.1110891089108911e+01
+    RHS1      RJ031     1.4539801980198019e+01
     RHS1      RJ032     3.6
     RHS1      RJ033     7.4
     RHS1      RJ034     143
@@ -11578,7 +11644,7 @@ RHS
     RHS1      RJ043     66
     RHS1      RJ045     253
     RHS1      RJ046     203
-    RHS1      RJ048     1.2094960126039603e+03
+    RHS1      RJ048     1.0304306660693069e+03
     RHS1      RJ049     69
     RHS1      RJ050     78.9
     RHS1      1RJ050    97.599999
@@ -11620,28 +11686,26 @@ RHS
     RHS1      RAGJA     575
     RHS1      RGACH     966
     RHS1      RHN1G     436
-    RHS1      RK1RK     272
+    RHS1      RK1RK     1772
     RHS1      RL1BY     200
     RHS1      RMN1G     79
-    RHS1      RMURB     148
-    RHS1      RQATR     146
     RHS1      RT1JA     247
 BOUNDS
- UP BND1      BK1RK     272.273
- UP BND1      HK1RK     272.273
- UP BND1      1K1RK     272.273
- UP BND1      JKUWT     1.2228135637027299e+03
+* Note: variable lower bounds are 0 unless specified otherwise
+ UP BND1      BK1RK     5877.873
+ UP BND1      JKUWT     1.4038504197027298e+03
  UP BND1      AVGAS     4.8849799999999995e+01
  UP BND1      KWPMS     136.137
+ UP BND1      ATK       117.55844
  UP BND1      G29       81.082
  UP BND1      G58       120.121
  UP BND1      F81       28.029
  UP BND1      CA001     3.1004524778761066e+02
  UP BND1      CA002     3.4348139215686274e+02
- UP BND1      CA003     700.701
+ UP BND1      CA003     8.8112816049382718e+02
  UP BND1      CA004     1.4434272839506176e+02
  UP BND1      CA006     350.351
- UP BND1      CA008     7.6826741808131555e+02
+ UP BND1      CA008     7.6826741808131544e+02
  UP BND1      CA010     1.0428560799267574e+02
  UP BND1      CA013     9.6182494661921709e+01
  UP BND1      CA014     1.2098130438675022e+02
@@ -11672,30 +11736,36 @@ BOUNDS
  UP BND1      CA041     135.136
  UP BND1      CA042     135.136
  UP BND1      1CA043    2.0567487305038430e+01
- UP BND1      CA045     1.4154240000000001e+02
- UP BND1      1CA045    1.4154240000000001e+02
+ UP BND1      CA045     1.7798868641975309e+02
+ UP BND1      1CA045    1.7798868641975309e+02
  UP BND1      1CA046    2.0567487305038430e+01
  UP BND1      CA051     6.4373990353697735e+01
  UP BND1      CA056     60.061
  UP BND1      CA061     5.9762194029850754e+01
  UP BND1      CA068     3.2731245231607630e+01
  UP BND1      CA075     3.2731245231607630e+01
+ UP BND1      CA085     5.1242313580246915e+01
+ UP BND1      CA086     5.1242313580246915e+01
+ UP BND1      CA087     5.1242313580246915e+01
  UP BND1      CA091     136.137
  UP BND1      CA093     136.137
  UP BND1      CA101     6.7840510869565222e+01
  UP BND1      CA102     24.96594
  UP BND1      CA103     2.2054833922261484e+01
  UP BND1      CA104     1.6255655555555555e+02
+ UP BND1      CA109     1.7013116108641974e+01
+ UP BND1      1CA109    2.0900405538872207e+01
+ UP BND1      CA110     1.7013116108641974e+01
+ UP BND1      1CA110    2.0900405538872207e+01
  UP BND1      CA113     136.137
  UP BND1      CA115     136.137
  UP BND1      1CA115    1.8151566666666668e+02
  UP BND1      CA117     2.028025
  UP BND1      CA124     12.2
- UP BND1      CA131     26
  UP BND1      1CA134    2.003
  UP BND1      2CA134    2.003
  UP BND1      CA139     1.5849266666666668e+02
- UP BND1      CA140     77.9477213114754
+ UP BND1      CA140     5.1242313580246915e+01
  UP BND1      CA142     4.6995714285714278e+00
  UP BND1      CA143     4.6995714285714278e+00
  UP BND1      CA154     2.9944544444444449e+02
@@ -11775,8 +11845,8 @@ BOUNDS
  UP BND1      2CB083    1.7783719219219515e+02
  UP BND1      1CB085    1.3081951851851852e+02
  UP BND1      2CB085    1.2810825388601037e+02
- UP BND1      CB086     8.4293169173722731e+01
- UP BND1      1CB086    8.4860644613759490e+01
+ UP BND1      CB086     8.4293169173722745e+01
+ UP BND1      1CB086    84.8606446137595
  UP BND1      CB089     60.061
  UP BND1      CB090     60.061
  UP BND1      1CB090    60.061
@@ -11809,7 +11879,6 @@ BOUNDS
  UP BND1      2CB133    25.026
  UP BND1      CB142     1.002
  UP BND1      1CB143    1.8
- LO BND1      CB144     32.966
  UP BND1      CB146     1.4216482300990710e+03
  UP BND1      CB147     1377.577165966
  UP BND1      CBF28     960.961
@@ -11818,7 +11887,7 @@ BOUNDS
  UP BND1      CE002     2.6618941454882292e+02
  UP BND1      CE004     2.6618941454882292e+02
  UP BND1      CE008     9.34
- UP BND1      CE011     5.0034155860355966e+01
+ UP BND1      CE011     5.0034155860355959e+01
  UP BND1      CE013     105.106
  UP BND1      CE014     105.106
  UP BND1      CE018     105.106
@@ -11850,6 +11919,8 @@ BOUNDS
  UP BND1      CE104     15.016
  UP BND1      CE105     15.016
  UP BND1      CE124     2.8852123820075059e+02
+ UP BND1      CE135     18.019
+ UP BND1      CE138     26
  UP BND1      CH002     987.387385986
  UP BND1      1CH002    6.5822522198866659e+02
  UP BND1      2CH002    987.387385986
@@ -11865,16 +11936,21 @@ BOUNDS
  UP BND1      CH006     5.0149208910891087e+02
  UP BND1      1CH006    3.66
  UP BND1      2CH006    30.031
+ UP BND1      CH008     5.4275273424016284e+01
  UP BND1      CH013     18.34
  UP BND1      CH015     4.88588
  UP BND1      CH016     4.88588
  UP BND1      CH022     7.8987006638639991e+02
  UP BND1      1CH022    7.8987006638639991e+02
  UP BND1      2CH022    7.8987006638639991e+02
+ UP BND1      1CH025    132.133
+ UP BND1      CH026     132.133
+ UP BND1      CH028     132.133
  UP BND1      CH033     2.5894286318758816e+01
  UP BND1      CH034     18.5195
  UP BND1      CH035     18.35934
  UP BND1      CH036     18.35934
+ UP BND1      1CH036    4.4454059468925652e+02
  UP BND1      CH042     60.061
  UP BND1      CH043     60.061
  UP BND1      CH046     60.061
@@ -11882,9 +11958,9 @@ BOUNDS
  UP BND1      CH050     98.099
  UP BND1      CH051     98.099
  UP BND1      CH056     3.7112863187500005e+02
- UP BND1      CH057     3.2955629021894094e+02
+ UP BND1      CH057     1.8100373972602739e+02
  UP BND1      CH058     3.2955629021894094e+02
- UP BND1      CH062     336.058419517134
+ UP BND1      CH062     1.7027419587628867e+02
  UP BND1      CH063     336.058419517134
  UP BND1      CH065     2.8141256086521742e+02
  UP BND1      CH066     323.624294995
@@ -11901,6 +11977,7 @@ BOUNDS
  UP BND1      1CH075    2.7241118097222227e+02
  UP BND1      2CH075    2.7241118097222227e+02
  UP BND1      CH076     336.058419517134
+ UP BND1      CH077     132.133
  UP BND1      3CH078    7.7975376502447182e+02
  UP BND1      4CH078    3.5687184751560862e+03
  UP BND1      CH079     3.5687184751560862e+03
@@ -11939,30 +12016,26 @@ BOUNDS
  UP BND1      CH121     3.8807487685600796e+02
  UP BND1      CH122     30.031
  UP BND1      CH124     30.031
- UP BND1      CH126     1.9952923559234325e+03
+ UP BND1      CH126     1.9952923559234323e+03
  UP BND1      1CH126    1.3182647053899666e+03
  UP BND1      2CH126    2.1971071756499446e+03
  UP BND1      3CH126    2.4941151949042905e+03
- UP BND1      CH128     1.9952923559234325e+03
+ UP BND1      CH128     1.9952923559234323e+03
  UP BND1      1CH128    1.3182647053899666e+03
  UP BND1      1CH130    134.335198999
  UP BND1      1CH131    1.1804511159841827e+02
  UP BND1      2CH131    1.0993078641489362e+02
  UP BND1      1CH140    120.121
- UP BND1      CH146     1.9952923559234325e+03
+ UP BND1      CH146     1.9952923559234323e+03
  UP BND1      CH153     82.083
- UP BND1      CH155     1.7289052079784983e+03
- UP BND1      CH156     1.0111367179608911e+04
- UP BND1      2CH156    8.8174214606903411e+02
+ UP BND1      CH155     117.55844
+ UP BND1      CH156     117.55844
+ UP BND1      2CH156    8.8174214606903422e+02
  UP BND1      3CH156    3.6400928246592080e+03
  UP BND1      4CH156    3.7383781211352579e+02
  UP BND1      CH180     8.5785190007471761e+02
  UP BND1      1CH180    1.7156158270773240e+03
  UP BND1      CH183     4.3211585148514848e+02
- LO BND1      CH196     7.991
- UP BND1      CH196     55.056
- UP BND1      CH197     215.216
- UP BND1      CH200     215.216
  UP BND1      1CH302    1.1804511159841827e+02
  UP BND1      CH305     7.8725473969778674e+00
  UP BND1      CH314     7.8725473969778674e+00
@@ -11978,13 +12051,13 @@ BOUNDS
  UP BND1      CH413     73.074
  UP BND1      CH415     2.1851930000000002e+02
  UP BND1      CH419     2.1851930000000002e+02
- UP BND1      CH421     7.2036637389439047e+03
+ UP BND1      CH421     7.2036637389439038e+03
  UP BND1      CH423     2.1851930000000002e+02
  UP BND1      CH425     3.0333965805488606e+03
  UP BND1      CH427     2.1851930000000002e+02
  UP BND1      CH430     2269.97698737637
  UP BND1      CH432     2.1851930000000002e+02
- UP BND1      CH434     1.4661056966313020e+03
+ UP BND1      CH434     1.4661056966313017e+03
  UP BND1      CH435     200.201
  UP BND1      CH437     73.074
  UP BND1      CH438     1.8821398015814639e+03
@@ -11993,10 +12066,10 @@ BOUNDS
  UP BND1      CH445     2.1851930000000002e+02
  UP BND1      CH447     1.1564411194684519e+03
  UP BND1      CH448     2.1851930000000002e+02
- UP BND1      CH450     9.7987293458931390e+02
+ UP BND1      CH450     979.872934589314
  UP BND1      CH451     200.201
  UP BND1      CH452     2.1851930000000002e+02
- UP BND1      CH454     1.2410329223575887e+04
+ UP BND1      CH454     1.2410329223575885e+04
  UP BND1      CH455     200.201
  UP BND1      CH456     2.1851930000000002e+02
  UP BND1      CH459     2.0420212050441476e+03
@@ -12026,7 +12099,7 @@ BOUNDS
  UP BND1      CH501     73.074
  UP BND1      CH503     2.1851930000000002e+02
  UP BND1      CH506     2.1851930000000002e+02
- UP BND1      CH508     8.8551183482939791e+02
+ UP BND1      CH508     885.511834829398
  UP BND1      CH509     109.910798999
  UP BND1      CH511     109.910798999
  UP BND1      CH512     109.910798999
@@ -12053,40 +12126,38 @@ BOUNDS
  UP BND1      2C1009    5.1536733663366329e+02
  UP BND1      1C1013    1.2022
  UP BND1      C1016     1.2022
+ UP BND1      C1021     1.4829079287765217e+03
  UP BND1      C1023     35.036
+ UP BND1      C1024     2.7122772219886665e+03
  UP BND1      1C1027    14
  UP BND1      C1028     35.036
- UP BND1      C1035     1.1276348591549295e+01
- UP BND1      C1041     1.6545556962025316e+01
+ UP BND1      C1035     1.1276348591549297e+01
+ UP BND1      C1041     1.6545556962025319e+01
  UP BND1      1C1043    35.036
  UP BND1      C1047     16.5
  UP BND1      C1048     339.34
  UP BND1      C1050     28.029
  UP BND1      C1055     339.34
  UP BND1      C1057     28.029
+ UP BND1      C1058     110.111
  UP BND1      C1061     339.34
  UP BND1      C1063     28.029
+ UP BND1      C1064     110.111
  UP BND1      C1066     339.34
  UP BND1      C1068     28.029
+ UP BND1      C1069     110.111
  UP BND1      C1070     339.34
  UP BND1      1C1070    2.1191963762376233e+02
  UP BND1      1C1071    2.1191963762376233e+02
  UP BND1      C1072     28.029
+ UP BND1      C1076     110.111
+ UP BND1      C1078     110.111
  UP BND1      C1082     28.029
  UP BND1      1C1085    28.029
  UP BND1      C1089     28.029
- UP BND1      1C1091    2.3087841193930353e+02
  UP BND1      2C1091    5.1789263168316825e+02
  UP BND1      3C1091    5.1789263168316825e+02
- UP BND1      C1092     2.3133878564207382e+02
- UP BND1      C1095     2.3203279899900002e+02
- UP BND1      1C1097    2.3203279899900002e+02
- UP BND1      2C1097    3.3176807920792078e+02
- UP BND1      C1098     2.3041986693048665e+02
- UP BND1      C1101     2.2225368103352491e+02
- UP BND1      1C1103    2.2056354657699620e+02
- UP BND1      C1104     1.8622234751123597e+02
- UP BND1      1C1104    2.2748315588137257e+02
+ UP BND1      2C1097    3.3176807920792072e+02
  UP BND1      C1108     86.6876
  UP BND1      1C1108    86.6876
  UP BND1      C1109     130.0309
@@ -12099,18 +12170,26 @@ BOUNDS
  UP BND1      1C1117    130.0309
  UP BND1      C1118     7.7863215568862273e+01
  UP BND1      1C1118    7.7863215568862273e+01
- UP BND1      2C1118    2.2925205173267327e+02
- UP BND1      3C1118    1.1462652586633664e+02
+ UP BND1      2C1118    2.2925205173267324e+02
+ UP BND1      3C1118    1.1462652586633662e+02
+ UP BND1      C1119     110.111
  UP BND1      2C1120    3.0970019574653458e+02
  UP BND1      3C1120    3.0970019574653458e+02
+ UP BND1      C1121     110.111
+ UP BND1      3C1123    110.111
+ UP BND1      C1131     2.7122772219886665e+03
+ UP BND1      C1133     2.7122772219886665e+03
+ UP BND1      C1135     2.7122772219886665e+03
  UP BND1      C1137     2.0811468519456596e+02
  UP BND1      C1139     28.029
+ UP BND1      C1140     110.111
  UP BND1      C1142     2.2372321158415841e+02
+ UP BND1      C1144     110.111
  UP BND1      C1149     23.2242
  UP BND1      C1150     23.2242
  UP BND1      C1151     11.012
  UP BND1      C1152     11.012
- UP BND1      C1158     2.7122772219886665e+03
+ UP BND1      C1154     2.7122772219886665e+03
  UP BND1      C1162     2.6880530219886664e+03
  UP BND1      C1163     36.037
  UP BND1      1C1163    36.037
@@ -12118,11 +12197,11 @@ BOUNDS
  UP BND1      3C1163    36.037
  UP BND1      C1165     2.7102752219886665e+03
  UP BND1      C1166     1.002
- UP BND1      C1F28     110.111
+ UP BND1      C1167     7.7179891790478123e+03
  UP BND1      C1F35     2.8954602219886665e+03
  UP BND1      C1F64     183.184
  UP BND1      CJ001     1.4668218811881189e+02
- UP BND1      2CJ002    1.0005840649723671e+03
+ UP BND1      2CJ002    1.1487199425601257e+03
  UP BND1      CJ003     5.6987723762376231e+02
  UP BND1      CJ005     1.4470000990099010e+02
  UP BND1      CJ006     9.5739307920792078e+02
@@ -12152,7 +12231,7 @@ BOUNDS
  UP BND1      CJ036     6.6159045977011488e+01
  UP BND1      CJ039     320.321
  UP BND1      CJ040     320.321
- UP BND1      CJ043     1.3172975630618370e+02
+ UP BND1      CJ043     1.3172975630618373e+02
  UP BND1      CJ044     1.2726032165841583e+02
  UP BND1      CJ045     78.4885
  UP BND1      CJ046     6.2169316831683169e+01
@@ -12185,23 +12264,26 @@ BOUNDS
  UP BND1      CJ105     1.1370774257425742e+01
  UP BND1      CJ106     1.1370774257425742e+01
  UP BND1      CJ107     1.1370774257425742e+01
+ UP BND1      CJ108     5.1369148514851489e+01
+ UP BND1      CJ109     5.1369148514851489e+01
+ UP BND1      1CJ109    5.1369148514851489e+01
+ UP BND1      CJ116     5.7059982178217822e+01
+ UP BND1      CJ117     5.7059982178217822e+01
+ UP BND1      CJ118     5.7059982178217822e+01
  UP BND1      CJ121     9.01
  UP BND1      CJ126     24.025
  UP BND1      1CJ126    8.009
- UP BND1      CJ133     1.2107065086165642e+03
- UP BND1      CJG55     5.3715004439773329e+03
+ UP BND1      CJ133     1.3899509204977523e+03
  UP BND1      CM001     208.209
- UP BND1      1CM004    2.6787094152046791e+02
  UP BND1      CM005     208.209
  UP BND1      CM007     208.209
  UP BND1      CY001     518.519
  UP BND1      1CY001    518.519
  UP BND1      CY003     29.03
- UP BND1      CZ001     2.861
  UP BND1      CZ013     25.026
- UP BND1      CZ014     3.7717249999999993e+01
- UP BND1      ZH145     4.8849799999999995e+01
- UP BND1      ZM145     4.5
+ UP BND1      CZ014     3.7895999999999994e+01
+ UP BND1      ZH145     2.861
+ UP BND1      ZM145     2.861
  UP BND1      ZH130     4.005
  UP BND1      ZM130     4.005
  UP BND1      HBBMS     25.026
@@ -12217,9 +12299,9 @@ BOUNDS
  UP BND1      JHRMS     2.6602252219886664e+03
  UP BND1      H1RMS     2.6880530219886664e+03
  UP BND1      J1RMS     2.6880530219886664e+03
- UP BND1      ZBM83     25.741
- UP BND1      ZHM83     25.741
- UP BND1      ZJM83     25.741
+ UP BND1      ZBM83     26.456
+ UP BND1      ZHM83     26.456
+ UP BND1      ZJM83     26.456
  UP BND1      HNM90     44.045
  UP BND1      1NM90     44.045
  UP BND1      JNM90     44.045
@@ -12231,7 +12313,7 @@ BOUNDS
  UP BND1      EAM97     80
  UP BND1      AEM97     56
  UP BND1      EBLDF     3.5156785067846550e+02
- UP BND1      MBLDF     9.5776680000000013e+01
+ UP BND1      MBLDF     95.77668
  UP BND1      1YBLDF    29.03
  UP BND1      BHLDF     2.6602252219886664e+03
  UP BND1      EHLDF     3.5156785067846550e+02
@@ -12240,7 +12322,7 @@ BOUNDS
  UP BND1      YHLDF     2.6602252219886664e+03
  UP BND1      1YHLDF    29.03
  UP BND1      E1LDF     3.5156785067846550e+02
- UP BND1      M1LDF     9.5776680000000013e+01
+ UP BND1      M1LDF     95.77668
  UP BND1      1Y1LDF    29.03
  UP BND1      ACLD4     34.035
  UP BND1      BCLD4     34.035
@@ -12301,7 +12383,7 @@ BOUNDS
  UP BND1      ZJG22     63.064
  UP BND1      ANG22     2.6602252219886664e+03
  UP BND1      JNG22     2.6602252219886664e+03
- UP BND1      1MNG22    1.5303387999999998e+02
+ UP BND1      1MNG22    5.6534187554193750e+02
  UP BND1      YNG22     2.6602252219886664e+03
  UP BND1      H1G27     36.037
  UP BND1      1ARG29    81.082
@@ -12329,14 +12411,12 @@ BOUNDS
  UP BND1      BHG55     2.6602252219886664e+03
  UP BND1      1HG55     2.6602252219886664e+03
  UP BND1      JHG55     2.6602252219886664e+03
- UP BND1      MHG55     1.5303387999999998e+02
+ UP BND1      MHG55     5.6534187554193750e+02
  UP BND1      B1G55     2.7102752219886665e+03
  UP BND1      H1G55     2.7102752219886665e+03
  UP BND1      J1G55     2.7102752219886665e+03
- UP BND1      M1G55     1.5303387999999998e+02
- UP BND1      ZAD11     8.6209571428571422e+01
- UP BND1      AED16     18
- UP BND1      MHD20     2.2348243791631084e+01
+ UP BND1      M1G55     5.6534187554193750e+02
+ UP BND1      ZAD11     8.6618142857142871e+01
  UP BND1      JVD20     10.011
  UP BND1      YVD20     10.011
  UP BND1      ZVD20     10.011
@@ -12355,7 +12435,7 @@ BOUNDS
  UP BND1      BHF28     2.6602252219886664e+03
  UP BND1      B1F28     110.111
  UP BND1      H1F28     110.111
- UP BND1      MBF35     1.0554001724137931e+03
+ UP BND1      MBF35     2.6787094152046791e+02
  UP BND1      BCF35     14.015
  UP BND1      HCF35     14.015
  UP BND1      JCF35     14.015
@@ -12366,23 +12446,23 @@ BOUNDS
  UP BND1      1DF35     83.084
  UP BND1      JDF35     83.084
  UP BND1      MDF35     83.084
- UP BND1      ZDF35     30.174
+ UP BND1      ZDF35     30.317
  UP BND1      BHF35     2.6602252219886664e+03
  UP BND1      1HF35     2.6602252219886664e+03
  UP BND1      JHF35     2.6602252219886664e+03
- UP BND1      MHF35     1.0554001724137931e+03
- UP BND1      ZHF35     30.174
+ UP BND1      MHF35     2.6787094152046791e+02
+ UP BND1      ZHF35     30.317
  UP BND1      B1F35     2.8954602219886665e+03
  UP BND1      H1F35     2.8954602219886665e+03
  UP BND1      J1F35     2.8954602219886665e+03
- UP BND1      M1F35     1.0554001724137931e+03
- UP BND1      Z1F35     30.174
- UP BND1      MJF35     1.0554001724137931e+03
+ UP BND1      M1F35     2.6787094152046791e+02
+ UP BND1      Z1F35     30.317
+ UP BND1      MJF35     2.6787094152046791e+02
  UP BND1      HVF35     22.023
  UP BND1      JVF35     22.023
  UP BND1      YVF35     22.023
  UP BND1      ZVF35     22.023
- UP BND1      YJF46     1.3908865086165642e+03
+ UP BND1      YJF46     1.5701309204977522e+03
  UP BND1      JVF46     4.005
  UP BND1      BNF48     108.109
  UP BND1      HNF48     108.109
@@ -12414,7 +12494,7 @@ BOUNDS
  UP BND1      MHF80     86.615528
  UP BND1      YJF83     193
  UP BND1      1NF89     60
- UP BND1      117FZR    30.174
+ UP BND1      117FZR    30.317
  UP BND1      118FAT    9.01
  UP BND1      118FET    9.01
  UP BND1      118FJT    9.01
@@ -12448,12 +12528,11 @@ BOUNDS
  UP BND1      JHSRB     4.8237517800716240e+01
  UP BND1      1JHSRB    4.8237517800716240e+01
  UP BND1      JHFCR     1.0590107890089809e+02
- UP BND1      1JHFCR    1.3172975630618370e+02
+ UP BND1      1JHFCR    1.3172975630618373e+02
  UP BND1      2JHFCR    1.7767916623212321e+02
  UP BND1      3JHFCR    2.1209986943069308e+02
- UP BND1      ZHFCR     22.3805
- UP BND1      ZJFCR     22.3805
- LO BND1      H1HCR     5.9839999999999960e-01
+ UP BND1      ZHFCR     2.3238500000000002e+01
+ UP BND1      ZJFCR     2.3238500000000002e+01
  UP BND1      BHLCS     2.6602252219886664e+03
  UP BND1      1HHSC     11.012
  UP BND1      11HHSC    11.012
@@ -12462,7 +12541,7 @@ BOUNDS
  UP BND1      EHKER     3.5156785067846550e+02
  UP BND1      EHALG     3.5156785067846550e+02
  UP BND1      EHKLG     3.5156785067846550e+02
- UP BND1      MUKG0     1.5556867795255357e+04
+ UP BND1      MUKG0     4.8278569303325139e+02
  UP BND1      2YBLG0    60.061
  UP BND1      1ZBLG0    63.064
  UP BND1      2ZBLG0    60.061
@@ -12476,16 +12555,16 @@ BOUNDS
  UP BND1      3ZHLG0    63.064
  UP BND1      EAHWD     3.5906091760012280e+00
  UP BND1      MHRES     86.615528
- UP BND1      1MHRES    1.0554001724137931e+03
- UP BND1      2MHRES    2.2902980000000002e+02
+ UP BND1      1MHRES    2.6787094152046791e+02
+ UP BND1      2MHRES    2.2902980000000005e+02
  UP BND1      YHRES     2.6602252219886664e+03
- UP BND1      ZHRES     30.174
- UP BND1      ZJRES     30.174
- UP BND1      1ZJRES    30.174
- UP BND1      2ZJRES    30.174
- UP BND1      ZJREX     1.5583524999999997e+02
- UP BND1      1ZJREX    1.5583524999999997e+02
- UP BND1      2ZJREX    1.5583524999999997e+02
+ UP BND1      ZHRES     30.317
+ UP BND1      ZJRES     30.317
+ UP BND1      1ZJRES    30.317
+ UP BND1      2ZJRES    30.317
+ UP BND1      ZJREX     156.014
+ UP BND1      1ZJREX    156.014
+ UP BND1      2ZJREX    156.014
  UP BND1      HSPMS     100
  UP BND1      HSRMS     100
  UP BND1      HSLDF     50
@@ -12502,7 +12581,7 @@ BOUNDS
  UP BND1      1CB068    51.052
  UP BND1      CH458     73.074
  UP BND1      CH463     73.074
- UP BND1      3CH151    8.8551183482939791e+02
+ UP BND1      3CH151    885.511834829398
  UP BND1      1CJ015    97.698598999
  UP BND1      2CJ015    97.698598999
  UP BND1      1CJ062    13.5145
@@ -12513,7 +12592,7 @@ BOUNDS
  UP BND1      1CH119    390.791393994
  UP BND1      3CH119    390.791393994
  UP BND1      1CH121    3.8807487685600796e+02
- UP BND1      1ZHREX    1.5583524999999997e+02
- UP BND1      C1462     25
- UP BND1      C1463     120
+ UP BND1      1ZHREX    156.014
+ UP BND1      C1440     25
+ UP BND1      C1441     120
 ENDATA

@@ -1,4 +1,4 @@
-NAME (null)_copy
+NAME GROW7_pre
 ROWS
  N  OBJ
  E  PRI0101 
@@ -2777,6 +2777,7 @@ COLUMNS
     SI2007    PRI2007   -1
 RHS
 BOUNDS
+* Note: variable lower bounds are 0 unless specified otherwise
  UP BND1      XI0101    1.3357534311431255e+06
  UP BND1      XI0201    8.9783858047454688e+05
  UP BND1      XI0301    1.5653702347106438e+06

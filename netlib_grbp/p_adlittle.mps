@@ -1,4 +1,4 @@
-NAME (null)_copy
+NAME ADLITTLE_pre
 ROWS
  N  OBJ
  L  ....01  
@@ -544,6 +544,7 @@ RHS
     RHS1      ....54    -1231.6
     RHS1      ....56    107
 BOUNDS
+* Note: variable lower bounds are 0 unless specified otherwise
  UP BND1      ...100    23.4244
  UP BND1      ...101    23.4244
  UP BND1      ...103    5.2888913043478247e+00
@@ -604,8 +605,8 @@ BOUNDS
  UP BND1      ...159    413.414
  UP BND1      ...160    413.414
  UP BND1      ...161    4.2752677319587627e+02
- UP BND1      ...162    1.1916441845360825e+02
- UP BND1      ...163    5.7804824046007084e+01
+ UP BND1      ...162    1.1916441845360823e+02
+ UP BND1      ...163    5.7804824046007077e+01
  UP BND1      ...164    31.2322
  UP BND1      ...165    5.4424596834711487e+01
  UP BND1      ...166    43.044

@@ -1,4 +1,4 @@
-NAME (null)_copy
+NAME TRUSS_pre
 ROWS
  N  OBJ
  E  ROW10001
@@ -37734,4 +37734,5 @@ RHS
     RHS1      ROW10970  20
     RHS1      ROW10988  2
 BOUNDS
+* Note: variable lower bounds are 0 unless specified otherwise
 ENDATA

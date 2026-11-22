@@ -1,4 +1,4 @@
-NAME (null)_copy
+NAME SEBA_pre
 ROWS
  N  OBJ
  E  VILLKOR1
@@ -28,6 +28,7 @@ RHS
     RHS1      VILLKOR1  39.5
     RHS1      VILLKOR9  -12.5
 BOUNDS
+* Note: variable lower bounds are 0 unless specified otherwise
  LO BND1      10253000  0.5
  UP BND1      10253000  2
  UP BND1      MPS_RgVILLKOR2  7

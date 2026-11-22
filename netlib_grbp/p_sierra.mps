@@ -1,9 +1,9 @@
-NAME (null)_copy
+NAME COPTPROB_pre
 ROWS
  N  OBJ
- L  0BBBC3  
- L  0BBBC4  
- L  0BBBC5  
+ L  0BCBN3  
+ L  0BCBN4  
+ L  0BCBN5  
  L  0BMBQ2  
  L  0BMBQ3  
  L  0BMBQ4  
@@ -12,12 +12,12 @@ ROWS
  L  0BNBT4  
  L  0BNBT5  
  L  0BPBS1  
- L  0BPBS2  
  L  0BQBP1  
  L  0BQBP2  
  L  0BQBP3  
  L  0BQBP4  
  L  0BQBP5  
+ L  0BSBT2  
  L  0BSBT3  
  L  0BSBT4  
  L  0BSBT5  
@@ -26,12 +26,10 @@ ROWS
  L  0BTBW3  
  L  0BTBW4  
  L  0BTBW5  
- L  0BUBT1  
  L  0BUBT2  
  L  0BUBT3  
  L  0BUBT4  
  L  0BUBT5  
- L  0BVBU1  
  L  0BVBU2  
  L  0BVBU3  
  L  0BVBU4  
@@ -46,24 +44,16 @@ ROWS
  L  0CBCA3  
  L  0CBCA4  
  L  0CBCA5  
- L  0CBDW1  
- L  0CBDW2  
- L  0CBDW3  
- L  0CBDW4  
- L  0CBDW5  
+ L  0CBCC3  
+ L  0CBCC4  
+ L  0CBCC5  
  L  0CCCD1  
  L  0CCCD2  
- L  0CCCD3  
- L  0CCCD4  
- L  0CCCD5  
  L  0CSCF1  
  L  0CSCF2  
  L  0CSCF3  
  L  0CSCF4  
  L  0CSCF5  
- L  0CVDQ2  
- L  0CVDQ3  
- L  0CVDQ5  
  L  0DABZ1  
  L  0DABZ2  
  L  0DABZ3  
@@ -105,6 +95,7 @@ ROWS
  L  0DHDG4  
  L  0DHDG5  
  L  0DJDH2  
+ L  0DJDH4  
  L  0DLDD1  
  L  0DLDD2  
  L  0DLDD3  
@@ -122,15 +113,17 @@ ROWS
  L  0DLDM5  
  L  0DMDJ1  
  L  0DMDJ3  
- L  0DMDJ4  
  L  0DMDJ5  
  L  0DNDM1  
  L  0DNDM2  
  L  0DNDM3  
  L  0DNDM4  
  L  0DNDM5  
- L  0DPDN1  
- L  0DQDP4  
+ L  0DPDN4  
+ L  0DQDP1  
+ L  0DQDP2  
+ L  0DQDP3  
+ L  0DQDP5  
  L  0DRDA1  
  L  0DRDA2  
  L  0DRDA3  
@@ -547,21 +540,16 @@ ROWS
  E  SI2T    
  E  SI3T    
  E  SI4T    
- L  SI5T    
+ E  SI5T    
  E  DA1R    
  E  DA2R    
  E  DA3R    
  E  DA4R    
- E  DA5R    
  E  DA1T    
  E  DA2T    
  E  DA3T    
  E  DA4T    
- E  BZ1R    
- E  BZ2R    
- E  BZ3R    
- E  BZ4R    
- E  BZ5R    
+ E  DA5T    
  E  BB1R    
  E  BB2R    
  E  BB3R    
@@ -618,17 +606,11 @@ ROWS
  E  BP4R    
  E  BP5R    
  E  BP1T    
- E  BP2T    
+ E  BP3T    
  E  BP4T    
  E  BP5T    
- E  BU1R    
- E  BU2R    
- E  BU3R    
- E  BU4R    
- E  BU5R    
  E  BV1R    
  E  BV2R    
- E  BV3R    
  E  BV4R    
  E  BV5R    
  E  BV1T    
@@ -671,11 +653,6 @@ ROWS
  E  CB3T    
  E  CB4T    
  E  CB5T    
- E  DW1R    
- E  DW2R    
- E  DW3R    
- E  DW4R    
- E  DW5R    
  E  DW1T    
  E  DW2T    
  E  DW3T    
@@ -686,6 +663,7 @@ ROWS
  E  CD3R    
  E  CD4R    
  E  CD5R    
+ E  CD1T    
  E  CD2T    
  E  CD3T    
  E  CD4T    
@@ -698,7 +676,6 @@ ROWS
  E  CS1T    
  E  CS2T    
  E  CS3T    
- E  CS4T    
  E  CS5T    
  E  CF1R    
  E  CF2R    
@@ -743,6 +720,7 @@ ROWS
  E  DL1R    
  E  DL2R    
  E  DL3R    
+ E  DL4R    
  E  DL5R    
  E  DL1T    
  E  DL2T    
@@ -755,6 +733,7 @@ ROWS
  E  DE4R    
  E  DE5R    
  E  DE1T    
+ E  DE2T    
  E  DE3T    
  E  DE4T    
  E  DE5T    
@@ -768,16 +747,6 @@ ROWS
  E  DG3T    
  E  DG4T    
  E  DG5T    
- E  DM1R    
- E  DM2R    
- E  DM3R    
- E  DM4R    
- E  DM5R    
- E  DM1T    
- E  DM2T    
- E  DM3T    
- E  DM4T    
- E  DM5T    
  E  DR1R    
  E  DR2R    
  E  DR3R    
@@ -789,9 +758,7 @@ ROWS
  E  DR4T    
  E  DR5T    
  E  DS1R    
- E  DS2R    
  E  DS3R    
- E  DS4R    
  E  DS5R    
  E  DS1T    
  E  DS2T    
@@ -804,6 +771,7 @@ ROWS
  E  FA4T    
  E  FA5T    
  E  FB1R    
+ E  FB2R    
  E  FB3R    
  E  FB4R    
  E  FB5R    
@@ -814,6 +782,7 @@ ROWS
  E  FB5T    
  E  BL1R    
  E  BL2R    
+ E  BL3R    
  E  BL4R    
  E  BL5R    
  E  BL1T    
@@ -834,11 +803,10 @@ ROWS
  E  BR2R    
  E  BR3R    
  E  BR4R    
- E  BR1T    
+ E  BR5R    
  E  BR2T    
  E  BR3T    
  E  BR4T    
- E  BR5T    
  E  CE1R    
  E  CE2R    
  E  CE3R    
@@ -846,7 +814,6 @@ ROWS
  E  CE5R    
  E  CE1T    
  E  CE2T    
- E  CE3T    
  E  CE4T    
  E  CE5T    
  E  DU1R    
@@ -857,6 +824,7 @@ ROWS
  E  DU1T    
  E  DU2T    
  E  DU3T    
+ E  DU4T    
  E  DU5T    
  E  DI1R    
  E  DI2R    
@@ -914,7 +882,7 @@ COLUMNS
     BWSI5T    OBJ       76.79
     BWSI5T    0BTBW5    1
     BWSI5T    BT5T      1
-    BWSI5T    SI5T      1
+    BWSI5T    SI5T      -1
     BWSI5R    OBJ       11.51
     BWSI5R    0BTBW5    1
     BWSI5R    BT5R      1
@@ -929,6 +897,7 @@ COLUMNS
     FESI2T    FA2T      1
     FESI2T    SI2T      -1
     FESI2R    OBJ       164.7
+    FESI2R    FB2R      1
     FESI2R    SI2R      -1
     FESI3T    OBJ       211.91
     FESI3T    FA3T      1
@@ -944,7 +913,7 @@ COLUMNS
     FESI4R    SI4R      -1
     FESI5T    OBJ       31.5
     FESI5T    FA5T      1
-    FESI5T    SI5T      1
+    FESI5T    SI5T      -1
     FESI5R    OBJ       9.44
     FESI5R    FB5R      1
     FESI5R    SI5R      -1
@@ -956,15 +925,26 @@ COLUMNS
     DASI3T    SI3T      -1
     DASI4T    DA4T      1
     DASI4T    SI4T      -1
-    BZSI1R    BZ1R      1
+    DASI5T    DA5T      1
+    DASI5T    SI5T      -1
+    BZSI1R    OBJ       347.09
+    BZSI1R    0DABZ1    1
+    BZSI1R    DA1R      1
     BZSI1R    SI1R      -1
-    BZSI2R    BZ2R      1
+    BZSI2R    OBJ       133.82
+    BZSI2R    0DABZ2    1
+    BZSI2R    DA2R      1
     BZSI2R    SI2R      -1
-    BZSI3R    BZ3R      1
+    BZSI3R    OBJ       51.59
+    BZSI3R    0DABZ3    1
+    BZSI3R    DA3R      1
     BZSI3R    SI3R      -1
-    BZSI4R    BZ4R      1
+    BZSI4R    OBJ       19.89
+    BZSI4R    0DABZ4    1
+    BZSI4R    DA4R      1
     BZSI4R    SI4R      -1
-    BZSI5R    BZ5R      1
+    BZSI5R    OBJ       7.67
+    BZSI5R    0DABZ5    1
     BZSI5R    SI5R      -1
     BCBN1R    OBJ       5.6068999999999994e+02
     BCBN1R    BB1R      1
@@ -973,17 +953,17 @@ COLUMNS
     BCBN2R    BB2R      1
     BCBN2R    BN2R      -1
     BCBN3R    OBJ       83.34
-    BCBN3R    0BBBC3    1
     BCBN3R    BB3R      1
     BCBN3R    BN3R      -1
+    BCBN3R    0BCBN3    1
     BCBN4R    OBJ       32.13
-    BCBN4R    0BBBC4    1
     BCBN4R    BB4R      1
     BCBN4R    BN4R      -1
+    BCBN4R    0BCBN4    1
     BCBN5R    OBJ       12.39
-    BCBN5R    0BBBC5    1
     BCBN5R    BB5R      1
     BCBN5R    BN5R      -1
+    BCBN5R    0BCBN5    1
     BCBN1T    OBJ       3.7422999999999997e+03
     BCBN1T    BB1T      1
     BCBN1T    BN1T      -1
@@ -991,17 +971,17 @@ COLUMNS
     BCBN2T    BB2T      1
     BCBN2T    BN2T      -1
     BCBN3T    OBJ       556.27
-    BCBN3T    0BBBC3    1
     BCBN3T    BB3T      1
     BCBN3T    BN3T      -1
+    BCBN3T    0BCBN3    1
     BCBN4T    OBJ       2.1445999999999998e+02
-    BCBN4T    0BBBC4    1
     BCBN4T    BB4T      1
     BCBN4T    BN4T      -1
+    BCBN4T    0BCBN4    1
     BCBN5T    OBJ       82.69
-    BCBN5T    0BBBC5    1
     BCBN5T    BB5T      1
     BCBN5T    BN5T      -1
+    BCBN5T    0BCBN5    1
     BMBQ1R    OBJ       1228.2
     BMBQ1R    BM1R      1
     BMBQ1R    BQ1R      -1
@@ -1102,10 +1082,10 @@ COLUMNS
     BQBP1T    0BQBP1    1
     BQBP2T    OBJ       2061.2
     BQBP2T    BQ2T      1
-    BQBP2T    BP2T      -1
     BQBP2T    0BQBP2    1
     BQBP3T    OBJ       794.67
     BQBP3T    BQ3T      1
+    BQBP3T    BP3T      -1
     BQBP3T    0BQBP3    1
     BQBP4T    OBJ       306.38
     BQBP4T    BQ4T      1
@@ -1120,9 +1100,9 @@ COLUMNS
     BSBT1R    BP1R      1
     BSBT1R    BT1R      -1
     BSBT2R    OBJ       777.3
-    BSBT2R    0BPBS2    1
     BSBT2R    BP2R      1
     BSBT2R    BT2R      -1
+    BSBT2R    0BSBT2    1
     BSBT3R    OBJ       299.68
     BSBT3R    BP3R      1
     BSBT3R    BT3R      -1
@@ -1140,10 +1120,10 @@ COLUMNS
     BSBT1T    BP1T      1
     BSBT1T    BT1T      -1
     BSBT2T    OBJ       5325.54
-    BSBT2T    0BPBS2    1
-    BSBT2T    BP2T      1
     BSBT2T    BT2T      -1
+    BSBT2T    0BSBT2    1
     BSBT3T    OBJ       2053.17
+    BSBT3T    BP3T      1
     BSBT3T    BT3T      -1
     BSBT3T    0BSBT3    1
     BSBT4T    OBJ       791.61
@@ -1154,31 +1134,31 @@ COLUMNS
     BSBT5T    BP5T      1
     BSBT5T    BT5T      -1
     BSBT5T    0BSBT5    1
-    BUBT1R    OBJ       440.85
-    BUBT1R    BU1R      1
+    BUBT1R    OBJ       748.21
+    BUBT1R    BV1R      1
     BUBT1R    BT1R      -1
-    BUBT1R    0BUBT1    1
-    BUBT2R    OBJ       169.97
-    BUBT2R    BU2R      1
+    BUBT2R    OBJ       288.47
+    BUBT2R    0BVBU2    1
+    BUBT2R    BV2R      1
     BUBT2R    BT2R      -1
     BUBT2R    0BUBT2    1
-    BUBT3R    OBJ       65.53
-    BUBT3R    BU3R      1
+    BUBT3R    OBJ       111.22
+    BUBT3R    0BVBU3    1
     BUBT3R    BT3R      -1
     BUBT3R    0BUBT3    1
-    BUBT4R    OBJ       25.27
-    BUBT4R    BU4R      1
+    BUBT4R    OBJ       4.2879999999999995e+01
+    BUBT4R    0BVBU4    1
+    BUBT4R    BV4R      1
     BUBT4R    BT4R      -1
     BUBT4R    0BUBT4    1
-    BUBT5R    OBJ       9.74
-    BUBT5R    BU5R      1
+    BUBT5R    OBJ       16.53
+    BUBT5R    0BVBU5    1
+    BUBT5R    BV5R      1
     BUBT5R    BT5R      -1
     BUBT5R    0BUBT5    1
     BUBT1T    OBJ       4990.4
-    BUBT1T    0BVBU1    1
     BUBT1T    BV1T      1
     BUBT1T    BT1T      -1
-    BUBT1T    0BUBT1    1
     BUBT2T    OBJ       1924.03
     BUBT2T    0BVBU2    1
     BUBT2T    BV2T      1
@@ -1199,56 +1179,28 @@ COLUMNS
     BUBT5T    BV5T      1
     BUBT5T    BT5T      -1
     BUBT5T    0BUBT5    1
-    BUBV1R    OBJ       307.36
-    BUBV1R    BU1R      1
-    BUBV1R    BV1R      -1
-    BUBV2R    OBJ       118.5
-    BUBV2R    BU2R      1
-    BUBV2R    BV2R      -1
-    BUBV3R    OBJ       45.69
-    BUBV3R    BU3R      1
-    BUBV3R    BV3R      -1
-    BUBV4R    OBJ       17.61
-    BUBV4R    BU4R      1
-    BUBV4R    BV4R      -1
-    BUBV5R    OBJ       6.79
-    BUBV5R    BU5R      1
-    BUBV5R    BV5R      -1
-    BUBX1R    OBJ       1.3753400000000001e+03
-    BUBX1R    BZ1R      -1
-    BUBX1R    BU1R      1
-    BUBX2R    OBJ       530.25
-    BUBX2R    BZ2R      -1
-    BUBX2R    BU2R      1
-    BUBX3R    OBJ       204.43
-    BUBX3R    BZ3R      -1
-    BUBX3R    BU3R      1
-    BUBX4R    OBJ       78.82
-    BUBX4R    BZ4R      -1
-    BUBX4R    BU4R      1
-    BUBX5R    OBJ       30.39
-    BUBX5R    BZ5R      -1
-    BUBX5R    BU5R      1
-    BVBU1R    OBJ       307.36
-    BVBU1R    BV1R      1
-    BVBU1R    BU1R      -1
-    BVBU1R    0BVBU1    1
-    BVBU2R    OBJ       118.5
-    BVBU2R    BV2R      1
-    BVBU2R    BU2R      -1
-    BVBU2R    0BVBU2    1
-    BVBU3R    OBJ       45.69
-    BVBU3R    BV3R      1
-    BVBU3R    BU3R      -1
-    BVBU3R    0BVBU3    1
-    BVBU4R    OBJ       17.61
-    BVBU4R    BV4R      1
-    BVBU4R    BU4R      -1
-    BVBU4R    0BVBU4    1
-    BVBU5R    OBJ       6.79
-    BVBU5R    BV5R      1
-    BVBU5R    BU5R      -1
-    BVBU5R    0BVBU5    1
+    BUBX1R    OBJ       1.3356100000000004e+03
+    BUBX1R    0DABZ1    -1
+    BUBX1R    DA1R      -1
+    BUBX1R    BV1R      1
+    BUBX2R    OBJ       5.1493000000000006e+02
+    BUBX2R    0DABZ2    -1
+    BUBX2R    DA2R      -1
+    BUBX2R    0BVBU2    1
+    BUBX2R    BV2R      1
+    BUBX3R    OBJ       198.53
+    BUBX3R    0DABZ3    -1
+    BUBX3R    DA3R      -1
+    BUBX3R    0BVBU3    1
+    BUBX4R    OBJ       7.6539999999999992e+01
+    BUBX4R    0DABZ4    -1
+    BUBX4R    DA4R      -1
+    BUBX4R    0BVBU4    1
+    BUBX4R    BV4R      1
+    BUBX5R    OBJ       2.9509999999999998e+01
+    BUBX5R    0DABZ5    -1
+    BUBX5R    0BVBU5    1
+    BUBX5R    BV5R      1
     BVCA1R    OBJ       1228.18
     BVCA1R    DA1R      -1
     BVCA1R    BV1R      1
@@ -1257,12 +1209,10 @@ COLUMNS
     BVCA2R    BV2R      1
     BVCA3R    OBJ       182.57
     BVCA3R    DA3R      -1
-    BVCA3R    BV3R      1
     BVCA4R    OBJ       70.38
     BVCA4R    DA4R      -1
     BVCA4R    BV4R      1
     BVCA5R    OBJ       27.14
-    BVCA5R    DA5R      -1
     BVCA5R    BV5R      1
     BVCA1T    OBJ       3564.1
     BVCA1T    BV1T      1
@@ -1359,20 +1309,24 @@ COLUMNS
     BYSC5T    OBJ       173.25
     BYSC5T    BY5T      1
     BYSC5T    SC5T      -1
-    BZBY1R    OBJ       1281.6
-    BZBY1R    BZ1R      1
+    BZBY1R    OBJ       1.6286899999999998e+03
+    BZBY1R    0DABZ1    1
+    BZBY1R    DA1R      1
     BZBY1R    BY1R      -1
-    BZBY2R    OBJ       494.11
-    BZBY2R    BZ2R      1
+    BZBY2R    OBJ       6.2793000000000006e+02
+    BZBY2R    0DABZ2    1
+    BZBY2R    DA2R      1
     BZBY2R    BY2R      -1
-    BZBY3R    OBJ       190.5
-    BZBY3R    BZ3R      1
+    BZBY3R    OBJ       242.09
+    BZBY3R    0DABZ3    1
+    BZBY3R    DA3R      1
     BZBY3R    BY3R      -1
-    BZBY4R    OBJ       73.45
-    BZBY4R    BZ4R      1
+    BZBY4R    OBJ       93.34
+    BZBY4R    0DABZ4    1
+    BZBY4R    DA4R      1
     BZBY4R    BY4R      -1
-    BZBY5R    OBJ       28.32
-    BZBY5R    BZ5R      1
+    BZBY5R    OBJ       35.99
+    BZBY5R    0DABZ5    1
     BZBY5R    BY5R      -1
     CADA1T    OBJ       4633.3
     CADA1T    CA1T      1
@@ -1388,6 +1342,7 @@ COLUMNS
     CADA4T    DA4T      -1
     CADA5T    OBJ       102.37
     CADA5T    CA5T      1
+    CADA5T    DA5T      -1
     CBCA1R    OBJ       1.3300100000000002e+03
     CBCA1R    DA1R      -1
     CBCA1R    CB1R      1
@@ -1405,7 +1360,6 @@ COLUMNS
     CBCA4R    CB4R      1
     CBCA4R    0CBCA4    1
     CBCA5R    OBJ       29.39
-    CBCA5R    DA5R      -1
     CBCA5R    CB5R      1
     CBCA5R    0CBCA5    1
     CBCA1T    OBJ       4322.9
@@ -1428,46 +1382,21 @@ COLUMNS
     CBCA5T    CB5T      1
     CBCA5T    CA5T      -1
     CBCA5T    0CBCA5    1
-    CBDW1R    OBJ       2018.6
-    CBDW1R    CB1R      1
-    CBDW1R    DW1R      -1
-    CBDW1R    0CBDW1    1
-    CBDW2R    OBJ       778.26
-    CBDW2R    CB2R      1
-    CBDW2R    DW2R      -1
-    CBDW2R    0CBDW2    1
-    CBDW3R    OBJ       300.05
-    CBDW3R    CB3R      1
-    CBDW3R    DW3R      -1
-    CBDW3R    0CBDW3    1
-    CBDW4R    OBJ       115.68
-    CBDW4R    CB4R      1
-    CBDW4R    DW4R      -1
-    CBDW4R    0CBDW4    1
-    CBDW5R    OBJ       44.6
-    CBDW5R    CB5R      1
-    CBDW5R    DW5R      -1
-    CBDW5R    0CBDW5    1
     CBDW1T    OBJ       13730
     CBDW1T    CB1T      1
     CBDW1T    DW1T      -1
-    CBDW1T    0CBDW1    1
     CBDW2T    OBJ       5293.7
     CBDW2T    CB2T      1
     CBDW2T    DW2T      -1
-    CBDW2T    0CBDW2    1
     CBDW3T    OBJ       2040.9
     CBDW3T    CB3T      1
     CBDW3T    DW3T      -1
-    CBDW3T    0CBDW3    1
     CBDW4T    OBJ       786.87
     CBDW4T    CB4T      1
     CBDW4T    DW4T      -1
-    CBDW4T    0CBDW4    1
     CBDW5T    OBJ       303.37
     CBDW5T    CB5T      1
     CBDW5T    DW5T      -1
-    CBDW5T    0CBDW5    1
     CCCD1R    OBJ       3402
     CCCD1R    CB1R      1
     CCCD1R    CD1R      -1
@@ -1477,36 +1406,37 @@ COLUMNS
     CCCD2R    CD2R      -1
     CCCD2R    0CCCD2    1
     CCCD3R    OBJ       505.69
+    CCCD3R    0CBCC3    1
     CCCD3R    CB3R      1
     CCCD3R    CD3R      -1
-    CCCD3R    0CCCD3    1
     CCCD4R    OBJ       194.97
+    CCCD4R    0CBCC4    1
     CCCD4R    CB4R      1
     CCCD4R    CD4R      -1
-    CCCD4R    0CCCD4    1
     CCCD5R    OBJ       75.17
+    CCCD5R    0CBCC5    1
     CCCD5R    CB5R      1
     CCCD5R    CD5R      -1
-    CCCD5R    0CCCD5    1
     CCCD1T    OBJ       23139
     CCCD1T    CB1T      1
+    CCCD1T    CD1T      -1
     CCCD1T    0CCCD1    1
     CCCD2T    OBJ       8920.9
     CCCD2T    CB2T      1
     CCCD2T    CD2T      -1
     CCCD2T    0CCCD2    1
     CCCD3T    OBJ       3.4393999999999996e+03
+    CCCD3T    0CBCC3    1
     CCCD3T    CB3T      1
     CCCD3T    CD3T      -1
-    CCCD3T    0CCCD3    1
     CCCD4T    OBJ       1326.04
+    CCCD4T    0CBCC4    1
     CCCD4T    CB4T      1
     CCCD4T    CD4T      -1
-    CCCD4T    0CCCD4    1
     CCCD5T    OBJ       511.25
+    CCCD5T    0CBCC5    1
     CCCD5T    CB5T      1
     CCCD5T    CD5T      -1
-    CCCD5T    0CCCD5    1
     CSCF1R    OBJ       1228.2
     CSCF1R    CS1R      1
     CSCF1R    CF1R      -1
@@ -1540,33 +1470,12 @@ COLUMNS
     CSCF3T    CF3T      -1
     CSCF3T    0CSCF3    1
     CSCF4T    OBJ       469.78
-    CSCF4T    CS4T      1
     CSCF4T    CF4T      -1
     CSCF4T    0CSCF4    1
     CSCF5T    OBJ       181.12
     CSCF5T    CS5T      1
     CSCF5T    CF5T      -1
     CSCF5T    0CSCF5    1
-    DABZ1R    OBJ       347.09
-    DABZ1R    DA1R      1
-    DABZ1R    BZ1R      -1
-    DABZ1R    0DABZ1    1
-    DABZ2R    OBJ       133.82
-    DABZ2R    DA2R      1
-    DABZ2R    BZ2R      -1
-    DABZ2R    0DABZ2    1
-    DABZ3R    OBJ       51.59
-    DABZ3R    DA3R      1
-    DABZ3R    BZ3R      -1
-    DABZ3R    0DABZ3    1
-    DABZ4R    OBJ       19.89
-    DABZ4R    DA4R      1
-    DABZ4R    BZ4R      -1
-    DABZ4R    0DABZ4    1
-    DABZ5R    OBJ       7.67
-    DABZ5R    DA5R      1
-    DABZ5R    BZ5R      -1
-    DABZ5R    0DABZ5    1
     DABZ1T    OBJ       13787.2
     DABZ1T    BY1T      -1
     DABZ1T    DA1T      1
@@ -1585,6 +1494,7 @@ COLUMNS
     DABZ4T    0DABZ4    1
     DABZ5T    OBJ       304.62
     DABZ5T    BY5T      -1
+    DABZ5T    DA5T      1
     DABZ5T    0DABZ5    1
     DBDA1R    OBJ       1800.1
     DBDA1R    0DDDB1    1
@@ -1605,7 +1515,6 @@ COLUMNS
     DBDA5R    OBJ       3.9769999999999996e+01
     DBDA5R    0DDDB5    1
     DBDA5R    DD5R      1
-    DBDA5R    DA5R      -1
     DBDA1T    OBJ       12685.2
     DBDA1T    0DDDB1    1
     DBDA1T    DD1T      1
@@ -1625,6 +1534,7 @@ COLUMNS
     DBDA5T    OBJ       2.8028999999999996e+02
     DBDA5T    0DDDB5    1
     DBDA5T    DD5T      1
+    DBDA5T    DA5T      -1
     DBDH1R    OBJ       3102.8
     DBDH1R    0DDDB1    1
     DBDH1R    DD1R      1
@@ -1689,6 +1599,7 @@ COLUMNS
     DDDL3R    0DDDL3    1
     DDDL4R    OBJ       147.82
     DDDL4R    DD4R      1
+    DDDL4R    DL4R      -1
     DDDL4R    0DDDL4    1
     DDDL5R    OBJ       56.99
     DDDL5R    DD5R      1
@@ -1739,6 +1650,7 @@ COLUMNS
     DEDD1T    DD1T      -1
     DEDD1T    0DEDD1    1
     DEDD2T    OBJ       2450.9
+    DEDD2T    DE2T      1
     DEDD2T    DD2T      -1
     DEDD2T    0DEDD2    1
     DEDD3T    OBJ       944.93
@@ -1767,6 +1679,7 @@ COLUMNS
     DEDL3R    0DEDL3    1
     DEDL4R    OBJ       218.49
     DEDL4R    DE4R      1
+    DEDL4R    DL4R      -1
     DEDL4R    0DEDL4    1
     DEDL5R    OBJ       84.24
     DEDL5R    DE5R      1
@@ -1777,6 +1690,7 @@ COLUMNS
     DEDL1T    DL1T      -1
     DEDL1T    0DEDL1    1
     DEDL2T    OBJ       9999.2
+    DEDL2T    DE2T      1
     DEDL2T    DL2T      -1
     DEDL2T    0DEDL2    1
     DEDL3T    OBJ       3855.1
@@ -1809,7 +1723,6 @@ COLUMNS
     DGDA4R    0DGDA4    1
     DGDA5R    OBJ       30.68
     DGDA5R    DG5R      1
-    DGDA5R    DA5R      -1
     DGDA5R    0DGDA5    1
     DGDA1T    OBJ       9266.6
     DGDA1T    DG1T      1
@@ -1829,6 +1742,7 @@ COLUMNS
     DGDA4T    0DGDA4    1
     DGDA5T    OBJ       204.75
     DGDA5T    DG5T      1
+    DGDA5T    DA5T      -1
     DGDA5T    0DGDA5    1
     DHDG1R    OBJ       881.71
     DHDG1R    DH1R      1
@@ -1883,6 +1797,7 @@ COLUMNS
     DLDD3R    DD3R      -1
     DLDD3R    0DLDD3    1
     DLDD4R    OBJ       147.82
+    DLDD4R    DL4R      1
     DLDD4R    DD4R      -1
     DLDD4R    0DLDD4    1
     DLDD5R    OBJ       56.99
@@ -1922,6 +1837,7 @@ COLUMNS
     DLDE3R    DE3R      -1
     DLDE3R    0DLDE3    1
     DLDE4R    OBJ       218.49
+    DLDE4R    DL4R      1
     DLDE4R    DE4R      -1
     DLDE4R    0DLDE4    1
     DLDE5R    OBJ       84.24
@@ -1934,6 +1850,7 @@ COLUMNS
     DLDE1T    0DLDE1    1
     DLDE2T    OBJ       9999.2
     DLDE2T    DL2T      1
+    DLDE2T    DE2T      -1
     DLDE2T    0DLDE2    1
     DLDE3T    OBJ       3855.1
     DLDE3T    DL3T      1
@@ -1947,135 +1864,116 @@ COLUMNS
     DLDE5T    DL5T      1
     DLDE5T    DE5T      -1
     DLDE5T    0DLDE5    1
-    DLDM1R    OBJ       1195.9
+    DLDM1R    OBJ       3252.39
+    DLDM1R    0DMDJ1    1
+    DLDM1R    DH1R      -1
     DLDM1R    DL1R      1
-    DLDM1R    DM1R      -1
     DLDM1R    0DLDM1    1
-    DLDM2R    OBJ       461.07
+    DLDM2R    OBJ       1253.94
+    DLDM2R    DH2R      -1
+    DLDM2R    0DJDH2    1
     DLDM2R    DL2R      1
-    DLDM2R    DM2R      -1
     DLDM2R    0DLDM2    1
-    DLDM3R    OBJ       177.76
+    DLDM3R    OBJ       483.44
+    DLDM3R    0DMDJ3    1
+    DLDM3R    DH3R      -1
     DLDM3R    DL3R      1
-    DLDM3R    DM3R      -1
     DLDM3R    0DLDM3    1
-    DLDM4R    OBJ       68.54
-    DLDM4R    DM4R      -1
+    DLDM4R    OBJ       186.39
+    DLDM4R    DH4R      -1
+    DLDM4R    0DJDH4    1
+    DLDM4R    DL4R      1
     DLDM4R    0DLDM4    1
-    DLDM5R    OBJ       26.42
+    DLDM5R    OBJ       71.86
+    DLDM5R    0DMDJ5    1
+    DLDM5R    DH5R      -1
     DLDM5R    DL5R      1
-    DLDM5R    DM5R      -1
     DLDM5R    0DLDM5    1
-    DLDM1T    OBJ       8136.6
+    DLDM1T    OBJ       21858.4
+    DLDM1T    0DMDJ1    1
+    DLDM1T    DH1T      -1
     DLDM1T    DL1T      1
-    DLDM1T    DM1T      -1
     DLDM1T    0DLDM1    1
-    DLDM2T    OBJ       3137
+    DLDM2T    OBJ       8427.3
+    DLDM2T    DH2T      -1
+    DLDM2T    0DJDH2    1
     DLDM2T    DL2T      1
-    DLDM2T    DM2T      -1
     DLDM2T    0DLDM2    1
-    DLDM3T    OBJ       1209.4
+    DLDM3T    OBJ       3249
+    DLDM3T    0DMDJ3    1
+    DLDM3T    DH3T      -1
     DLDM3T    DL3T      1
-    DLDM3T    DM3T      -1
     DLDM3T    0DLDM3    1
-    DLDM4T    OBJ       466.29
+    DLDM4T    OBJ       1252.66
+    DLDM4T    DH4T      -1
+    DLDM4T    0DJDH4    1
     DLDM4T    DL4T      1
-    DLDM4T    DM4T      -1
     DLDM4T    0DLDM4    1
-    DLDM5T    OBJ       179.78
+    DLDM5T    OBJ       4.8296000000000004e+02
+    DLDM5T    0DMDJ5    1
+    DLDM5T    DH5T      -1
     DLDM5T    DL5T      1
-    DLDM5T    DM5T      -1
     DLDM5T    0DLDM5    1
-    DMDJ1R    OBJ       2056.49
-    DMDJ1R    DH1R      -1
-    DMDJ1R    DM1R      1
-    DMDJ1R    0DMDJ1    1
-    DMDJ2R    OBJ       792.87
-    DMDJ2R    0DJDH2    1
-    DMDJ2R    DH2R      -1
-    DMDJ2R    DM2R      1
-    DMDJ3R    OBJ       305.68
-    DMDJ3R    DH3R      -1
-    DMDJ3R    DM3R      1
-    DMDJ3R    0DMDJ3    1
-    DMDJ4R    OBJ       117.85
-    DMDJ4R    DH4R      -1
-    DMDJ4R    DM4R      1
-    DMDJ4R    0DMDJ4    1
-    DMDJ5R    OBJ       45.44
-    DMDJ5R    DH5R      -1
-    DMDJ5R    DM5R      1
-    DMDJ5R    0DMDJ5    1
-    DMDJ1T    OBJ       13721.8
-    DMDJ1T    DH1T      -1
-    DMDJ1T    DM1T      1
-    DMDJ1T    0DMDJ1    1
-    DMDJ2T    OBJ       5290.3
-    DMDJ2T    0DJDH2    1
-    DMDJ2T    DH2T      -1
-    DMDJ2T    DM2T      1
-    DMDJ3T    OBJ       2039.6
-    DMDJ3T    DH3T      -1
-    DMDJ3T    DM3T      1
-    DMDJ3T    0DMDJ3    1
-    DMDJ4T    OBJ       786.37
-    DMDJ4T    DH4T      -1
-    DMDJ4T    DM4T      1
-    DMDJ4T    0DMDJ4    1
-    DMDJ5T    OBJ       303.18
-    DMDJ5T    DH5T      -1
-    DMDJ5T    DM5T      1
-    DMDJ5T    0DMDJ5    1
-    DQDP1R    OBJ       5.3672900000000009e+03
+    DQDP1R    OBJ       7.4237800000000007e+03
     DQDP1R    0DNDM1    1
-    DQDP1R    DM1R      -1
-    DQDP1R    0DPDN1    1
+    DQDP1R    DH1R      -1
+    DQDP1R    0DMDJ1    1
     DQDP1R    CV1R      1
-    DQDP2R    OBJ       2069.3
+    DQDP1R    0DQDP1    1
+    DQDP2R    OBJ       2862.17
     DQDP2R    0DNDM2    1
-    DQDP2R    DM2R      -1
-    DQDP2R    0CVDQ2    1
+    DQDP2R    0DJDH2    1
+    DQDP2R    DH2R      -1
     DQDP2R    CV2R      1
-    DQDP3R    OBJ       7.9781000000000006e+02
+    DQDP2R    0DQDP2    1
+    DQDP3R    OBJ       1103.49
     DQDP3R    0DNDM3    1
-    DQDP3R    DM3R      -1
-    DQDP3R    0CVDQ3    1
+    DQDP3R    DH3R      -1
+    DQDP3R    0DMDJ3    1
     DQDP3R    CV3R      1
-    DQDP4R    OBJ       3.0759000000000003e+02
+    DQDP3R    0DQDP3    1
+    DQDP4R    OBJ       425.44
     DQDP4R    0DNDM4    1
-    DQDP4R    DM4R      -1
+    DQDP4R    0DJDH4    1
+    DQDP4R    DH4R      -1
+    DQDP4R    0DPDN4    1
     DQDP4R    CV4R      1
-    DQDP4R    0DQDP4    1
-    DQDP5R    OBJ       118.6
+    DQDP5R    OBJ       1.6404000000000002e+02
     DQDP5R    0DNDM5    1
-    DQDP5R    DM5R      -1
-    DQDP5R    0CVDQ5    1
+    DQDP5R    DH5R      -1
+    DQDP5R    0DMDJ5    1
     DQDP5R    CV5R      1
-    DQDP1T    OBJ       35819.1
+    DQDP5R    0DQDP5    1
+    DQDP1T    OBJ       49540.9
     DQDP1T    0DNDM1    1
-    DQDP1T    DM1T      -1
-    DQDP1T    0DPDN1    1
+    DQDP1T    DH1T      -1
+    DQDP1T    0DMDJ1    1
     DQDP1T    CV1T      1
-    DQDP2T    OBJ       13809.8
+    DQDP1T    0DQDP1    1
+    DQDP2T    OBJ       19100.1
     DQDP2T    0DNDM2    1
-    DQDP2T    DM2T      -1
-    DQDP2T    0CVDQ2    1
+    DQDP2T    0DJDH2    1
+    DQDP2T    DH2T      -1
     DQDP2T    CV2T      1
-    DQDP3T    OBJ       5.3242199999999993e+03
+    DQDP2T    0DQDP2    1
+    DQDP3T    OBJ       7363.82
     DQDP3T    0DNDM3    1
-    DQDP3T    DM3T      -1
-    DQDP3T    0CVDQ3    1
+    DQDP3T    DH3T      -1
+    DQDP3T    0DMDJ3    1
     DQDP3T    CV3T      1
-    DQDP4T    OBJ       2052.74
+    DQDP3T    0DQDP3    1
+    DQDP4T    OBJ       2.8391099999999997e+03
     DQDP4T    0DNDM4    1
-    DQDP4T    DM4T      -1
+    DQDP4T    0DJDH4    1
+    DQDP4T    DH4T      -1
+    DQDP4T    0DPDN4    1
     DQDP4T    CV4T      1
-    DQDP4T    0DQDP4    1
-    DQDP5T    OBJ       7.9142000000000007e+02
+    DQDP5T    OBJ       1.0946000000000001e+03
     DQDP5T    0DNDM5    1
-    DQDP5T    DM5T      -1
-    DQDP5T    0CVDQ5    1
+    DQDP5T    DH5T      -1
+    DQDP5T    0DMDJ5    1
     DQDP5T    CV5T      1
+    DQDP5T    0DQDP5    1
     DRDA1R    OBJ       868.05
     DRDA1R    DR1R      1
     DRDA1R    DA1R      -1
@@ -2094,7 +1992,6 @@ COLUMNS
     DRDA4R    0DRDA4    1
     DRDA5R    OBJ       19.18
     DRDA5R    DR5R      1
-    DRDA5R    DA5R      -1
     DRDA5R    0DRDA5    1
     DRDA1T    OBJ       7345.5
     DRDA1T    DR1T      1
@@ -2114,6 +2011,7 @@ COLUMNS
     DRDA4T    0DRDA4    1
     DRDA5T    OBJ       162.3
     DRDA5T    DR5T      1
+    DRDA5T    DA5T      -1
     DRDA5T    0DRDA5    1
     DRDS1R    OBJ       868.05
     DRDS1R    DR1R      1
@@ -2121,7 +2019,6 @@ COLUMNS
     DRDS1R    0DRDS1    1
     DRDS2R    OBJ       334.67
     DRDS2R    DR2R      1
-    DRDS2R    DS2R      -1
     DRDS2R    0DRDS2    1
     DRDS3R    OBJ       129.03
     DRDS3R    DR3R      1
@@ -2129,7 +2026,6 @@ COLUMNS
     DRDS3R    0DRDS3    1
     DRDS4R    OBJ       49.75
     DRDS4R    DR4R      1
-    DRDS4R    DS4R      -1
     DRDS4R    0DRDS4    1
     DRDS5R    OBJ       19.18
     DRDS5R    DR5R      1
@@ -2160,6 +2056,7 @@ COLUMNS
     DRFA1R    DR1R      1
     DRFA1R    0DRFA1    1
     DRFA2R    OBJ       298.52
+    DRFA2R    FB2R      -1
     DRFA2R    DR2R      1
     DRFA2R    0DRFA2    1
     DRFA3R    OBJ       115.09
@@ -2199,7 +2096,6 @@ COLUMNS
     DSDR1R    DR1R      -1
     DSDR1R    0DSDR1    1
     DSDR2R    OBJ       334.67
-    DSDR2R    DS2R      1
     DSDR2R    DR2R      -1
     DSDR2R    0DSDR2    1
     DSDR3R    OBJ       129.03
@@ -2207,7 +2103,6 @@ COLUMNS
     DSDR3R    DR3R      -1
     DSDR3R    0DSDR3    1
     DSDR4R    OBJ       49.75
-    DSDR4R    DS4R      1
     DSDR4R    DR4R      -1
     DSDR4R    0DSDR4    1
     DSDR5R    OBJ       19.18
@@ -2234,26 +2129,6 @@ COLUMNS
     DSDR5T    DS5T      1
     DSDR5T    DR5T      -1
     DSDR5T    0DSDR5    1
-    DWCB1R    OBJ       2018.6
-    DWCB1R    DW1R      1
-    DWCB1R    CB1R      -1
-    DWCB1R    0DWCB1    1
-    DWCB2R    OBJ       778.26
-    DWCB2R    DW2R      1
-    DWCB2R    CB2R      -1
-    DWCB2R    0DWCB2    1
-    DWCB3R    OBJ       300.05
-    DWCB3R    DW3R      1
-    DWCB3R    CB3R      -1
-    DWCB3R    0DWCB3    1
-    DWCB4R    OBJ       115.68
-    DWCB4R    DW4R      1
-    DWCB4R    CB4R      -1
-    DWCB4R    0DWCB4    1
-    DWCB5R    OBJ       44.6
-    DWCB5R    DW5R      1
-    DWCB5R    CB5R      -1
-    DWCB5R    0DWCB5    1
     DWCB1T    OBJ       13730
     DWCB1T    DW1T      1
     DWCB1T    CB1T      -1
@@ -2274,24 +2149,29 @@ COLUMNS
     DWCB5T    DW5T      1
     DWCB5T    CB5T      -1
     DWCB5T    0DWCB5    1
-    DWDE1R    OBJ       1794.5
-    DWDE1R    DW1R      1
+    DWDE1R    OBJ       -2.2409999999999991e+02
+    DWDE1R    0DWCB1    -1
+    DWDE1R    CB1R      1
     DWDE1R    DE1R      -1
     DWDE1R    0DWDE1    1
-    DWDE2R    OBJ       691.84
-    DWDE2R    DW2R      1
+    DWDE2R    OBJ       -8.6419999999999959e+01
+    DWDE2R    0DWCB2    -1
+    DWDE2R    CB2R      1
     DWDE2R    DE2R      -1
     DWDE2R    0DWDE2    1
-    DWDE3R    OBJ       266.74
-    DWDE3R    DW3R      1
+    DWDE3R    OBJ       -33.31
+    DWDE3R    0DWCB3    -1
+    DWDE3R    CB3R      1
     DWDE3R    DE3R      -1
     DWDE3R    0DWDE3    1
-    DWDE4R    OBJ       102.84
-    DWDE4R    DW4R      1
+    DWDE4R    OBJ       -1.2840000000000003e+01
+    DWDE4R    0DWCB4    -1
+    DWDE4R    CB4R      1
     DWDE4R    DE4R      -1
     DWDE4R    0DWDE4    1
-    DWDE5R    OBJ       39.65
-    DWDE5R    DW5R      1
+    DWDE5R    OBJ       -4.9500000000000028e+00
+    DWDE5R    0DWCB5    -1
+    DWDE5R    CB5R      1
     DWDE5R    DE5R      -1
     DWDE5R    0DWDE5    1
     DWDE1T    OBJ       12205
@@ -2300,6 +2180,7 @@ COLUMNS
     DWDE1T    0DWDE1    1
     DWDE2T    OBJ       4705.5
     DWDE2T    DW2T      1
+    DWDE2T    DE2T      -1
     DWDE2T    0DWDE2    1
     DWDE3T    OBJ       1814.2
     DWDE3T    DW3T      1
@@ -2313,54 +2194,69 @@ COLUMNS
     DWDE5T    DW5T      1
     DWDE5T    DE5T      -1
     DWDE5T    0DWDE5    1
-    DWDN1R    OBJ       4117.3
+    DWDN1R    OBJ       4.1551900000000005e+03
+    DWDN1R    0DWCB1    -1
+    DWDN1R    CB1R      1
     DWDN1R    0DNDM1    1
-    DWDN1R    DM1R      -1
-    DWDN1R    DW1R      1
+    DWDN1R    DH1R      -1
+    DWDN1R    0DMDJ1    1
     DWDN1R    0DWDN1    1
-    DWDN2R    OBJ       1.5873799999999999e+03
+    DWDN2R    OBJ       1601.99
+    DWDN2R    0DWCB2    -1
+    DWDN2R    CB2R      1
     DWDN2R    0DNDM2    1
-    DWDN2R    DM2R      -1
-    DWDN2R    DW2R      1
+    DWDN2R    0DJDH2    1
+    DWDN2R    DH2R      -1
     DWDN2R    0DWDN2    1
-    DWDN3R    OBJ       612.01
+    DWDN3R    OBJ       6.1763999999999987e+02
+    DWDN3R    0DWCB3    -1
+    DWDN3R    CB3R      1
     DWDN3R    0DNDM3    1
-    DWDN3R    DM3R      -1
-    DWDN3R    DW3R      1
+    DWDN3R    DH3R      -1
+    DWDN3R    0DMDJ3    1
     DWDN3R    0DWDN3    1
-    DWDN4R    OBJ       2.3595999999999998e+02
+    DWDN4R    OBJ       2.3812999999999994e+02
+    DWDN4R    0DWCB4    -1
+    DWDN4R    CB4R      1
     DWDN4R    0DNDM4    1
-    DWDN4R    DM4R      -1
-    DWDN4R    DW4R      1
+    DWDN4R    0DJDH4    1
+    DWDN4R    DH4R      -1
     DWDN4R    0DWDN4    1
-    DWDN5R    OBJ       9.0979999999999990e+01
+    DWDN5R    OBJ       9.1820000000000022e+01
+    DWDN5R    0DWCB5    -1
+    DWDN5R    CB5R      1
     DWDN5R    0DNDM5    1
-    DWDN5R    DM5R      -1
-    DWDN5R    DW5R      1
+    DWDN5R    DH5R      -1
+    DWDN5R    0DMDJ5    1
     DWDN5R    0DWDN5    1
-    DWDN1T    OBJ       27828.6
+    DWDN1T    OBJ       41550.4
     DWDN1T    0DNDM1    1
-    DWDN1T    DM1T      -1
+    DWDN1T    DH1T      -1
+    DWDN1T    0DMDJ1    1
     DWDN1T    DW1T      1
     DWDN1T    0DWDN1    1
-    DWDN2T    OBJ       1.0729099999999999e+04
+    DWDN2T    OBJ       16019.4
     DWDN2T    0DNDM2    1
-    DWDN2T    DM2T      -1
+    DWDN2T    0DJDH2    1
+    DWDN2T    DH2T      -1
     DWDN2T    DW2T      1
     DWDN2T    0DWDN2    1
-    DWDN3T    OBJ       4136.5
+    DWDN3T    OBJ       6176.1
     DWDN3T    0DNDM3    1
-    DWDN3T    DM3T      -1
+    DWDN3T    DH3T      -1
+    DWDN3T    0DMDJ3    1
     DWDN3T    DW3T      1
     DWDN3T    0DWDN3    1
-    DWDN4T    OBJ       1594.86
+    DWDN4T    OBJ       2.3812299999999996e+03
     DWDN4T    0DNDM4    1
-    DWDN4T    DM4T      -1
+    DWDN4T    0DJDH4    1
+    DWDN4T    DH4T      -1
     DWDN4T    DW4T      1
     DWDN4T    0DWDN4    1
-    DWDN5T    OBJ       614.87
+    DWDN5T    OBJ       918.05
     DWDN5T    0DNDM5    1
-    DWDN5T    DM5T      -1
+    DWDN5T    DH5T      -1
+    DWDN5T    0DMDJ5    1
     DWDN5T    DW5T      1
     DWDN5T    0DWDN5    1
     FADR1R    OBJ       1201.49
@@ -2368,6 +2264,7 @@ COLUMNS
     FADR1R    DR1R      -1
     FADR1R    0FADR1    1
     FADR2R    OBJ       463.22
+    FADR2R    FB2R      1
     FADR2R    DR2R      -1
     FADR2R    0FADR2    1
     FADR3R    OBJ       178.59
@@ -2421,6 +2318,7 @@ COLUMNS
     FESC1R    FB1R      1
     FESC1R    SC1R      -1
     FESC2R    OBJ       2923.5
+    FESC2R    FB2R      1
     FESC2R    SC2R      -1
     FESC3R    OBJ       1127.1
     FESC3R    FB3R      1
@@ -2474,7 +2372,7 @@ COLUMNS
     SCYN4T    SI4T      -1
     SCYN4T    SC4T      1
     SCYN5T    OBJ       314.99
-    SCYN5T    SI5T      1
+    SCYN5T    SI5T      -1
     SCYN5T    SC5T      1
     BBBL1A    OBJ       1831.7
     BBBL1A    BB1R      1
@@ -2518,9 +2416,11 @@ COLUMNS
     BLBB2F    RBBBL1    1
     BBBL3A    OBJ       194.56
     BBBL3A    BB3R      1
+    BBBL3A    BL3R      -1
     BBBL3A    1BBBL3    1
     BBBL3A    RBBBL1    1
     BLBB3A    OBJ       194.56
+    BLBB3A    BL3R      1
     BLBB3A    BB3R      -1
     BLBB3A    1BBBL3    1
     BLBB3A    RBBBL1    1
@@ -2619,9 +2519,11 @@ COLUMNS
     BLBB2G    RBBBL2    1
     BBBL3B    OBJ       194.56
     BBBL3B    BB3R      1
+    BBBL3B    BL3R      -1
     BBBL3B    2BBBL3    1
     BBBL3B    RBBBL2    1
     BLBB3B    OBJ       194.56
+    BLBB3B    BL3R      1
     BLBB3B    BB3R      -1
     BLBB3B    2BBBL3    1
     BLBB3B    RBBBL2    1
@@ -2720,9 +2622,11 @@ COLUMNS
     BLBB2H    RBBBL3    1
     BBBL3C    OBJ       272.27
     BBBL3C    BB3R      1
+    BBBL3C    BL3R      -1
     BBBL3C    3BBBL3    1
     BBBL3C    RBBBL3    1
     BLBB3C    OBJ       272.27
+    BLBB3C    BL3R      1
     BLBB3C    BB3R      -1
     BLBB3C    3BBBL3    1
     BLBB3C    RBBBL3    1
@@ -2821,9 +2725,11 @@ COLUMNS
     BLBB2I    RBBBL4    1
     BBBL3D    OBJ       272.27
     BBBL3D    BB3R      1
+    BBBL3D    BL3R      -1
     BBBL3D    4BBBL3    1
     BBBL3D    RBBBL4    1
     BLBB3D    OBJ       272.27
+    BLBB3D    BL3R      1
     BLBB3D    BB3R      -1
     BLBB3D    4BBBL3    1
     BLBB3D    RBBBL4    1
@@ -2922,9 +2828,11 @@ COLUMNS
     BLBB2J    RBBBL5    1
     BBBL3E    OBJ       194.56
     BBBL3E    BB3R      1
+    BBBL3E    BL3R      -1
     BBBL3E    5BBBL3    1
     BBBL3E    RBBBL5    1
     BLBB3E    OBJ       194.56
+    BLBB3E    BL3R      1
     BLBB3E    BB3R      -1
     BLBB3E    5BBBL3    1
     BLBB3E    RBBBL5    1
@@ -3011,10 +2919,12 @@ COLUMNS
     BMBL2F    BL2T      -1
     BMBL2F    1BLBM2    1
     BLBM3A    OBJ       123.51935
+    BLBM3A    BL3R      1
     BLBM3A    BM3R      -1
     BLBM3A    1BLBM3    1
     BMBL3A    OBJ       123.51935
     BMBL3A    BM3R      1
+    BMBL3A    BL3R      -1
     BMBL3A    1BLBM3    1
     BLBM3F    OBJ       821.55935
     BLBM3F    BL3T      1
@@ -3089,10 +2999,12 @@ COLUMNS
     BMBL2G    BL2T      -1
     BMBL2G    2BLBM2    1
     BLBM3B    OBJ       1.2343955000000001e+02
+    BLBM3B    BL3R      1
     BLBM3B    BM3R      -1
     BLBM3B    2BLBM3    1
     BMBL3B    OBJ       1.2343955000000001e+02
     BMBL3B    BM3R      1
+    BMBL3B    BL3R      -1
     BMBL3B    2BLBM3    1
     BLBM3G    OBJ       821.47955
     BLBM3G    BL3T      1
@@ -3167,10 +3079,12 @@ COLUMNS
     BMBL2H    BL2T      -1
     BMBL2H    3BLBM2    1
     BLBM3C    OBJ       172.4239
+    BLBM3C    BL3R      1
     BLBM3C    BM3R      -1
     BLBM3C    3BLBM3    1
     BMBL3C    OBJ       172.4239
     BMBL3C    BM3R      1
+    BMBL3C    BL3R      -1
     BMBL3C    3BLBM3    1
     BLBM3H    OBJ       1171.8039
     BLBM3H    BL3T      1
@@ -3245,10 +3159,12 @@ COLUMNS
     BMBL2I    BL2T      -1
     BMBL2I    4BLBM2    1
     BLBM3D    OBJ       1.7236005699999998e+02
+    BLBM3D    BL3R      1
     BLBM3D    BM3R      -1
     BLBM3D    4BLBM3    1
     BMBL3D    OBJ       1.7236005699999998e+02
     BMBL3D    BM3R      1
+    BMBL3D    BL3R      -1
     BMBL3D    4BLBM3    1
     BLBM3I    OBJ       1171.740057
     BLBM3I    BL3T      1
@@ -3323,10 +3239,12 @@ COLUMNS
     BMBL2J    BL2T      -1
     BMBL2J    5BLBM2    1
     BLBM3E    OBJ       123.12
+    BLBM3E    BL3R      1
     BLBM3E    BM3R      -1
     BLBM3E    5BLBM3    1
     BMBL3E    OBJ       123.12
     BMBL3E    BM3R      1
+    BMBL3E    BL3R      -1
     BMBL3E    5BLBM3    1
     BLBM3J    OBJ       1121.6
     BLBM3J    BL3T      1
@@ -3803,10 +3721,8 @@ COLUMNS
     BPBO2A    1BOBP2    1
     BOBP2F    OBJ       3.6276216400000003e+03
     BOBP2F    BO2T      1
-    BOBP2F    BP2T      -1
     BOBP2F    1BOBP2    1
     BPBO2F    OBJ       3.6276216400000003e+03
-    BPBO2F    BP2T      1
     BPBO2F    BO2T      -1
     BPBO2F    1BOBP2    1
     BOBP3A    OBJ       205.96164
@@ -3819,8 +3735,10 @@ COLUMNS
     BPBO3A    1BOBP3    1
     BOBP3F    OBJ       1398.82164
     BOBP3F    BO3T      1
+    BOBP3F    BP3T      -1
     BOBP3F    1BOBP3    1
     BPBO3F    OBJ       1398.82164
+    BPBO3F    BP3T      1
     BPBO3F    BO3T      -1
     BPBO3F    1BOBP3    1
     BOBP4A    OBJ       79.60164
@@ -3881,10 +3799,8 @@ COLUMNS
     BPBO2B    2BOBP2    1
     BOBP2G    OBJ       3627.42401
     BOBP2G    BO2T      1
-    BOBP2G    BP2T      -1
     BOBP2G    2BOBP2    1
     BPBO2G    OBJ       3627.42401
-    BPBO2G    BP2T      1
     BPBO2G    BO2T      -1
     BPBO2G    2BOBP2    1
     BOBP3B    OBJ       2.0576400999999998e+02
@@ -3897,8 +3813,10 @@ COLUMNS
     BPBO3B    2BOBP3    1
     BOBP3G    OBJ       1398.62401
     BOBP3G    BO3T      1
+    BOBP3G    BP3T      -1
     BOBP3G    2BOBP3    1
     BPBO3G    OBJ       1398.62401
+    BPBO3G    BP3T      1
     BPBO3G    BO3T      -1
     BPBO3G    2BOBP3    1
     BOBP4B    OBJ       79.40401
@@ -3959,10 +3877,8 @@ COLUMNS
     BPBO2C    3BOBP2    1
     BOBP2H    OBJ       3472.14781
     BOBP2H    BO2T      1
-    BOBP2H    BP2T      -1
     BOBP2H    3BOBP2    1
     BPBO2H    OBJ       3472.14781
-    BPBO2H    BP2T      1
     BPBO2H    BO2T      -1
     BPBO2H    3BOBP2    1
     BOBP3C    OBJ       2.0568780999999998e+02
@@ -3975,8 +3891,10 @@ COLUMNS
     BPBO3C    3BOBP3    1
     BOBP3H    OBJ       1398.54781
     BOBP3H    BO3T      1
+    BOBP3H    BP3T      -1
     BOBP3H    3BOBP3    1
     BPBO3H    OBJ       1398.54781
+    BPBO3H    BP3T      1
     BPBO3H    BO3T      -1
     BPBO3H    3BOBP3    1
     BOBP4C    OBJ       79.32781
@@ -4037,10 +3955,8 @@ COLUMNS
     BPBO2D    4BOBP2    1
     BOBP2I    OBJ       3472.1
     BOBP2I    BO2T      1
-    BOBP2I    BP2T      -1
     BOBP2I    4BOBP2    1
     BPBO2I    OBJ       3472.1
-    BPBO2I    BP2T      1
     BPBO2I    BO2T      -1
     BPBO2I    4BOBP2    1
     BOBP3D    OBJ       146.94
@@ -4053,8 +3969,10 @@ COLUMNS
     BPBO3D    4BOBP3    1
     BOBP3I    OBJ       1338.7
     BOBP3I    BO3T      1
+    BOBP3I    BP3T      -1
     BOBP3I    4BOBP3    1
     BPBO3I    OBJ       1338.7
+    BPBO3I    BP3T      1
     BPBO3I    BO3T      -1
     BPBO3I    4BOBP3    1
     BOBP4D    OBJ       56.65
@@ -4099,11 +4017,9 @@ COLUMNS
     BRBP1A    RBPBR1    1
     BPBR1F    OBJ       11696
     BPBR1F    BP1T      1
-    BPBR1F    BR1T      -1
     BPBR1F    1BPBR1    1
     BPBR1F    RBPBR1    1
     BRBP1F    OBJ       11696
-    BRBP1F    BR1T      1
     BRBP1F    BP1T      -1
     BRBP1F    1BPBR1    1
     BRBP1F    RBPBR1    1
@@ -4118,13 +4034,11 @@ COLUMNS
     BRBP2A    1BPBR2    1
     BRBP2A    RBPBR1    1
     BPBR2F    OBJ       4509.4
-    BPBR2F    BP2T      1
     BPBR2F    BR2T      -1
     BPBR2F    1BPBR2    1
     BPBR2F    RBPBR1    1
     BRBP2F    OBJ       4509.4
     BRBP2F    BR2T      1
-    BRBP2F    BP2T      -1
     BRBP2F    1BPBR2    1
     BRBP2F    RBPBR1    1
     BPBR3A    OBJ       255.57
@@ -4138,11 +4052,13 @@ COLUMNS
     BRBP3A    1BPBR3    1
     BRBP3A    RBPBR1    1
     BPBR3F    OBJ       1738.6
+    BPBR3F    BP3T      1
     BPBR3F    BR3T      -1
     BPBR3F    1BPBR3    1
     BPBR3F    RBPBR1    1
     BRBP3F    OBJ       1738.6
     BRBP3F    BR3T      1
+    BRBP3F    BP3T      -1
     BRBP3F    1BPBR3    1
     BRBP3F    RBPBR1    1
     BPBR4A    OBJ       98.53
@@ -4167,19 +4083,19 @@ COLUMNS
     BRBP4F    RBPBR1    1
     BPBR5A    OBJ       37.99
     BPBR5A    BP5R      1
+    BPBR5A    BR5R      -1
     BPBR5A    1BPBR5    1
     BPBR5A    RBPBR1    1
     BRBP5A    OBJ       37.99
+    BRBP5A    BR5R      1
     BRBP5A    BP5R      -1
     BRBP5A    1BPBR5    1
     BRBP5A    RBPBR1    1
     BPBR5F    OBJ       258.43
     BPBR5F    BP5T      1
-    BPBR5F    BR5T      -1
     BPBR5F    1BPBR5    1
     BPBR5F    RBPBR1    1
     BRBP5F    OBJ       258.43
-    BRBP5F    BR5T      1
     BRBP5F    BP5T      -1
     BRBP5F    1BPBR5    1
     BRBP5F    RBPBR1    1
@@ -4196,11 +4112,9 @@ COLUMNS
     BRBP1B    RBPBR2    1
     BPBR1G    OBJ       11196
     BPBR1G    BP1T      1
-    BPBR1G    BR1T      -1
     BPBR1G    2BPBR1    1
     BPBR1G    RBPBR2    1
     BRBP1G    OBJ       11196
-    BRBP1G    BR1T      1
     BRBP1G    BP1T      -1
     BRBP1G    2BPBR1    1
     BRBP1G    RBPBR2    1
@@ -4215,13 +4129,11 @@ COLUMNS
     BRBP2B    2BPBR2    1
     BRBP2B    RBPBR2    1
     BPBR2G    OBJ       4509.4
-    BPBR2G    BP2T      1
     BPBR2G    BR2T      -1
     BPBR2G    2BPBR2    1
     BPBR2G    RBPBR2    1
     BRBP2G    OBJ       4509.4
     BRBP2G    BR2T      1
-    BRBP2G    BP2T      -1
     BRBP2G    2BPBR2    1
     BRBP2G    RBPBR2    1
     BPBR3B    OBJ       255.57
@@ -4235,11 +4147,13 @@ COLUMNS
     BRBP3B    2BPBR3    1
     BRBP3B    RBPBR2    1
     BPBR3G    OBJ       1738.6
+    BPBR3G    BP3T      1
     BPBR3G    BR3T      -1
     BPBR3G    2BPBR3    1
     BPBR3G    RBPBR2    1
     BRBP3G    OBJ       1738.6
     BRBP3G    BR3T      1
+    BRBP3G    BP3T      -1
     BRBP3G    2BPBR3    1
     BRBP3G    RBPBR2    1
     BPBR4B    OBJ       98.53
@@ -4264,19 +4178,19 @@ COLUMNS
     BRBP4G    RBPBR2    1
     BPBR5B    OBJ       37.99
     BPBR5B    BP5R      1
+    BPBR5B    BR5R      -1
     BPBR5B    2BPBR5    1
     BPBR5B    RBPBR2    1
     BRBP5B    OBJ       37.99
+    BRBP5B    BR5R      1
     BRBP5B    BP5R      -1
     BRBP5B    2BPBR5    1
     BRBP5B    RBPBR2    1
     BPBR5G    OBJ       258.43
     BPBR5G    BP5T      1
-    BPBR5G    BR5T      -1
     BPBR5G    2BPBR5    1
     BPBR5G    RBPBR2    1
     BRBP5G    OBJ       258.43
-    BRBP5G    BR5T      1
     BRBP5G    BP5T      -1
     BRBP5G    2BPBR5    1
     BRBP5G    RBPBR2    1
@@ -4293,11 +4207,9 @@ COLUMNS
     BRBP1C    RBPBR3    1
     BPBR1H    OBJ       11196
     BPBR1H    BP1T      1
-    BPBR1H    BR1T      -1
     BPBR1H    3BPBR1    1
     BPBR1H    RBPBR3    1
     BRBP1H    OBJ       11196
-    BRBP1H    BR1T      1
     BRBP1H    BP1T      -1
     BRBP1H    3BPBR1    1
     BRBP1H    RBPBR3    1
@@ -4312,13 +4224,11 @@ COLUMNS
     BRBP2C    3BPBR2    1
     BRBP2C    RBPBR3    1
     BPBR2H    OBJ       4316.7
-    BPBR2H    BP2T      1
     BPBR2H    BR2T      -1
     BPBR2H    3BPBR2    1
     BPBR2H    RBPBR3    1
     BRBP2H    OBJ       4316.7
     BRBP2H    BR2T      1
-    BRBP2H    BP2T      -1
     BRBP2H    3BPBR2    1
     BRBP2H    RBPBR3    1
     BPBR3C    OBJ       255.57
@@ -4332,11 +4242,13 @@ COLUMNS
     BRBP3C    3BPBR3    1
     BRBP3C    RBPBR3    1
     BPBR3H    OBJ       1738.6
+    BPBR3H    BP3T      1
     BPBR3H    BR3T      -1
     BPBR3H    3BPBR3    1
     BPBR3H    RBPBR3    1
     BRBP3H    OBJ       1738.6
     BRBP3H    BR3T      1
+    BRBP3H    BP3T      -1
     BRBP3H    3BPBR3    1
     BRBP3H    RBPBR3    1
     BPBR4C    OBJ       98.53
@@ -4361,19 +4273,19 @@ COLUMNS
     BRBP4H    RBPBR3    1
     BPBR5C    OBJ       37.99
     BPBR5C    BP5R      1
+    BPBR5C    BR5R      -1
     BPBR5C    3BPBR5    1
     BPBR5C    RBPBR3    1
     BRBP5C    OBJ       37.99
+    BRBP5C    BR5R      1
     BRBP5C    BP5R      -1
     BRBP5C    3BPBR5    1
     BRBP5C    RBPBR3    1
     BPBR5H    OBJ       258.43
     BPBR5H    BP5T      1
-    BPBR5H    BR5T      -1
     BPBR5H    3BPBR5    1
     BPBR5H    RBPBR3    1
     BRBP5H    OBJ       258.43
-    BRBP5H    BR5T      1
     BRBP5H    BP5T      -1
     BRBP5H    3BPBR5    1
     BRBP5H    RBPBR3    1
@@ -4390,11 +4302,9 @@ COLUMNS
     BRBP1D    RBPBR4    1
     BPBR1I    OBJ       11196
     BPBR1I    BP1T      1
-    BPBR1I    BR1T      -1
     BPBR1I    4BPBR1    1
     BPBR1I    RBPBR4    1
     BRBP1I    OBJ       11196
-    BRBP1I    BR1T      1
     BRBP1I    BP1T      -1
     BRBP1I    4BPBR1    1
     BRBP1I    RBPBR4    1
@@ -4409,13 +4319,11 @@ COLUMNS
     BRBP2D    4BPBR2    1
     BRBP2D    RBPBR4    1
     BPBR2I    OBJ       4316.7
-    BPBR2I    BP2T      1
     BPBR2I    BR2T      -1
     BPBR2I    4BPBR2    1
     BPBR2I    RBPBR4    1
     BRBP2I    OBJ       4316.7
     BRBP2I    BR2T      1
-    BRBP2I    BP2T      -1
     BRBP2I    4BPBR2    1
     BRBP2I    RBPBR4    1
     BPBR3D    OBJ       182.56
@@ -4429,11 +4337,13 @@ COLUMNS
     BRBP3D    4BPBR3    1
     BRBP3D    RBPBR4    1
     BPBR3I    OBJ       1664.3
+    BPBR3I    BP3T      1
     BPBR3I    BR3T      -1
     BPBR3I    4BPBR3    1
     BPBR3I    RBPBR4    1
     BRBP3I    OBJ       1664.3
     BRBP3I    BR3T      1
+    BRBP3I    BP3T      -1
     BRBP3I    4BPBR3    1
     BRBP3I    RBPBR4    1
     BPBR4D    OBJ       70.39
@@ -4458,19 +4368,19 @@ COLUMNS
     BRBP4I    RBPBR4    1
     BPBR5D    OBJ       27.14
     BPBR5D    BP5R      1
+    BPBR5D    BR5R      -1
     BPBR5D    4BPBR5    1
     BPBR5D    RBPBR4    1
     BRBP5D    OBJ       27.14
+    BRBP5D    BR5R      1
     BRBP5D    BP5R      -1
     BRBP5D    4BPBR5    1
     BRBP5D    RBPBR4    1
     BPBR5I    OBJ       247.38
     BPBR5I    BP5T      1
-    BPBR5I    BR5T      -1
     BPBR5I    4BPBR5    1
     BPBR5I    RBPBR4    1
     BRBP5I    OBJ       247.38
-    BRBP5I    BR5T      1
     BRBP5I    BP5T      -1
     BRBP5I    4BPBR5    1
     BRBP5I    RBPBR4    1
@@ -4527,11 +4437,9 @@ COLUMNS
     BQCE3F    OBJ       1457.49764
     BQCE3F    PBQCE     1e-05
     BQCE3F    BQ3T      1
-    BQCE3F    CE3T      -1
     BQCE3F    1BQCE3    1
     CEBQ3F    OBJ       1457.49764
     CEBQ3F    PBQCE     1e-05
-    CEBQ3F    CE3T      1
     CEBQ3F    BQ3T      -1
     CEBQ3F    1BQCE3    1
     BQCE4A    OBJ       84.78764
@@ -4627,11 +4535,9 @@ COLUMNS
     BQCE3G    OBJ       1.4571304200000002e+03
     BQCE3G    PBQCE     1e-05
     BQCE3G    BQ3T      1
-    BQCE3G    CE3T      -1
     BQCE3G    2BQCE3    1
     CEBQ3G    OBJ       1.4571304200000002e+03
     CEBQ3G    PBQCE     1e-05
-    CEBQ3G    CE3T      1
     CEBQ3G    BQ3T      -1
     CEBQ3G    2BQCE3    1
     BQCE4B    OBJ       84.42042
@@ -4727,11 +4633,9 @@ COLUMNS
     BQCE3H    OBJ       1456.988835
     BQCE3H    PBQCE     1e-05
     BQCE3H    BQ3T      1
-    BQCE3H    CE3T      -1
     BQCE3H    3BQCE3    1
     CEBQ3H    OBJ       1456.988835
     CEBQ3H    PBQCE     1e-05
-    CEBQ3H    CE3T      1
     CEBQ3H    BQ3T      -1
     CEBQ3H    3BQCE3    1
     BQCE4C    OBJ       84.278835
@@ -4827,11 +4731,9 @@ COLUMNS
     BQCE3I    OBJ       2078.8
     BQCE3I    PBQCE     1e-05
     BQCE3I    BQ3T      1
-    BQCE3I    CE3T      -1
     BQCE3I    4BQCE3    1
     CEBQ3I    OBJ       2078.8
     CEBQ3I    PBQCE     1e-05
-    CEBQ3I    CE3T      1
     CEBQ3I    BQ3T      -1
     CEBQ3I    4BQCE3    1
     BQCE4D    OBJ       117.85
@@ -4883,13 +4785,11 @@ COLUMNS
     BVBR1A    1BRBV1    1
     BVBR1A    RBRBV1    1
     BRBV1F    OBJ       8553.8
-    BRBV1F    BR1T      1
     BRBV1F    BV1T      -1
     BRBV1F    1BRBV1    1
     BRBV1F    RBRBV1    1
     BVBR1F    OBJ       8553.8
     BVBR1F    BV1T      1
-    BVBR1F    BR1T      -1
     BVBR1F    1BRBV1    1
     BVBR1F    RBRBV1    1
     BRBV2A    OBJ       494.11
@@ -4914,11 +4814,9 @@ COLUMNS
     BVBR2F    RBRBV1    1
     BRBV3A    OBJ       190.5
     BRBV3A    BR3R      1
-    BRBV3A    BV3R      -1
     BRBV3A    1BRBV3    1
     BRBV3A    RBRBV1    1
     BVBR3A    OBJ       190.5
-    BVBR3A    BV3R      1
     BVBR3A    BR3R      -1
     BVBR3A    1BRBV3    1
     BVBR3A    RBRBV1    1
@@ -4953,21 +4851,21 @@ COLUMNS
     BVBR4F    1BRBV4    1
     BVBR4F    RBRBV1    1
     BRBV5A    OBJ       28.32
+    BRBV5A    BR5R      1
     BRBV5A    BV5R      -1
     BRBV5A    1BRBV5    1
     BRBV5A    RBRBV1    1
     BVBR5A    OBJ       28.32
     BVBR5A    BV5R      1
+    BVBR5A    BR5R      -1
     BVBR5A    1BRBV5    1
     BVBR5A    RBRBV1    1
     BRBV5F    OBJ       189
-    BRBV5F    BR5T      1
     BRBV5F    BV5T      -1
     BRBV5F    1BRBV5    1
     BRBV5F    RBRBV1    1
     BVBR5F    OBJ       189
     BVBR5F    BV5T      1
-    BVBR5F    BR5T      -1
     BVBR5F    1BRBV5    1
     BVBR5F    RBRBV1    1
     BRBV-2    OBJ       -12686.1
@@ -4982,13 +4880,11 @@ COLUMNS
     BVBR1B    2BRBV1    1
     BVBR1B    RBRBV2    1
     BRBV1G    OBJ       9999.3
-    BRBV1G    BR1T      1
     BRBV1G    BV1T      -1
     BRBV1G    2BRBV1    1
     BRBV1G    RBRBV2    1
     BVBR1G    OBJ       9999.3
     BVBR1G    BV1T      1
-    BVBR1G    BR1T      -1
     BVBR1G    2BRBV1    1
     BVBR1G    RBRBV2    1
     BRBV2B    OBJ       494.11
@@ -5013,11 +4909,9 @@ COLUMNS
     BVBR2G    RBRBV2    1
     BRBV3B    OBJ       190.5
     BRBV3B    BR3R      1
-    BRBV3B    BV3R      -1
     BRBV3B    2BRBV3    1
     BRBV3B    RBRBV2    1
     BVBR3B    OBJ       190.5
-    BVBR3B    BV3R      1
     BVBR3B    BR3R      -1
     BVBR3B    2BRBV3    1
     BVBR3B    RBRBV2    1
@@ -5052,21 +4946,21 @@ COLUMNS
     BVBR4G    2BRBV4    1
     BVBR4G    RBRBV2    1
     BRBV5B    OBJ       28.32
+    BRBV5B    BR5R      1
     BRBV5B    BV5R      -1
     BRBV5B    2BRBV5    1
     BRBV5B    RBRBV2    1
     BVBR5B    OBJ       28.32
     BVBR5B    BV5R      1
+    BVBR5B    BR5R      -1
     BVBR5B    2BRBV5    1
     BVBR5B    RBRBV2    1
     BRBV5G    OBJ       189
-    BRBV5G    BR5T      1
     BRBV5G    BV5T      -1
     BRBV5G    2BRBV5    1
     BRBV5G    RBRBV2    1
     BVBR5G    OBJ       189
     BVBR5G    BV5T      1
-    BVBR5G    BR5T      -1
     BVBR5G    2BRBV5    1
     BVBR5G    RBRBV2    1
     BRBV-3    OBJ       -17577.1
@@ -5081,13 +4975,11 @@ COLUMNS
     BVBR1C    3BRBV1    1
     BVBR1C    RBRBV3    1
     BRBV1H    OBJ       9999.3
-    BRBV1H    BR1T      1
     BRBV1H    BV1T      -1
     BRBV1H    3BRBV1    1
     BRBV1H    RBRBV3    1
     BVBR1H    OBJ       9999.3
     BVBR1H    BV1T      1
-    BVBR1H    BR1T      -1
     BVBR1H    3BRBV1    1
     BVBR1H    RBRBV3    1
     BRBV2C    OBJ       576.93
@@ -5112,11 +5004,9 @@ COLUMNS
     BVBR2H    RBRBV3    1
     BRBV3C    OBJ       190.5
     BRBV3C    BR3R      1
-    BRBV3C    BV3R      -1
     BRBV3C    3BRBV3    1
     BRBV3C    RBRBV3    1
     BVBR3C    OBJ       190.5
-    BVBR3C    BV3R      1
     BVBR3C    BR3R      -1
     BVBR3C    3BRBV3    1
     BVBR3C    RBRBV3    1
@@ -5151,21 +5041,21 @@ COLUMNS
     BVBR4H    3BRBV4    1
     BVBR4H    RBRBV3    1
     BRBV5C    OBJ       28.32
+    BRBV5C    BR5R      1
     BRBV5C    BV5R      -1
     BRBV5C    3BRBV5    1
     BRBV5C    RBRBV3    1
     BVBR5C    OBJ       28.32
     BVBR5C    BV5R      1
+    BVBR5C    BR5R      -1
     BVBR5C    3BRBV5    1
     BVBR5C    RBRBV3    1
     BRBV5H    OBJ       189
-    BRBV5H    BR5T      1
     BRBV5H    BV5T      -1
     BRBV5H    3BRBV5    1
     BRBV5H    RBRBV3    1
     BVBR5H    OBJ       189
     BVBR5H    BV5T      1
-    BVBR5H    BR5T      -1
     BVBR5H    3BRBV5    1
     BVBR5H    RBRBV3    1
     BRBV-4    OBJ       -20646
@@ -5180,13 +5070,11 @@ COLUMNS
     BVBR1D    4BRBV1    1
     BVBR1D    RBRBV4    1
     BRBV1I    OBJ       9999.3
-    BRBV1I    BR1T      1
     BRBV1I    BV1T      -1
     BRBV1I    4BRBV1    1
     BRBV1I    RBRBV4    1
     BVBR1I    OBJ       9999.3
     BVBR1I    BV1T      1
-    BVBR1I    BR1T      -1
     BVBR1I    4BRBV1    1
     BVBR1I    RBRBV4    1
     BRBV2D    OBJ       576.93
@@ -5211,11 +5099,9 @@ COLUMNS
     BVBR2I    RBRBV4    1
     BRBV3D    OBJ       222.43
     BRBV3D    BR3R      1
-    BRBV3D    BV3R      -1
     BRBV3D    4BRBV3    1
     BRBV3D    RBRBV4    1
     BVBR3D    OBJ       222.43
-    BVBR3D    BV3R      1
     BVBR3D    BR3R      -1
     BVBR3D    4BRBV3    1
     BVBR3D    RBRBV4    1
@@ -5250,21 +5136,21 @@ COLUMNS
     BVBR4I    4BRBV4    1
     BVBR4I    RBRBV4    1
     BRBV5D    OBJ       33.06
+    BRBV5D    BR5R      1
     BRBV5D    BV5R      -1
     BRBV5D    4BRBV5    1
     BRBV5D    RBRBV4    1
     BVBR5D    OBJ       33.06
     BVBR5D    BV5R      1
+    BVBR5D    BR5R      -1
     BVBR5D    4BRBV5    1
     BVBR5D    RBRBV4    1
     BRBV5I    OBJ       220.93
-    BRBV5I    BR5T      1
     BRBV5I    BV5T      -1
     BRBV5I    4BRBV5    1
     BRBV5I    RBRBV4    1
     BVBR5I    OBJ       220.93
     BVBR5I    BV5T      1
-    BVBR5I    BR5T      -1
     BVBR5I    4BRBV5    1
     BVBR5I    RBRBV4    1
     BRCD1A    OBJ       1228.69984
@@ -5277,11 +5163,11 @@ COLUMNS
     CDBR1A    1BRCD1    1
     BRCD1F    OBJ       8197.89984
     BRCD1F    PBRCD     1e-05
-    BRCD1F    BR1T      1
+    BRCD1F    CD1T      -1
     BRCD1F    1BRCD1    1
     CDBR1F    OBJ       8197.89984
     CDBR1F    PBRCD     1e-05
-    CDBR1F    BR1T      -1
+    CDBR1F    CD1T      1
     CDBR1F    1BRCD1    1
     BRCD2A    OBJ       474.01984
     BRCD2A    PBRCD     1e-05
@@ -5345,21 +5231,21 @@ COLUMNS
     CDBR4F    1BRCD4    1
     BRCD5A    OBJ       27.63984
     BRCD5A    PBRCD     1e-05
+    BRCD5A    BR5R      1
     BRCD5A    CD5R      -1
     BRCD5A    1BRCD5    1
     CDBR5A    OBJ       27.63984
     CDBR5A    PBRCD     1e-05
     CDBR5A    CD5R      1
+    CDBR5A    BR5R      -1
     CDBR5A    1BRCD5    1
     BRCD5F    OBJ       181.61984
     BRCD5F    PBRCD     1e-05
-    BRCD5F    BR5T      1
     BRCD5F    CD5T      -1
     BRCD5F    1BRCD5    1
     CDBR5F    OBJ       181.61984
     CDBR5F    PBRCD     1e-05
     CDBR5F    CD5T      1
-    CDBR5F    BR5T      -1
     CDBR5F    1BRCD5    1
     BRCD1B    OBJ       1719.49271
     BRCD1B    PBRCD     1e-05
@@ -5371,11 +5257,11 @@ COLUMNS
     CDBR1B    2BRCD1    1
     BRCD1G    OBJ       11696.19271
     BRCD1G    PBRCD     1e-05
-    BRCD1G    BR1T      1
+    BRCD1G    CD1T      -1
     BRCD1G    2BRCD1    1
     CDBR1G    OBJ       11696.19271
     CDBR1G    PBRCD     1e-05
-    CDBR1G    BR1T      -1
+    CDBR1G    CD1T      1
     CDBR1G    2BRCD1    1
     BRCD2B    OBJ       4.7371270999999996e+02
     BRCD2B    PBRCD     1e-05
@@ -5439,21 +5325,21 @@ COLUMNS
     CDBR4G    2BRCD4    1
     BRCD5B    OBJ       2.7332710000000002e+01
     BRCD5B    PBRCD     1e-05
+    BRCD5B    BR5R      1
     BRCD5B    CD5R      -1
     BRCD5B    2BRCD5    1
     CDBR5B    OBJ       2.7332710000000002e+01
     CDBR5B    PBRCD     1e-05
     CDBR5B    CD5R      1
+    CDBR5B    BR5R      -1
     CDBR5B    2BRCD5    1
     BRCD5G    OBJ       181.31271
     BRCD5G    PBRCD     1e-05
-    BRCD5G    BR5T      1
     BRCD5G    CD5T      -1
     BRCD5G    2BRCD5    1
     CDBR5G    OBJ       181.31271
     CDBR5G    PBRCD     1e-05
     CDBR5G    CD5T      1
-    CDBR5G    BR5T      -1
     CDBR5G    2BRCD5    1
     BRCD1C    OBJ       1719.374298
     BRCD1C    PBRCD     1e-05
@@ -5465,11 +5351,11 @@ COLUMNS
     CDBR1C    3BRCD1    1
     BRCD1H    OBJ       11696.074298
     BRCD1H    PBRCD     1e-05
-    BRCD1H    BR1T      1
+    BRCD1H    CD1T      -1
     BRCD1H    3BRCD1    1
     CDBR1H    OBJ       11696.074298
     CDBR1H    PBRCD     1e-05
-    CDBR1H    BR1T      -1
+    CDBR1H    CD1T      1
     CDBR1H    3BRCD1    1
     BRCD2C    OBJ       662.954298
     BRCD2C    PBRCD     1e-05
@@ -5533,21 +5419,21 @@ COLUMNS
     CDBR4H    3BRCD4    1
     BRCD5C    OBJ       27.214298
     BRCD5C    PBRCD     1e-05
+    BRCD5C    BR5R      1
     BRCD5C    CD5R      -1
     BRCD5C    3BRCD5    1
     CDBR5C    OBJ       27.214298
     CDBR5C    PBRCD     1e-05
     CDBR5C    CD5R      1
+    CDBR5C    BR5R      -1
     CDBR5C    3BRCD5    1
     BRCD5H    OBJ       181.194298
     BRCD5H    PBRCD     1e-05
-    BRCD5H    BR5T      1
     BRCD5H    CD5T      -1
     BRCD5H    3BRCD5    1
     CDBR5H    OBJ       181.194298
     CDBR5H    PBRCD     1e-05
     CDBR5H    CD5T      1
-    CDBR5H    BR5T      -1
     CDBR5H    3BRCD5    1
     BRCD1D    OBJ       1719.3
     BRCD1D    PBRCD     1e-05
@@ -5559,11 +5445,11 @@ COLUMNS
     CDBR1D    4BRCD1    1
     BRCD1I    OBJ       11696
     BRCD1I    PBRCD     1e-05
-    BRCD1I    BR1T      1
+    BRCD1I    CD1T      -1
     BRCD1I    4BRCD1    1
     CDBR1I    OBJ       11696
     CDBR1I    PBRCD     1e-05
-    CDBR1I    BR1T      -1
+    CDBR1I    CD1T      1
     CDBR1I    4BRCD1    1
     BRCD2D    OBJ       662.88
     BRCD2D    PBRCD     1e-05
@@ -5627,21 +5513,21 @@ COLUMNS
     CDBR4I    4BRCD4    1
     BRCD5D    OBJ       37.99
     BRCD5D    PBRCD     1e-05
+    BRCD5D    BR5R      1
     BRCD5D    CD5R      -1
     BRCD5D    4BRCD5    1
     CDBR5D    OBJ       37.99
     CDBR5D    PBRCD     1e-05
     CDBR5D    CD5R      1
+    CDBR5D    BR5R      -1
     CDBR5D    4BRCD5    1
     BRCD5I    OBJ       258.43
     BRCD5I    PBRCD     1e-05
-    BRCD5I    BR5T      1
     BRCD5I    CD5T      -1
     BRCD5I    4BRCD5    1
     CDBR5I    OBJ       258.43
     CDBR5I    PBRCD     1e-05
     CDBR5I    CD5T      1
-    CDBR5I    BR5T      -1
     CDBR5I    4BRCD5    1
     CDCE1A    OBJ       427.19
     CDCE1A    CD1R      1
@@ -5654,11 +5540,13 @@ COLUMNS
     CECD1A    1CDCE1    1
     CECD1A    RCDCE1    1
     CDCE1F    OBJ       2851.3
+    CDCE1F    CD1T      1
     CDCE1F    CE1T      -1
     CDCE1F    1CDCE1    1
     CDCE1F    RCDCE1    1
     CECD1F    OBJ       2851.3
     CECD1F    CE1T      1
+    CECD1F    CD1T      -1
     CECD1F    1CDCE1    1
     CECD1F    RCDCE1    1
     CDCE2A    OBJ       164.7
@@ -5693,11 +5581,9 @@ COLUMNS
     CECD3A    RCDCE1    1
     CDCE3F    OBJ       423.82
     CDCE3F    CD3T      1
-    CDCE3F    CE3T      -1
     CDCE3F    1CDCE3    1
     CDCE3F    RCDCE1    1
     CECD3F    OBJ       423.82
-    CECD3F    CE3T      1
     CECD3F    CD3T      -1
     CECD3F    1CDCE3    1
     CECD3F    RCDCE1    1
@@ -5755,11 +5641,13 @@ COLUMNS
     CECD1B    2CDCE1    1
     CECD1B    RCDCE2    1
     CDCE1G    OBJ       4068.3
+    CDCE1G    CD1T      1
     CDCE1G    CE1T      -1
     CDCE1G    2CDCE1    1
     CDCE1G    RCDCE2    1
     CECD1G    OBJ       4068.3
     CECD1G    CE1T      1
+    CECD1G    CD1T      -1
     CECD1G    2CDCE1    1
     CECD1G    RCDCE2    1
     CDCE2B    OBJ       164.7
@@ -5794,11 +5682,9 @@ COLUMNS
     CECD3B    RCDCE2    1
     CDCE3G    OBJ       423.82
     CDCE3G    CD3T      1
-    CDCE3G    CE3T      -1
     CDCE3G    2CDCE3    1
     CDCE3G    RCDCE2    1
     CECD3G    OBJ       423.82
-    CECD3G    CE3T      1
     CECD3G    CD3T      -1
     CECD3G    2CDCE3    1
     CECD3G    RCDCE2    1
@@ -5856,11 +5742,13 @@ COLUMNS
     CECD1C    3CDCE1    1
     CECD1C    RCDCE3    1
     CDCE1H    OBJ       4068.3
+    CDCE1H    CD1T      1
     CDCE1H    CE1T      -1
     CDCE1H    3CDCE1    1
     CDCE1H    RCDCE3    1
     CECD1H    OBJ       4068.3
     CECD1H    CE1T      1
+    CECD1H    CD1T      -1
     CECD1H    3CDCE1    1
     CECD1H    RCDCE3    1
     CDCE2C    OBJ       230.53
@@ -5895,11 +5783,9 @@ COLUMNS
     CECD3C    RCDCE3    1
     CDCE3H    OBJ       423.82
     CDCE3H    CD3T      1
-    CDCE3H    CE3T      -1
     CDCE3H    3CDCE3    1
     CDCE3H    RCDCE3    1
     CECD3H    OBJ       423.82
-    CECD3H    CE3T      1
     CECD3H    CD3T      -1
     CECD3H    3CDCE3    1
     CECD3H    RCDCE3    1
@@ -5957,11 +5843,13 @@ COLUMNS
     CECD1D    4CDCE1    1
     CECD1D    RCDCE4    1
     CDCE1I    OBJ       4068.3
+    CDCE1I    CD1T      1
     CDCE1I    CE1T      -1
     CDCE1I    4CDCE1    1
     CDCE1I    RCDCE4    1
     CECD1I    OBJ       4068.3
     CECD1I    CE1T      1
+    CECD1I    CD1T      -1
     CECD1I    4CDCE1    1
     CECD1I    RCDCE4    1
     CDCE2D    OBJ       230.53
@@ -5996,11 +5884,9 @@ COLUMNS
     CECD3D    RCDCE4    1
     CDCE3I    OBJ       604.72
     CDCE3I    CD3T      1
-    CDCE3I    CE3T      -1
     CDCE3I    4CDCE3    1
     CDCE3I    RCDCE4    1
     CECD3I    OBJ       604.72
-    CECD3I    CE3T      1
     CECD3I    CD3T      -1
     CECD3I    4CDCE3    1
     CECD3I    RCDCE4    1
@@ -6096,13 +5982,11 @@ COLUMNS
     CFCE3A    1CECF3    1
     CECF3F    OBJ       688.99252
     CECF3F    PCECF     1e-05
-    CECF3F    CE3T      1
     CECF3F    CF3T      -1
     CECF3F    1CECF3    1
     CFCE3F    OBJ       688.99252
     CFCE3F    PCECF     1e-05
     CFCE3F    CF3T      1
-    CFCE3F    CE3T      -1
     CFCE3F    1CECF3    1
     CECF4A    OBJ       40.06252
     CECF4A    PCECF     1e-05
@@ -6196,13 +6080,11 @@ COLUMNS
     CFCE3B    2CECF3    1
     CECF3G    OBJ       688.81892
     CECF3G    PCECF     1e-05
-    CECF3G    CE3T      1
     CECF3G    CF3T      -1
     CECF3G    2CECF3    1
     CFCE3G    OBJ       688.81892
     CFCE3G    PCECF     1e-05
     CFCE3G    CF3T      1
-    CFCE3G    CE3T      -1
     CFCE3G    2CECF3    1
     CECF4B    OBJ       39.88892
     CECF4B    PCECF     1e-05
@@ -6296,13 +6178,11 @@ COLUMNS
     CFCE3C    3CECF3    1
     CECF3H    OBJ       6.8875199500000008e+02
     CECF3H    PCECF     1e-05
-    CECF3H    CE3T      1
     CECF3H    CF3T      -1
     CECF3H    3CECF3    1
     CFCE3H    OBJ       6.8875199500000008e+02
     CFCE3H    PCECF     1e-05
     CFCE3H    CF3T      1
-    CFCE3H    CE3T      -1
     CFCE3H    3CECF3    1
     CECF4C    OBJ       39.821995
     CECF4C    PCECF     1e-05
@@ -6396,13 +6276,11 @@ COLUMNS
     CFCE3D    4CECF3    1
     CECF3I    OBJ       982.68
     CECF3I    PCECF     1e-05
-    CECF3I    CE3T      1
     CECF3I    CF3T      -1
     CECF3I    4CECF3    1
     CFCE3I    OBJ       982.68
     CFCE3I    PCECF     1e-05
     CFCE3I    CF3T      1
-    CFCE3I    CE3T      -1
     CFCE3I    4CECF3    1
     CECF4D    OBJ       55.69
     CECF4D    PCECF     1e-05
@@ -6515,11 +6393,11 @@ COLUMNS
     DUCS4A    1CSDU4    1
     DUCS4A    RCSDU1    1
     CSDU4F    OBJ       459.57
-    CSDU4F    CS4T      1
+    CSDU4F    DU4T      -1
     CSDU4F    1CSDU4    1
     CSDU4F    RCSDU1    1
     DUCS4F    OBJ       459.57
-    DUCS4F    CS4T      -1
+    DUCS4F    DU4T      1
     DUCS4F    1CSDU4    1
     DUCS4F    RCSDU1    1
     CSDU5A    OBJ       26.56
@@ -6616,11 +6494,11 @@ COLUMNS
     DUCS4B    2CSDU4    1
     DUCS4B    RCSDU2    1
     CSDU4G    OBJ       459.57
-    CSDU4G    CS4T      1
+    CSDU4G    DU4T      -1
     CSDU4G    2CSDU4    1
     CSDU4G    RCSDU2    1
     DUCS4G    OBJ       459.57
-    DUCS4G    CS4T      -1
+    DUCS4G    DU4T      1
     DUCS4G    2CSDU4    1
     DUCS4G    RCSDU2    1
     CSDU5B    OBJ       26.56
@@ -6717,11 +6595,11 @@ COLUMNS
     DUCS4C    3CSDU4    1
     DUCS4C    RCSDU3    1
     CSDU4H    OBJ       459.57
-    CSDU4H    CS4T      1
+    CSDU4H    DU4T      -1
     CSDU4H    3CSDU4    1
     CSDU4H    RCSDU3    1
     DUCS4H    OBJ       459.57
-    DUCS4H    CS4T      -1
+    DUCS4H    DU4T      1
     DUCS4H    3CSDU4    1
     DUCS4H    RCSDU3    1
     CSDU5C    OBJ       26.56
@@ -6818,11 +6696,11 @@ COLUMNS
     DUCS4D    4CSDU4    1
     DUCS4D    RCSDU4    1
     CSDU4I    OBJ       655.74
-    CSDU4I    CS4T      1
+    CSDU4I    DU4T      -1
     CSDU4I    4CSDU4    1
     CSDU4I    RCSDU4    1
     DUCS4I    OBJ       655.74
-    DUCS4I    CS4T      -1
+    DUCS4I    DU4T      1
     DUCS4I    4CSDU4    1
     DUCS4I    RCSDU4    1
     CSDU5D    OBJ       37.18
@@ -7187,11 +7065,9 @@ COLUMNS
     DSDG1F    RDGDS1    1
     DGDS2A    OBJ       298.52
     DGDS2A    DG2R      1
-    DGDS2A    DS2R      -1
     DGDS2A    1DGDS2    1
     DGDS2A    RDGDS1    1
     DSDG2A    OBJ       298.52
-    DSDG2A    DS2R      1
     DSDG2A    DG2R      -1
     DSDG2A    1DGDS2    1
     DSDG2A    RDGDS1    1
@@ -7227,11 +7103,9 @@ COLUMNS
     DSDG3F    RDGDS1    1
     DGDS4A    OBJ       44.37
     DGDS4A    DG4R      1
-    DGDS4A    DS4R      -1
     DGDS4A    1DGDS4    1
     DGDS4A    RDGDS1    1
     DSDG4A    OBJ       44.37
-    DSDG4A    DS4R      1
     DSDG4A    DG4R      -1
     DSDG4A    1DGDS4    1
     DSDG4A    RDGDS1    1
@@ -7290,11 +7164,9 @@ COLUMNS
     DSDG1G    RDGDS2    1
     DGDS2B    OBJ       298.52
     DGDS2B    DG2R      1
-    DGDS2B    DS2R      -1
     DGDS2B    2DGDS2    1
     DGDS2B    RDGDS2    1
     DSDG2B    OBJ       298.52
-    DSDG2B    DS2R      1
     DSDG2B    DG2R      -1
     DSDG2B    2DGDS2    1
     DSDG2B    RDGDS2    1
@@ -7330,11 +7202,9 @@ COLUMNS
     DSDG3G    RDGDS2    1
     DGDS4B    OBJ       44.37
     DGDS4B    DG4R      1
-    DGDS4B    DS4R      -1
     DGDS4B    2DGDS4    1
     DGDS4B    RDGDS2    1
     DSDG4B    OBJ       44.37
-    DSDG4B    DS4R      1
     DSDG4B    DG4R      -1
     DSDG4B    2DGDS4    1
     DSDG4B    RDGDS2    1
@@ -7393,11 +7263,9 @@ COLUMNS
     DSDG1H    RDGDS3    1
     DGDS2C    OBJ       298.52
     DGDS2C    DG2R      1
-    DGDS2C    DS2R      -1
     DGDS2C    3DGDS2    1
     DGDS2C    RDGDS3    1
     DSDG2C    OBJ       298.52
-    DSDG2C    DS2R      1
     DSDG2C    DG2R      -1
     DSDG2C    3DGDS2    1
     DSDG2C    RDGDS3    1
@@ -7433,11 +7301,9 @@ COLUMNS
     DSDG3H    RDGDS3    1
     DGDS4C    OBJ       44.37
     DGDS4C    DG4R      1
-    DGDS4C    DS4R      -1
     DGDS4C    3DGDS4    1
     DGDS4C    RDGDS3    1
     DSDG4C    OBJ       44.37
-    DSDG4C    DS4R      1
     DSDG4C    DG4R      -1
     DSDG4C    3DGDS4    1
     DSDG4C    RDGDS3    1
@@ -7496,11 +7362,9 @@ COLUMNS
     DSDG1I    RDGDS4    1
     DGDS2D    OBJ       298.52
     DGDS2D    DG2R      1
-    DGDS2D    DS2R      -1
     DGDS2D    4DGDS2    1
     DGDS2D    RDGDS4    1
     DSDG2D    OBJ       298.52
-    DSDG2D    DS2R      1
     DSDG2D    DG2R      -1
     DSDG2D    4DGDS2    1
     DSDG2D    RDGDS4    1
@@ -7536,11 +7400,9 @@ COLUMNS
     DSDG3I    RDGDS4    1
     DGDS4D    OBJ       44.37
     DGDS4D    DG4R      1
-    DGDS4D    DS4R      -1
     DGDS4D    4DGDS4    1
     DGDS4D    RDGDS4    1
     DSDG4D    OBJ       44.37
-    DSDG4D    DS4R      1
     DSDG4D    DG4R      -1
     DSDG4D    4DGDS4    1
     DSDG4D    RDGDS4    1
@@ -7647,9 +7509,11 @@ COLUMNS
     CVDU4F    OBJ       490.73157
     CVDU4F    PCVDU     1e-05
     CVDU4F    CV4T      1
+    CVDU4F    DU4T      -1
     CVDU4F    1CVDU4    1
     DUCV4F    OBJ       490.73157
     DUCV4F    PCVDU     1e-05
+    DUCV4F    DU4T      1
     DUCV4F    CV4T      -1
     DUCV4F    1CVDU4    1
     CVDU5A    OBJ       28.84157
@@ -7745,9 +7609,11 @@ COLUMNS
     CVDU4G    OBJ       490.41109
     CVDU4G    PCVDU     1e-05
     CVDU4G    CV4T      1
+    CVDU4G    DU4T      -1
     CVDU4G    2CVDU4    1
     DUCV4G    OBJ       490.41109
     DUCV4G    PCVDU     1e-05
+    DUCV4G    DU4T      1
     DUCV4G    CV4T      -1
     DUCV4G    2CVDU4    1
     CVDU5B    OBJ       28.52109
@@ -7843,9 +7709,11 @@ COLUMNS
     CVDU4H    OBJ       490.287529
     CVDU4H    PCVDU     1e-05
     CVDU4H    CV4T      1
+    CVDU4H    DU4T      -1
     CVDU4H    3CVDU4    1
     DUCV4H    OBJ       490.287529
     DUCV4H    PCVDU     1e-05
+    DUCV4H    DU4T      1
     DUCV4H    CV4T      -1
     DUCV4H    3CVDU4    1
     CVDU5C    OBJ       28.397529
@@ -7941,9 +7809,11 @@ COLUMNS
     CVDU4I    OBJ       699.44
     CVDU4I    PCVDU     1e-05
     CVDU4I    CV4T      1
+    CVDU4I    DU4T      -1
     CVDU4I    4CVDU4    1
     DUCV4I    OBJ       699.44
     DUCV4I    PCVDU     1e-05
+    DUCV4I    DU4T      1
     DUCV4I    CV4T      -1
     DUCV4I    4CVDU4    1
     CVDU5D    OBJ       39.65
@@ -7987,13 +7857,11 @@ COLUMNS
     FCDS1F    1DSFC1    1
     FCDS1F    RDSFC1    1
     DSFC2A    OBJ       262.61
-    DSFC2A    DS2R      1
     DSFC2A    FC2R      -1
     DSFC2A    1DSFC2    1
     DSFC2A    RDSFC1    1
     FCDS2A    OBJ       262.61
     FCDS2A    FC2R      1
-    FCDS2A    DS2R      -1
     FCDS2A    1DSFC2    1
     FCDS2A    RDSFC1    1
     DSFC2F    OBJ       2862.9
@@ -8027,13 +7895,11 @@ COLUMNS
     FCDS3F    1DSFC3    1
     FCDS3F    RDSFC1    1
     DSFC4A    OBJ       39.04
-    DSFC4A    DS4R      1
     DSFC4A    FC4R      -1
     DSFC4A    1DSFC4    1
     DSFC4A    RDSFC1    1
     FCDS4A    OBJ       39.04
     FCDS4A    FC4R      1
-    FCDS4A    DS4R      -1
     FCDS4A    1DSFC4    1
     FCDS4A    RDSFC1    1
     DSFC4F    OBJ       425.55
@@ -8090,13 +7956,11 @@ COLUMNS
     FCDS1G    2DSFC1    1
     FCDS1G    RDSFC2    1
     DSFC2B    OBJ       262.61
-    DSFC2B    DS2R      1
     DSFC2B    FC2R      -1
     DSFC2B    2DSFC2    1
     DSFC2B    RDSFC2    1
     FCDS2B    OBJ       262.61
     FCDS2B    FC2R      1
-    FCDS2B    DS2R      -1
     FCDS2B    2DSFC2    1
     FCDS2B    RDSFC2    1
     DSFC2G    OBJ       2862.9
@@ -8130,13 +7994,11 @@ COLUMNS
     FCDS3G    2DSFC3    1
     FCDS3G    RDSFC2    1
     DSFC4B    OBJ       39.04
-    DSFC4B    DS4R      1
     DSFC4B    FC4R      -1
     DSFC4B    2DSFC4    1
     DSFC4B    RDSFC2    1
     FCDS4B    OBJ       39.04
     FCDS4B    FC4R      1
-    FCDS4B    DS4R      -1
     FCDS4B    2DSFC4    1
     FCDS4B    RDSFC2    1
     DSFC4G    OBJ       425.55
@@ -8193,13 +8055,11 @@ COLUMNS
     FCDS1H    3DSFC1    1
     FCDS1H    RDSFC3    1
     DSFC2C    OBJ       262.61
-    DSFC2C    DS2R      1
     DSFC2C    FC2R      -1
     DSFC2C    3DSFC2    1
     DSFC2C    RDSFC3    1
     FCDS2C    OBJ       262.61
     FCDS2C    FC2R      1
-    FCDS2C    DS2R      -1
     FCDS2C    3DSFC2    1
     FCDS2C    RDSFC3    1
     DSFC2H    OBJ       3504
@@ -8233,13 +8093,11 @@ COLUMNS
     FCDS3H    3DSFC3    1
     FCDS3H    RDSFC3    1
     DSFC4C    OBJ       39.04
-    DSFC4C    DS4R      1
     DSFC4C    FC4R      -1
     DSFC4C    3DSFC4    1
     DSFC4C    RDSFC3    1
     FCDS4C    OBJ       39.04
     FCDS4C    FC4R      1
-    FCDS4C    DS4R      -1
     FCDS4C    3DSFC4    1
     FCDS4C    RDSFC3    1
     DSFC4H    OBJ       425.55
@@ -8296,13 +8154,11 @@ COLUMNS
     FCDS1I    4DSFC1    1
     FCDS1I    RDSFC4    1
     DSFC2D    OBJ       262.61
-    DSFC2D    DS2R      1
     DSFC2D    FC2R      -1
     DSFC2D    4DSFC2    1
     DSFC2D    RDSFC4    1
     FCDS2D    OBJ       262.61
     FCDS2D    FC2R      1
-    FCDS2D    DS2R      -1
     FCDS2D    4DSFC2    1
     FCDS2D    RDSFC4    1
     DSFC2I    OBJ       3504
@@ -8336,13 +8192,11 @@ COLUMNS
     FCDS3I    4DSFC3    1
     FCDS3I    RDSFC4    1
     DSFC4D    OBJ       39.04
-    DSFC4D    DS4R      1
     DSFC4D    FC4R      -1
     DSFC4D    4DSFC4    1
     DSFC4D    RDSFC4    1
     FCDS4D    OBJ       39.04
     FCDS4D    FC4R      1
-    FCDS4D    DS4R      -1
     FCDS4D    4DSFC4    1
     FCDS4D    RDSFC4    1
     DSFC4I    OBJ       520.84
@@ -8392,10 +8246,12 @@ COLUMNS
     FCFB1F    FB1T      -1
     FCFB1F    1FBFC1    1
     FBFC2A    OBJ       427.3100041
+    FBFC2A    FB2R      1
     FBFC2A    FC2R      -1
     FBFC2A    1FBFC2    1
     FCFB2A    OBJ       427.3100041
     FCFB2A    FC2R      1
+    FCFB2A    FB2R      -1
     FCFB2A    1FBFC2    1
     FBFC2F    OBJ       4.6598000041000005e+03
     FBFC2F    FB2T      1
@@ -8470,10 +8326,12 @@ COLUMNS
     FCFB1G    FB1T      -1
     FCFB1G    2FBFC1    1
     FBFC2B    OBJ       427.3100016
+    FBFC2B    FB2R      1
     FBFC2B    FC2R      -1
     FBFC2B    2FBFC2    1
     FCFB2B    OBJ       427.3100016
     FCFB2B    FC2R      1
+    FCFB2B    FB2R      -1
     FCFB2B    2FBFC2    1
     FBFC2G    OBJ       4.6598000016000005e+03
     FBFC2G    FB2T      1
@@ -8548,10 +8406,12 @@ COLUMNS
     FCFB1H    FB1T      -1
     FCFB1H    3FBFC1    1
     FBFC2C    OBJ       427.3100006
+    FBFC2C    FB2R      1
     FBFC2C    FC2R      -1
     FBFC2C    3FBFC2    1
     FCFB2C    OBJ       427.3100006
     FCFB2C    FC2R      1
+    FCFB2C    FB2R      -1
     FCFB2C    3FBFC2    1
     FBFC2H    OBJ       5573.3000006
     FBFC2H    FB2T      1
@@ -8626,10 +8486,12 @@ COLUMNS
     FCFB1I    FB1T      -1
     FCFB1I    4FBFC1    1
     FBFC2D    OBJ       427.31
+    FBFC2D    FB2R      1
     FBFC2D    FC2R      -1
     FBFC2D    4FBFC2    1
     FCFB2D    OBJ       427.31
     FCFB2D    FC2R      1
+    FCFB2D    FB2R      -1
     FCFB2D    4FBFC2    1
     FBFC2I    OBJ       5573.3
     FBFC2I    FB2T      1
@@ -8688,10 +8550,10 @@ COLUMNS
     FCFB5I    FB5T      -1
     FCFB5I    4FBFC5    1
 RHS
-    RHS1      OBJ       -1.2865618283000002e+06
-    RHS1      0BBBC3    10000
-    RHS1      0BBBC4    10000
-    RHS1      0BBBC5    10000
+    RHS1      OBJ       -2.7540331144000003e+06
+    RHS1      0BCBN3    10000
+    RHS1      0BCBN4    10000
+    RHS1      0BCBN5    10000
     RHS1      0BMBQ2    3000
     RHS1      0BMBQ3    3000
     RHS1      0BMBQ4    3000
@@ -8700,12 +8562,12 @@ RHS
     RHS1      0BNBT4    10000
     RHS1      0BNBT5    10000
     RHS1      0BPBS1    3000
-    RHS1      0BPBS2    3000
     RHS1      0BQBP1    3000
     RHS1      0BQBP2    3000
     RHS1      0BQBP3    3000
     RHS1      0BQBP4    3000
     RHS1      0BQBP5    3000
+    RHS1      0BSBT2    3000
     RHS1      0BSBT3    3000
     RHS1      0BSBT4    3000
     RHS1      0BSBT5    3000
@@ -8714,12 +8576,10 @@ RHS
     RHS1      0BTBW3    10000
     RHS1      0BTBW4    10000
     RHS1      0BTBW5    10000
-    RHS1      0BUBT1    10000
     RHS1      0BUBT2    10000
     RHS1      0BUBT3    10000
     RHS1      0BUBT4    10000
     RHS1      0BUBT5    10000
-    RHS1      0BVBU1    10000
     RHS1      0BVBU2    10000
     RHS1      0BVBU3    10000
     RHS1      0BVBU4    10000
@@ -8734,24 +8594,16 @@ RHS
     RHS1      0CBCA3    125
     RHS1      0CBCA4    125
     RHS1      0CBCA5    125
-    RHS1      0CBDW1    125
-    RHS1      0CBDW2    125
-    RHS1      0CBDW3    125
-    RHS1      0CBDW4    125
-    RHS1      0CBDW5    125
+    RHS1      0CBCC3    125
+    RHS1      0CBCC4    125
+    RHS1      0CBCC5    125
     RHS1      0CCCD1    125
     RHS1      0CCCD2    125
-    RHS1      0CCCD3    125
-    RHS1      0CCCD4    125
-    RHS1      0CCCD5    125
     RHS1      0CSCF1    3000
     RHS1      0CSCF2    3000
     RHS1      0CSCF3    3000
     RHS1      0CSCF4    3000
     RHS1      0CSCF5    3000
-    RHS1      0CVDQ2    3000
-    RHS1      0CVDQ3    3000
-    RHS1      0CVDQ5    3000
     RHS1      0DABZ1    3000
     RHS1      0DABZ2    3000
     RHS1      0DABZ3    3000
@@ -8792,7 +8644,8 @@ RHS
     RHS1      0DHDG3    3000
     RHS1      0DHDG4    3000
     RHS1      0DHDG5    3000
-    RHS1      0DJDH2    3000
+    RHS1      0DJDH2    2826.06
+    RHS1      0DJDH4    2826.06
     RHS1      0DLDD1    125
     RHS1      0DLDD2    125
     RHS1      0DLDD3    125
@@ -8808,17 +8661,19 @@ RHS
     RHS1      0DLDM3    125
     RHS1      0DLDM4    125
     RHS1      0DLDM5    125
-    RHS1      0DMDJ1    3000
-    RHS1      0DMDJ3    3000
-    RHS1      0DMDJ4    3000
-    RHS1      0DMDJ5    3000
+    RHS1      0DMDJ1    2826.06
+    RHS1      0DMDJ3    2826.06
+    RHS1      0DMDJ5    2826.06
     RHS1      0DNDM1    2826.06
     RHS1      0DNDM2    2826.06
     RHS1      0DNDM3    2826.06
     RHS1      0DNDM4    2826.06
     RHS1      0DNDM5    2826.06
-    RHS1      0DPDN1    3000
-    RHS1      0DQDP4    3000
+    RHS1      0DPDN4    3000
+    RHS1      0DQDP1    3000
+    RHS1      0DQDP2    3000
+    RHS1      0DQDP3    3000
+    RHS1      0DQDP5    3000
     RHS1      0DRDA1    3000
     RHS1      0DRDA2    3000
     RHS1      0DRDA3    3000
@@ -8839,11 +8694,11 @@ RHS
     RHS1      0DSDR3    125
     RHS1      0DSDR4    125
     RHS1      0DSDR5    125
-    RHS1      0DWCB1    125
-    RHS1      0DWCB2    125
-    RHS1      0DWCB3    125
-    RHS1      0DWCB4    125
-    RHS1      0DWCB5    125
+    RHS1      0DWCB1    -1.1272999999999999e+02
+    RHS1      0DWCB2    -1.1272999999999999e+02
+    RHS1      0DWCB3    -1.1272999999999999e+02
+    RHS1      0DWCB4    -1.1272999999999999e+02
+    RHS1      0DWCB5    -1.1272999999999999e+02
     RHS1      0DWDE1    125
     RHS1      0DWDE2    125
     RHS1      0DWDE3    125
@@ -9210,12 +9065,11 @@ RHS
     RHS1      SI2T      -178.91
     RHS1      SI3T      -178.91
     RHS1      SI4T      -178.91
-    RHS1      SI5T      178.91
+    RHS1      SI5T      -178.91
     RHS1      DA1R      59
     RHS1      DA2R      59
     RHS1      DA3R      59
     RHS1      DA4R      59
-    RHS1      DA5R      59
     RHS1      BB1R      166.47
     RHS1      BB2R      166.47
     RHS1      BB3R      166.47
@@ -9238,7 +9092,6 @@ RHS
     RHS1      BM5T      12.63
     RHS1      BV1R      1.23
     RHS1      BV2R      1.23
-    RHS1      BV3R      1.23
     RHS1      BV4R      1.23
     RHS1      BV5R      1.23
     RHS1      BV1T      1.4
@@ -9246,11 +9099,11 @@ RHS
     RHS1      BV3T      1.4
     RHS1      BV4T      1.4
     RHS1      BV5T      1.4
-    RHS1      DW1R      237.73
-    RHS1      DW2R      237.73
-    RHS1      DW3R      237.73
-    RHS1      DW4R      237.73
-    RHS1      DW5R      237.73
+    RHS1      CB1R      237.73
+    RHS1      CB2R      237.73
+    RHS1      CB3R      237.73
+    RHS1      CB4R      237.73
+    RHS1      CB5R      237.73
     RHS1      DW1T      5.88
     RHS1      DW2T      5.88
     RHS1      DW3T      5.88
@@ -9276,32 +9129,28 @@ RHS
     RHS1      CV3T      22.75
     RHS1      CV4T      22.75
     RHS1      CV5T      22.75
-    RHS1      DH1R      27.02
-    RHS1      DH2R      27.02
-    RHS1      DH3R      27.02
-    RHS1      DH4R      27.02
-    RHS1      DH5R      27.02
+    RHS1      DH1R      194.8
+    RHS1      DH2R      194.8
+    RHS1      DH3R      194.8
+    RHS1      DH4R      194.8
+    RHS1      DH5R      194.8
+    RHS1      DH1T      6.16
+    RHS1      DH2T      6.16
+    RHS1      DH3T      6.16
+    RHS1      DH4T      6.16
+    RHS1      DH5T      6.16
     RHS1      DG1R      60.2
     RHS1      DG2R      60.2
     RHS1      DG3R      60.2
     RHS1      DG4R      60.2
     RHS1      DG5R      60.2
-    RHS1      DM1R      167.78
-    RHS1      DM2R      167.78
-    RHS1      DM3R      167.78
-    RHS1      DM4R      167.78
-    RHS1      DM5R      167.78
-    RHS1      DM1T      6.16
-    RHS1      DM2T      6.16
-    RHS1      DM3T      6.16
-    RHS1      DM4T      6.16
-    RHS1      DM5T      6.16
     RHS1      DR1R      78.71
     RHS1      DR2R      78.71
     RHS1      DR3R      78.71
     RHS1      DR4R      78.71
     RHS1      DR5R      78.71
     RHS1      FB1R      500
+    RHS1      FB2R      1000
     RHS1      FB3R      2000
     RHS1      FB4R      2000
     RHS1      FB5R      2000
@@ -9313,11 +9162,10 @@ RHS
     RHS1      BR2R      1.23
     RHS1      BR3R      1.23
     RHS1      BR4R      1.23
-    RHS1      BR1T      1.4
+    RHS1      BR5R      1.23
     RHS1      BR2T      1.4
     RHS1      BR3T      1.4
     RHS1      BR4T      1.4
-    RHS1      BR5T      1.4
     RHS1      CE1R      49.11
     RHS1      CE2R      49.11
     RHS1      CE3R      49.11
@@ -9325,10 +9173,10 @@ RHS
     RHS1      CE5R      49.11
     RHS1      CE1T      5.6
     RHS1      CE2T      5.6
-    RHS1      CE3T      5.6
     RHS1      CE4T      5.6
     RHS1      CE5T      5.6
 BOUNDS
+* Note: variable lower bounds are 0 unless specified otherwise
  UP BND1      BWSI1T    179.08991
  UP BND1      BWSI1R    1.8396688299999998e+03
  UP BND1      BWSI2T    179.08991
@@ -9353,6 +9201,7 @@ BOUNDS
  UP BND1      DASI2T    179.08991
  UP BND1      DASI3T    179.08991
  UP BND1      DASI4T    179.08991
+ UP BND1      DASI5T    179.08991
  UP BND1      BZSI1R    1.8396688299999998e+03
  UP BND1      BZSI2R    2.4502788299999997e+03
  UP BND1      BZSI3R    3128.126
@@ -9408,41 +9257,31 @@ BOUNDS
  UP BND1      BSBT3T    3000
  UP BND1      BSBT4T    3000
  UP BND1      BSBT5T    3000
- UP BND1      BUBT1R    10000
- UP BND1      BUBT2R    10000
+ UP BND1      BUBT1R    3379.60723
+ UP BND1      BUBT2R    6257.48223
  UP BND1      BUBT3R    10000
- UP BND1      BUBT4R    10000
- UP BND1      BUBT5R    10000
+ UP BND1      BUBT4R    9135.35723
+ UP BND1      BUBT5R    9135.35723
  UP BND1      BUBT1T    3379.7774
  UP BND1      BUBT2T    6257.6524
  UP BND1      BUBT3T    9.1355273999999990e+03
  UP BND1      BUBT4T    9.1355273999999990e+03
  UP BND1      BUBT5T    9.1355273999999990e+03
- UP BND1      BUBV1R    10000
- UP BND1      BUBV2R    10000
- UP BND1      BUBV3R    10000
- UP BND1      BUBV4R    10000
- UP BND1      BUBV5R    10000
  UP BND1      BUBX1R    125
  UP BND1      BUBX2R    125
  UP BND1      BUBX3R    125
  UP BND1      BUBX4R    125
  UP BND1      BUBX5R    125
- UP BND1      BVBU1R    10000
- UP BND1      BVBU2R    10000
- UP BND1      BVBU3R    10000
- UP BND1      BVBU4R    10000
- UP BND1      BVBU5R    10000
- UP BND1      BVCA1R    2943.942
- UP BND1      BVCA2R    2943.942
- UP BND1      BVCA3R    2943.942
- UP BND1      BVCA4R    2943.942
- UP BND1      BVCA5R    2943.942
+ UP BND1      BVCA1R    3379.60723
+ UP BND1      BVCA2R    5519.34483
+ UP BND1      BVCA3R    6197.192
+ UP BND1      BVCA4R    6197.192
+ UP BND1      BVCA5R    9135.35723
  UP BND1      BVCA1T    3.1820899099999997e+03
  UP BND1      BVCA2T    3.1820899099999997e+03
  UP BND1      BVCA3T    3.1820899099999997e+03
  UP BND1      BVCA4T    3.1820899099999997e+03
- UP BND1      BVCA5T    9.1355273999999990e+03
+ UP BND1      BVCA5T    3.1820899099999997e+03
  UP BND1      BWBY1R    10000
  UP BND1      BWBY2R    10000
  UP BND1      BWBY3R    10000
@@ -9472,7 +9311,7 @@ BOUNDS
  UP BND1      CADA2T    3.1820899099999997e+03
  UP BND1      CADA3T    3.1820899099999997e+03
  UP BND1      CADA4T    3.1820899099999997e+03
- UP BND1      CADA5T    9.2606523999999990e+03
+ UP BND1      CADA5T    3.1820899099999997e+03
  UP BND1      CBCA1R    125
  UP BND1      CBCA2R    125
  UP BND1      CBCA3R    125
@@ -9483,11 +9322,6 @@ BOUNDS
  UP BND1      CBCA3T    125
  UP BND1      CBCA4T    125
  UP BND1      CBCA5T    125
- UP BND1      CBDW1R    125
- UP BND1      CBDW2R    125
- UP BND1      CBDW3R    125
- UP BND1      CBDW4R    125
- UP BND1      CBDW5R    125
  UP BND1      CBDW1T    125
  UP BND1      CBDW2T    125
  UP BND1      CBDW3T    125
@@ -9513,16 +9347,6 @@ BOUNDS
  UP BND1      CSCF3T    3000
  UP BND1      CSCF4T    3000
  UP BND1      CSCF5T    3000
- LO BND1      DABZ1R    58.94
- UP BND1      DABZ1R    3000
- LO BND1      DABZ2R    58.94
- UP BND1      DABZ2R    3000
- LO BND1      DABZ3R    58.94
- UP BND1      DABZ3R    3000
- LO BND1      DABZ4R    58.94
- UP BND1      DABZ4R    3000
- LO BND1      DABZ5R    58.94
- UP BND1      DABZ5R    3000
  UP BND1      DABZ1T    3000
  UP BND1      DABZ2T    3000
  UP BND1      DABZ3T    3000
@@ -9578,11 +9402,11 @@ BOUNDS
  UP BND1      DEDL3T    125
  UP BND1      DEDL4T    125
  UP BND1      DEDL5T    125
- UP BND1      DGDA1R    2943.942
- UP BND1      DGDA2R    2943.942
- UP BND1      DGDA3R    2943.942
- UP BND1      DGDA4R    2943.942
- UP BND1      DGDA5R    2943.942
+ UP BND1      DGDA1R    3000
+ UP BND1      DGDA2R    3000
+ UP BND1      DGDA3R    3000
+ UP BND1      DGDA4R    3000
+ UP BND1      DGDA5R    3000
  UP BND1      DGDA1T    3000
  UP BND1      DGDA2T    3000
  UP BND1      DGDA3T    3000
@@ -9628,26 +9452,6 @@ BOUNDS
  UP BND1      DLDM3T    125
  UP BND1      DLDM4T    125
  UP BND1      DLDM5T    125
- LO BND1      DMDJ1R    1.6761122000000020e+02
- UP BND1      DMDJ1R    3000
- LO BND1      DMDJ2R    1.6761122000000020e+02
- UP BND1      DMDJ2R    3000
- LO BND1      DMDJ3R    1.6761122000000020e+02
- UP BND1      DMDJ3R    3000
- LO BND1      DMDJ4R    1.6761122000000020e+02
- UP BND1      DMDJ4R    3000
- LO BND1      DMDJ5R    1.6761122000000020e+02
- UP BND1      DMDJ5R    3000
- LO BND1      DMDJ1T    6.1528399999998546e+00
- UP BND1      DMDJ1T    3000
- LO BND1      DMDJ2T    6.1528399999998546e+00
- UP BND1      DMDJ2T    3000
- LO BND1      DMDJ3T    6.1528399999998546e+00
- UP BND1      DMDJ3T    3000
- LO BND1      DMDJ4T    6.1528399999998546e+00
- UP BND1      DMDJ4T    3000
- LO BND1      DMDJ5T    6.1528399999998546e+00
- UP BND1      DMDJ5T    3000
  UP BND1      DQDP1R    2828.88706
  UP BND1      DQDP2R    2828.88706
  UP BND1      DQDP3R    2828.88706
@@ -9658,11 +9462,11 @@ BOUNDS
  UP BND1      DQDP3T    2828.88706
  UP BND1      DQDP4T    2828.88706
  UP BND1      DQDP5T    2828.88706
- UP BND1      DRDA1R    2943.942
- UP BND1      DRDA2R    2943.942
- UP BND1      DRDA3R    2943.942
- UP BND1      DRDA4R    2943.942
- UP BND1      DRDA5R    2943.942
+ UP BND1      DRDA1R    3000
+ UP BND1      DRDA2R    3000
+ UP BND1      DRDA3R    3000
+ UP BND1      DRDA4R    3000
+ UP BND1      DRDA5R    3000
  UP BND1      DRDA1T    3000
  UP BND1      DRDA2T    3000
  UP BND1      DRDA3T    3000
@@ -9698,11 +9502,6 @@ BOUNDS
  UP BND1      DSDR3T    125
  UP BND1      DSDR4T    125
  UP BND1      DSDR5T    125
- UP BND1      DWCB1R    125
- UP BND1      DWCB2R    125
- UP BND1      DWCB3R    125
- UP BND1      DWCB4R    125
- UP BND1      DWCB5R    125
  UP BND1      DWCB1T    125
  UP BND1      DWCB2T    125
  UP BND1      DWCB3T    125
@@ -9783,7 +9582,7 @@ BOUNDS
  UP BND1      BLBB5A    3000
  UP BND1      BBBL5F    3000
  UP BND1      BLBB5F    3000
- UP BND1      BBBL-2    1
+ UP BND1      BBBL-2    1.002
  UP BND1      BBBL1B    125
  UP BND1      BLBB1B    125
  UP BND1      BBBL1G    125
@@ -9987,7 +9786,7 @@ BOUNDS
  UP BND1      BOBN5A    125
  UP BND1      BNBO5F    125
  UP BND1      BOBN5F    125
- UP BND1      BNBO-2    1
+ UP BND1      BNBO-2    1.002
  UP BND1      BNBO1B    50
  UP BND1      BOBN1B    50
  UP BND1      BNBO1G    50
@@ -10150,7 +9949,7 @@ BOUNDS
  UP BND1      BRBP5A    125
  UP BND1      BPBR5F    125
  UP BND1      BRBP5F    125
- UP BND1      BPBR-2    1
+ UP BND1      BPBR-2    1.002
  UP BND1      BPBR1B    50
  UP BND1      BRBP1B    50
  UP BND1      BPBR1G    50
@@ -10313,7 +10112,7 @@ BOUNDS
  UP BND1      BVBR5A    3000
  UP BND1      BRBV5F    3000
  UP BND1      BVBR5F    3000
- UP BND1      BRBV-2    1
+ UP BND1      BRBV-2    1.002
  UP BND1      BRBV1B    125
  UP BND1      BVBR1B    125
  UP BND1      BRBV1G    125
@@ -10476,7 +10275,7 @@ BOUNDS
  UP BND1      CECD5A    3000
  UP BND1      CDCE5F    3000
  UP BND1      CECD5F    3000
- UP BND1      CDCE-2    1
+ UP BND1      CDCE-2    1.002
  UP BND1      CDCE1B    125
  UP BND1      CECD1B    125
  UP BND1      CDCE1G    125
@@ -10639,7 +10438,7 @@ BOUNDS
  UP BND1      DUCS5A    3000
  UP BND1      CSDU5F    3000
  UP BND1      DUCS5F    3000
- UP BND1      CSDU-2    1
+ UP BND1      CSDU-2    1.002
  UP BND1      CSDU1B    125
  UP BND1      DUCS1B    125
  UP BND1      CSDU1G    125
@@ -10802,7 +10601,7 @@ BOUNDS
  UP BND1      DSDG5A    3000
  UP BND1      DGDS5F    3000
  UP BND1      DSDG5F    3000
- UP BND1      DGDS-2    1
+ UP BND1      DGDS-2    1.002
  UP BND1      DGDS1B    125
  UP BND1      DSDG1B    125
  UP BND1      DGDS1G    125
@@ -10965,7 +10764,7 @@ BOUNDS
  UP BND1      FCDS5A    125
  UP BND1      DSFC5F    125
  UP BND1      FCDS5F    125
- UP BND1      DSFC-2    1
+ UP BND1      DSFC-2    1.002
  UP BND1      DSFC1B    50
  UP BND1      FCDS1B    50
  UP BND1      DSFC1G    50

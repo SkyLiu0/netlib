@@ -1,4 +1,4 @@
-NAME (null)_copy
+NAME STANDMPS_pre
 ROWS
  N  OBJ
  L  BP11..S1
@@ -62,12 +62,8 @@ ROWS
  E  BP16..T4
  E  BP26..T4
  E  C..5..T1
- E  C..3..T2
- E  C..5..T2
  E  C..3..T3
  E  C..5..T3
- E  C..3..T4
- E  C..5..T4
  L  FIN...1.
  L  FIN...2.
  L  FIN...3.
@@ -95,17 +91,11 @@ ROWS
  L  I..4..T4
  L  I..5..T4
  L  I..6..T4
- L  KM.1..T2
  L  KN.1..T2
- L  KM.3..T2
  L  KN.3..T2
- L  KM.5..T2
  L  KN.5..T2
- L  KM.1..T4
  L  KN.1..T4
- L  KM.3..T4
  L  KN.3..T4
- L  KM.5..T4
  L  KN.5..T4
  L  LN.3..T1
  L  LY....T2
@@ -320,37 +310,38 @@ COLUMNS
     CVA5..T1  OBJ       2.346
     CVA5..T1  C..5..T1  1
     CVA5..T1  FIN...3.  27.6
-    CIN1..T2  OBJ       7.20725
-    CIN1..T2  C..3..T2  1
-    CIN1..T2  I..2..T2  -1
-    CIN1..T2  I..1..T2  -1
-    CIN1..T2  KM.1..T2  1
-    CIN1..T2  KN.1..T2  -1
-    CIN1..T2  FIN...1.  31.75
-    CIN3..T2  OBJ       5.08
-    CIN3..T2  C..3..T2  1
-    CIN3..T2  KM.3..T2  1
-    CIN3..T2  KN.3..T2  -1
-    CIN3..T2  FIN...2.  31.75
+    CIN1..T2  OBJ       -7.20725
+    CIN1..T2  I..5..T2  1
+    CIN1..T2  I..6..T2  1
+    CIN1..T2  I..4..T2  1
+    CIN1..T2  I..3..T2  1
+    CIN1..T2  I..2..T2  1
+    CIN1..T2  I..1..T2  1
+    CIN1..T2  KN.1..T2  1
+    CIN1..T2  FIN...1.  -31.75
+    CIN3..T2  OBJ       -5.08
+    CIN3..T2  I..5..T2  1
+    CIN3..T2  I..6..T2  1
+    CIN3..T2  I..4..T2  1
+    CIN3..T2  I..3..T2  1
+    CIN3..T2  KN.3..T2  1
+    CIN3..T2  FIN...2.  -31.75
     CVA3..T2  OBJ       6.128
     CVA3..T2  LC.3..T2  0.1
-    CVA3..T2  C..3..T2  1
+    CVA3..T2  I..5..T2  -1
+    CVA3..T2  I..6..T2  -1
+    CVA3..T2  I..4..T2  -1
+    CVA3..T2  I..3..T2  -1
     CVA3..T2  FIN...2.  38.3
-    C..4..T2  I..3..T2  -1
-    C..4..T2  C..3..T2  -1
-    C..4..T2  I..4..T2  -1
-    C..4..T2  C..5..T2  1
-    C..5..T2  I..6..T2  -1
-    C..5..T2  C..5..T2  -1
-    C..5..T2  I..5..T2  -1
-    CIN5..T2  OBJ       2.69875
-    CIN5..T2  C..5..T2  1
-    CIN5..T2  KM.5..T2  1
-    CIN5..T2  KN.5..T2  -1
-    CIN5..T2  FIN...3.  31.75
+    CIN5..T2  OBJ       -2.69875
+    CIN5..T2  I..5..T2  1
+    CIN5..T2  I..6..T2  1
+    CIN5..T2  KN.5..T2  1
+    CIN5..T2  FIN...3.  -31.75
     CVA5..T2  OBJ       3.2555
     CVA5..T2  LC.5..T2  0.1
-    CVA5..T2  C..5..T2  1
+    CVA5..T2  I..5..T2  -1
+    CVA5..T2  I..6..T2  -1
     CVA5..T2  FIN...3.  38.3
     CIN1..T3  OBJ       7.20725
     CIN1..T3  C..3..T3  1
@@ -370,37 +361,38 @@ COLUMNS
     CVA5..T3  OBJ       2.346
     CVA5..T3  C..5..T3  1
     CVA5..T3  FIN...3.  27.6
-    CIN1..T4  OBJ       7.20725
-    CIN1..T4  C..3..T4  1
-    CIN1..T4  I..2..T4  -1
-    CIN1..T4  I..1..T4  -1
-    CIN1..T4  KM.1..T4  1
-    CIN1..T4  KN.1..T4  -1
-    CIN1..T4  FIN...1.  31.75
-    CIN3..T4  OBJ       5.08
-    CIN3..T4  C..3..T4  1
-    CIN3..T4  KM.3..T4  1
-    CIN3..T4  KN.3..T4  -1
-    CIN3..T4  FIN...2.  31.75
+    CIN1..T4  OBJ       -7.20725
+    CIN1..T4  I..5..T4  1
+    CIN1..T4  I..6..T4  1
+    CIN1..T4  I..4..T4  1
+    CIN1..T4  I..3..T4  1
+    CIN1..T4  I..2..T4  1
+    CIN1..T4  I..1..T4  1
+    CIN1..T4  KN.1..T4  1
+    CIN1..T4  FIN...1.  -31.75
+    CIN3..T4  OBJ       -5.08
+    CIN3..T4  I..5..T4  1
+    CIN3..T4  I..6..T4  1
+    CIN3..T4  I..4..T4  1
+    CIN3..T4  I..3..T4  1
+    CIN3..T4  KN.3..T4  1
+    CIN3..T4  FIN...2.  -31.75
     CVA3..T4  OBJ       6.128
     CVA3..T4  LC.3..T4  0.1
-    CVA3..T4  C..3..T4  1
+    CVA3..T4  I..5..T4  -1
+    CVA3..T4  I..6..T4  -1
+    CVA3..T4  I..4..T4  -1
+    CVA3..T4  I..3..T4  -1
     CVA3..T4  FIN...2.  38.3
-    C..4..T4  I..3..T4  -1
-    C..4..T4  C..3..T4  -1
-    C..4..T4  I..4..T4  -1
-    C..4..T4  C..5..T4  1
-    C..5..T4  I..6..T4  -1
-    C..5..T4  C..5..T4  -1
-    C..5..T4  I..5..T4  -1
-    CIN5..T4  OBJ       2.69875
-    CIN5..T4  C..5..T4  1
-    CIN5..T4  KM.5..T4  1
-    CIN5..T4  KN.5..T4  -1
-    CIN5..T4  FIN...3.  31.75
+    CIN5..T4  OBJ       -2.69875
+    CIN5..T4  I..5..T4  1
+    CIN5..T4  I..6..T4  1
+    CIN5..T4  KN.5..T4  1
+    CIN5..T4  FIN...3.  -31.75
     CVA5..T4  OBJ       3.2555
     CVA5..T4  LC.5..T4  0.1
-    CVA5..T4  C..5..T4  1
+    CVA5..T4  I..5..T4  -1
+    CVA5..T4  I..6..T4  -1
     CVA5..T4  FIN...3.  38.3
     IP11..T1  OBJ       3
     IP11..T1  BP11..T1  -1
@@ -586,53 +578,71 @@ COLUMNS
     IP26..T4  OBJ       3
     IP26..T4  BP26..T4  -1
     IP26..T4  I..6..T4  1
-    KIN1..T2  OBJ       68.1
+    KIN1..T2  OBJ       176.20875
+    KIN1..T2  I..1..T2  -15
+    KIN1..T2  I..2..T2  -15
+    KIN1..T2  I..3..T2  -15
+    KIN1..T2  I..4..T2  -15
+    KIN1..T2  I..6..T2  -15
+    KIN1..T2  I..5..T2  -15
     KIN1..T2  LY....T2  1
-    KIN1..T2  KM.1..T2  -15
-    KIN1..T2  KN.1..T2  3
-    KIN1..T2  FIN...1.  300
+    KIN1..T2  KN.1..T2  -12
+    KIN1..T2  FIN...1.  776.25
     KIN1..T2  TYEAR1T2  -25
     KIN1..T2  TYEAR2T2  -25
     KIN1..T2  LC.3..T2  -1
     KIN1..T2  TYEAR3T2  -25
     KIN1..T2  LC.5..T2  -1
-    KIN3..T2  OBJ       48
+    KIN3..T2  OBJ       124.2
+    KIN3..T2  I..3..T2  -15
+    KIN3..T2  I..4..T2  -15
+    KIN3..T2  I..6..T2  -15
+    KIN3..T2  I..5..T2  -15
     KIN3..T2  LY....T2  1
-    KIN3..T2  KM.3..T2  -15
-    KIN3..T2  KN.3..T2  3
-    KIN3..T2  FIN...2.  300
+    KIN3..T2  KN.3..T2  -12
+    KIN3..T2  FIN...2.  776.25
     KIN3..T2  TYEAR2T2  -25
     KIN3..T2  TYEAR3T2  -25
     KIN3..T2  LC.5..T2  -1
-    KIN5..T2  OBJ       25.5
+    KIN5..T2  OBJ       65.98125
+    KIN5..T2  I..6..T2  -15
+    KIN5..T2  I..5..T2  -15
     KIN5..T2  LY....T2  1
-    KIN5..T2  KM.5..T2  -15
-    KIN5..T2  KN.5..T2  3
-    KIN5..T2  FIN...3.  300
+    KIN5..T2  KN.5..T2  -12
+    KIN5..T2  FIN...3.  776.25
     KIN5..T2  TYEAR3T2  -25
-    KIN1..T4  OBJ       68.1
+    KIN1..T4  OBJ       176.20875
+    KIN1..T4  I..1..T4  -15
+    KIN1..T4  I..2..T4  -15
+    KIN1..T4  I..3..T4  -15
+    KIN1..T4  I..4..T4  -15
+    KIN1..T4  I..6..T4  -15
+    KIN1..T4  I..5..T4  -15
     KIN1..T4  LY....T4  1
-    KIN1..T4  KM.1..T4  -15
-    KIN1..T4  KN.1..T4  3
-    KIN1..T4  FIN...1.  300
+    KIN1..T4  KN.1..T4  -12
+    KIN1..T4  FIN...1.  776.25
     KIN1..T4  TYEAR1T4  -25
     KIN1..T4  TYEAR2T4  -25
     KIN1..T4  LC.3..T4  -1
     KIN1..T4  TYEAR3T4  -25
     KIN1..T4  LC.5..T4  -1
-    KIN3..T4  OBJ       48
+    KIN3..T4  OBJ       124.2
+    KIN3..T4  I..3..T4  -15
+    KIN3..T4  I..4..T4  -15
+    KIN3..T4  I..6..T4  -15
+    KIN3..T4  I..5..T4  -15
     KIN3..T4  LY....T4  1
-    KIN3..T4  KM.3..T4  -15
-    KIN3..T4  KN.3..T4  3
-    KIN3..T4  FIN...2.  300
+    KIN3..T4  KN.3..T4  -12
+    KIN3..T4  FIN...2.  776.25
     KIN3..T4  TYEAR2T4  -25
     KIN3..T4  TYEAR3T4  -25
     KIN3..T4  LC.5..T4  -1
-    KIN5..T4  OBJ       25.5
+    KIN5..T4  OBJ       65.98125
+    KIN5..T4  I..6..T4  -15
+    KIN5..T4  I..5..T4  -15
     KIN5..T4  LY....T4  1
-    KIN5..T4  KM.5..T4  -15
-    KIN5..T4  KN.5..T4  3
-    KIN5..T4  FIN...3.  300
+    KIN5..T4  KN.5..T4  -12
+    KIN5..T4  FIN...3.  776.25
     KIN5..T4  TYEAR3T4  -25
     PEN...1.  OBJ       100
     PEN...1.  FIN...1.  -1
@@ -3382,6 +3392,7 @@ RHS
     RHS1      ZP16..09  0.28
     RHS1      ZP26..09  0.3
 BOUNDS
+* Note: variable lower bounds are 0 unless specified otherwise
  UP BND1      A..2X1S1  13
  UP BND1      A..2X2S1  10
  UP BND1      A..2X3S1  177
@@ -3408,10 +3419,10 @@ BOUNDS
  UP BND1      C..5..T1  15
  LO BND1      CVA5..T1  2
  UP BND1      CVA5..T1  10
- UP BND1      CIN1..T2  15.016
- UP BND1      CIN3..T2  15.016
+ UP BND1      CIN1..T2  12.013
+ UP BND1      CIN3..T2  12.013
  UP BND1      CVA3..T2  10.011
- UP BND1      CIN5..T2  15.016
+ UP BND1      CIN5..T2  12.013
  UP BND1      CVA5..T2  10
  LO BND1      CIN1..T3  3
  UP BND1      CIN1..T3  8.009
@@ -3423,10 +3434,10 @@ BOUNDS
  UP BND1      C..5..T3  15
  LO BND1      CVA5..T3  2
  UP BND1      CVA5..T3  10
- UP BND1      CIN1..T4  15.016
- UP BND1      CIN3..T4  15.016
+ UP BND1      CIN1..T4  12.013
+ UP BND1      CIN3..T4  12.013
  UP BND1      CVA3..T4  10.011
- UP BND1      CIN5..T4  15.016
+ UP BND1      CIN5..T4  12.013
  UP BND1      CVA5..T4  10
  UP BND1      IP11..T1  15.016
  UP BND1      IP21..T1  15.016
@@ -3440,10 +3451,10 @@ BOUNDS
  UP BND1      IP25..T1  15.016
  UP BND1      IP16..T1  15.016
  UP BND1      IP26..T1  15.016
- UP BND1      IP11..T2  400.401
- UP BND1      IP21..T2  400.401
- UP BND1      IP12..T2  800.801
- UP BND1      IP22..T2  800.801
+ UP BND1      IP11..T2  15.016
+ UP BND1      IP21..T2  15.016
+ UP BND1      IP12..T2  15.016
+ UP BND1      IP22..T2  15.016
  UP BND1      IP13..T2  1201.201
  UP BND1      IP23..T2  1201.201
  UP BND1      IP14..T2  1601.601
@@ -3464,10 +3475,10 @@ BOUNDS
  UP BND1      IP25..T3  15.016
  UP BND1      IP16..T3  15.016
  UP BND1      IP26..T3  15.016
- UP BND1      IP11..T4  400.401
- UP BND1      IP21..T4  400.401
- UP BND1      IP12..T4  800.801
- UP BND1      IP22..T4  800.801
+ UP BND1      IP11..T4  15.016
+ UP BND1      IP21..T4  15.016
+ UP BND1      IP12..T4  15.016
+ UP BND1      IP22..T4  15.016
  UP BND1      IP13..T4  1201.201
  UP BND1      IP23..T4  1201.201
  UP BND1      IP14..T4  1601.601

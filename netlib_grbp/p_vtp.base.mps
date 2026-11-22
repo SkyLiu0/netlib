@@ -1,34 +1,20 @@
-NAME (null)_copy
+NAME VTP.BASE_pre
 ROWS
  N  OBJ
  E  B...G2TA
  E  B...G1TB
- E  B...G2TB
  E  B...G3TB
  E  B...G4TB
- E  T.....TB
  E  B...G1TC
  E  B...G2TC
  E  B...G3TC
  E  B...G4TC
  E  T.....TC
  E  B...G1TD
- E  B...G2TD
- E  B...G3TD
- E  B...G4TD
- E  T.....TD
- E  B...G1TE
- E  B...G2TE
  E  B...G3TE
- E  B...G4TE
- E  T.....TE
- E  B...G1TF
- E  B...G2TF
- E  B...G3TF
- E  T.....TF
  E  B...G1TG
+ E  B...G2TG
  E  B...G3TG
- E  B...G4TG
  E  T.....TG
  E  B...G1TH
  L  BS.12.TH
@@ -42,15 +28,12 @@ ROWS
  L  BS.24.TH
  L  BS.34.TH
 COLUMNS
-    INV.G2TA  OBJ       3.69863
+    INV.G2TA  OBJ       7.39726
+    INV.G2TA  B...G2TC  1
     INV.G2TA  B...G2TA  -1
-    INV.G2TA  B...G2TB  1
     INV.G1TB  OBJ       3.69863
     INV.G1TB  B...G1TB  -1
     INV.G1TB  B...G1TC  1
-    INV.G2TB  OBJ       3.69863
-    INV.G2TB  B...G2TB  -1
-    INV.G2TB  B...G2TC  1
     INV.G3TB  OBJ       3.69863
     INV.G3TB  B...G3TB  -1
     INV.G3TB  B...G3TC  1
@@ -60,44 +43,17 @@ COLUMNS
     INV.G1TC  OBJ       3.69863
     INV.G1TC  B...G1TC  -1
     INV.G1TC  B...G1TD  1
-    INV.G2TC  OBJ       3.69863
-    INV.G2TC  B...G2TC  -1
-    INV.G2TC  B...G2TD  1
-    INV.G3TC  OBJ       3.69863
-    INV.G3TC  B...G3TC  -1
-    INV.G3TC  B...G3TD  1
-    INV.G4TC  OBJ       3.69863
-    INV.G4TC  B...G4TC  -1
-    INV.G4TC  B...G4TD  1
-    INV.G1TD  OBJ       3.69863
-    INV.G1TD  B...G1TD  -1
-    INV.G1TD  B...G1TE  1
-    INV.G2TD  OBJ       3.69863
-    INV.G2TD  B...G2TD  -1
-    INV.G2TD  B...G2TE  1
-    INV.G3TD  OBJ       3.69863
-    INV.G3TD  B...G3TD  -1
+    INV.G3TD  OBJ       7.39726
+    INV.G3TD  B...G3TC  -1
     INV.G3TD  B...G3TE  1
-    INV.G4TD  OBJ       3.69863
-    INV.G4TD  B...G4TD  -1
-    INV.G4TD  B...G4TE  1
-    INV.G1TE  OBJ       3.69863
-    INV.G1TE  B...G1TE  -1
-    INV.G1TE  B...G1TF  1
-    INV.G2TE  OBJ       3.69863
-    INV.G2TE  B...G2TE  -1
-    INV.G2TE  B...G2TF  1
-    INV.G3TE  OBJ       3.69863
-    INV.G3TE  B...G3TE  -1
-    INV.G3TE  B...G3TF  1
-    INV.G4TE  OBJ       7.39726
-    INV.G4TE  B...G4TG  1
-    INV.G4TE  B...G4TE  -1
-    INV.G1TF  OBJ       3.69863
-    INV.G1TF  B...G1TF  -1
+    INV.G2TE  OBJ       14.79452
+    INV.G2TE  B...G2TG  1
+    INV.G2TE  B...G2TC  -1
+    INV.G1TF  OBJ       11.09589
+    INV.G1TF  B...G1TD  -1
     INV.G1TF  B...G1TG  1
-    INV.G3TF  OBJ       3.69863
-    INV.G3TF  B...G3TF  -1
+    INV.G3TF  OBJ       7.39726
+    INV.G3TF  B...G3TE  -1
     INV.G3TF  B...G3TG  1
     INV.G1TG  OBJ       3.69863
     INV.G1TG  B...G1TG  -1
@@ -110,8 +66,8 @@ COLUMNS
     INV.G1TH  BS.13.TH  -0.66667
     INV.G1TH  BS.134TH  -0.33333
     INV.G1TH  BS.14.TH  -0.66667
-    INV.G2TH  OBJ       11.09589
-    INV.G2TH  B...G2TF  -1
+    INV.G2TH  OBJ       7.39726
+    INV.G2TH  B...G2TG  -1
     INV.G2TH  BS.12.TH  -0.51282
     INV.G2TH  BS.123TH  -0.25641
     INV.G2TH  BS.124TH  -0.25641
@@ -126,23 +82,20 @@ COLUMNS
     INV.G3TH  BS.23.TH  -0.8
     INV.G3TH  BS.234TH  -0.2
     INV.G3TH  BS.34.TH  -0.26667
-    INV.G4TH  OBJ       7.39726
-    INV.G4TH  B...G4TG  -1
+    INV.G4TH  OBJ       22.19178
+    INV.G4TH  B...G4TC  -1
     INV.G4TH  BS.124TH  -0.41667
     INV.G4TH  BS.134TH  -0.27778
     INV.G4TH  BS.14.TH  -0.55556
     INV.G4TH  BS.234TH  -0.41667
     INV.G4TH  BS.24.TH  -1.66667
     INV.G4TH  BS.34.TH  -0.55556
-    INVAG2TA  OBJ       -100
+    INVAG2TA  OBJ       -96.30137
+    INVAG2TA  B...G2TC  1
     INVAG2TA  B...G2TA  -1
-    INVAG2TA  B...G2TB  1
     INVAG1TB  OBJ       -87.5
     INVAG1TB  B...G1TB  -1
     INVAG1TB  B...G1TC  1
-    INVAG2TB  OBJ       -87.5
-    INVAG2TB  B...G2TB  -1
-    INVAG2TB  B...G2TC  1
     INVAG3TB  OBJ       -87.5
     INVAG3TB  B...G3TB  -1
     INVAG3TB  B...G3TC  1
@@ -152,145 +105,98 @@ COLUMNS
     INVAG1TC  OBJ       -75
     INVAG1TC  B...G1TC  -1
     INVAG1TC  B...G1TD  1
-    INVAG2TC  OBJ       -75
-    INVAG2TC  B...G2TC  -1
-    INVAG2TC  B...G2TD  1
-    INVAG3TC  OBJ       -75
-    INVAG3TC  B...G3TC  -1
-    INVAG3TC  B...G3TD  1
-    INVAG4TC  OBJ       -75
-    INVAG4TC  B...G4TC  -1
-    INVAG4TC  B...G4TD  1
-    INVAG1TD  OBJ       -62.5
-    INVAG1TD  B...G1TD  -1
-    INVAG1TD  B...G1TE  1
-    INVAG2TD  OBJ       -62.5
-    INVAG2TD  B...G2TD  -1
-    INVAG2TD  B...G2TE  1
-    INVAG3TD  OBJ       -62.5
-    INVAG3TD  B...G3TD  -1
+    INVAG3TD  OBJ       -58.80137
+    INVAG3TD  B...G3TC  -1
     INVAG3TD  B...G3TE  1
-    INVAG4TD  OBJ       -62.5
-    INVAG4TD  B...G4TD  -1
-    INVAG4TD  B...G4TE  1
-    INVAG1TE  OBJ       -50
-    INVAG1TE  B...G1TE  -1
-    INVAG1TE  B...G1TF  1
-    INVAG2TE  OBJ       -50
-    INVAG2TE  B...G2TE  -1
-    INVAG2TE  B...G2TF  1
-    INVAG3TE  OBJ       -50
-    INVAG3TE  B...G3TE  -1
-    INVAG3TE  B...G3TF  1
-    INVAG4TE  OBJ       -46.30137
-    INVAG4TE  B...G4TG  1
-    INVAG4TE  B...G4TE  -1
-    INVAG1TF  OBJ       -37.5
-    INVAG1TF  B...G1TF  -1
+    INVAG2TE  OBJ       -3.8904109999999996e+01
+    INVAG2TE  B...G2TG  1
+    INVAG2TE  B...G2TC  -1
+    INVAG1TF  OBJ       -30.10274
+    INVAG1TF  B...G1TD  -1
     INVAG1TF  B...G1TG  1
-    INVAG3TF  OBJ       -37.5
-    INVAG3TF  B...G3TF  -1
+    INVAG3TF  OBJ       -33.80137
+    INVAG3TF  B...G3TE  -1
     INVAG3TF  B...G3TG  1
     INVAG1TG  OBJ       -25
     INVAG1TG  B...G1TG  -1
     INVAG1TG  B...G1TH  1
     INVAG1TH  OBJ       -12.5
     INVAG1TH  B...G1TH  -1
-    INVAG2TH  OBJ       -5.10274
-    INVAG2TH  B...G2TF  -1
+    INVAG2TH  OBJ       -8.80137
+    INVAG2TH  B...G2TG  -1
     INVAG3TH  OBJ       -8.80137
     INVAG3TH  B...G3TG  -1
-    INVAG4TH  OBJ       -8.80137
-    INVAG4TH  B...G4TG  -1
-    TIME..TB  B...G1TB  -10
-    TIME..TB  B...G2TB  -13
-    TIME..TB  B...G3TB  -25
-    TIME..TB  B...G4TB  -12
-    TIME..TB  T.....TB  -1
-    TIME..TB  B...G1TC  10
-    TIME..TB  B...G2TC  13
-    TIME..TB  B...G3TC  25
-    TIME..TB  B...G4TC  12
-    TIME..TB  T.....TC  1
-    TIME..TC  B...G1TC  -10
-    TIME..TC  B...G2TC  -13
-    TIME..TC  B...G3TC  -25
-    TIME..TC  B...G4TC  -12
-    TIME..TC  T.....TC  -1
-    TIME..TC  B...G1TD  10
-    TIME..TC  B...G2TD  13
-    TIME..TC  B...G3TD  25
-    TIME..TC  B...G4TD  12
-    TIME..TC  T.....TD  1
-    TIME..TD  B...G1TD  -10
-    TIME..TD  B...G2TD  -13
-    TIME..TD  B...G3TD  -25
-    TIME..TD  B...G4TD  -12
-    TIME..TD  T.....TD  -1
-    TIME..TD  B...G1TE  10
-    TIME..TD  B...G2TE  13
-    TIME..TD  B...G3TE  25
-    TIME..TD  B...G4TE  12
-    TIME..TD  T.....TE  1
-    TIME..TE  OBJ       44.38356
-    TIME..TE  B...G4TG  12
-    TIME..TE  B...G1TE  -10
-    TIME..TE  B...G2TE  -13
-    TIME..TE  B...G3TE  -25
-    TIME..TE  B...G4TE  -12
-    TIME..TE  T.....TE  -1
-    TIME..TE  B...G1TF  10
-    TIME..TE  B...G2TF  13
-    TIME..TE  B...G3TF  25
-    TIME..TE  T.....TF  1
-    TIME..TF  OBJ       -9.2465750000000014e+01
-    TIME..TF  B...G1TF  -10
-    TIME..TF  B...G3TF  -25
-    TIME..TF  T.....TF  -1
+    INVAG4TH  OBJ       5.99315
+    INVAG4TH  B...G4TC  -1
+    TIME..TF  OBJ       -177.53424
+    TIME..TF  T.....TC  -1
+    TIME..TF  B...G3TC  -25
+    TIME..TF  B...G2TC  -13
+    TIME..TF  B...G1TC  -10
     TIME..TF  B...G1TG  10
+    TIME..TF  B...G2TG  13
     TIME..TF  B...G3TG  25
     TIME..TF  T.....TG  1
-    YTP1..TD  OBJ       60
-    YTP1..TD  B...G1TD  80
-    YTP1..TD  T.....TD  1
-    YTP2..TB  OBJ       30
-    YTP2..TB  B...G2TB  93
-    YTP2..TB  T.....TB  1
-    YTP2..TF  OBJ       30
-    YTP2..TF  B...G2TF  93
-    YTP2..TF  T.....TF  1
+    YTP1..TD  OBJ       2.4493149999999997e+02
+    YTP1..TD  T.....TC  1
+    YTP1..TD  B...G1TC  10
+    YTP1..TD  B...G1TD  70
+    YTP2..TB  OBJ       325.8904
+    YTP2..TB  T.....TC  1
+    YTP2..TB  B...G4TC  12
+    YTP2..TB  B...G3TC  25
+    YTP2..TB  B...G2TC  93
+    YTP2..TB  B...G1TC  10
+    YTP2..TB  B...G4TB  -12
+    YTP2..TB  B...G3TB  -25
+    YTP2..TB  B...G1TB  -10
+    YTP2..TF  OBJ       6.2547943000000009e+02
+    YTP2..TF  B...G2TG  80
+    YTP2..TF  B...G3TE  -25
+    YTP2..TF  B...G1TD  -10
+    YTP2..TF  T.....TC  1
+    YTP2..TF  B...G3TC  25
+    YTP2..TF  B...G2TC  13
+    YTP2..TF  B...G1TC  10
     YTP3..TA  OBJ       106.57534
-    YTP3..TA  T.....TB  1
-    YTP3..TA  B...G3TB  65
-    YTP3..TA  B...G2TB  13
+    YTP3..TA  B...G4TB  -12
+    YTP3..TA  B...G3TB  40
+    YTP3..TA  B...G1TB  -10
+    YTP3..TA  T.....TC  1
+    YTP3..TA  B...G4TC  12
+    YTP3..TA  B...G3TC  25
+    YTP3..TA  B...G2TC  13
+    YTP3..TA  B...G1TC  10
     YTP3..TA  B...G2TA  -13
-    YTP3..TE  OBJ       40
-    YTP3..TE  B...G3TE  65
-    YTP3..TE  T.....TE  1
+    YTP3..TE  OBJ       2.6191780000000006e+02
+    YTP3..TE  B...G1TD  -10
+    YTP3..TE  B...G1TC  10
+    YTP3..TE  B...G3TC  25
+    YTP3..TE  T.....TC  1
+    YTP3..TE  B...G3TE  40
     YTP3..TG  OBJ       40
     YTP3..TG  B...G3TG  65
     YTP3..TG  T.....TG  1
     YTP4..TC  OBJ       50
     YTP4..TC  B...G4TC  92
     YTP4..TC  T.....TC  1
-    YTP5..TH  OBJ       1.8493150000000003e+02
+    YTP5..TH  OBJ       1.8493149999999997e+02
     YTP5..TH  B...G1TH  -10
     YTP5..TH  T.....TG  1
     YTP5..TH  B...G1TG  10
 RHS
-    RHS1      OBJ       -3.9623287039999996e+04
+    RHS1      OBJ       -62776.71084
     RHS1      B...G2TA  -600
     RHS1      B...G1TB  -1300
-    RHS1      B...G2TB  20
     RHS1      B...G3TB  -60
     RHS1      B...G4TB  -900
-    RHS1      B...G4TC  50
+    RHS1      B...G2TC  20
+    RHS1      B...G4TC  2210
     RHS1      B...G1TD  50
     RHS1      B...G3TE  50
-    RHS1      B...G2TF  2360
     RHS1      B...G1TG  1800
+    RHS1      B...G2TG  2360
     RHS1      B...G3TG  4850
-    RHS1      B...G4TG  2160
     RHS1      T.....TG  180
     RHS1      BS.12.TH  -771.28205
     RHS1      BS.123TH  -315.64103
@@ -303,88 +209,49 @@ RHS
     RHS1      BS.24.TH  -337.94872
     RHS1      BS.34.TH  -202.22222
 BOUNDS
+* Note: variable lower bounds are 0 unless specified otherwise
  LO BND1      INV.G2TA  100
  UP BND1      INV.G2TA  505.506
  LO BND1      INV.G1TB  300
- UP BND1      INV.G1TB  1601.601
- LO BND1      INV.G2TB  100
- UP BND1      INV.G2TB  6771.766
+ UP BND1      INV.G1TB  1401.401
  LO BND1      INV.G3TB  100
- UP BND1      INV.G3TB  3163.161
+ UP BND1      INV.G3TB  1883.036
  LO BND1      INV.G4TB  100
- UP BND1      INV.G4TB  1001.001
+ UP BND1      INV.G4TB  760.761
  LO BND1      INV.G1TC  300
- UP BND1      INV.G1TC  2652.651
- LO BND1      INV.G2TC  100
- UP BND1      INV.G2TC  7847.841
- LO BND1      INV.G3TC  100
- UP BND1      INV.G3TC  5140.136
- LO BND1      INV.G4TC  100
- UP BND1      INV.G4TC  7477.471
- LO BND1      INV.G1TD  300
- UP BND1      INV.G1TD  9059.051
- LO BND1      INV.G2TD  100
- UP BND1      INV.G2TD  9704.696
+ UP BND1      INV.G1TC  4.5661010000000006e+03
  LO BND1      INV.G3TD  100
- UP BND1      INV.G3TD  8618.611
- LO BND1      INV.G4TD  100
- UP BND1      INV.G4TD  9199.191
- LO BND1      INV.G1TE  300
- UP BND1      INV.G1TE  11311.301
+ UP BND1      INV.G3TD  7642.636
  LO BND1      INV.G2TE  100
- UP BND1      INV.G2TE  12342.331
- LO BND1      INV.G3TE  100
- UP BND1      INV.G3TE  17452.436
- LO BND1      INV.G4TE  1018.979
- UP BND1      INV.G4TE  11641.631
+ UP BND1      INV.G2TE  7552.546
  LO BND1      INV.G1TF  300
- UP BND1      INV.G1TF  14164.151
+ UP BND1      INV.G1TF  7769.301
  LO BND1      INV.G3TF  100
- UP BND1      INV.G3TF  23933.911
+ UP BND1      INV.G3TF  9369.361
  LO BND1      INV.G1TG  300
- UP BND1      INV.G1TG  14264.251
+ UP BND1      INV.G1TG  7.8694010000000007e+03
  LO BND1      INV.G1TH  300
- UP BND1      INV.G1TH  14364.351
+ UP BND1      INV.G1TH  7969.501
  LO BND1      INV.G2TH  100
- UP BND1      INV.G2TH  18983.966
+ UP BND1      INV.G2TH  9394.386
  LO BND1      INV.G3TH  100
- UP BND1      INV.G3TH  25585.561
+ UP BND1      INV.G3TH  11021.011
  LO BND1      INV.G4TH  100
- UP BND1      INV.G4TH  10720.711
+ UP BND1      INV.G4TH  5449.291
  LO BND1      INVAG2TA  -100
  UP BND1      INVAG2TA  0
  LO BND1      INVAG1TB  -300
  UP BND1      INVAG1TB  0
- LO BND1      INVAG2TB  -100
- UP BND1      INVAG2TB  0
  LO BND1      INVAG3TB  -100
  UP BND1      INVAG3TB  0
  LO BND1      INVAG4TB  -100
  UP BND1      INVAG4TB  0
  LO BND1      INVAG1TC  -300
  UP BND1      INVAG1TC  0
- LO BND1      INVAG2TC  -100
- UP BND1      INVAG2TC  0
- LO BND1      INVAG3TC  -100
- UP BND1      INVAG3TC  0
- LO BND1      INVAG4TC  -100
- UP BND1      INVAG4TC  0
- LO BND1      INVAG1TD  -300
- UP BND1      INVAG1TD  0
- LO BND1      INVAG2TD  -100
- UP BND1      INVAG2TD  0
  LO BND1      INVAG3TD  -100
  UP BND1      INVAG3TD  0
- LO BND1      INVAG4TD  -100
- UP BND1      INVAG4TD  0
- LO BND1      INVAG1TE  -300
- UP BND1      INVAG1TE  0
  LO BND1      INVAG2TE  -100
  UP BND1      INVAG2TE  0
- LO BND1      INVAG3TE  -100
- UP BND1      INVAG3TE  0
- LO BND1      INVAG4TE  -100
- UP BND1      INVAG4TE  0
  LO BND1      INVAG1TF  -300
  UP BND1      INVAG1TF  0
  LO BND1      INVAG3TF  -100
@@ -399,30 +266,22 @@ BOUNDS
  UP BND1      INVAG3TH  0
  LO BND1      INVAG4TH  -100
  UP BND1      INVAG4TH  0
- LO BND1      TIME..TB  19.979
- UP BND1      TIME..TB  75.076
- LO BND1      TIME..TC  34.964
- UP BND1      TIME..TC  135.136
- LO BND1      TIME..TD  49.949
- UP BND1      TIME..TD  195.196
- LO BND1      TIME..TE  64.934
- UP BND1      TIME..TE  95.096
  LO BND1      TIME..TF  69.929
  UP BND1      TIME..TF  100
  LO BND1      YTP1..TD  15
- UP BND1      YTP1..TD  60
+ UP BND1      YTP1..TD  45.046
  LO BND1      YTP2..TB  5
- UP BND1      YTP2..TB  60
+ UP BND1      YTP2..TB  35.036
  LO BND1      YTP2..TF  5
  UP BND1      YTP2..TF  35.036
  LO BND1      YTP3..TA  15
- UP BND1      YTP3..TA  46.201
+ UP BND1      YTP3..TA  45.046
  LO BND1      YTP3..TE  15
- UP BND1      YTP3..TE  60
+ UP BND1      YTP3..TE  45.046
  LO BND1      YTP3..TG  19.979
  UP BND1      YTP3..TG  60
  LO BND1      YTP4..TC  15
- UP BND1      YTP4..TC  60
+ UP BND1      YTP4..TC  45.046
  LO BND1      YTP5..TH  20
  UP BND1      YTP5..TH  60
 ENDATA

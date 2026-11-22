@@ -1,4 +1,4 @@
-NAME (null)_copy
+NAME MAROS-R7_pre
 ROWS
  N  OBJ
  E  R2      
@@ -90824,4 +90824,5 @@ RHS
     RHS1      R3131     1237
     RHS1      R3132     252
 BOUNDS
+* Note: variable lower bounds are 0 unless specified otherwise
 ENDATA

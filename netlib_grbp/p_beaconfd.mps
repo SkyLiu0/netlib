@@ -1,4 +1,4 @@
-NAME (null)_copy
+NAME BEACONFD_pre
 ROWS
  N  OBJ
  L  50139   
@@ -122,10 +122,10 @@ COLUMNS
     9625C4    OBJ       2.602075
     9625C4    50139     5.0000000000000010e-03
     9625C4    609625    1
-    96322     OBJ       -4.3309900000000123e-02
+    96322     OBJ       -4.3309899999999235e-02
     96322     50157     2.4800000000000013e-03
 RHS
-    RHS1      OBJ       -1.5155306252200004e+04
+    RHS1      OBJ       -15155.3062522
     RHS1      50139     21.4485
     RHS1      50157     53.25179
     RHS1      609101    1120
@@ -140,6 +140,7 @@ RHS
     RHS1      609610    445
     RHS1      609625    1160
 BOUNDS
+* Note: variable lower bounds are 0 unless specified otherwise
  UP BND1      9101C3    1121.121
  UP BND1      91111     640.641
  UP BND1      91112     640.641

@@ -1,4 +1,4 @@
-NAME (null)_copy
+NAME NEWLP12_pre
 ROWS
  N  OBJ
  E  NX01    
@@ -47464,6 +47464,7 @@ RHS
     RHS1      NX23      1
     RHS1      NX24      1
 BOUNDS
+* Note: variable lower bounds are 0 unless specified otherwise
  UP BND1      X001      1.002
  UP BND1      X002      1.002
  UP BND1      X003      1.002

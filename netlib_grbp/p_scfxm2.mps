@@ -1,8 +1,7 @@
-NAME (null)_copy
+NAME SCFXM2_pre
 ROWS
  N  OBJ
  E  1DT002  
- E  1DT003  
  E  1DT004  
  E  1DT005  
  E  1DT006  
@@ -43,40 +42,33 @@ ROWS
  L  1DT055  
  E  1DT056  
  L  1DT057  
- E  1DT059  
  L  1DT060  
  L  1DT062  
  L  1DT063  
  L  1DT064  
  L  1DT066  
  L  1DT067  
- E  1DT068  
  E  1DT072  
  E  1DT073  
  L  1DT074  
  E  1DT075  
  E  1DT078  
  E  1DT079  
- E  1DT080  
- E  1DT081  
  E  1DT083  
  E  1DT084  
  E  1DT087  
  E  1DT088  
- E  1DT090  
  L  1DT091  
- L  1DT092  
  E  1DT101  
+ E  1DT102  
  E  1DT019  
  E  1DT020  
  E  1DT046  
- L  1DT093  
  E  1CROW2  
  E  1CROW3  
  E  1CROW5  
  E  1MS001  
  E  1MS005  
- E  1MS006  
  E  1MS007  
  E  1MS008  
  E  1MS009  
@@ -84,9 +76,7 @@ ROWS
  E  1MS013  
  E  1MS014  
  E  1MS015  
- E  1MS016  
  E  1MS017  
- E  1MS018  
  E  1MS019  
  E  1MS020  
  E  1MS021  
@@ -102,8 +92,6 @@ ROWS
  E  1MS031  
  E  1MS032  
  E  1MS033  
- E  1MS034  
- E  1MS036  
  E  1MS039  
  L  1MS045  
  L  1MS046  
@@ -120,7 +108,6 @@ ROWS
  L  1MS062  
  L  1MS063  
  L  1MS064  
- E  1MS067  
  E  1MS042  
  E  1MS056  
  E  1MS057  
@@ -142,8 +129,6 @@ ROWS
  E  1PD028  
  L  1PD029  
  L  1PD030  
- E  1PD031  
- E  1PD032  
  E  1PD033  
  E  1PD034  
  E  1PD039  
@@ -188,7 +173,6 @@ ROWS
  L  1RB067  
  L  1RB068  
  E  1RB070  
- L  1RB073  
  L  1RB077  
  L  1RB084  
  E  1RB087  
@@ -212,8 +196,6 @@ ROWS
  E  1RB026  
  E  1RB027  
  L  1RB028  
- L  1RB029  
- E  1RB030  
  E  1RB031  
  E  1RB032  
  L  1RB034  
@@ -223,7 +205,6 @@ ROWS
  E  1RB042  
  L  1RB043  
  L  1RB046  
- L  1RB047  
  L  1RB048  
  L  1RB049  
  L  1RB050  
@@ -234,17 +215,14 @@ ROWS
  L  1RB055  
  L  1RB056  
  L  1RB057  
- L  1RB058  
  L  1RB062  
  E  1RB069  
  L  1RB072  
  L  1RB078  
  L  1RB081  
  L  1RB082  
- L  1RB085  
  E  2DT001  
  E  2DT002  
- E  2DT003  
  E  2DT004  
  E  2DT005  
  E  2DT006  
@@ -285,30 +263,26 @@ ROWS
  L  2DT055  
  E  2DT056  
  L  2DT057  
- E  2DT059  
  L  2DT060  
  L  2DT062  
  L  2DT063  
  L  2DT064  
  L  2DT066  
  L  2DT067  
- E  2DT068  
  E  2DT072  
  E  2DT073  
  L  2DT074  
  E  2DT075  
  E  2DT078  
  E  2DT079  
- E  2DT080  
- E  2DT081  
  E  2DT083  
  E  2DT084  
  E  2DT087  
  E  2DT088  
- E  2DT090  
  L  2DT091  
  L  2DT092  
  E  2DT101  
+ E  2DT102  
  E  2DT019  
  E  2DT020  
  E  2DT046  
@@ -318,7 +292,6 @@ ROWS
  E  2CROW5  
  E  2MS001  
  E  2MS005  
- E  2MS006  
  E  2MS007  
  E  2MS008  
  E  2MS009  
@@ -326,9 +299,7 @@ ROWS
  E  2MS013  
  E  2MS014  
  E  2MS015  
- E  2MS016  
  E  2MS017  
- E  2MS018  
  E  2MS019  
  E  2MS020  
  E  2MS021  
@@ -344,8 +315,6 @@ ROWS
  E  2MS031  
  E  2MS032  
  E  2MS033  
- E  2MS034  
- E  2MS036  
  E  2MS039  
  L  2MS045  
  L  2MS046  
@@ -362,7 +331,6 @@ ROWS
  L  2MS062  
  L  2MS063  
  L  2MS064  
- E  2MS067  
  E  2MS042  
  E  2MS056  
  E  2MS057  
@@ -384,8 +352,6 @@ ROWS
  E  2PD028  
  L  2PD029  
  L  2PD030  
- E  2PD031  
- E  2PD032  
  E  2PD033  
  E  2PD034  
  E  2PD039  
@@ -430,7 +396,6 @@ ROWS
  L  2RB067  
  L  2RB068  
  E  2RB070  
- L  2RB073  
  L  2RB077  
  L  2RB084  
  E  2RB087  
@@ -454,8 +419,6 @@ ROWS
  E  2RB026  
  E  2RB027  
  L  2RB028  
- L  2RB029  
- E  2RB030  
  E  2RB031  
  E  2RB032  
  L  2RB034  
@@ -465,7 +428,6 @@ ROWS
  E  2RB042  
  L  2RB043  
  L  2RB046  
- L  2RB047  
  L  2RB048  
  L  2RB049  
  L  2RB050  
@@ -476,14 +438,12 @@ ROWS
  L  2RB055  
  L  2RB056  
  L  2RB057  
- L  2RB058  
  L  2RB062  
  E  2RB069  
  L  2RB072  
  L  2RB078  
  L  2RB081  
  L  2RB082  
- L  2RB085  
 COLUMNS
     1D1IK     1DT061    1
     1D1IK     1DT012    1
@@ -521,11 +481,6 @@ COLUMNS
     1D2MK     1DT063    -22.5
     1D2MK     1DT064    -16
     1D2MK     1CROW5    1
-    1D2PB     1DT059    1
-    1D2PB     1DT062    -0.394
-    1D2PB     1DT063    -62.5
-    1D2PB     1DT064    -7.5
-    1D2PB     1CROW5    1
     1D2US     1DT026    1
     1D2US     1DT062    -0.307
     1D2US     1DT063    -17.5
@@ -541,9 +496,11 @@ COLUMNS
     1D2YK     1DT063    -45
     1D2YK     1DT064    -4
     1D2YK     1CROW5    1
-    1D4BY     1DT093    -1
+    1D4BY     1DT005    -1.0752688172043010e+00
+    1D4BY     1DT021    5.0752688172043009e-02
     1D4BY     1DT101    -3.26
-    1DAOU     OBJ       5.8599999999999992e-02
+    1DAOU     OBJ       0.0836
+    1DAOU     1DT102    0.025
     1DAOU     1DT009    -0.0137
     1DAOU     1DT016    -0.0012
     1DAOU     1DT021    0.0232
@@ -555,42 +512,40 @@ COLUMNS
     1DAOU     1DT084    -0.0188
     1DAOU     1DT088    -0.0051
     1DC3A     OBJ       0.3284
+    1DC3A     1DT004    6.1434782608695648e-01
+    1DC3A     1DT021    -3.2068956521739134e-02
     1DC3A     1DT046    -0.7739
     1DC3A     1DT047    1
     1DC3A     1DT091    0.4348
-    1DC3A     1DT092    0.5652
-    1DC3P     1DT021    -0.61
-    1DC3P     1DT090    1
-    1DC3R     1DT021    -0.09
-    1DC3R     1DT002    1
-    1DC3R     1DT090    -0.85
+    1DC3P     1DT002    1.1764705882352942e+00
+    1DC3P     1DT021    -7.1588235294117641e-01
     1DC4A     OBJ       0.3399
+    1DC4A     1DT004    5.8141304347826084e-01
     1DC4A     1DT006    4.7459183673469391e-01
-    1DC4A     1DT021    -6.5493673469387758e-03
+    1DC4A     1DT021    -3.6899128216503992e-02
     1DC4A     1DT046    -0.8
     1DC4A     1DT047    1
-    1DC4A     1DT092    0.5349
     1DC65     OBJ       10
+    1DC65     1DT091    -0.04756
     1DC65     1DT002    -0.036
-    1DC65     1DT003    -0.058
     1DC65     1DT004    -0.041
     1DC65     1DT005    -0.011
     1DC65     1DT006    -0.077
     1DC65     1DT016    -0.475
-    1DC65     1DT021    6.8000000000000005e-03
+    1DC65     1DT021    -4.3999999999999768e-05
     1DC65     1DT025    1
     1DC65     1DT042    -0.05
     1DC65     1DT043    -0.27
     1DC65     1DT044    -0.08
     1DC65     1DT045    1
     1DC75     OBJ       0.0124
+    1DC75     1DT091    -0.05494
     1DC75     1DT002    -0.042
-    1DC75     1DT003    -0.067
     1DC75     1DT004    -0.047
     1DC75     1DT005    -0.015
     1DC75     1DT006    -0.09
     1DC75     1DT016    -0.525
-    1DC75     1DT021    -4.1999999999999954e-03
+    1DC75     1DT021    -1.2105999999999995e-02
     1DC75     1DT025    1
     1DC75     1DT042    -0.0525
     1DC75     1DT043    -0.22
@@ -598,54 +553,44 @@ COLUMNS
     1DC75     1DT045    1
     1DCKP     1DT021    -4.409
     1DCKP     1DT022    1
-    1DCKS     OBJ       -4
     1DCKS     1DT022    1
-    1DCOU     OBJ       -1.3899999999999996e-02
-    1DCOU     1DT021    0.0232
-    1DCOU     1DT024    0.55
-    1DCOU     1DT025    -0.9
-    1DCOU     1DT026    -0.1
-    1DCOU     1DT033    1
-    1DCOU     1DT081    1
+    1DCKS     1DT102    4
     1DCTL     1DT016    1
     1DCTL     1DT042    1
     1DCTL     1DT043    -1
+    1DDID     1DT026    -1
     1DDID     1DT015    1
-    1DDID     1DT066    -0.282
-    1DDID     1DT067    1
-    1DDID     1DT068    1
+    1DDID     1DT066    2.5000000000000022e-02
+    1DDID     1DT067    4
+    1DDMD     1DT026    -1
     1DDMD     1DT014    1
-    1DDMD     1DT066    -0.316
-    1DDMD     1DT067    1
-    1DDMD     1DT068    1
-    1DDUS     1DT026    1
-    1DDUS     1DT066    -0.307
-    1DDUS     1DT067    -3
-    1DDUS     1DT068    1
+    1DDMD     1DT066    -9.0000000000000080e-03
+    1DDMD     1DT067    4
+    1DDYD     1DT026    -1
     1DDYD     1DT013    1
-    1DDYD     1DT066    0.724
-    1DDYD     1DT067    1
-    1DDYD     1DT068    1
-    1DFVB     OBJ       -2.21
+    1DDYD     1DT066    1.031
+    1DDYD     1DT067    4
+    1DFVB     1DT091    -8.1999999999999990e-03
     1DFVB     1DT075    0.15
     1DFVB     1DT073    -1.212
     1DFVB     1DT002    -0.016
-    1DFVB     1DT003    -0.01
     1DFVB     1DT004    -0.003
     1DFVB     1DT005    -0.007
     1DFVB     1DT006    -0.007
     1DFVB     1DT009    -0.1074
     1DFVB     1DT016    -0.0079
     1DFVB     1DT019    1
-    1DFVB     1DT021    2.0999999999999998e-02
+    1DFVB     1DT021    1.9819999999999997e-02
     1DFVB     1DT072    0.676
     1DFVB     1DT074    1
     1DFVB     1DT084    -0.1501
     1DFVB     1DT088    -0.0427
+    1DFVB     1DT102    2.21
     1DGBY     1DT025    -1
     1DGBY     1DT033    1
     1DGBY     1DT101    -2.88
-    1DGOU     OBJ       -1.3899999999999996e-02
+    1DGOU     OBJ       0.0836
+    1DGOU     1DT102    9.7499999999999989e-02
     1DGOU     1DT009    -0.0137
     1DGOU     1DT016    -0.0012
     1DGOU     1DT018    1
@@ -658,22 +603,14 @@ COLUMNS
     1DGOU     1DT088    -0.0051
     1DH2P     1DT021    -0.0511
     1DH2P     1DT024    1
-    1DHNU     OBJ       0.0836
-    1DHNU     1DT009    -0.785
-    1DHNU     1DT021    0.0232
-    1DHNU     1DT024    0.45
-    1DHNU     1DT033    1
-    1DHNU     1DT080    1
-    1DHNU     1DT084    -1
-    1DHNU     1DT088    -0.215
     1DHPU     OBJ       0.0409
     1DHPU     1DT021    0.0244
     1DHPU     1DT024    0.05
     1DHPU     1DT084    1
     1DI4R     1DT021    -0.0522
     1DI4R     1DT004    1
-    1DI4R     1DT092    -0.92
-    1DIBY     1DT092    -1
+    1DIBY     1DT004    -1.0869565217391304e+00
+    1DIBY     1DT021    5.6739130434782611e-02
     1DIBY     1DT101    -3.67
     1DICD     OBJ       10
     1DICD     1DT002    -0.007
@@ -814,16 +751,16 @@ COLUMNS
     1DMGD     1DT087    -0.115
     1DN4R     1DT021    -0.0472
     1DN4R     1DT005    1
-    1DN4R     1DT093    -0.93
     1DNBY     1DT021    -1
     1DNBY     1DT101    -2.67
-    1DO3R     1DT021    -0.118
-    1DO3R     1DT003    1
-    1DO3R     1DT091    -0.82
+    1DO4N     1DT005    -1.0752688172043010e+00
     1DO4N     1DT006    1.0204081632653061e+00
-    1DO4N     1DT021    -1.4081632653061225e-02
-    1DO4N     1DT093    -1
+    1DO4N     1DT021    3.6671055518981782e-02
     1DP94     OBJ       0.0735
+    1DP94     1CROW5    0.06902
+    1DP94     1DT064    -5.1764999999999994e-01
+    1DP94     1DT063    -4.31375
+    1DP94     1DT062    -0.02719388
     1DP94     1DT002    -0.03806
     1DP94     1DT004    -0.02075
     1DP94     1DT005    -0.00309
@@ -835,9 +772,12 @@ COLUMNS
     1DP94     1DT052    -3.6
     1DP94     1DT053    -2
     1DP94     1CROW2    1
-    1DP94     1DT059    -0.06902
     1DP94     1DT101    -0.3717
     1DP98     OBJ       0.0771
+    1DP98     1CROW5    0.07243
+    1DP98     1DT064    -0.543225
+    1DP98     1DT063    -4.5268749999999995e+00
+    1DP98     1DT062    -2.8537419999999997e-02
     1DP98     1DT002    -0.04946
     1DP98     1DT004    -0.02731
     1DP98     1DT005    -0.00303
@@ -849,7 +789,6 @@ COLUMNS
     1DP98     1DT052    -2
     1DP98     1DT053    -2
     1DP98     1CROW2    1
-    1DP98     1DT059    -0.07243
     1DP98     1DT101    -0.3717
     1DPAL     1DT046    1
     1DPAL     1DT051    -8.4
@@ -857,11 +796,12 @@ COLUMNS
     1DPAL     1DT053    -2
     1DPAL     1CROW2    1
     1DPAL     1DT101    -0.3717
+    1DPC4     1DT005    1.0752688172043010e+00
+    1DPC4     1DT021    -5.0752688172043009e-02
     1DPC4     1DT051    -8.3
     1DPC4     1DT052    38.43
     1DPC4     1DT053    -2
     1DPC4     1CROW2    1
-    1DPC4     1DT093    1
     1DPC4     1DT101    -0.3717
     1DPCT     1DT016    1
     1DPCT     1DT051    5.5
@@ -876,9 +816,12 @@ COLUMNS
     1DPOH     1DT053    -2
     1DPOH     1CROW2    1
     1DPOH     1DT101    -0.3717
-    1DPPS     OBJ       -2.41
-    1DPPS     1DT090    0.95
+    1DPPS     1DT002    1.1176470588235294e+00
+    1DPPS     1DT021    -1.0058823529411764e-01
     1DPPS     1DT091    0.05
+    1DPPS     1DT102    2.41
+    1DPREV    OBJ       -1
+    1DPREV    1DT102    -1
     1DPRF     1DT007    1
     1DPRF     1DT051    6.7
     1DPRF     1DT052    0.26
@@ -894,10 +837,15 @@ COLUMNS
     1DPXY     1DT053    -2
     1DPXY     1CROW2    1
     1DPXY     1DT101    -0.3717
-    1DPYS     OBJ       -4.72
-    1DPYS     1DT090    0.02
+    1DPYS     1DT002    2.3529411764705882e-02
+    1DPYS     1DT021    -2.1176470588235292e-03
     1DPYS     1DT091    0.98
+    1DPYS     1DT102    4.72
     1DR94     OBJ       0.0735
+    1DR94     1CROW5    0.06902
+    1DR94     1DT064    -5.1764999999999994e-01
+    1DR94     1DT063    -4.31375
+    1DR94     1DT062    -0.02719388
     1DR94     1DT002    -0.03806
     1DR94     1DT004    -0.02075
     1DR94     1DT005    -0.00309
@@ -909,9 +857,12 @@ COLUMNS
     1DR94     1DT056    -3.6
     1DR94     1DT057    -1.5
     1DR94     1CROW3    1
-    1DR94     1DT059    -0.06902
     1DR94     1DT101    -0.3717
     1DR98     OBJ       0.0771
+    1DR98     1CROW5    0.07243
+    1DR98     1DT064    -0.543225
+    1DR98     1DT063    -4.5268749999999995e+00
+    1DR98     1DT062    -2.8537419999999997e-02
     1DR98     1DT002    -0.04946
     1DR98     1DT004    -0.02731
     1DR98     1DT005    -0.00303
@@ -923,7 +874,6 @@ COLUMNS
     1DR98     1DT056    -2
     1DR98     1DT057    -1.5
     1DR98     1CROW3    1
-    1DR98     1DT059    -0.07243
     1DR98     1DT101    -0.3717
     1DRAL     1DT046    1
     1DRAL     1DT055    -9.4
@@ -931,7 +881,8 @@ COLUMNS
     1DRAL     1DT057    -1.5
     1DRAL     1CROW3    1
     1DRAL     1DT101    -0.3717
-    1DRBT     OBJ       -2.04716
+    1DRBT     OBJ       0.0639
+    1DRBT     1DT102    2.11106
     1DRBT     1DT049    0.28
     1DRBT     1RB045    -1
     1DRBT     1DT002    -0.025
@@ -944,11 +895,12 @@ COLUMNS
     1DRBT     1DT037    -0.06
     1DRBT     1DT039    1
     1DRBT     1DT078    -1
+    1DRC4     1DT005    1.0752688172043010e+00
+    1DRC4     1DT021    -5.0752688172043009e-02
     1DRC4     1DT055    -9.9
     1DRC4     1DT056    38.43
     1DRC4     1DT057    -1.5
     1DRC4     1CROW3    1
-    1DRC4     1DT093    1
     1DRC4     1DT101    -0.3717
     1DRCT     1DT016    1
     1DRCT     1DT055    -2.6
@@ -992,49 +944,53 @@ COLUMNS
     1DS5L     1DT075    1
     1DS5P     1DT021    -1
     1DS5P     1DT075    -1
-    1DS5R     OBJ       3.36
     1DS5R     1DT072    -1
     1DS5R     1DT073    0.3
     1DS5R     1DT075    1
+    1DS5R     1DT102    -3.36
     1DS5S     1DT044    1
     1DS5S     1DT073    -3.69
     1DS5S     1DT075    1
-    1DSCO     OBJ       0.1415
+    1DSCO     OBJ       0.2014412
+    1DSCO     1DT033    0.717
+    1DSCO     1DT026    -5.7999999999999996e-02
+    1DSCO     1DT025    -0.522
+    1DSCO     1DT024    0.38065
+    1DSCO     1DT102    5.6549999999999989e-02
+    1DSCO     1DT091    -2.7880000000000002e-02
     1DSCO     1DT002    -0.027
-    1DSCO     1DT003    -0.034
     1DSCO     1DT004    -0.005
     1DSCO     1DT005    -0.015
     1DSCO     1DT006    -0.019
-    1DSCO     1DT009    -0.005
+    1DSCO     1DT009    -1.1254500000000002e-01
     1DSCO     1DT016    -0.04
     1DSCO     1DT019    1
-    1DSCO     1DT021    -2.4499999999999994e-02
+    1DSCO     1DT021    -1.1877599999999999e-02
     1DSCO     1DT022    -0.012
     1DSCO     1DT023    -0.04
     1DSCO     1DT032    1
-    1DSCO     1DT080    -0.137
-    1DSCO     1DT081    -0.58
-    1DSCO     1DT084    -0.06
-    1DSCO     1DT088    -0.055
+    1DSCO     1DT084    -0.197
+    1DSCO     1DT088    -0.084455
     1DSPF     1DT021    -1.055
     1DSPF     1DT023    1
-    1DSVB     OBJ       -1.977
+    1DSVB     1DT091    -0.01312
     1DSVB     1DT075    0.1
     1DSVB     1DT073    -0.808
     1DSVB     1DT002    -0.026
-    1DSVB     1DT003    -0.016
     1DSVB     1DT004    -0.004
     1DSVB     1DT005    -0.01
     1DSVB     1DT006    -0.001
     1DSVB     1DT009    -0.1428
     1DSVB     1DT016    -0.0105
-    1DSVB     1DT021    2.9999999999999957e-03
+    1DSVB     1DT021    1.1119999999999958e-03
     1DSVB     1DT044    1
     1DSVB     1DT072    0.61
     1DSVB     1DT074    1
     1DSVB     1DT084    -0.1995
     1DSVB     1DT088    -0.0567
-    1DV6I     OBJ       -2.04716
+    1DSVB     1DT102    1.977
+    1DV6I     OBJ       0.0639
+    1DV6I     1DT102    2.11106
     1DV6I     1DT049    0.28
     1DV6I     1DT002    -0.025
     1DV6I     1DT004    -0.013
@@ -1046,7 +1002,8 @@ COLUMNS
     1DV6I     1DT037    -0.06
     1DV6I     1DT039    1
     1DV6I     1DT088    1
-    1DV6M     OBJ       -1.1595
+    1DV6M     OBJ       0.0639
+    1DV6M     1DT102    1.2234
     1DV6M     1DT049    0.167
     1DV6M     1DT002    -0.03
     1DV6M     1DT004    -0.022
@@ -1058,7 +1015,8 @@ COLUMNS
     1DV6M     1DT037    -0.01
     1DV6M     1DT039    1
     1DV6M     1DT087    1
-    1DV6Y     OBJ       -1.4005999999999998e+00
+    1DV6Y     OBJ       0.0639
+    1DV6Y     1DT102    1.4645
     1DV6Y     1DT049    0.2
     1DV6Y     1DT002    -0.027
     1DV6Y     1DT004    -0.015
@@ -1070,7 +1028,8 @@ COLUMNS
     1DV6Y     1DT037    -0.04
     1DV6Y     1DT039    1
     1DV6Y     1DT079    1
-    1DXC3     1DT090    1
+    1DXC3     1DT002    1.1764705882352942e+00
+    1DXC3     1DT021    -1.0588235294117647e-01
     1DYCD     OBJ       10
     1DYCD     1DT002    -0.002
     1DYCD     1DT004    -0.0025
@@ -1117,23 +1076,26 @@ COLUMNS
     1DYCK     1DT029    1
     1DYCK     1DT078    -0.11
     1DYCK     1DT079    -0.05
-    1DYCO     OBJ       0.1415
+    1DYCO     OBJ       0.1785348
+    1DYCO     1DT033    0.443
+    1DYCO     1DT026    -0.0307
+    1DYCO     1DT025    -0.2763
+    1DYCO     1DT024    0.23005
+    1DYCO     1DT102    2.9932499999999997e-02
+    1DYCO     1DT091    -4.9199999999999994e-02
     1DYCO     1DT002    -0.04
-    1DYCO     1DT003    -0.06
     1DYCO     1DT004    -0.011
     1DYCO     1DT005    -0.022
     1DYCO     1DT006    -0.022
-    1DYCO     1DT009    -0.005
+    1DYCO     1DT009    -1.1176000000000001e-01
     1DYCO     1DT016    -0.04
     1DYCO     1DT020    1
-    1DYCO     1DT021    -8.7500000000000008e-02
+    1DYCO     1DT021    -8.4302400000000013e-02
     1DYCO     1DT022    -0.0434
     1DYCO     1DT023    -0.04
     1DYCO     1DT032    1
-    1DYCO     1DT080    -0.136
-    1DYCO     1DT081    -0.307
-    1DYCO     1DT084    -0.06
-    1DYCO     1DT088    -0.055
+    1DYCO     1DT084    -0.196
+    1DYCO     1DT088    -8.4240000000000009e-02
     1DYGD     OBJ       10
     1DYGD     1DT002    -0.002
     1DYGD     1DT004    -0.0025
@@ -1184,21 +1146,42 @@ COLUMNS
     1M2LY     1MS046    15
     1M2LY     1MS048    1.191
     1M2LY     1MS057    1
-    1M2SD     1MS018    1
+    1M2SD     OBJ       3.3899999999999997e-01
+    1M2SD     1MS064    1.3
+    1M2SD     1MS061    10
+    1M2SD     1MS023    1.3899999999999998e-01
+    1M2SD     1MS022    -1.0999999999999999e+00
+    1M2SD     1MS020    -3.4399999999999995e+00
+    1M2SD     1MS014    -1.3
+    1M2SD     1MS010    -8.9599999999999991e-01
+    1M2SD     1MS008    -0.04
+    1M2SD     1MS007    -6.9999999999999993e-02
+    1M2SD     1MS005    -0.02
+    1M2SD     1MS001    -32.12
+    1M2SD     1MS025    -1.65
+    1M2SD     1MS027    -0.484
     1M2SD     1MS046    -16
     1M2SD     1MS047    30
     1M2SD     1MS048    -0.262
     1M2SD     1MS057    1
-    1M2SG     1MS016    1
+    1M2SG     OBJ       6.7799999999999994e-01
+    1M2SG     1MS064    2.6
+    1M2SG     1MS061    20
+    1M2SG     1MS023    2.7799999999999997e-01
+    1M2SG     1MS022    -2.1999999999999997e+00
+    1M2SG     1MS020    -7.88
+    1M2SG     1MS014    -2.6
+    1M2SG     1MS010    -1.7919999999999998e+00
+    1M2SG     1MS008    -0.08
+    1M2SG     1MS007    -1.3999999999999999e-01
+    1M2SG     1MS005    -0.04
+    1M2SG     1MS001    -64.24
+    1M2SG     1MS025    -3.784
+    1M2SG     1MS026    -0.484
     1M2SG     1MS046    -14.3
     1M2SG     1MS047    50
     1M2SG     1MS048    -0.261
     1M2SG     1MS057    1
-    1M2UL     1MS036    1
-    1M2UL     1MS046    12.5
-    1M2UL     1MS047    12
-    1M2UL     1MS048    -0.25
-    1M2UL     1MS057    1
     1M2YD     1MS017    1
     1M2YD     1MS046    -8
     1M2YD     1MS047    20
@@ -1218,15 +1201,38 @@ COLUMNS
     1M5SB     1MS022    1
     1M5SB     1MS045    2.72
     1M5SB     1MS055    -1
-    1M5SD     1MS018    1
+    1M5SD     OBJ       3.3899999999999997e-01
+    1M5SD     1MS064    1.3
+    1M5SD     1MS061    10
+    1M5SD     1MS023    1.3899999999999998e-01
+    1M5SD     1MS022    -1.0999999999999999e+00
+    1M5SD     1MS020    -3.4399999999999995e+00
+    1M5SD     1MS014    -1.3
+    1M5SD     1MS010    -8.9599999999999991e-01
+    1M5SD     1MS008    -0.04
+    1M5SD     1MS007    -6.9999999999999993e-02
+    1M5SD     1MS005    -0.02
+    1M5SD     1MS001    -32.12
+    1M5SD     1MS025    -1.65
+    1M5SD     1MS027    -0.484
     1M5SD     1MS045    -4.13
     1M5SD     1MS055    -1
-    1M5SG     1MS016    1
+    1M5SG     OBJ       6.7799999999999994e-01
+    1M5SG     1MS064    2.6
+    1M5SG     1MS061    20
+    1M5SG     1MS023    2.7799999999999997e-01
+    1M5SG     1MS022    -2.1999999999999997e+00
+    1M5SG     1MS020    -7.88
+    1M5SG     1MS014    -2.6
+    1M5SG     1MS010    -1.7919999999999998e+00
+    1M5SG     1MS008    -0.08
+    1M5SG     1MS007    -1.3999999999999999e-01
+    1M5SG     1MS005    -0.04
+    1M5SG     1MS001    -64.24
+    1M5SG     1MS025    -3.784
+    1M5SG     1MS026    -0.484
     1M5SG     1MS045    -4.03
     1M5SG     1MS055    -1
-    1M5SL     1MS034    1
-    1M5SL     1MS045    -3.58
-    1M5SL     1MS055    -1
     1M5YB     1MS021    1
     1M5YB     1MS045    5.17
     1M5YB     1MS055    -1
@@ -1236,53 +1242,53 @@ COLUMNS
     1M5YG     1MS015    1
     1M5YG     1MS045    -3.83
     1M5YG     1MS055    -1
-    1M65S     OBJ       0.065
-    1M65S     1MS005    -0.036
-    1M65S     1MS006    -0.056
+    1M65S     OBJ       0.0870416
+    1M65S     1MS055    -0.08
+    1M65S     1MS045    -0.2864
+    1M65S     1MS005    -4.0591999999999996e-02
     1M65S     1MS007    -0.0175
     1M65S     1MS008    -0.048
     1M65S     1MS009    -0.064
     1M65S     1MS020    1
-    1M65S     1MS023    1.9999999999999983e-03
-    1M65S     1MS031    -0.47
+    1M65S     1MS023    -4.6080000000000019e-03
+    1M65S     1MS031    -0.4987
     1M65S     1MS033    -0.27
-    1M65S     1MS034    -0.08
     1M65S     1MS063    1
-    1M65Y     OBJ       0.065
-    1M65Y     1MS005    -0.035
-    1M65Y     1MS006    -0.056
+    1M65Y     OBJ       0.0870416
+    1M65Y     1MS055    -0.12
+    1M65Y     1MS045    -0.4296
+    1M65Y     1MS005    -0.039592
     1M65Y     1MS007    -0.0165
     1M65Y     1MS008    -0.0485
     1M65Y     1MS009    -0.062
     1M65Y     1MS019    1
-    1M65Y     1MS023    -5.0000000000000044e-04
-    1M65Y     1MS031    -0.47
+    1M65Y     1MS023    -7.1080000000000006e-03
+    1M65Y     1MS031    -0.4987
     1M65Y     1MS032    -0.23
-    1M65Y     1MS034    -0.12
     1M65Y     1MS063    1
-    1M75S     OBJ       0.065
-    1M75S     1MS005    -0.041
-    1M75S     1MS006    -0.0665
+    1M75S     OBJ       0.0911744
+    1M75S     1MS055    -0.04
+    1M75S     1MS045    -0.1432
+    1M75S     1MS005    -0.046453
     1M75S     1MS007    -0.02
     1M75S     1MS008    -0.0555
     1M75S     1MS009    -0.0755
     1M75S     1MS020    1
-    1M75S     1MS023    -0.000999999999999994
-    1M75S     1MS031    -0.52
+    1M75S     1MS023    -8.8469999999999938e-03
+    1M75S     1MS031    -0.55408125
     1M75S     1MS033    -0.21
-    1M75S     1MS034    -0.04
     1M75S     1MS063    1
-    1M75Y     OBJ       0.065
-    1M75Y     1MS005    -0.039
-    1M75Y     1MS006    -0.064
+    1M75Y     OBJ       0.0901904
+    1M75Y     1MS055    -0.07
+    1M75Y     1MS045    -2.5060000000000004e-01
+    1M75Y     1MS005    -0.044248
     1M75Y     1MS007    -0.0185
     1M75Y     1MS008    -0.054
     1M75Y     1MS009    -0.07
     1M75Y     1MS019    1
-    1M75Y     1MS023    -3.9999999999999966e-03
-    1M75Y     1MS031    -0.52
+    1M75Y     1MS023    -1.1551999999999996e-02
+    1M75Y     1MS031    -0.5528
     1M75Y     1MS032    -0.18
-    1M75Y     1MS034    -0.07
     1M75Y     1MS063    1
     1M94S     OBJ       0.08
     1M94S     1MS005    -0.0275
@@ -1342,41 +1348,8 @@ COLUMNS
     1MC3F     1MS005    1.1764705882352942e+00
     1MC3F     1MS023    -7.7588235294117647e-01
     1MC3S     OBJ       -2.31
-    1MC3S     1MS023    -1.0588235294117647e-01
     1MC3S     1MS005    1.1764705882352942e+00
-    1MC4P     1MS023    -0.0472
-    1MC4P     1MS007    1
-    1MC4P     1MS067    -0.93
-    1MCSD     OBJ       0.0339
-    1MCSD     1MS027    -0.0484
-    1MCSD     1MS025    -0.165
-    1MCSD     1MS001    -3.212
-    1MCSD     1MS005    -0.002
-    1MCSD     1MS007    -0.007
-    1MCSD     1MS008    -0.004
-    1MCSD     1MS010    -0.0896
-    1MCSD     1MS014    -0.13
-    1MCSD     1MS018    -0.1
-    1MCSD     1MS020    -0.344
-    1MCSD     1MS022    -0.11
-    1MCSD     1MS023    0.0139
-    1MCSD     1MS061    1
-    1MCSD     1MS064    0.13
-    1MCSG     OBJ       0.0339
-    1MCSG     1MS026    -0.0242
-    1MCSG     1MS025    -0.1892
-    1MCSG     1MS001    -3.212
-    1MCSG     1MS005    -0.002
-    1MCSG     1MS007    -0.007
-    1MCSG     1MS008    -0.004
-    1MCSG     1MS010    -0.0896
-    1MCSG     1MS014    -0.13
-    1MCSG     1MS016    -0.05
-    1MCSG     1MS020    -0.394
-    1MCSG     1MS022    -0.11
-    1MCSG     1MS023    0.0139
-    1MCSG     1MS061    1
-    1MCSG     1MS064    0.13
+    1MC3S     1MS023    -1.0588235294117647e-01
     1MCYD     OBJ       0.0493
     1MCYD     1MS027    -0.02
     1MCYD     1MS024    -0.10125
@@ -1412,20 +1385,22 @@ COLUMNS
     1MH2P     1MS023    -0.0511
     1MH2P     1MS028    1
     1MI4D     OBJ       -0.12
-    1MI4D     1MS023    -5.6739130434782611e-02
+    1MI4D     1DT005    -1.0752688172043010e+00
+    1MI4D     1DT021    5.0752688172043009e-02
     1MI4D     1MS008    1.0869565217391304e+00
-    1MI4D     1DT093    -1
-    1MIN4     1MS023    -5.6739130434782611e-02
+    1MI4D     1MS023    -5.6739130434782611e-02
+    1MIN4     1MS007    -1.0752688172043010e+00
     1MIN4     1MS008    1.0869565217391304e+00
-    1MIN4     1MS067    -1
+    1MIN4     1MS023    -5.9864422627396024e-03
     1MMLC     OBJ       1
     1MMLC     1MS001    1
     1MN4D     OBJ       -0.12
-    1MN4D     1DT093    1
+    1MN4D     1DT005    1.0752688172043010e+00
+    1MN4D     1DT021    -5.0752688172043009e-02
     1MN4D     1MS007    -1
-    1MON4     1MS023    -1.4081632653061225e-02
+    1MON4     1MS007    -1.0752688172043010e+00
     1MON4     1MS009    1.0204081632653061e+00
-    1MON4     1MS067    -1
+    1MON4     1MS023    3.6671055518981782e-02
     1MP94     1MS001    -0.3928
     1MP94     1MS029    1
     1MP94     1MS042    1
@@ -1439,8 +1414,8 @@ COLUMNS
     1MP98     1MS050    -0.5
     1MP98     1MS051    -2
     1MPC4     OBJ       0.408
-    1MPC4     1MS023    -1.4081632653061225e-02
     1MPC4     1MS009    1.0204081632653061e+00
+    1MPC4     1MS023    -1.4081632653061225e-02
     1MPC4     1MS007    -0.1
     1MPC4     1MS031    -0.735
     1MPCP     1MS001    -0.3928
@@ -1450,12 +1425,13 @@ COLUMNS
     1MPCP     1MS050    2.8
     1MPCP     1MS051    -2
     1MPIN     1MS042    -1
+    1MPN4     1MS007    1.0752688172043010e+00
+    1MPN4     1MS023    -5.0752688172043009e-02
     1MPN4     1MS001    -0.3928
     1MPN4     1MS042    1
     1MPN4     1MS049    60.5
     1MPN4     1MS050    -9.19
     1MPN4     1MS051    -2
-    1MPN4     1MS067    1
     1MPSR     1MS001    -0.3928
     1MPSR     1MS010    1
     1MPSR     1MS042    1
@@ -1465,11 +1441,6 @@ COLUMNS
     1MPTL     1MS001    0.09821
     1MPTL     1MS050    0.87
     1MPTL     1MS051    1
-    1MPYP     OBJ       3.9359999999999995e-01
-    1MPYP     1MS023    -0.118
-    1MPYP     1MS031    -0.5125
-    1MPYP     1MS005    -0.082
-    1MPYP     1MS006    1
     1MR94     1MS029    1
     1MR94     1MS052    -4.5
     1MR94     1MS053    -1.5
@@ -1484,10 +1455,11 @@ COLUMNS
     1MRCP     1MS058    1
     1MRIN     1MS001    -0.3928
     1MRIN     1MS058    -1
+    1MRN4     1MS007    1.0752688172043010e+00
+    1MRN4     1MS023    -5.0752688172043009e-02
     1MRN4     1MS052    60.5
     1MRN4     1MS053    -11.93
     1MRN4     1MS058    1
-    1MRN4     1MS067    1
     1MRSR     1MS010    1
     1MRSR     1MS052    -1.9
     1MRSR     1MS053    3.02
@@ -1503,18 +1475,24 @@ COLUMNS
     1MSWD     1DT019    -1
     1MSWD     1MS022    1
     1MULS     OBJ       0.04
+    1MULS     1MS057    0.99
+    1MULS     1MS048    -0.2475
+    1MULS     1MS047    1.1879999999999999e+01
+    1MULS     1MS046    12.375
     1MULS     1MS010    -0.01
     1MULS     1MS023    0.025
     1MULS     1MS028    0.4
     1MULS     1MS033    1
-    1MULS     1MS036    -0.99
     1MULS     1MS064    1
     1MULY     OBJ       0.04
+    1MULY     1MS057    0.99
+    1MULY     1MS048    -0.2475
+    1MULY     1MS047    1.1879999999999999e+01
+    1MULY     1MS046    12.375
     1MULY     1MS010    -0.01
     1MULY     1MS023    0.025
     1MULY     1MS028    0.5
     1MULY     1MS032    1
-    1MULY     1MS036    -0.99
     1MULY     1MS064    1
     1MUYD     OBJ       0.04
     1MUYD     1MS057    0.99
@@ -1536,12 +1514,6 @@ COLUMNS
     1MUYG     1MS023    0.025
     1MUYG     1MS028    0.25
     1MUYG     1MS064    1
-    1P2BNR    1PD028    -1
-    1P2BNR    1PD032    -1
-    1P2BNR    1PD040    50
-    1P2SNP    1PD027    1
-    1P2SNP    1PD031    1
-    1P2SNP    1PD039    -50
     1PG11D    1DT061    -1
     1PG11D    1PD015    1
     1PG11R    1PD015    1
@@ -1593,9 +1565,8 @@ COLUMNS
     1PG2PR    1PD027    -1
     1PG2PR    1PD039    10
     1PG2PR    1RB038    -1
-    1PG2PT    1PD027    1
-    1PG2PT    1PD031    -1
-    1PG2PT    1PD039    -10
+    1PG2PT    1PD027    2
+    1PG2PT    1PD039    -60
     1PG2RD    1CROW3    -1
     1PG2RD    1PD028    -1
     1PG2RD    1PD040    10
@@ -1605,9 +1576,8 @@ COLUMNS
     1PG2RR    1PD028    -1
     1PG2RR    1PD040    10
     1PG2RR    1RB039    -1
-    1PG2RT    1PD028    1
-    1PG2RT    1PD032    -1
-    1PG2RT    1PD040    -10
+    1PG2RT    1PD028    2
+    1PG2RT    1PD040    -60
     1PT11D    OBJ       0.1426
     1PT11D    1DT061    -1
     1PT11D    1PD011    1
@@ -1761,7 +1731,8 @@ COLUMNS
     1PT5PD    OBJ       0.3536
     1PT5PD    1CROW2    -1
     1PT5PD    1PD061    1
-    1PT5PI    1PD031    1
+    1PT5PI    1PD039    50
+    1PT5PI    1PD027    -1
     1PT5PI    1PD061    1
     1PT5PM    OBJ       0.1313
     1PT5PM    1MS042    -1
@@ -1772,7 +1743,8 @@ COLUMNS
     1PT5RD    OBJ       0.3536
     1PT5RD    1CROW3    -1
     1PT5RD    1PD062    1
-    1PT5RI    1PD032    1
+    1PT5RI    1PD040    50
+    1PT5RI    1PD028    -1
     1PT5RI    1PD062    1
     1PT5RM    OBJ       0.1313
     1PT5RM    1MS058    -1
@@ -1805,7 +1777,8 @@ COLUMNS
     1PT6PD    OBJ       0.2766
     1PT6PD    1CROW2    -1
     1PT6PD    1PD065    1
-    1PT6PI    1PD031    1
+    1PT6PI    1PD039    50
+    1PT6PI    1PD027    -1
     1PT6PI    1PD065    1
     1PT6PM    OBJ       0.228
     1PT6PM    1MS042    -1
@@ -1816,7 +1789,8 @@ COLUMNS
     1PT6RD    OBJ       0.2766
     1PT6RD    1CROW3    -1
     1PT6RD    1PD066    1
-    1PT6RI    1PD032    1
+    1PT6RI    1PD040    50
+    1PT6RI    1PD028    -1
     1PT6RI    1PD066    1
     1PT6RM    OBJ       0.228
     1PT6RM    1MS058    -1
@@ -1869,11 +1843,6 @@ COLUMNS
     1RCOKS    1RB027    0.538
     1RCOKS    1RB031    -2.1899999999999997e-01
     1RCOKS    1RB036    1
-    1RCOKT    OBJ       7.4609999999999994e+00
-    1RCOKT    1RB021    -0.423
-    1RCOKT    1RB030    1
-    1RCOKT    1RB031    -0.344
-    1RCOKT    1RB036    1
     1RCRUD    OBJ       0.0178
     1RCRUD    1RB003    -0.0083
     1RCRUD    1RB005    -0.001
@@ -1891,14 +1860,13 @@ COLUMNS
     1RCRUD    1RB017    -0.139
     1RCRUD    1RB031    0.1235
     1RCRUD    1RB087    -3.01
+    1RF2GO    1RB013    2
     1RF2GO    1RB015    1
-    1RF2GO    1RB041    1
-    1RF2GO    1RB067    -14.6
-    1RF2GO    1RB073    1
+    1RF2GO    1RB041    3
+    1RF2GO    1RB067    -17.8
     1RF2KR    1RB013    1
     1RF2KR    1RB041    1
     1RF2KR    1RB067    -1.6
-    1RF2KR    1RB073    -0.5
     1RF3CO    1RB026    1
     1RF3CO    1RB042    1
     1RF6CO    OBJ       -2.52
@@ -2254,9 +2222,11 @@ COLUMNS
     1RFLCO    1RB035    1
     1RFLCO    1RB041    1
     1RFLCO    1RB067    15.4
+    1RFRED    OBJ       2.9729729729729731e-01
+    1RFRED    1RB084    -3.5135135135135137e-01
+    1RFRED    1RB026    1.3513513513513513e+00
     1RFRED    1RB041    1
     1RFRED    1RB067    5.4
-    1RFRED    1RB085    1
     1RFRES    OBJ       -2.52
     1RFRES    1RB017    1
     1RFRES    1RB043    1
@@ -2273,8 +2243,10 @@ COLUMNS
     1RFRHC    1RB065    75.6
     1RFRHC    1RB066    74.5
     1RFRHC    1RB070    -1
-    1RFTHR    OBJ       -2.52
-    1RFTHR    1RB030    1
+    1RFTHR    OBJ       -9.981
+    1RFTHR    1RB036    -1
+    1RFTHR    1RB031    0.344
+    1RFTHR    1RB021    0.423
     1RFTHR    1RB043    1
     1RFTHR    1RB068    -0.6
     1RFTHR    1RB077    -0.2
@@ -2381,14 +2353,13 @@ COLUMNS
     1RPALK    1RB069    1
     1RPALK    1RB081    -104.6
     1RPALK    1RB082    -102.3
-    1RPBBL    OBJ       0.0139
-    1RPBBL    1RB038    1
-    1RPBBL    1RB046    95.5
-    1RPBBL    1RB047    99
-    1RPBBL    1RB048    -10
-    1RPBBL    1RB049    20
-    1RPBBL    1RB069    -1
-    1RPBBL    1RB072    0.25
+    1RPBBL    OBJ       -0.0139
+    1RPBBL    1RB038    -1
+    1RPBBL    1RB046    -95.5
+    1RPBBL    1RB048    10
+    1RPBBL    1RB049    -20
+    1RPBBL    1RB069    1
+    1RPBBL    1RB072    -0.25
     1RPCAT    OBJ       0.025
     1RPCAT    1RB024    1
     1RPCAT    1RB048    9.36
@@ -2446,8 +2417,13 @@ COLUMNS
     1RPNC4    1RB069    1
     1RPNC4    1RB081    -97.2
     1RPNC4    1RB082    -97.6
-    1RPRON    1RB046    -0.5
-    1RPRON    1RB047    -1
+    1RPRON    OBJ       1.4040404040404039e-04
+    1RPRON    1RB072    2.5252525252525255e-03
+    1RPRON    1RB069    -1.0101010101010102e-02
+    1RPRON    1RB049    2.0202020202020202e-01
+    1RPRON    1RB048    -1.0101010101010101e-01
+    1RPRON    1RB038    1.0101010101010102e-02
+    1RPRON    1RB046    4.6464646464646464e-01
     1RPRON    1RB051    1
     1RPRON    1RB052    1
     1RPRON    1RB053    1
@@ -2559,9 +2535,11 @@ COLUMNS
     1RRALK    1RB066    -96.6
     1RRALK    1RB070    1
     1RRBBL    OBJ       0.0046
+    1RRBBL    1RB063    93
+    1RRBBL    1RB062    93
+    1RRBBL    1RB061    93
     1RRBBL    1RB039    1
-    1RRBBL    1RB057    91.2
-    1RRBBL    1RB058    93
+    1RRBBL    1RB057    2.9168999999999997e+01
     1RRBBL    1RB059    -10
     1RRBBL    1RB070    -1
     1RRBBL    2DT001    1
@@ -2676,7 +2654,6 @@ COLUMNS
     1RRDEX    OBJ       0.22
     1RRDEX    1RB026    1
     1RRDEX    1RB084    -0.26
-    1RRDEX    1RB085    -0.74
     1RRHN     1RB011    1
     1RRHN     1RB059    0.38
     1RRHN     1RB060    -4
@@ -2723,7 +2700,6 @@ COLUMNS
     1RRNC4    1RB066    -94.8
     1RRNC4    1RB070    1
     1RRRON    1RB057    -0.667
-    1RRRON    1RB058    -1
     1RRRON    1RB061    1
     1RRRON    1RB062    1
     1RRRON    1RB063    1
@@ -2736,7 +2712,16 @@ COLUMNS
     1RRTEL    1RB066    -2.5
     1RRTEL    1RB087    0.0886
     1RRTEL    2DT004    1
-    1RRTHR    1RB029    1
+    1RRTHR    OBJ       1.6804485497237568e+01
+    1RRTHR    1RB031    -6.1745856353591133e-01
+    1RRTHR    1RB027    3.4530386740331487e+00
+    1RRTHR    1RB006    -5.0069060773480660e-02
+    1RRTHR    1RB005    -1.3466850828729280e-02
+    1RRTHR    1RB004    -4.5580110497237564e-02
+    1RRTHR    1RB003    -7.9074585635359115e-02
+    1RRTHR    1RB002    -3.1077348066298336e-02
+    1RRTHR    1RB021    -9.3334599447513811e-01
+    1RRTHR    1RB036    2.2064917127071824e+00
     1RRTHR    1RB059    6.62
     1RRTHR    1RB060    -4
     1RRTHR    1RB061    -78.7
@@ -2763,23 +2748,26 @@ COLUMNS
     1RSNO3    1RB042    1
     1RSNO3    1RB087    -3.57
     1RSNO3    2DT005    1
+    1RSPRM    2DT091    0.82
+    1RSPRM    2DT001    0.118
     1RSPRM    1RB038    1
     1RSPRM    1RB087    -5.46
-    1RSPRM    2DT003    1
     1RSREG    1RB039    1
     1RSREG    1RB087    -4.62
-    1RTCHG    OBJ       0.099
+    1RTCHG    OBJ       4.866579
+    1RTCHG    1RB036    0.639
+    1RTCHG    1RB021    -0.270297
     1RTCHG    1RB002    -0.009
     1RTCHG    1RB003    -0.0229
     1RTCHG    1RB004    -0.0132
     1RTCHG    1RB005    -0.0039
     1RTCHG    1RB006    -0.0145
     1RTCHG    1RB027    1
-    1RTCHG    1RB029    -0.2896
-    1RTCHG    1RB030    -0.639
-    1RTCHG    1RB031    4.1000000000000036e-02
-    1RTFUL    1RB030    1
-    1RTFUL    1RB031    -6.5
+    1RTCHG    1RB031    -1.7881599999999995e-01
+    1RTFUL    OBJ       -7.4609999999999994e+00
+    1RTFUL    1RB036    -1
+    1RTFUL    1RB021    0.423
+    1RTFUL    1RB031    -6.156
     1RTFUL    1RB078    -0.6
     1RVFUL    1RB017    1
     1RVFUL    1RB031    -6.5
@@ -2822,11 +2810,6 @@ COLUMNS
     2D2MK     2DT063    -22.5
     2D2MK     2DT064    -16
     2D2MK     2CROW5    1
-    2D2PB     2DT059    1
-    2D2PB     2DT062    -0.394
-    2D2PB     2DT063    -62.5
-    2D2PB     2DT064    -7.5
-    2D2PB     2CROW5    1
     2D2US     2DT026    1
     2D2US     2DT062    -0.307
     2D2US     2DT063    -17.5
@@ -2844,7 +2827,8 @@ COLUMNS
     2D2YK     2CROW5    1
     2D4BY     2DT093    -1
     2D4BY     2DT101    -3.26
-    2DAOU     OBJ       5.8599999999999992e-02
+    2DAOU     OBJ       0.0836
+    2DAOU     2DT102    0.025
     2DAOU     2DT009    -0.0137
     2DAOU     2DT016    -0.0012
     2DAOU     2DT021    0.0232
@@ -2862,11 +2846,9 @@ COLUMNS
     2DC3A     2DT047    1
     2DC3A     2DT091    0.4348
     2DC3A     2DT092    0.5652
+    2DC3P     2DT002    1.1764705882352942e+00
+    2DC3P     2DT001    -1.0588235294117647e-01
     2DC3P     2DT021    -0.61
-    2DC3P     2DT090    1
-    2DC3R     2DT001    -0.09
-    2DC3R     2DT002    1
-    2DC3R     2DT090    -0.85
     2DC4A     OBJ       0.3399
     2DC4A     2DT006    4.7459183673469391e-01
     2DC4A     2DT001    -6.5493673469387758e-03
@@ -2874,9 +2856,9 @@ COLUMNS
     2DC4A     2DT047    1
     2DC4A     2DT092    0.5349
     2DC65     OBJ       10
-    2DC65     2DT001    -0.025
+    2DC65     2DT091    -0.04756
+    2DC65     2DT001    -3.1844000000000004e-02
     2DC65     2DT002    -0.036
-    2DC65     2DT003    -0.058
     2DC65     2DT004    -0.041
     2DC65     2DT005    -0.011
     2DC65     2DT006    -0.077
@@ -2888,9 +2870,9 @@ COLUMNS
     2DC65     2DT044    -0.08
     2DC65     2DT045    1
     2DC75     OBJ       0.0124
-    2DC75     2DT001    -0.036
+    2DC75     2DT091    -0.05494
+    2DC75     2DT001    -0.043906
     2DC75     2DT002    -0.042
-    2DC75     2DT003    -0.067
     2DC75     2DT004    -0.047
     2DC75     2DT005    -0.015
     2DC75     2DT006    -0.09
@@ -2903,40 +2885,28 @@ COLUMNS
     2DC75     2DT045    1
     2DCKP     2DT021    -4.409
     2DCKP     2DT022    1
-    2DCKS     OBJ       -4
     2DCKS     2DT022    1
-    2DCOU     OBJ       -1.3899999999999996e-02
-    2DCOU     2DT021    0.0232
-    2DCOU     2DT024    0.55
-    2DCOU     2DT025    -0.9
-    2DCOU     2DT026    -0.1
-    2DCOU     2DT033    1
-    2DCOU     2DT081    1
+    2DCKS     2DT102    4
     2DCTL     2DT016    1
     2DCTL     2DT042    1
     2DCTL     2DT043    -1
+    2DDID     2DT026    -1
     2DDID     2DT015    1
-    2DDID     2DT066    -0.282
-    2DDID     2DT067    1
-    2DDID     2DT068    1
+    2DDID     2DT066    2.5000000000000022e-02
+    2DDID     2DT067    4
+    2DDMD     2DT026    -1
     2DDMD     2DT014    1
-    2DDMD     2DT066    -0.316
-    2DDMD     2DT067    1
-    2DDMD     2DT068    1
-    2DDUS     2DT026    1
-    2DDUS     2DT066    -0.307
-    2DDUS     2DT067    -3
-    2DDUS     2DT068    1
+    2DDMD     2DT066    -9.0000000000000080e-03
+    2DDMD     2DT067    4
+    2DDYD     2DT026    -1
     2DDYD     2DT013    1
-    2DDYD     2DT066    0.724
-    2DDYD     2DT067    1
-    2DDYD     2DT068    1
-    2DFVB     OBJ       -2.21
+    2DDYD     2DT066    1.031
+    2DDYD     2DT067    4
+    2DFVB     2DT091    -8.1999999999999990e-03
     2DFVB     2DT075    0.15
     2DFVB     2DT073    -1.212
-    2DFVB     2DT001    -0.017
+    2DFVB     2DT001    -0.01818
     2DFVB     2DT002    -0.016
-    2DFVB     2DT003    -0.01
     2DFVB     2DT004    -0.003
     2DFVB     2DT005    -0.007
     2DFVB     2DT006    -0.007
@@ -2948,10 +2918,12 @@ COLUMNS
     2DFVB     2DT074    1
     2DFVB     2DT084    -0.1501
     2DFVB     2DT088    -0.0427
+    2DFVB     2DT102    2.21
     2DGBY     2DT025    -1
     2DGBY     2DT033    1
     2DGBY     2DT101    -2.88
-    2DGOU     OBJ       -1.3899999999999996e-02
+    2DGOU     OBJ       0.0836
+    2DGOU     2DT102    9.7499999999999989e-02
     2DGOU     2DT009    -0.0137
     2DGOU     2DT016    -0.0012
     2DGOU     2DT018    1
@@ -2964,14 +2936,6 @@ COLUMNS
     2DGOU     2DT088    -0.0051
     2DH2P     2DT021    -0.0511
     2DH2P     2DT024    1
-    2DHNU     OBJ       0.0836
-    2DHNU     2DT009    -0.785
-    2DHNU     2DT021    0.0232
-    2DHNU     2DT024    0.45
-    2DHNU     2DT033    1
-    2DHNU     2DT080    1
-    2DHNU     2DT084    -1
-    2DHNU     2DT088    -0.215
     2DHPU     OBJ       0.0409
     2DHPU     2DT021    0.0244
     2DHPU     2DT024    0.05
@@ -3123,13 +3087,14 @@ COLUMNS
     2DN4R     2DT093    -0.93
     2DNBY     2DT021    -1
     2DNBY     2DT101    -2.67
-    2DO3R     2DT001    -0.118
-    2DO3R     2DT003    1
-    2DO3R     2DT091    -0.82
     2DO4N     2DT006    1.0204081632653061e+00
     2DO4N     2DT001    -1.4081632653061225e-02
     2DO4N     2DT093    -1
     2DP94     OBJ       0.0735
+    2DP94     2CROW5    0.06902
+    2DP94     2DT064    -5.1764999999999994e-01
+    2DP94     2DT063    -4.31375
+    2DP94     2DT062    -0.02719388
     2DP94     2DT001    -0.0637
     2DP94     2DT002    -0.03806
     2DP94     2DT004    -0.02075
@@ -3142,9 +3107,12 @@ COLUMNS
     2DP94     2DT052    -3.6
     2DP94     2DT053    -2
     2DP94     2CROW2    1
-    2DP94     2DT059    -0.06902
     2DP94     2DT101    -0.3717
     2DP98     OBJ       0.0771
+    2DP98     2CROW5    0.07243
+    2DP98     2DT064    -0.543225
+    2DP98     2DT063    -4.5268749999999995e+00
+    2DP98     2DT062    -2.8537419999999997e-02
     2DP98     2DT001    -0.09265
     2DP98     2DT002    -0.04946
     2DP98     2DT004    -0.02731
@@ -3157,7 +3125,6 @@ COLUMNS
     2DP98     2DT052    -2
     2DP98     2DT053    -2
     2DP98     2CROW2    1
-    2DP98     2DT059    -0.07243
     2DP98     2DT101    -0.3717
     2DPAL     2DT046    1
     2DPAL     2DT051    -8.4
@@ -3184,9 +3151,12 @@ COLUMNS
     2DPOH     2DT053    -2
     2DPOH     2CROW2    1
     2DPOH     2DT101    -0.3717
-    2DPPS     OBJ       -2.41
-    2DPPS     2DT090    0.95
+    2DPPS     2DT002    1.1176470588235294e+00
+    2DPPS     2DT001    -1.0058823529411764e-01
     2DPPS     2DT091    0.05
+    2DPPS     2DT102    2.41
+    2DPREV    OBJ       -1
+    2DPREV    2DT102    -1
     2DPRF     2DT007    1
     2DPRF     2DT051    6.7
     2DPRF     2DT052    0.26
@@ -3202,10 +3172,15 @@ COLUMNS
     2DPXY     2DT053    -2
     2DPXY     2CROW2    1
     2DPXY     2DT101    -0.3717
-    2DPYS     OBJ       -4.72
-    2DPYS     2DT090    0.02
+    2DPYS     2DT002    2.3529411764705882e-02
+    2DPYS     2DT001    -2.1176470588235292e-03
     2DPYS     2DT091    0.98
+    2DPYS     2DT102    4.72
     2DR94     OBJ       0.0735
+    2DR94     2CROW5    0.06902
+    2DR94     2DT064    -5.1764999999999994e-01
+    2DR94     2DT063    -4.31375
+    2DR94     2DT062    -0.02719388
     2DR94     2DT001    -0.0637
     2DR94     2DT002    -0.03806
     2DR94     2DT004    -0.02075
@@ -3218,9 +3193,12 @@ COLUMNS
     2DR94     2DT056    -3.6
     2DR94     2DT057    -1.5
     2DR94     2CROW3    1
-    2DR94     2DT059    -0.06902
     2DR94     2DT101    -0.3717
     2DR98     OBJ       0.0771
+    2DR98     2CROW5    0.07243
+    2DR98     2DT064    -0.543225
+    2DR98     2DT063    -4.5268749999999995e+00
+    2DR98     2DT062    -2.8537419999999997e-02
     2DR98     2DT001    -0.09265
     2DR98     2DT002    -0.04946
     2DR98     2DT004    -0.02731
@@ -3233,7 +3211,6 @@ COLUMNS
     2DR98     2DT056    -2
     2DR98     2DT057    -1.5
     2DR98     2CROW3    1
-    2DR98     2DT059    -0.07243
     2DR98     2DT101    -0.3717
     2DRAL     2DT046    1
     2DRAL     2DT055    -9.4
@@ -3241,7 +3218,8 @@ COLUMNS
     2DRAL     2DT057    -1.5
     2DRAL     2CROW3    1
     2DRAL     2DT101    -0.3717
-    2DRBT     OBJ       -2.04716
+    2DRBT     OBJ       0.0639
+    2DRBT     2DT102    2.11106
     2DRBT     2DT049    0.28
     2DRBT     2RB045    -1
     2DRBT     2DT001    -0.021
@@ -3303,39 +3281,41 @@ COLUMNS
     2DS5L     2DT075    1
     2DS5P     2DT021    -1
     2DS5P     2DT075    -1
-    2DS5R     OBJ       3.36
     2DS5R     2DT072    -1
     2DS5R     2DT073    0.3
     2DS5R     2DT075    1
+    2DS5R     2DT102    -3.36
     2DS5S     2DT044    1
     2DS5S     2DT073    -3.69
     2DS5S     2DT075    1
-    2DSCO     OBJ       0.1415
-    2DSCO     2DT001    -0.072
+    2DSCO     OBJ       0.2014412
+    2DSCO     2DT033    0.717
+    2DSCO     2DT026    -5.7999999999999996e-02
+    2DSCO     2DT025    -0.522
+    2DSCO     2DT024    0.38065
+    2DSCO     2DT102    5.6549999999999989e-02
+    2DSCO     2DT091    -2.7880000000000002e-02
+    2DSCO     2DT001    -0.076012
     2DSCO     2DT002    -0.027
-    2DSCO     2DT003    -0.034
     2DSCO     2DT004    -0.005
     2DSCO     2DT005    -0.015
     2DSCO     2DT006    -0.019
-    2DSCO     2DT009    -0.005
+    2DSCO     2DT009    -1.1254500000000002e-01
     2DSCO     2DT016    -0.04
     2DSCO     2DT019    1
-    2DSCO     2DT021    0.0475
+    2DSCO     2DT021    0.0641344
     2DSCO     2DT022    -0.012
     2DSCO     2DT023    -0.04
     2DSCO     2DT032    1
-    2DSCO     2DT080    -0.137
-    2DSCO     2DT081    -0.58
-    2DSCO     2DT084    -0.06
-    2DSCO     2DT088    -0.055
+    2DSCO     2DT084    -0.197
+    2DSCO     2DT088    -0.084455
     2DSPF     2DT021    -1.055
     2DSPF     2DT023    1
-    2DSVB     OBJ       -1.977
+    2DSVB     2DT091    -0.01312
     2DSVB     2DT075    0.1
     2DSVB     2DT073    -0.808
-    2DSVB     2DT001    -0.035
+    2DSVB     2DT001    -3.6888000000000004e-02
     2DSVB     2DT002    -0.026
-    2DSVB     2DT003    -0.016
     2DSVB     2DT004    -0.004
     2DSVB     2DT005    -0.01
     2DSVB     2DT006    -0.001
@@ -3347,7 +3327,9 @@ COLUMNS
     2DSVB     2DT074    1
     2DSVB     2DT084    -0.1995
     2DSVB     2DT088    -0.0567
-    2DV6I     OBJ       -2.04716
+    2DSVB     2DT102    1.977
+    2DV6I     OBJ       0.0639
+    2DV6I     2DT102    2.11106
     2DV6I     2DT049    0.28
     2DV6I     2DT001    -0.021
     2DV6I     2DT002    -0.025
@@ -3360,7 +3342,8 @@ COLUMNS
     2DV6I     2DT037    -0.06
     2DV6I     2DT039    1
     2DV6I     2DT088    1
-    2DV6M     OBJ       -1.1595
+    2DV6M     OBJ       0.0639
+    2DV6M     2DT102    1.2234
     2DV6M     2DT049    0.167
     2DV6M     2DT001    -0.029
     2DV6M     2DT002    -0.03
@@ -3373,7 +3356,8 @@ COLUMNS
     2DV6M     2DT037    -0.01
     2DV6M     2DT039    1
     2DV6M     2DT087    1
-    2DV6Y     OBJ       -1.4005999999999998e+00
+    2DV6Y     OBJ       0.0639
+    2DV6Y     2DT102    1.4645
     2DV6Y     2DT049    0.2
     2DV6Y     2DT001    -0.025
     2DV6Y     2DT002    -0.027
@@ -3386,7 +3370,8 @@ COLUMNS
     2DV6Y     2DT037    -0.04
     2DV6Y     2DT039    1
     2DV6Y     2DT079    1
-    2DXC3     2DT090    1
+    2DXC3     2DT002    1.1764705882352942e+00
+    2DXC3     2DT001    -1.0588235294117647e-01
     2DYCD     OBJ       10
     2DYCD     2DT002    -0.002
     2DYCD     2DT004    -0.0025
@@ -3433,24 +3418,27 @@ COLUMNS
     2DYCK     2DT029    1
     2DYCK     2DT078    -0.11
     2DYCK     2DT079    -0.05
-    2DYCO     OBJ       0.1415
-    2DYCO     2DT001    -0.135
+    2DYCO     OBJ       0.1785348
+    2DYCO     2DT033    0.443
+    2DYCO     2DT026    -0.0307
+    2DYCO     2DT025    -0.2763
+    2DYCO     2DT024    0.23005
+    2DYCO     2DT102    2.9932499999999997e-02
+    2DYCO     2DT091    -4.9199999999999994e-02
+    2DYCO     2DT001    -0.14208
     2DYCO     2DT002    -0.04
-    2DYCO     2DT003    -0.06
     2DYCO     2DT004    -0.011
     2DYCO     2DT005    -0.022
     2DYCO     2DT006    -0.022
-    2DYCO     2DT009    -0.005
+    2DYCO     2DT009    -1.1176000000000001e-01
     2DYCO     2DT016    -0.04
     2DYCO     2DT020    1
-    2DYCO     2DT021    0.0475
+    2DYCO     2DT021    0.0577776
     2DYCO     2DT022    -0.0434
     2DYCO     2DT023    -0.04
     2DYCO     2DT032    1
-    2DYCO     2DT080    -0.136
-    2DYCO     2DT081    -0.307
-    2DYCO     2DT084    -0.06
-    2DYCO     2DT088    -0.055
+    2DYCO     2DT084    -0.196
+    2DYCO     2DT088    -8.4240000000000009e-02
     2DYGD     OBJ       10
     2DYGD     2DT002    -0.002
     2DYGD     2DT004    -0.0025
@@ -3501,21 +3489,42 @@ COLUMNS
     2M2LY     2MS046    15
     2M2LY     2MS048    1.191
     2M2LY     2MS057    1
-    2M2SD     2MS018    1
+    2M2SD     OBJ       3.3899999999999997e-01
+    2M2SD     2MS064    1.3
+    2M2SD     2MS061    10
+    2M2SD     2MS023    1.3899999999999998e-01
+    2M2SD     2MS022    -1.0999999999999999e+00
+    2M2SD     2MS020    -3.4399999999999995e+00
+    2M2SD     2MS014    -1.3
+    2M2SD     2MS010    -8.9599999999999991e-01
+    2M2SD     2MS008    -0.04
+    2M2SD     2MS007    -6.9999999999999993e-02
+    2M2SD     2MS005    -0.02
+    2M2SD     2MS001    -32.12
+    2M2SD     2MS025    -1.65
+    2M2SD     2MS027    -0.484
     2M2SD     2MS046    -16
     2M2SD     2MS047    30
     2M2SD     2MS048    -0.262
     2M2SD     2MS057    1
-    2M2SG     2MS016    1
+    2M2SG     OBJ       6.7799999999999994e-01
+    2M2SG     2MS064    2.6
+    2M2SG     2MS061    20
+    2M2SG     2MS023    2.7799999999999997e-01
+    2M2SG     2MS022    -2.1999999999999997e+00
+    2M2SG     2MS020    -7.88
+    2M2SG     2MS014    -2.6
+    2M2SG     2MS010    -1.7919999999999998e+00
+    2M2SG     2MS008    -0.08
+    2M2SG     2MS007    -1.3999999999999999e-01
+    2M2SG     2MS005    -0.04
+    2M2SG     2MS001    -64.24
+    2M2SG     2MS025    -3.784
+    2M2SG     2MS026    -0.484
     2M2SG     2MS046    -14.3
     2M2SG     2MS047    50
     2M2SG     2MS048    -0.261
     2M2SG     2MS057    1
-    2M2UL     2MS036    1
-    2M2UL     2MS046    12.5
-    2M2UL     2MS047    12
-    2M2UL     2MS048    -0.25
-    2M2UL     2MS057    1
     2M2YD     2MS017    1
     2M2YD     2MS046    -8
     2M2YD     2MS047    20
@@ -3535,15 +3544,38 @@ COLUMNS
     2M5SB     2MS022    1
     2M5SB     2MS045    2.72
     2M5SB     2MS055    -1
-    2M5SD     2MS018    1
+    2M5SD     OBJ       3.3899999999999997e-01
+    2M5SD     2MS064    1.3
+    2M5SD     2MS061    10
+    2M5SD     2MS023    1.3899999999999998e-01
+    2M5SD     2MS022    -1.0999999999999999e+00
+    2M5SD     2MS020    -3.4399999999999995e+00
+    2M5SD     2MS014    -1.3
+    2M5SD     2MS010    -8.9599999999999991e-01
+    2M5SD     2MS008    -0.04
+    2M5SD     2MS007    -6.9999999999999993e-02
+    2M5SD     2MS005    -0.02
+    2M5SD     2MS001    -32.12
+    2M5SD     2MS025    -1.65
+    2M5SD     2MS027    -0.484
     2M5SD     2MS045    -4.13
     2M5SD     2MS055    -1
-    2M5SG     2MS016    1
+    2M5SG     OBJ       6.7799999999999994e-01
+    2M5SG     2MS064    2.6
+    2M5SG     2MS061    20
+    2M5SG     2MS023    2.7799999999999997e-01
+    2M5SG     2MS022    -2.1999999999999997e+00
+    2M5SG     2MS020    -7.88
+    2M5SG     2MS014    -2.6
+    2M5SG     2MS010    -1.7919999999999998e+00
+    2M5SG     2MS008    -0.08
+    2M5SG     2MS007    -1.3999999999999999e-01
+    2M5SG     2MS005    -0.04
+    2M5SG     2MS001    -64.24
+    2M5SG     2MS025    -3.784
+    2M5SG     2MS026    -0.484
     2M5SG     2MS045    -4.03
     2M5SG     2MS055    -1
-    2M5SL     2MS034    1
-    2M5SL     2MS045    -3.58
-    2M5SL     2MS055    -1
     2M5YB     2MS021    1
     2M5YB     2MS045    5.17
     2M5YB     2MS055    -1
@@ -3553,53 +3585,53 @@ COLUMNS
     2M5YG     2MS015    1
     2M5YG     2MS045    -3.83
     2M5YG     2MS055    -1
-    2M65S     OBJ       0.065
-    2M65S     2MS005    -0.036
-    2M65S     2MS006    -0.056
+    2M65S     OBJ       0.0870416
+    2M65S     2MS055    -0.08
+    2M65S     2MS045    -0.2864
+    2M65S     2MS005    -4.0591999999999996e-02
     2M65S     2MS007    -0.0175
     2M65S     2MS008    -0.048
     2M65S     2MS009    -0.064
     2M65S     2MS020    1
-    2M65S     2MS023    1.9999999999999983e-03
-    2M65S     2MS031    -0.47
+    2M65S     2MS023    -4.6080000000000019e-03
+    2M65S     2MS031    -0.4987
     2M65S     2MS033    -0.27
-    2M65S     2MS034    -0.08
     2M65S     2MS063    1
-    2M65Y     OBJ       0.065
-    2M65Y     2MS005    -0.035
-    2M65Y     2MS006    -0.056
+    2M65Y     OBJ       0.0870416
+    2M65Y     2MS055    -0.12
+    2M65Y     2MS045    -0.4296
+    2M65Y     2MS005    -0.039592
     2M65Y     2MS007    -0.0165
     2M65Y     2MS008    -0.0485
     2M65Y     2MS009    -0.062
     2M65Y     2MS019    1
-    2M65Y     2MS023    -5.0000000000000044e-04
-    2M65Y     2MS031    -0.47
+    2M65Y     2MS023    -7.1080000000000006e-03
+    2M65Y     2MS031    -0.4987
     2M65Y     2MS032    -0.23
-    2M65Y     2MS034    -0.12
     2M65Y     2MS063    1
-    2M75S     OBJ       0.065
-    2M75S     2MS005    -0.041
-    2M75S     2MS006    -0.0665
+    2M75S     OBJ       0.0911744
+    2M75S     2MS055    -0.04
+    2M75S     2MS045    -0.1432
+    2M75S     2MS005    -0.046453
     2M75S     2MS007    -0.02
     2M75S     2MS008    -0.0555
     2M75S     2MS009    -0.0755
     2M75S     2MS020    1
-    2M75S     2MS023    -0.000999999999999994
-    2M75S     2MS031    -0.52
+    2M75S     2MS023    -8.8469999999999938e-03
+    2M75S     2MS031    -0.55408125
     2M75S     2MS033    -0.21
-    2M75S     2MS034    -0.04
     2M75S     2MS063    1
-    2M75Y     OBJ       0.065
-    2M75Y     2MS005    -0.039
-    2M75Y     2MS006    -0.064
+    2M75Y     OBJ       0.0901904
+    2M75Y     2MS055    -0.07
+    2M75Y     2MS045    -2.5060000000000004e-01
+    2M75Y     2MS005    -0.044248
     2M75Y     2MS007    -0.0185
     2M75Y     2MS008    -0.054
     2M75Y     2MS009    -0.07
     2M75Y     2MS019    1
-    2M75Y     2MS023    -3.9999999999999966e-03
-    2M75Y     2MS031    -0.52
+    2M75Y     2MS023    -1.1551999999999996e-02
+    2M75Y     2MS031    -0.5528
     2M75Y     2MS032    -0.18
-    2M75Y     2MS034    -0.07
     2M75Y     2MS063    1
     2M94S     OBJ       0.08
     2M94S     2MS005    -0.0275
@@ -3659,41 +3691,8 @@ COLUMNS
     2MC3F     2MS005    1.1764705882352942e+00
     2MC3F     2MS023    -7.7588235294117647e-01
     2MC3S     OBJ       -2.31
-    2MC3S     2MS023    -1.0588235294117647e-01
     2MC3S     2MS005    1.1764705882352942e+00
-    2MC4P     2MS023    -0.0472
-    2MC4P     2MS007    1
-    2MC4P     2MS067    -0.93
-    2MCSD     OBJ       0.0339
-    2MCSD     2MS027    -0.0484
-    2MCSD     2MS025    -0.165
-    2MCSD     2MS001    -3.212
-    2MCSD     2MS005    -0.002
-    2MCSD     2MS007    -0.007
-    2MCSD     2MS008    -0.004
-    2MCSD     2MS010    -0.0896
-    2MCSD     2MS014    -0.13
-    2MCSD     2MS018    -0.1
-    2MCSD     2MS020    -0.344
-    2MCSD     2MS022    -0.11
-    2MCSD     2MS023    0.0139
-    2MCSD     2MS061    1
-    2MCSD     2MS064    0.13
-    2MCSG     OBJ       0.0339
-    2MCSG     2MS026    -0.0242
-    2MCSG     2MS025    -0.1892
-    2MCSG     2MS001    -3.212
-    2MCSG     2MS005    -0.002
-    2MCSG     2MS007    -0.007
-    2MCSG     2MS008    -0.004
-    2MCSG     2MS010    -0.0896
-    2MCSG     2MS014    -0.13
-    2MCSG     2MS016    -0.05
-    2MCSG     2MS020    -0.394
-    2MCSG     2MS022    -0.11
-    2MCSG     2MS023    0.0139
-    2MCSG     2MS061    1
-    2MCSG     2MS064    0.13
+    2MC3S     2MS023    -1.0588235294117647e-01
     2MCYD     OBJ       0.0493
     2MCYD     2MS027    -0.02
     2MCYD     2MS024    -0.10125
@@ -3729,20 +3728,20 @@ COLUMNS
     2MH2P     2MS023    -0.0511
     2MH2P     2MS028    1
     2MI4D     OBJ       -0.12
-    2MI4D     2MS023    -5.6739130434782611e-02
     2MI4D     2MS008    1.0869565217391304e+00
+    2MI4D     2MS023    -5.6739130434782611e-02
     2MI4D     2DT093    -1
-    2MIN4     2MS023    -5.6739130434782611e-02
+    2MIN4     2MS007    -1.0752688172043010e+00
     2MIN4     2MS008    1.0869565217391304e+00
-    2MIN4     2MS067    -1
+    2MIN4     2MS023    -5.9864422627396024e-03
     2MMLC     OBJ       1
     2MMLC     2MS001    1
     2MN4D     OBJ       -0.12
     2MN4D     2DT093    1
     2MN4D     2MS007    -1
-    2MON4     2MS023    -1.4081632653061225e-02
+    2MON4     2MS007    -1.0752688172043010e+00
     2MON4     2MS009    1.0204081632653061e+00
-    2MON4     2MS067    -1
+    2MON4     2MS023    3.6671055518981782e-02
     2MP94     2MS001    -0.3928
     2MP94     2MS029    1
     2MP94     2MS042    1
@@ -3756,8 +3755,8 @@ COLUMNS
     2MP98     2MS050    -0.5
     2MP98     2MS051    -2
     2MPC4     OBJ       0.408
-    2MPC4     2MS023    -1.4081632653061225e-02
     2MPC4     2MS009    1.0204081632653061e+00
+    2MPC4     2MS023    -1.4081632653061225e-02
     2MPC4     2MS007    -0.1
     2MPC4     2MS031    -0.735
     2MPCP     2MS001    -0.3928
@@ -3767,12 +3766,13 @@ COLUMNS
     2MPCP     2MS050    2.8
     2MPCP     2MS051    -2
     2MPIN     2MS042    -1
+    2MPN4     2MS007    1.0752688172043010e+00
+    2MPN4     2MS023    -5.0752688172043009e-02
     2MPN4     2MS001    -0.3928
     2MPN4     2MS042    1
     2MPN4     2MS049    60.5
     2MPN4     2MS050    -9.19
     2MPN4     2MS051    -2
-    2MPN4     2MS067    1
     2MPSR     2MS001    -0.3928
     2MPSR     2MS010    1
     2MPSR     2MS042    1
@@ -3782,11 +3782,6 @@ COLUMNS
     2MPTL     2MS001    0.09821
     2MPTL     2MS050    0.87
     2MPTL     2MS051    1
-    2MPYP     OBJ       3.9359999999999995e-01
-    2MPYP     2MS023    -0.118
-    2MPYP     2MS031    -0.5125
-    2MPYP     2MS005    -0.082
-    2MPYP     2MS006    1
     2MR94     2MS029    1
     2MR94     2MS052    -4.5
     2MR94     2MS053    -1.5
@@ -3801,10 +3796,11 @@ COLUMNS
     2MRCP     2MS058    1
     2MRIN     2MS001    -0.3928
     2MRIN     2MS058    -1
+    2MRN4     2MS007    1.0752688172043010e+00
+    2MRN4     2MS023    -5.0752688172043009e-02
     2MRN4     2MS052    60.5
     2MRN4     2MS053    -11.93
     2MRN4     2MS058    1
-    2MRN4     2MS067    1
     2MRSR     2MS010    1
     2MRSR     2MS052    -1.9
     2MRSR     2MS053    3.02
@@ -3820,18 +3816,24 @@ COLUMNS
     2MSWD     2DT019    -1
     2MSWD     2MS022    1
     2MULS     OBJ       0.04
+    2MULS     2MS057    0.99
+    2MULS     2MS048    -0.2475
+    2MULS     2MS047    1.1879999999999999e+01
+    2MULS     2MS046    12.375
     2MULS     2MS010    -0.01
     2MULS     2MS023    0.025
     2MULS     2MS028    0.4
     2MULS     2MS033    1
-    2MULS     2MS036    -0.99
     2MULS     2MS064    1
     2MULY     OBJ       0.04
+    2MULY     2MS057    0.99
+    2MULY     2MS048    -0.2475
+    2MULY     2MS047    1.1879999999999999e+01
+    2MULY     2MS046    12.375
     2MULY     2MS010    -0.01
     2MULY     2MS023    0.025
     2MULY     2MS028    0.5
     2MULY     2MS032    1
-    2MULY     2MS036    -0.99
     2MULY     2MS064    1
     2MUYD     OBJ       0.04
     2MUYD     2MS057    0.99
@@ -3853,12 +3855,6 @@ COLUMNS
     2MUYG     2MS023    0.025
     2MUYG     2MS028    0.25
     2MUYG     2MS064    1
-    2P2SNP    2PD027    1
-    2P2SNP    2PD031    1
-    2P2SNP    2PD039    -50
-    2P2SNR    2PD028    1
-    2P2SNR    2PD032    1
-    2P2SNR    2PD040    -50
     2PG11D    2DT061    -1
     2PG11D    2PD015    1
     2PG11R    2PD015    1
@@ -3910,9 +3906,8 @@ COLUMNS
     2PG2PR    2PD027    -1
     2PG2PR    2PD039    10
     2PG2PR    2RB038    -1
-    2PG2PT    2PD027    1
-    2PG2PT    2PD031    -1
-    2PG2PT    2PD039    -10
+    2PG2PT    2PD027    2
+    2PG2PT    2PD039    -60
     2PG2RD    2CROW3    -1
     2PG2RD    2PD028    -1
     2PG2RD    2PD040    10
@@ -3922,9 +3917,8 @@ COLUMNS
     2PG2RR    2PD028    -1
     2PG2RR    2PD040    10
     2PG2RR    2RB039    -1
-    2PG2RT    2PD028    1
-    2PG2RT    2PD032    -1
-    2PG2RT    2PD040    -10
+    2PG2RT    2PD028    2
+    2PG2RT    2PD040    -60
     2PT11D    OBJ       0.1426
     2PT11D    2DT061    -1
     2PT11D    2PD011    1
@@ -4078,7 +4072,8 @@ COLUMNS
     2PT5PD    OBJ       0.3536
     2PT5PD    2CROW2    -1
     2PT5PD    2PD061    1
-    2PT5PI    2PD031    1
+    2PT5PI    2PD039    50
+    2PT5PI    2PD027    -1
     2PT5PI    2PD061    1
     2PT5PM    OBJ       0.1313
     2PT5PM    2MS042    -1
@@ -4089,7 +4084,8 @@ COLUMNS
     2PT5RD    OBJ       0.3536
     2PT5RD    2CROW3    -1
     2PT5RD    2PD062    1
-    2PT5RI    2PD032    1
+    2PT5RI    2PD040    50
+    2PT5RI    2PD028    -1
     2PT5RI    2PD062    1
     2PT5RM    OBJ       0.1313
     2PT5RM    2MS058    -1
@@ -4122,7 +4118,8 @@ COLUMNS
     2PT6PD    OBJ       0.2766
     2PT6PD    2CROW2    -1
     2PT6PD    2PD065    1
-    2PT6PI    2PD031    1
+    2PT6PI    2PD039    50
+    2PT6PI    2PD027    -1
     2PT6PI    2PD065    1
     2PT6PM    OBJ       0.228
     2PT6PM    2MS042    -1
@@ -4133,7 +4130,8 @@ COLUMNS
     2PT6RD    OBJ       0.2766
     2PT6RD    2CROW3    -1
     2PT6RD    2PD066    1
-    2PT6RI    2PD032    1
+    2PT6RI    2PD040    50
+    2PT6RI    2PD028    -1
     2PT6RI    2PD066    1
     2PT6RM    OBJ       0.228
     2PT6RM    2MS058    -1
@@ -4186,11 +4184,6 @@ COLUMNS
     2RCOKS    2RB027    0.538
     2RCOKS    2RB031    -2.1899999999999997e-01
     2RCOKS    2RB036    1
-    2RCOKT    OBJ       7.4609999999999994e+00
-    2RCOKT    2RB021    -0.423
-    2RCOKT    2RB030    1
-    2RCOKT    2RB031    -0.344
-    2RCOKT    2RB036    1
     2RCRUD    OBJ       0.0178
     2RCRUD    2RB003    -0.0083
     2RCRUD    2RB005    -0.001
@@ -4208,14 +4201,13 @@ COLUMNS
     2RCRUD    2RB017    -0.139
     2RCRUD    2RB031    0.1235
     2RCRUD    2RB087    -3.01
+    2RF2GO    2RB013    2
     2RF2GO    2RB015    1
-    2RF2GO    2RB041    1
-    2RF2GO    2RB067    -14.6
-    2RF2GO    2RB073    1
+    2RF2GO    2RB041    3
+    2RF2GO    2RB067    -17.8
     2RF2KR    2RB013    1
     2RF2KR    2RB041    1
     2RF2KR    2RB067    -1.6
-    2RF2KR    2RB073    -0.5
     2RF3CO    2RB026    1
     2RF3CO    2RB042    1
     2RF6CO    OBJ       -2.52
@@ -4571,9 +4563,11 @@ COLUMNS
     2RFLCO    2RB035    1
     2RFLCO    2RB041    1
     2RFLCO    2RB067    15.4
+    2RFRED    OBJ       2.9729729729729731e-01
+    2RFRED    2RB084    -3.5135135135135137e-01
+    2RFRED    2RB026    1.3513513513513513e+00
     2RFRED    2RB041    1
     2RFRED    2RB067    5.4
-    2RFRED    2RB085    1
     2RFRES    OBJ       -2.52
     2RFRES    2RB017    1
     2RFRES    2RB043    1
@@ -4590,8 +4584,10 @@ COLUMNS
     2RFRHC    2RB065    75.6
     2RFRHC    2RB066    74.5
     2RFRHC    2RB070    -1
-    2RFTHR    OBJ       -2.52
-    2RFTHR    2RB030    1
+    2RFTHR    OBJ       -9.981
+    2RFTHR    2RB036    -1
+    2RFTHR    2RB031    0.344
+    2RFTHR    2RB021    0.423
     2RFTHR    2RB043    1
     2RFTHR    2RB068    -0.6
     2RFTHR    2RB077    -0.2
@@ -4698,14 +4694,13 @@ COLUMNS
     2RPALK    2RB069    1
     2RPALK    2RB081    -104.6
     2RPALK    2RB082    -102.3
-    2RPBBL    OBJ       0.0139
-    2RPBBL    2RB038    1
-    2RPBBL    2RB046    95.5
-    2RPBBL    2RB047    99
-    2RPBBL    2RB048    -10
-    2RPBBL    2RB049    20
-    2RPBBL    2RB069    -1
-    2RPBBL    2RB072    0.25
+    2RPBBL    OBJ       -0.0139
+    2RPBBL    2RB038    -1
+    2RPBBL    2RB046    -95.5
+    2RPBBL    2RB048    10
+    2RPBBL    2RB049    -20
+    2RPBBL    2RB069    1
+    2RPBBL    2RB072    -0.25
     2RPCAT    OBJ       0.025
     2RPCAT    2RB024    1
     2RPCAT    2RB048    9.36
@@ -4763,8 +4758,13 @@ COLUMNS
     2RPNC4    2RB069    1
     2RPNC4    2RB081    -97.2
     2RPNC4    2RB082    -97.6
-    2RPRON    2RB046    -0.5
-    2RPRON    2RB047    -1
+    2RPRON    OBJ       1.4040404040404039e-04
+    2RPRON    2RB072    2.5252525252525255e-03
+    2RPRON    2RB069    -1.0101010101010102e-02
+    2RPRON    2RB049    2.0202020202020202e-01
+    2RPRON    2RB048    -1.0101010101010101e-01
+    2RPRON    2RB038    1.0101010101010102e-02
+    2RPRON    2RB046    4.6464646464646464e-01
     2RPRON    2RB051    1
     2RPRON    2RB052    1
     2RPRON    2RB053    1
@@ -4876,9 +4876,11 @@ COLUMNS
     2RRALK    2RB066    -96.6
     2RRALK    2RB070    1
     2RRBBL    OBJ       0.0046
+    2RRBBL    2RB063    93
+    2RRBBL    2RB062    93
+    2RRBBL    2RB061    93
     2RRBBL    2RB039    1
-    2RRBBL    2RB057    91.2
-    2RRBBL    2RB058    93
+    2RRBBL    2RB057    2.9168999999999997e+01
     2RRBBL    2RB059    -10
     2RRBBL    2RB070    -1
     2RRC3P    OBJ       0.2695
@@ -4992,7 +4994,6 @@ COLUMNS
     2RRDEX    OBJ       0.22
     2RRDEX    2RB026    1
     2RRDEX    2RB084    -0.26
-    2RRDEX    2RB085    -0.74
     2RRHN     2RB011    1
     2RRHN     2RB059    0.38
     2RRHN     2RB060    -4
@@ -5039,7 +5040,6 @@ COLUMNS
     2RRNC4    2RB066    -94.8
     2RRNC4    2RB070    1
     2RRRON    2RB057    -0.667
-    2RRRON    2RB058    -1
     2RRRON    2RB061    1
     2RRRON    2RB062    1
     2RRRON    2RB063    1
@@ -5051,7 +5051,16 @@ COLUMNS
     2RRTEL    2RB065    -1.3
     2RRTEL    2RB066    -2.5
     2RRTEL    2RB087    0.0886
-    2RRTHR    2RB029    1
+    2RRTHR    OBJ       1.6804485497237568e+01
+    2RRTHR    2RB031    -6.1745856353591133e-01
+    2RRTHR    2RB027    3.4530386740331487e+00
+    2RRTHR    2RB006    -5.0069060773480660e-02
+    2RRTHR    2RB005    -1.3466850828729280e-02
+    2RRTHR    2RB004    -4.5580110497237564e-02
+    2RRTHR    2RB003    -7.9074585635359115e-02
+    2RRTHR    2RB002    -3.1077348066298336e-02
+    2RRTHR    2RB021    -9.3334599447513811e-01
+    2RRTHR    2RB036    2.2064917127071824e+00
     2RRTHR    2RB059    6.62
     2RRTHR    2RB060    -4
     2RRTHR    2RB061    -78.7
@@ -5080,18 +5089,20 @@ COLUMNS
     2RSPRM    2RB087    -5.46
     2RSREG    2RB039    1
     2RSREG    2RB087    -4.62
-    2RTCHG    OBJ       0.099
+    2RTCHG    OBJ       4.866579
+    2RTCHG    2RB036    0.639
+    2RTCHG    2RB021    -0.270297
     2RTCHG    2RB002    -0.009
     2RTCHG    2RB003    -0.0229
     2RTCHG    2RB004    -0.0132
     2RTCHG    2RB005    -0.0039
     2RTCHG    2RB006    -0.0145
     2RTCHG    2RB027    1
-    2RTCHG    2RB029    -0.2896
-    2RTCHG    2RB030    -0.639
-    2RTCHG    2RB031    4.1000000000000036e-02
-    2RTFUL    2RB030    1
-    2RTFUL    2RB031    -6.5
+    2RTCHG    2RB031    -1.7881599999999995e-01
+    2RTFUL    OBJ       -7.4609999999999994e+00
+    2RTFUL    2RB036    -1
+    2RTFUL    2RB021    0.423
+    2RTFUL    2RB031    -6.156
     2RTFUL    2RB078    -0.6
     2RVFUL    2RB017    1
     2RVFUL    2RB031    -6.5
@@ -5099,8 +5110,9 @@ COLUMNS
     2RXSFL    OBJ       -0.25
     2RXSFL    2RB031    1
 RHS
-    RHS1      OBJ       1193.0352
+    RHS1      OBJ       4.1855519999999996e+02
     RHS1      1DT018    -1.4490000000000002e+01
+    RHS1      1DT026    -45
     RHS1      1DT028    1200
     RHS1      1DT029    480
     RHS1      1DT030    480
@@ -5112,10 +5124,12 @@ RHS
     RHS1      1DT045    570
     RHS1      1DT047    112.5
     RHS1      1DT049    67.5
-    RHS1      1DT068    45
+    RHS1      1DT066    13.815
+    RHS1      1DT067    135
     RHS1      1DT072    30
     RHS1      1DT074    120
     RHS1      1DT075    13.34
+    RHS1      1DT102    -387.24
     RHS1      1DT020    -90.51
     RHS1      1CROW2    120
     RHS1      1CROW3    480
@@ -5146,16 +5160,14 @@ RHS
     RHS1      1PD019    -25
     RHS1      1PD020    -100
     RHS1      1PD025    1000
-    RHS1      1PD027    25
-    RHS1      1PD028    50
+    RHS1      1PD027    50
+    RHS1      1PD028    100
     RHS1      1PD029    -25
     RHS1      1PD030    -30
-    RHS1      1PD031    -25
-    RHS1      1PD032    -50
     RHS1      1PD033    -25
     RHS1      1PD034    -30
-    RHS1      1PD039    -250
-    RHS1      1PD040    -500
+    RHS1      1PD039    -1500
+    RHS1      1PD040    -3000
     RHS1      1PD049    50
     RHS1      1PD050    200
     RHS1      1PD051    25
@@ -5198,12 +5210,12 @@ RHS
     RHS1      1RB042    30
     RHS1      1RB043    90
     RHS1      1RB062    6300
-    RHS1      2DT001    149.916
+    RHS1      2DT001    196.29
     RHS1      2DT002    131.347
-    RHS1      2DT003    393
     RHS1      2DT004    599.663
     RHS1      2DT005    30
     RHS1      2DT018    -1.4490000000000002e+01
+    RHS1      2DT026    -45
     RHS1      2DT028    1200
     RHS1      2DT029    480
     RHS1      2DT030    480
@@ -5215,10 +5227,13 @@ RHS
     RHS1      2DT045    570
     RHS1      2DT047    112.5
     RHS1      2DT049    67.5
-    RHS1      2DT068    45
+    RHS1      2DT066    13.815
+    RHS1      2DT067    135
     RHS1      2DT072    30
     RHS1      2DT074    120
     RHS1      2DT075    13.34
+    RHS1      2DT091    322.26
+    RHS1      2DT102    -387.24
     RHS1      2DT020    -90.51
     RHS1      2CROW2    120
     RHS1      2CROW3    480
@@ -5249,16 +5264,14 @@ RHS
     RHS1      2PD019    -25
     RHS1      2PD020    -100
     RHS1      2PD025    1000
-    RHS1      2PD027    25
-    RHS1      2PD028    50
+    RHS1      2PD027    50
+    RHS1      2PD028    100
     RHS1      2PD029    -25
     RHS1      2PD030    -30
-    RHS1      2PD031    -25
-    RHS1      2PD032    -50
     RHS1      2PD033    -25
     RHS1      2PD034    -30
-    RHS1      2PD039    -250
-    RHS1      2PD040    -500
+    RHS1      2PD039    -1500
+    RHS1      2PD040    -3000
     RHS1      2PD049    50
     RHS1      2PD050    200
     RHS1      2PD051    25
@@ -5302,24 +5315,21 @@ RHS
     RHS1      2RB043    90
     RHS1      2RB062    6300
 BOUNDS
+* Note: variable lower bounds are 0 unless specified otherwise
  UP BND1      1D1IN     249.1
  UP BND1      1D2IN     648.2
- UP BND1      1D2PB     5.0142132425791360e+01
  UP BND1      1DAOU     450.451
  UP BND1      1DC3A     112.6135
  UP BND1      1DC4A     112.6135
  UP BND1      1DC65     570.571
  UP BND1      1DC75     570.571
  UP BND1      1DCKP     0.75
- UP BND1      1DCOU     119.865745
- UP BND1      1DDID     45.046
- UP BND1      1DDMD     45.046
- UP BND1      1DDUS     45.046
- UP BND1      1DDYD     45.046
+ UP BND1      1DDID     33.78475
+ UP BND1      1DDMD     33.78475
+ UP BND1      1DDYD     33.78475
  UP BND1      1DFVB     120.121
  UP BND1      1DGBY     45
  UP BND1      1DGOU     450.451
- UP BND1      1DHNU     3.6892855000000004e+01
  UP BND1      1DHPU     45
  UP BND1      1DICD     1201.201
  UP BND1      1DICG     1201.201
@@ -5345,7 +5355,7 @@ BOUNDS
  UP BND1      1DSCO     135.136
  UP BND1      1DSVB     120.121
  UP BND1      1DV6I     2.4131349999999998e+02
- UP BND1      1DV6M     221.0218
+ UP BND1      1DV6M     2.2102179999999998e+02
  UP BND1      1DV6Y     96.097
  UP BND1      1DXC3     100
  UP BND1      1DYCD     480.481
@@ -5355,6 +5365,10 @@ BOUNDS
  UP BND1      1DYGD     480.481
  UP BND1      1M1IN     125.5
  UP BND1      1M2IN     105
+ UP BND1      1M2SD     27.028
+ UP BND1      1M2SG     13.5145
+ UP BND1      1M5SD     27.028
+ UP BND1      1M5SG     13.5145
  UP BND1      1M65S     180.181
  UP BND1      1M65Y     180.181
  UP BND1      1M75S     180.181
@@ -5369,8 +5383,6 @@ BOUNDS
  UP BND1      1MAF4     4.5055
  UP BND1      1MALK     177.24181375
  UP BND1      1MC3S     15
- UP BND1      1MCSD     270.271
- UP BND1      1MCSG     270.271
  UP BND1      1MCYD     147.148
  UP BND1      1MCYG     147.148
  UP BND1      1MPIN     45
@@ -5379,8 +5391,6 @@ BOUNDS
  UP BND1      1MULY     60.061
  UP BND1      1MUYD     60.061
  UP BND1      1MUYG     60.061
- FR BND1      1P2BNR  
- FR BND1      1P2SNP  
  UP BND1      1PG11D    64.8658
  UP BND1      1PG11R    64.8658
  LO BND1      1PG11T    24.974
@@ -5407,15 +5417,15 @@ BOUNDS
  UP BND1      1PG22R    25.026
  LO BND1      1PG22T    29.969
  UP BND1      1PG22T    55
- UP BND1      1PG2PD    114.115
- UP BND1      1PG2PM    114.115
- UP BND1      1PG2PR    114.115
- LO BND1      1PG2PT    5.993
+ UP BND1      1PG2PD    38.039
+ UP BND1      1PG2PM    38.039
+ UP BND1      1PG2PR    38.039
+ LO BND1      1PG2PT    24.974
  UP BND1      1PG2PT    44
- UP BND1      1PG2RD    250.4512
- UP BND1      1PG2RM    250.4512
- UP BND1      1PG2RR    250.4512
- LO BND1      1PG2RT    8.2906999999999975e+00
+ UP BND1      1PG2RD    8.3484400000000008e+01
+ UP BND1      1PG2RM    8.3484400000000008e+01
+ UP BND1      1PG2RR    8.3484400000000008e+01
+ LO BND1      1PG2RT    49.949
  UP BND1      1PG2RT    91.7
  UP BND1      1PT11D    25.026
  UP BND1      1PT11I    25.026
@@ -5474,11 +5484,11 @@ BOUNDS
  UP BND1      1PT52M    150.151
  UP BND1      1PT52R    150.151
  UP BND1      1PT5PD    50.051
- UP BND1      1PT5PI    38.039
+ UP BND1      1PT5PI    2.2823800000000002e+01
  UP BND1      1PT5PM    50.051
  UP BND1      1PT5PR    50.051
  UP BND1      1PT5RD    200.201
- UP BND1      1PT5RI    8.3484400000000008e+01
+ UP BND1      1PT5RI    50.09104
  UP BND1      1PT5RM    200.201
  UP BND1      1PT5RR    200.201
  UP BND1      1PT61D    20.021
@@ -5504,8 +5514,7 @@ BOUNDS
  UP BND1      1RC7TX    67.5685
  UP BND1      1RC8TX    66.6676
  UP BND1      1RCOKR    2.5045120000000003e+02
- UP BND1      1RCOKS    360.361
- UP BND1      1RCOKT    360.361
+ UP BND1      1RCOKS    1.7253009433636819e+03
  UP BND1      1RCRUD    1800
  UP BND1      1RF2GO    41.4424
  UP BND1      1RF2KR    279.46018
@@ -5550,27 +5559,20 @@ BOUNDS
  UP BND1      1RP95R    2.5761129411764711e+02
  UP BND1      1RPALC    15
  UP BND1      1RPALK    105.106
- UP BND1      1RPBBL    1.3497494000000002e+03
- UP BND1      1RPCAT    1.3497494000000002e+03
- UP BND1      1RPIC4    1.4115854026354319e+02
  UP BND1      1RPIN     721.5
- UP BND1      1RPMON    2.5841675682969167e+05
  UP BND1      1RPNAG    75
- UP BND1      1RPNC4    1.9687212018669777e+02
- UP BND1      1RPRON    2.9158395017395605e+05
- UP BND1      1RPTEL    1.1865895494913151e+04
  UP BND1      1RR80R    2.8822312065813526e+02
  UP BND1      1RR84R    2.8178384182305626e+02
  UP BND1      1RR88R    2.7514497905759163e+02
  UP BND1      1RR92R    2.6676495939086294e+02
  UP BND1      1RR95R    2.5761129411764711e+02
  UP BND1      1RRALK    105.106
- UP BND1      1RRBBL    3.8342313999999997e+03
+ UP BND1      1RRBBL    3.6672646000000004e+03
  UP BND1      1RRC45    1.2612700000000001e+02
  UP BND1      1RRC6     67.5685
  UP BND1      1RRC7     67.5685
  UP BND1      1RRC8E    66.6676
- UP BND1      1RRCTF    2356.2549
+ UP BND1      1RRCTF    1.6527935907246379e+03
  UP BND1      1RRHN     386.4871
  UP BND1      1RRIN     1626.7
  UP BND1      1RRTHR    2.6881101261578982e+02
@@ -5580,29 +5582,24 @@ BOUNDS
  UP BND1      1RSNO1    1102.4023
  UP BND1      1RSNO2    2356.2549
  UP BND1      1RSNO3    30.031
- UP BND1      1RSPRM    1.3497494000000002e+03
- UP BND1      1RSREG    3.8342313999999997e+03
+ UP BND1      1RSPRM    4.8054106000000007e+02
+ UP BND1      1RSREG    3.6672646000000004e+03
  UP BND1      1RTCHG    9.2821236952966092e+02
- UP BND1      1RTFUL    5.9312806512945326e+02
  UP BND1      1RVFUL    2.5045120000000003e+02
  UP BND1      2D1IN     249.1
  UP BND1      2D2IN     648.2
- UP BND1      2D2PB     5.0142132425791360e+01
  UP BND1      2DAOU     450.451
  UP BND1      2DC3A     112.6135
  UP BND1      2DC4A     112.6135
  UP BND1      2DC65     570.571
  UP BND1      2DC75     570.571
  UP BND1      2DCKP     0.75
- UP BND1      2DCOU     119.865745
- UP BND1      2DDID     45.046
- UP BND1      2DDMD     45.046
- UP BND1      2DDUS     45.046
- UP BND1      2DDYD     45.046
+ UP BND1      2DDID     33.78475
+ UP BND1      2DDMD     33.78475
+ UP BND1      2DDYD     33.78475
  UP BND1      2DFVB     120.121
  UP BND1      2DGBY     45
  UP BND1      2DGOU     450.451
- UP BND1      2DHNU     3.6892855000000004e+01
  UP BND1      2DHPU     45
  UP BND1      2DICD     1201.201
  UP BND1      2DICG     1201.201
@@ -5628,7 +5625,7 @@ BOUNDS
  UP BND1      2DSCO     135.136
  UP BND1      2DSVB     120.121
  UP BND1      2DV6I     2.4131349999999998e+02
- UP BND1      2DV6M     221.0218
+ UP BND1      2DV6M     2.2102179999999998e+02
  UP BND1      2DV6Y     96.097
  UP BND1      2DXC3     100
  UP BND1      2DYCD     480.481
@@ -5638,6 +5635,10 @@ BOUNDS
  UP BND1      2DYGD     480.481
  UP BND1      2M1IN     125.5
  UP BND1      2M2IN     105
+ UP BND1      2M2SD     27.028
+ UP BND1      2M2SG     13.5145
+ UP BND1      2M5SD     27.028
+ UP BND1      2M5SG     13.5145
  UP BND1      2M65S     180.181
  UP BND1      2M65Y     180.181
  UP BND1      2M75S     180.181
@@ -5652,8 +5653,6 @@ BOUNDS
  UP BND1      2MAF4     4.5055
  UP BND1      2MALK     177.24181375
  UP BND1      2MC3S     15
- UP BND1      2MCSD     270.271
- UP BND1      2MCSG     270.271
  UP BND1      2MCYD     147.148
  UP BND1      2MCYG     147.148
  UP BND1      2MPIN     45
@@ -5662,8 +5661,6 @@ BOUNDS
  UP BND1      2MULY     60.061
  UP BND1      2MUYD     60.061
  UP BND1      2MUYG     60.061
- FR BND1      2P2SNP  
- FR BND1      2P2SNR  
  UP BND1      2PG11D    64.8658
  UP BND1      2PG11R    64.8658
  LO BND1      2PG11T    24.974
@@ -5690,15 +5687,15 @@ BOUNDS
  UP BND1      2PG22R    25.026
  LO BND1      2PG22T    29.969
  UP BND1      2PG22T    55
- UP BND1      2PG2PD    114.115
- UP BND1      2PG2PM    114.115
- UP BND1      2PG2PR    114.115
- LO BND1      2PG2PT    5.993
+ UP BND1      2PG2PD    38.039
+ UP BND1      2PG2PM    38.039
+ UP BND1      2PG2PR    38.039
+ LO BND1      2PG2PT    24.974
  UP BND1      2PG2PT    44
- UP BND1      2PG2RD    250.4512
- UP BND1      2PG2RM    250.4512
- UP BND1      2PG2RR    250.4512
- LO BND1      2PG2RT    8.2906999999999975e+00
+ UP BND1      2PG2RD    8.3484400000000008e+01
+ UP BND1      2PG2RM    8.3484400000000008e+01
+ UP BND1      2PG2RR    8.3484400000000008e+01
+ LO BND1      2PG2RT    49.949
  UP BND1      2PG2RT    91.7
  UP BND1      2PT11D    25.026
  UP BND1      2PT11I    25.026
@@ -5757,11 +5754,11 @@ BOUNDS
  UP BND1      2PT52M    150.151
  UP BND1      2PT52R    150.151
  UP BND1      2PT5PD    50.051
- UP BND1      2PT5PI    38.039
+ UP BND1      2PT5PI    2.2823800000000002e+01
  UP BND1      2PT5PM    50.051
  UP BND1      2PT5PR    50.051
  UP BND1      2PT5RD    200.201
- UP BND1      2PT5RI    8.3484400000000008e+01
+ UP BND1      2PT5RI    50.09104
  UP BND1      2PT5RM    200.201
  UP BND1      2PT5RR    200.201
  UP BND1      2PT61D    20.021
@@ -5787,8 +5784,7 @@ BOUNDS
  UP BND1      2RC7TX    67.5685
  UP BND1      2RC8TX    66.6676
  UP BND1      2RCOKR    2.5045120000000003e+02
- UP BND1      2RCOKS    360.361
- UP BND1      2RCOKT    360.361
+ UP BND1      2RCOKS    1.7253009433636819e+03
  UP BND1      2RCRUD    1800
  UP BND1      2RF2GO    41.4424
  UP BND1      2RF2KR    279.46018
@@ -5833,27 +5829,20 @@ BOUNDS
  UP BND1      2RP95R    2.5761129411764711e+02
  UP BND1      2RPALC    15
  UP BND1      2RPALK    105.106
- UP BND1      2RPBBL    1.3497494000000002e+03
- UP BND1      2RPCAT    1.3497494000000002e+03
- UP BND1      2RPIC4    1.4115854026354319e+02
  UP BND1      2RPIN     721.5
- UP BND1      2RPMON    2.5841675682969167e+05
  UP BND1      2RPNAG    75
- UP BND1      2RPNC4    1.9687212018669777e+02
- UP BND1      2RPRON    2.9158395017395605e+05
- UP BND1      2RPTEL    1.1865895494913151e+04
  UP BND1      2RR80R    2.8822312065813526e+02
  UP BND1      2RR84R    2.8178384182305626e+02
  UP BND1      2RR88R    2.7514497905759163e+02
  UP BND1      2RR92R    2.6676495939086294e+02
  UP BND1      2RR95R    2.5761129411764711e+02
  UP BND1      2RRALK    105.106
- UP BND1      2RRBBL    3.8342313999999997e+03
+ UP BND1      2RRBBL    3.6672646000000004e+03
  UP BND1      2RRC45    1.2612700000000001e+02
  UP BND1      2RRC6     67.5685
  UP BND1      2RRC7     67.5685
  UP BND1      2RRC8E    66.6676
- UP BND1      2RRCTF    2356.2549
+ UP BND1      2RRCTF    1.6527935907246379e+03
  UP BND1      2RRHN     386.4871
  UP BND1      2RRIN     1626.7
  UP BND1      2RRTHR    2.6881101261578982e+02
@@ -5863,9 +5852,7 @@ BOUNDS
  UP BND1      2RSNO1    1102.4023
  UP BND1      2RSNO2    2356.2549
  UP BND1      2RSNO3    30.031
- UP BND1      2RSPRM    1.3497494000000002e+03
- UP BND1      2RSREG    3.8342313999999997e+03
+ UP BND1      2RSREG    3.6672646000000004e+03
  UP BND1      2RTCHG    9.2821236952966092e+02
- UP BND1      2RTFUL    5.9312806512945326e+02
  UP BND1      2RVFUL    2.5045120000000003e+02
 ENDATA

@@ -1,4 +1,4 @@
-NAME (null)_copy
+NAME FIT2D_pre
 ROWS
  N  OBJ
  E  CONSTANT
@@ -136672,6 +136672,7 @@ COLUMNS
     R0103000  CONSTANT  1
 RHS
 BOUNDS
+* Note: variable lower bounds are 0 unless specified otherwise
  UP BND1      R0300001  1
  UP BND1      R0200001  1
  UP BND1      R0100001  0.5

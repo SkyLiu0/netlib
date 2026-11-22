@@ -1,4 +1,4 @@
-NAME (null)_copy
+NAME OSA-07_pre
 ROWS
  N  OBJ
  L  REQ00001
@@ -87103,6 +87103,7 @@ RHS
     RHS1      HRS21     -679.4666
     RHS1      HRS12     -125.44
 BOUNDS
+* Note: variable lower bounds are 0 unless specified otherwise
  UP BND1      X0100001  1.002
  UP BND1      Y0100001  1.002
  UP BND1      X0100002  1.002

@@ -1,4 +1,4 @@
-NAME (null)_copy
+NAME SCTAP1_pre
 ROWS
  N  OBJ
  L  NCZZ1ZZ1
@@ -2203,6 +2203,7 @@ RHS
     RHS1      CCZ11Z10  1
     RHS1      CCZ12Z10  1
 BOUNDS
+* Note: variable lower bounds are 0 unless specified otherwise
  UP BND1      Z2ZZ1ZZ1  1.002
  UP BND1      Z3ZZ1ZZ1  1.002
  UP BND1      Z2ZZ2ZZ1  1.002

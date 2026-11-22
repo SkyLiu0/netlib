@@ -1,4 +1,4 @@
-NAME (null)_copy
+NAME FIT2P_pre
 ROWS
  N  OBJ
  E  R0000001
@@ -65288,6 +65288,7 @@ RHS
     RHS1      R0001499  40
     RHS1      R0001500  40
 BOUNDS
+* Note: variable lower bounds are 0 unless specified otherwise
  UP BND1      S0200001  19
  UP BND1      S0300001  160
  UP BND1      S0200002  19

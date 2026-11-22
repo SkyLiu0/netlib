@@ -1,4 +1,4 @@
-NAME (null)_copy
+NAME KB2_pre
 ROWS
  N  OBJ
  L  BAL...BW
@@ -311,6 +311,7 @@ RHS
     RHS1      BLV...BW  12
     RHS1      BP8...BW  35
 BOUNDS
+* Note: variable lower bounds are 0 unless specified otherwise
  UP BND1      BAL.3EBW  10.011
  UP BND1      BHC.3EBW  10
  UP BND1      BLC.3EBW  25.026
